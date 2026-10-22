@@ -7,6 +7,8 @@ export type Member = {
   website: string;
   dcPhone: string;
   caseworkUrl: string | null;
+  /** The signed release most House offices need before contacting an agency. */
+  privacyFormUrl: string | null;
   districtOffice: { address: string; phone: string } | null;
 };
 

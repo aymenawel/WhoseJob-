@@ -3,52 +3,108 @@
     "arlington": {
       "pothole": {
         "decidedBy": "road",
-        "byValue": { "county": "arlington-311", "state": "vdot" },
+        "byValue": {
+          "county": "arlington-311",
+          "state": "vdot"
+        },
         "default": "arlington-311",
-        "notOffice": { "state": "arlington-311" },
+        "notOffice": {
+          "state": "arlington-311"
+        },
         "why": {
-          "county": { "en": "Arlington maintains its own streets, so the county fixes this one.", "es": "Arlington mantiene sus propias calles, así que el condado arregla esta." },
-          "state": { "en": "This is a state road, so VDOT maintains it, even inside Arlington.", "es": "Esta es una carretera estatal, así que VDOT la mantiene, aunque esté en Arlington." },
-          "default": { "en": "We couldn't tell who owns this road, so start with Arlington County; they'll pass it to VDOT if it's a state road.", "es": "No pudimos saber de quién es esta calle, así que empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal." }
+          "county": {
+            "en": "Arlington maintains its own streets, so the county fixes this one.",
+            "es": "Arlington mantiene sus propias calles, así que el condado arregla esta."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it, even inside Arlington.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene, aunque esté en Arlington."
+          },
+          "default": {
+            "en": "We couldn't tell who owns this road, so start with Arlington County; they'll pass it to VDOT if it's a state road.",
+            "es": "No pudimos saber de quién es esta calle, así que empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": "2026-10-21"
       },
       "streetlight": {
         "decidedBy": "streetlight",
-        "byValue": { "county": "arlington-streetlights", "dominion": "dominion" },
+        "byValue": {
+          "county": "arlington-streetlights",
+          "dominion": "dominion"
+        },
         "default": "arlington-streetlights",
-        "notOffice": { "dominion": "arlington-streetlights" },
+        "notOffice": {
+          "dominion": "arlington-streetlights"
+        },
         "why": {
-          "county": { "en": "Arlington owns this light, so the county repairs it.", "es": "Esta luz es del Condado de Arlington, así que el condado la repara." },
-          "dominion": { "en": "This light hangs on a Dominion Energy pole, so Dominion repairs it, not the county.", "es": "Esta luz está en un poste de Dominion Energy, así que Dominion la repara, no el condado." },
-          "default": { "en": "Arlington's contact center can tell whose light this is and pass it on.", "es": "El centro de atención de Arlington puede saber de quién es esta luz y pasar el reporte." }
+          "county": {
+            "en": "Arlington owns this light, so the county repairs it.",
+            "es": "Esta luz es del Condado de Arlington, así que el condado la repara."
+          },
+          "dominion": {
+            "en": "This light hangs on a Dominion Energy pole, so Dominion repairs it, not the county.",
+            "es": "Esta luz está en un poste de Dominion Energy, así que Dominion la repara, no el condado."
+          },
+          "default": {
+            "en": "Arlington's contact center can tell whose light this is and pass it on.",
+            "es": "El centro de atención de Arlington puede saber de quién es esta luz y pasar el reporte."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Streetlights",
         "verified": "2026-10-21"
       },
       "signal": {
         "decidedBy": "road",
-        "byValue": { "county": "arlington-311", "state": "vdot" },
+        "byValue": {
+          "county": "arlington-311",
+          "state": "vdot"
+        },
         "default": "arlington-311",
-        "notOffice": { "state": "arlington-311" },
+        "notOffice": {
+          "state": "arlington-311"
+        },
         "why": {
-          "county": { "en": "Arlington runs the traffic signals on its own streets.", "es": "Arlington maneja los semáforos de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Arlington County; they'll pass it to VDOT if it's a state road.", "es": "Empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal." }
+          "county": {
+            "en": "Arlington runs the traffic signals on its own streets.",
+            "es": "Arlington maneja los semáforos de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Arlington County; they'll pass it to VDOT if it's a state road.",
+            "es": "Empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
       },
       "sign-traffic": {
         "decidedBy": "road",
-        "byValue": { "county": "arlington-311", "state": "vdot" },
+        "byValue": {
+          "county": "arlington-311",
+          "state": "vdot"
+        },
         "default": "arlington-311",
-        "notOffice": { "state": "arlington-311" },
+        "notOffice": {
+          "state": "arlington-311"
+        },
         "why": {
-          "county": { "en": "Arlington maintains the traffic signs on its own streets.", "es": "Arlington mantiene las señales de tráfico de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Arlington County; they'll pass it to VDOT if it's a state road.", "es": "Empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal." }
+          "county": {
+            "en": "Arlington maintains the traffic signs on its own streets.",
+            "es": "Arlington mantiene las señales de tráfico de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Arlington County; they'll pass it to VDOT if it's a state road.",
+            "es": "Empiece con el Condado de Arlington; ellos lo pasarán a VDOT si es una carretera estatal."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
@@ -58,20 +114,37 @@
         "byValue": {},
         "default": "arlington-311",
         "why": {
-          "default": { "en": "Arlington maintains the street name signs in the county.", "es": "Arlington mantiene los letreros con nombres de calles del condado." }
+          "default": {
+            "en": "Arlington maintains the street name signs in the county.",
+            "es": "Arlington mantiene los letreros con nombres de calles del condado."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
       },
       "flooding": {
         "decidedBy": "road",
-        "byValue": { "county": "arlington-311", "state": "vdot" },
+        "byValue": {
+          "county": "arlington-311",
+          "state": "vdot"
+        },
         "default": "arlington-311",
-        "notOffice": { "state": "arlington-311" },
+        "notOffice": {
+          "state": "arlington-311"
+        },
         "why": {
-          "county": { "en": "Arlington maintains the storm drains along its own streets.", "es": "Arlington mantiene los desagües pluviales de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains its drainage.", "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje." },
-          "default": { "en": "Start with Arlington County; they'll route drainage problems to the right team.", "es": "Empiece con el Condado de Arlington; ellos enviarán el problema de drenaje al equipo correcto." }
+          "county": {
+            "en": "Arlington maintains the storm drains along its own streets.",
+            "es": "Arlington mantiene los desagües pluviales de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains its drainage.",
+            "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje."
+          },
+          "default": {
+            "en": "Start with Arlington County; they'll route drainage problems to the right team.",
+            "es": "Empiece con el Condado de Arlington; ellos enviarán el problema de drenaje al equipo correcto."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
@@ -81,7 +154,10 @@
         "byValue": {},
         "default": "arlington-311",
         "why": {
-          "default": { "en": "Arlington County runs trash and recycling pickup.", "es": "El Condado de Arlington maneja la recolección de basura y reciclaje." }
+          "default": {
+            "en": "Arlington County runs trash and recycling pickup.",
+            "es": "El Condado de Arlington maneja la recolección de basura y reciclaje."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
@@ -91,7 +167,10 @@
         "byValue": {},
         "default": "arlington-311",
         "why": {
-          "default": { "en": "Start with Arlington County's contact center; they'll send it to the right team.", "es": "Empiece con el centro de atención del Condado de Arlington; ellos lo enviarán al equipo correcto." }
+          "default": {
+            "en": "Start with Arlington County's contact center; they'll send it to the right team.",
+            "es": "Empiece con el centro de atención del Condado de Arlington; ellos lo enviarán al equipo correcto."
+          }
         },
         "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
         "verified": null
@@ -100,53 +179,113 @@
     "alexandria": {
       "pothole": {
         "decidedBy": "road",
-        "byValue": { "city": "alexandria-311", "state": "vdot" },
+        "byValue": {
+          "city": "alexandria-311",
+          "state": "vdot"
+        },
         "default": "alexandria-311",
-        "notOffice": { "state": "alexandria-311" },
+        "notOffice": {
+          "state": "alexandria-311"
+        },
         "why": {
-          "city": { "en": "Alexandria maintains its own streets, so the city fixes this one.", "es": "Alexandria mantiene sus propias calles, así que la ciudad arregla esta." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "We couldn't tell who owns this road, so start with Alex311; the city will pass it on if it's a state road.", "es": "No pudimos saber de quién es esta calle, así que empiece con Alex311; la ciudad lo pasará si es una carretera estatal." }
+          "city": {
+            "en": "Alexandria maintains its own streets, so the city fixes this one.",
+            "es": "Alexandria mantiene sus propias calles, así que la ciudad arregla esta."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "We couldn't tell who owns this road, so start with Alex311; the city will pass it on if it's a state road.",
+            "es": "No pudimos saber de quién es esta calle, así que empiece con Alex311; la ciudad lo pasará si es una carretera estatal."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": "2026-10-21"
       },
       "streetlight": {
         "decidedBy": "streetlight",
-        "byValue": { "city": "alexandria-311", "dominion": "dominion", "private": "alexandria-311" },
+        "byValue": {
+          "city": "alexandria-311",
+          "dominion": "dominion",
+          "private": "alexandria-311"
+        },
         "default": "alexandria-311",
-        "notOffice": { "dominion": "alexandria-311" },
+        "notOffice": {
+          "dominion": "alexandria-311"
+        },
         "why": {
-          "city": { "en": "The City of Alexandria owns this light, so the city repairs it.", "es": "Esta luz es de la Ciudad de Alexandria, así que la ciudad la repara." },
-          "dominion": { "en": "Most streetlights in Alexandria belong to Dominion Energy, and this is one of them.", "es": "La mayoría del alumbrado público de Alexandria es de Dominion Energy, y esta luz es una de ellas." },
-          "private": { "en": "This light is privately owned. Alex311 can tell you who to contact.", "es": "Esta luz es privada. Alex311 le puede decir a quién contactar." },
-          "default": { "en": "Alex311 can tell whose light this is and pass it on.", "es": "Alex311 puede saber de quién es esta luz y pasar el reporte." }
+          "city": {
+            "en": "The City of Alexandria owns this light, so the city repairs it.",
+            "es": "Esta luz es de la Ciudad de Alexandria, así que la ciudad la repara."
+          },
+          "dominion": {
+            "en": "Most streetlights in Alexandria belong to Dominion Energy, and this is one of them.",
+            "es": "La mayoría del alumbrado público de Alexandria es de Dominion Energy, y esta luz es una de ellas."
+          },
+          "private": {
+            "en": "This light is privately owned. Alex311 can tell you who to contact.",
+            "es": "Esta luz es privada. Alex311 le puede decir a quién contactar."
+          },
+          "default": {
+            "en": "Alex311 can tell whose light this is and pass it on.",
+            "es": "Alex311 puede saber de quién es esta luz y pasar el reporte."
+          }
         },
         "source": "https://www.alexandriava.gov/tes/streetlights",
         "verified": "2026-10-21"
       },
       "signal": {
         "decidedBy": "road",
-        "byValue": { "city": "alexandria-311", "state": "vdot" },
+        "byValue": {
+          "city": "alexandria-311",
+          "state": "vdot"
+        },
         "default": "alexandria-311",
-        "notOffice": { "state": "alexandria-311" },
+        "notOffice": {
+          "state": "alexandria-311"
+        },
         "why": {
-          "city": { "en": "Alexandria runs the traffic signals on its own streets.", "es": "Alexandria maneja los semáforos de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Alex311; the city will pass it on if it's a state road.", "es": "Empiece con Alex311; la ciudad lo pasará si es una carretera estatal." }
+          "city": {
+            "en": "Alexandria runs the traffic signals on its own streets.",
+            "es": "Alexandria maneja los semáforos de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Alex311; the city will pass it on if it's a state road.",
+            "es": "Empiece con Alex311; la ciudad lo pasará si es una carretera estatal."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
       },
       "sign-traffic": {
         "decidedBy": "road",
-        "byValue": { "city": "alexandria-311", "state": "vdot" },
+        "byValue": {
+          "city": "alexandria-311",
+          "state": "vdot"
+        },
         "default": "alexandria-311",
-        "notOffice": { "state": "alexandria-311" },
+        "notOffice": {
+          "state": "alexandria-311"
+        },
         "why": {
-          "city": { "en": "Alexandria maintains the traffic signs on its own streets.", "es": "Alexandria mantiene las señales de tráfico de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Alex311; the city will pass it on if it's a state road.", "es": "Empiece con Alex311; la ciudad lo pasará si es una carretera estatal." }
+          "city": {
+            "en": "Alexandria maintains the traffic signs on its own streets.",
+            "es": "Alexandria mantiene las señales de tráfico de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Alex311; the city will pass it on if it's a state road.",
+            "es": "Empiece con Alex311; la ciudad lo pasará si es una carretera estatal."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
@@ -156,20 +295,37 @@
         "byValue": {},
         "default": "alexandria-311",
         "why": {
-          "default": { "en": "The City of Alexandria maintains its street name signs.", "es": "La Ciudad de Alexandria mantiene sus letreros con nombres de calles." }
+          "default": {
+            "en": "The City of Alexandria maintains its street name signs.",
+            "es": "La Ciudad de Alexandria mantiene sus letreros con nombres de calles."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
       },
       "flooding": {
         "decidedBy": "road",
-        "byValue": { "city": "alexandria-311", "state": "vdot" },
+        "byValue": {
+          "city": "alexandria-311",
+          "state": "vdot"
+        },
         "default": "alexandria-311",
-        "notOffice": { "state": "alexandria-311" },
+        "notOffice": {
+          "state": "alexandria-311"
+        },
         "why": {
-          "city": { "en": "Alexandria maintains the storm drains along its own streets.", "es": "Alexandria mantiene los desagües pluviales de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains its drainage.", "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje." },
-          "default": { "en": "Start with Alex311; they'll route drainage problems to the right team.", "es": "Empiece con Alex311; ellos enviarán el problema de drenaje al equipo correcto." }
+          "city": {
+            "en": "Alexandria maintains the storm drains along its own streets.",
+            "es": "Alexandria mantiene los desagües pluviales de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains its drainage.",
+            "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje."
+          },
+          "default": {
+            "en": "Start with Alex311; they'll route drainage problems to the right team.",
+            "es": "Empiece con Alex311; ellos enviarán el problema de drenaje al equipo correcto."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
@@ -179,7 +335,10 @@
         "byValue": {},
         "default": "alexandria-311",
         "why": {
-          "default": { "en": "The City of Alexandria runs trash and recycling pickup.", "es": "La Ciudad de Alexandria maneja la recolección de basura y reciclaje." }
+          "default": {
+            "en": "The City of Alexandria runs trash and recycling pickup.",
+            "es": "La Ciudad de Alexandria maneja la recolección de basura y reciclaje."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
@@ -189,7 +348,10 @@
         "byValue": {},
         "default": "alexandria-311",
         "why": {
-          "default": { "en": "Start with Alex311; they'll send it to the right team.", "es": "Empiece con Alex311; ellos lo enviarán al equipo correcto." }
+          "default": {
+            "en": "Start with Alex311; they'll send it to the right team.",
+            "es": "Empiece con Alex311; ellos lo enviarán al equipo correcto."
+          }
         },
         "source": "https://www.alexandriava.gov/Potholes",
         "verified": null
@@ -198,52 +360,108 @@
     "falls-church": {
       "pothole": {
         "decidedBy": "road",
-        "byValue": { "city": "falls-church-dpw", "state": "vdot" },
+        "byValue": {
+          "city": "falls-church-dpw",
+          "state": "vdot"
+        },
         "default": "falls-church-dpw",
-        "notOffice": { "state": "falls-church-dpw" },
+        "notOffice": {
+          "state": "falls-church-dpw"
+        },
         "why": {
-          "city": { "en": "Falls Church maintains its own streets, so the city fixes this one.", "es": "Falls Church mantiene sus propias calles, así que la ciudad arregla esta." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "We couldn't tell who owns this road, so start with Falls Church Public Works.", "es": "No pudimos saber de quién es esta calle, así que empiece con Obras Públicas de Falls Church." }
+          "city": {
+            "en": "Falls Church maintains its own streets, so the city fixes this one.",
+            "es": "Falls Church mantiene sus propias calles, así que la ciudad arregla esta."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "We couldn't tell who owns this road, so start with Falls Church Public Works.",
+            "es": "No pudimos saber de quién es esta calle, así que empiece con Obras Públicas de Falls Church."
+          }
         },
         "source": "https://www.fallschurchva.gov/forms.aspx?fid=75",
         "verified": "2026-10-21"
       },
       "streetlight": {
         "decidedBy": "streetlight",
-        "byValue": { "city": "falls-church-streetlights", "dominion": "dominion" },
+        "byValue": {
+          "city": "falls-church-streetlights",
+          "dominion": "dominion"
+        },
         "default": "falls-church-streetlights",
-        "notOffice": { "dominion": "falls-church-streetlights" },
+        "notOffice": {
+          "dominion": "falls-church-streetlights"
+        },
         "why": {
-          "city": { "en": "The City of Falls Church takes repair requests for this light.", "es": "La Ciudad de Falls Church recibe los reportes de reparación de esta luz." },
-          "dominion": { "en": "This light hangs on a Dominion Energy pole, so Dominion repairs it.", "es": "Esta luz está en un poste de Dominion Energy, así que Dominion la repara." },
-          "default": { "en": "Falls Church takes streetlight repair requests and can tell whose light this is.", "es": "Falls Church recibe reportes de alumbrado y puede saber de quién es esta luz." }
+          "city": {
+            "en": "The City of Falls Church takes repair requests for this light.",
+            "es": "La Ciudad de Falls Church recibe los reportes de reparación de esta luz."
+          },
+          "dominion": {
+            "en": "This light hangs on a Dominion Energy pole, so Dominion repairs it.",
+            "es": "Esta luz está en un poste de Dominion Energy, así que Dominion la repara."
+          },
+          "default": {
+            "en": "Falls Church takes streetlight repair requests and can tell whose light this is.",
+            "es": "Falls Church recibe reportes de alumbrado y puede saber de quién es esta luz."
+          }
         },
         "source": "https://www.fallschurchva.gov/forms.aspx?fid=77",
-        "verified": "2026-10-21"
+        "verified": "2026-10-22"
       },
       "signal": {
         "decidedBy": "road",
-        "byValue": { "city": "falls-church-dpw", "state": "vdot" },
+        "byValue": {
+          "city": "falls-church-dpw",
+          "state": "vdot"
+        },
         "default": "falls-church-dpw",
-        "notOffice": { "state": "falls-church-dpw" },
+        "notOffice": {
+          "state": "falls-church-dpw"
+        },
         "why": {
-          "city": { "en": "Falls Church maintains the traffic signals on its own streets.", "es": "Falls Church mantiene los semáforos de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Falls Church Public Works.", "es": "Empiece con Obras Públicas de Falls Church." }
+          "city": {
+            "en": "Falls Church maintains the traffic signals on its own streets.",
+            "es": "Falls Church mantiene los semáforos de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Falls Church Public Works.",
+            "es": "Empiece con Obras Públicas de Falls Church."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
       },
       "sign-traffic": {
         "decidedBy": "road",
-        "byValue": { "city": "falls-church-dpw", "state": "vdot" },
+        "byValue": {
+          "city": "falls-church-dpw",
+          "state": "vdot"
+        },
         "default": "falls-church-dpw",
-        "notOffice": { "state": "falls-church-dpw" },
+        "notOffice": {
+          "state": "falls-church-dpw"
+        },
         "why": {
-          "city": { "en": "Falls Church maintains the traffic signs on its own streets.", "es": "Falls Church mantiene las señales de tráfico de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains it.", "es": "Esta es una carretera estatal, así que VDOT la mantiene." },
-          "default": { "en": "Start with Falls Church Public Works.", "es": "Empiece con Obras Públicas de Falls Church." }
+          "city": {
+            "en": "Falls Church maintains the traffic signs on its own streets.",
+            "es": "Falls Church mantiene las señales de tráfico de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains it.",
+            "es": "Esta es una carretera estatal, así que VDOT la mantiene."
+          },
+          "default": {
+            "en": "Start with Falls Church Public Works.",
+            "es": "Empiece con Obras Públicas de Falls Church."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
@@ -253,20 +471,37 @@
         "byValue": {},
         "default": "falls-church-dpw",
         "why": {
-          "default": { "en": "Falls Church Public Works maintains the city's street name signs.", "es": "Obras Públicas de Falls Church mantiene los letreros con nombres de calles." }
+          "default": {
+            "en": "Falls Church Public Works maintains the city's street name signs.",
+            "es": "Obras Públicas de Falls Church mantiene los letreros con nombres de calles."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
       },
       "flooding": {
         "decidedBy": "road",
-        "byValue": { "city": "falls-church-dpw", "state": "vdot" },
+        "byValue": {
+          "city": "falls-church-dpw",
+          "state": "vdot"
+        },
         "default": "falls-church-dpw",
-        "notOffice": { "state": "falls-church-dpw" },
+        "notOffice": {
+          "state": "falls-church-dpw"
+        },
         "why": {
-          "city": { "en": "Falls Church maintains the storm drains along its own streets.", "es": "Falls Church mantiene los desagües pluviales de sus propias calles." },
-          "state": { "en": "This is a state road, so VDOT maintains its drainage.", "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje." },
-          "default": { "en": "Start with Falls Church Public Works.", "es": "Empiece con Obras Públicas de Falls Church." }
+          "city": {
+            "en": "Falls Church maintains the storm drains along its own streets.",
+            "es": "Falls Church mantiene los desagües pluviales de sus propias calles."
+          },
+          "state": {
+            "en": "This is a state road, so VDOT maintains its drainage.",
+            "es": "Esta es una carretera estatal, así que VDOT mantiene su drenaje."
+          },
+          "default": {
+            "en": "Start with Falls Church Public Works.",
+            "es": "Empiece con Obras Públicas de Falls Church."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
@@ -276,7 +511,10 @@
         "byValue": {},
         "default": "falls-church-dpw",
         "why": {
-          "default": { "en": "Falls Church Public Works runs trash and recycling pickup.", "es": "Obras Públicas de Falls Church maneja la recolección de basura y reciclaje." }
+          "default": {
+            "en": "Falls Church Public Works runs trash and recycling pickup.",
+            "es": "Obras Públicas de Falls Church maneja la recolección de basura y reciclaje."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
@@ -286,7 +524,10 @@
         "byValue": {},
         "default": "falls-church-dpw",
         "why": {
-          "default": { "en": "Start with Falls Church Public Works; they'll send it to the right team.", "es": "Empiece con Obras Públicas de Falls Church; ellos lo enviarán al equipo correcto." }
+          "default": {
+            "en": "Start with Falls Church Public Works; they'll send it to the right team.",
+            "es": "Empiece con Obras Públicas de Falls Church; ellos lo enviarán al equipo correcto."
+          }
         },
         "source": "https://www.fallschurchva.gov/155/Public-Works",
         "verified": null
@@ -295,51 +536,108 @@
     "fairfax": {
       "pothole": {
         "decidedBy": "road",
-        "byValue": { "state": "vdot", "private": "fairfax-main" },
+        "byValue": {
+          "state": "vdot",
+          "private": "fairfax-main"
+        },
         "default": "vdot",
-        "notOffice": { "state": "fairfax-main", "default": "fairfax-main" },
+        "notOffice": {
+          "state": "fairfax-main",
+          "default": "fairfax-main"
+        },
         "why": {
-          "state": { "en": "Fairfax County doesn't maintain roads. This is a state road, so VDOT fixes it.", "es": "El Condado de Fairfax no mantiene carreteras. Esta es una carretera estatal, así que VDOT la arregla." },
-          "private": { "en": "This looks like a private road, so its owner or HOA is responsible. Fairfax County can help you find out who.", "es": "Parece ser una calle privada, así que el dueño o la asociación de vecinos es responsable. El Condado de Fairfax le puede ayudar a averiguarlo." },
-          "default": { "en": "Almost every public road in Fairfax County is maintained by VDOT, so start there.", "es": "Casi todas las carreteras públicas del Condado de Fairfax las mantiene VDOT, así que empiece ahí." }
+          "state": {
+            "en": "Fairfax County doesn't maintain roads. This is a state road, so VDOT fixes it.",
+            "es": "El Condado de Fairfax no mantiene carreteras. Esta es una carretera estatal, así que VDOT la arregla."
+          },
+          "private": {
+            "en": "This looks like a private road, so its owner or HOA is responsible. Fairfax County can help you find out who.",
+            "es": "Parece ser una calle privada, así que el dueño o la asociación de vecinos es responsable. El Condado de Fairfax le puede ayudar a averiguarlo."
+          },
+          "default": {
+            "en": "Almost every public road in Fairfax County is maintained by VDOT, so start there.",
+            "es": "Casi todas las carreteras públicas del Condado de Fairfax las mantiene VDOT, así que empiece ahí."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": "2026-10-21"
       },
       "streetlight": {
         "decidedBy": "streetlight",
-        "byValue": { "dominion": "dominion", "novec": "novec", "county": "fairfax-main" },
+        "byValue": {
+          "dominion": "dominion",
+          "novec": "novec",
+          "county": "fairfax-main"
+        },
         "default": "dominion",
-        "notOffice": { "dominion": "fairfax-main", "novec": "fairfax-main", "default": "fairfax-main" },
+        "notOffice": {
+          "dominion": "fairfax-main",
+          "novec": "fairfax-main",
+          "default": "fairfax-main"
+        },
         "why": {
-          "county": { "en": "This light isn't marked as Dominion's. Fairfax County can find out who owns it and pass your report on.", "es": "Esta luz no está marcada como de Dominion. El Condado de Fairfax puede averiguar de quién es y pasar su reporte." },
-          "dominion": { "en": "In Fairfax County, streetlights are repaired by the power company. This one is Dominion Energy's.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de Dominion Energy." },
-          "novec": { "en": "In Fairfax County, streetlights are repaired by the power company. This one is NOVEC's.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de NOVEC." },
-          "default": { "en": "In Fairfax County, streetlights are repaired by the power company, usually Dominion Energy.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica, normalmente Dominion Energy." }
+          "county": {
+            "en": "This light isn't marked as Dominion's. Fairfax County can find out who owns it and pass your report on.",
+            "es": "Esta luz no está marcada como de Dominion. El Condado de Fairfax puede averiguar de quién es y pasar su reporte."
+          },
+          "dominion": {
+            "en": "In Fairfax County, streetlights are repaired by the power company. This one is Dominion Energy's.",
+            "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de Dominion Energy."
+          },
+          "novec": {
+            "en": "In Fairfax County, streetlights are repaired by the power company. This one is NOVEC's.",
+            "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de NOVEC."
+          },
+          "default": {
+            "en": "In Fairfax County, streetlights are repaired by the power company, usually Dominion Energy.",
+            "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica, normalmente Dominion Energy."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/",
         "verified": null
       },
       "signal": {
         "decidedBy": "road",
-        "byValue": { "state": "vdot" },
+        "byValue": {
+          "state": "vdot"
+        },
         "default": "vdot",
-        "notOffice": { "state": "fairfax-main", "default": "fairfax-main" },
+        "notOffice": {
+          "state": "fairfax-main",
+          "default": "fairfax-main"
+        },
         "why": {
-          "state": { "en": "VDOT runs the traffic signals on Fairfax County's state roads.", "es": "VDOT maneja los semáforos de las carreteras estatales del Condado de Fairfax." },
-          "default": { "en": "Traffic signals in Fairfax County are run by VDOT.", "es": "Los semáforos del Condado de Fairfax los maneja VDOT." }
+          "state": {
+            "en": "VDOT runs the traffic signals on Fairfax County's state roads.",
+            "es": "VDOT maneja los semáforos de las carreteras estatales del Condado de Fairfax."
+          },
+          "default": {
+            "en": "Traffic signals in Fairfax County are run by VDOT.",
+            "es": "Los semáforos del Condado de Fairfax los maneja VDOT."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": "2026-10-21"
       },
       "sign-traffic": {
         "decidedBy": "road",
-        "byValue": { "state": "vdot" },
+        "byValue": {
+          "state": "vdot"
+        },
         "default": "vdot",
-        "notOffice": { "state": "fairfax-main", "default": "fairfax-main" },
+        "notOffice": {
+          "state": "fairfax-main",
+          "default": "fairfax-main"
+        },
         "why": {
-          "state": { "en": "Stop, yield and speed signs on Fairfax County roads are VDOT's.", "es": "Las señales de alto, ceda el paso y velocidad en el Condado de Fairfax son de VDOT." },
-          "default": { "en": "Traffic signs in Fairfax County are VDOT's.", "es": "Las señales de tráfico del Condado de Fairfax son de VDOT." }
+          "state": {
+            "en": "Stop, yield and speed signs on Fairfax County roads are VDOT's.",
+            "es": "Las señales de alto, ceda el paso y velocidad en el Condado de Fairfax son de VDOT."
+          },
+          "default": {
+            "en": "Traffic signs in Fairfax County are VDOT's.",
+            "es": "Las señales de tráfico del Condado de Fairfax son de VDOT."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": "2026-10-21"
@@ -348,20 +646,33 @@
         "decidedBy": "locality",
         "byValue": {},
         "default": "fairfax-sign-shop",
-        "notOffice": { "default": "vdot" },
+        "notOffice": {
+          "default": "vdot"
+        },
         "why": {
-          "default": { "en": "Street name signs are the one road sign Fairfax County maintains itself, not VDOT.", "es": "Los letreros con nombres de calles son la única señal que mantiene el propio Condado de Fairfax, no VDOT." }
+          "default": {
+            "en": "Street name signs are the one road sign Fairfax County maintains itself, not VDOT.",
+            "es": "Los letreros con nombres de calles son la única señal que mantiene el propio Condado de Fairfax, no VDOT."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": "2026-10-21"
       },
       "flooding": {
         "decidedBy": "road",
-        "byValue": { "state": "vdot" },
+        "byValue": {
+          "state": "vdot"
+        },
         "default": "fairfax-main",
         "why": {
-          "state": { "en": "Drainage along state roads is VDOT's.", "es": "El drenaje a lo largo de las carreteras estatales es de VDOT." },
-          "default": { "en": "Start with Fairfax County; they'll route drainage problems to the right team.", "es": "Empiece con el Condado de Fairfax; ellos enviarán el problema de drenaje al equipo correcto." }
+          "state": {
+            "en": "Drainage along state roads is VDOT's.",
+            "es": "El drenaje a lo largo de las carreteras estatales es de VDOT."
+          },
+          "default": {
+            "en": "Start with Fairfax County; they'll route drainage problems to the right team.",
+            "es": "Empiece con el Condado de Fairfax; ellos enviarán el problema de drenaje al equipo correcto."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": null
@@ -371,7 +682,10 @@
         "byValue": {},
         "default": "fairfax-main",
         "why": {
-          "default": { "en": "Start with Fairfax County; trash service depends on where you live in the county.", "es": "Empiece con el Condado de Fairfax; el servicio de basura depende de dónde viva en el condado." }
+          "default": {
+            "en": "Start with Fairfax County; trash service depends on where you live in the county.",
+            "es": "Empiece con el Condado de Fairfax; el servicio de basura depende de dónde viva en el condado."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": null
@@ -381,7 +695,10 @@
         "byValue": {},
         "default": "fairfax-main",
         "why": {
-          "default": { "en": "Start with Fairfax County; they'll send it to the right team.", "es": "Empiece con el Condado de Fairfax; ellos lo enviarán al equipo correcto." }
+          "default": {
+            "en": "Start with Fairfax County; they'll send it to the right team.",
+            "es": "Empiece con el Condado de Fairfax; ellos lo enviarán al equipo correcto."
+          }
         },
         "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
         "verified": null
@@ -393,9 +710,12 @@
     "byValue": {},
     "default": "member-district-office",
     "why": {
-      "default": { "en": "Your Member of Congress's office can help with federal agencies like Passport Services, the VA, Social Security, the IRS and immigration. This is called casework.", "es": "La oficina de su representante en el Congreso puede ayudar con agencias federales como Pasaportes, el VA, el Seguro Social, el IRS e inmigración. A esto se le llama \"casework\" (ayuda con casos)." }
+      "default": {
+        "en": "Your Member of Congress's office can help with federal agencies like Passport Services, the VA, Social Security, the IRS and immigration. This is called casework.",
+        "es": "La oficina de su representante en el Congreso puede ayudar con agencias federales como Pasaportes, el VA, el Seguro Social, el IRS e inmigración. A esto se le llama \"casework\" (ayuda con casos)."
+      }
     },
-    "source": "https://beyer.house.gov",
-    "verified": null
+    "source": "https://beyer.house.gov/constituent-services/casework/",
+    "verified": "2026-10-22"
   }
 }

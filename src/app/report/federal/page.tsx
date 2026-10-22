@@ -133,8 +133,14 @@ export default function FederalStep() {
                   {t("send.call", { phone })}
                 </PrimaryButton>
               )}
+              {member.privacyFormUrl && (
+                <PrimaryButton variant="secondary" href={member.privacyFormUrl}>
+                  <Icon name="form" />
+                  {t("federal.privacyForm")}
+                </PrimaryButton>
+              )}
               <PrimaryButton variant="secondary" href={member.caseworkUrl ?? member.website}>
-                <Icon name="form" />
+                <Icon name="federal" />
                 {t("federal.website")}
               </PrimaryButton>
             </div>

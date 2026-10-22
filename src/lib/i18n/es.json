@@ -127,7 +127,7 @@
   "federal.descLabel": "En una o dos frases, ¿qué está pasando? No incluya números de identificación ni de caso.",
   "federal.letter": "Su carta",
   "federal.privacy": "Las oficinas del Congreso normalmente necesitan una autorización de privacidad firmada antes de contactar a una agencia por usted. La oficina le enviará el formulario.",
-  "federal.website": "Abrir el sitio web de la oficina",
+  "federal.website": "Abrir la página de ayuda con casos",
   "federal.outside": "Esa dirección no está en el 8.º Distrito de Virginia. Su representante es {name}.",
   "report.near": "Cerca de {road}, {locality} ({coords})",
   "report.in": "En {locality} ({coords})",
@@ -146,5 +146,6 @@
   "map.add": "Agregar al mapa comunitario",
   "map.added": "Agregado al mapa, solo en este dispositivo.",
   "answer.decided": "decidió la respuesta",
-  "map.markerName": "{issue}: {count}"
+  "map.markerName": "{issue}: {count}",
+  "federal.privacyForm": "Obtener el formulario de autorización de privacidad (PDF)"
 }

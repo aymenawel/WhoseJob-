@@ -126,7 +126,7 @@
   "federal.descLabel": "In a sentence or two, what's going on? Don't include ID or case numbers.",
   "federal.letter": "Your letter",
   "federal.privacy": "House offices usually need a signed privacy release before they can contact an agency for you. The office will send you the form.",
-  "federal.website": "Open the office's website",
+  "federal.website": "Open the office's casework page",
   "federal.outside": "That address isn't in Virginia's 8th District. Your Member of Congress is {name}.",
   "report.near": "Near {road}, {locality} ({coords})",
   "report.in": "In {locality} ({coords})",
@@ -145,5 +145,6 @@
   "map.add": "Add to the community map",
   "map.added": "Added to the map, on this device only.",
   "answer.decided": "decided the answer",
-  "map.markerName": "{issue}: {count}"
+  "map.markerName": "{issue}: {count}",
+  "federal.privacyForm": "Get the privacy release form (PDF)"
 }

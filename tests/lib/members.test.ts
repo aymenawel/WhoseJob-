@@ -13,3 +13,9 @@ test("VA-08 is Rep. Beyer with his Alexandria district office", () => {
 test("an unknown district has no Member", () => {
   expect(memberForDistrict("VA-99")).toBeNull();
 });
+
+test("VA-08 links to Rep. Beyer's casework page and his privacy release form", () => {
+  const m = memberForDistrict("VA-08");
+  expect(m?.caseworkUrl).toBe("https://beyer.house.gov/constituent-services/casework/");
+  expect(m?.privacyFormUrl).toBe("https://beyer.house.gov/uploadedfiles/privacy_release_form_-_general.pdf");
+});

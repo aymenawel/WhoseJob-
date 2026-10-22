@@ -6,6 +6,7 @@
     "website": "https://wittman.house.gov",
     "dcPhone": "202-225-4261",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "4201 Dominion Blvd, Suite 110, Glen Allen, VA 23060",
       "phone": "804-401-4120"
@@ -18,6 +19,7 @@
     "website": "https://kiggans.house.gov",
     "dcPhone": "202-225-4215",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "25020 Shore Parkway, 1B, Onley, VA 23418",
       "phone": "757-666-6020"
@@ -30,6 +32,7 @@
     "website": "https://bobbyscott.house.gov",
     "dcPhone": "202-225-8351",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "2600 Washington Ave., Suite 1010, Newport News, VA 23607",
       "phone": "757-380-1000"
@@ -42,6 +45,7 @@
     "website": "https://mcclellan.house.gov",
     "dcPhone": "202-225-6365",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "11 S. 12th Street, Suite 401, Richmond, VA 23219",
       "phone": "804-486-1840"
@@ -54,6 +58,7 @@
     "website": "https://mcguire.house.gov",
     "dcPhone": "202-225-4711",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "900 Church St, Lynchburg, VA 24505",
       "phone": "202-225-4711"
@@ -66,6 +71,7 @@
     "website": "https://cline.house.gov",
     "dcPhone": "202-225-5431",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "70 N Mason St, Suite 110, Harrisonburg, VA 22802-4126",
       "phone": "540-432-2391"
@@ -78,6 +84,7 @@
     "website": "https://vindman.house.gov",
     "dcPhone": "202-225-2815",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "2241D Tacketts Mill Dr., Woodbridge, VA 22192",
       "phone": "703-987-2180"
@@ -89,7 +96,8 @@
     "party": "Democrat",
     "website": "https://beyer.house.gov",
     "dcPhone": "202-225-4376",
-    "caseworkUrl": null,
+    "caseworkUrl": "https://beyer.house.gov/constituent-services/casework/",
+    "privacyFormUrl": "https://beyer.house.gov/uploadedfiles/privacy_release_form_-_general.pdf",
     "districtOffice": {
       "address": "700 N Fairfax St., Suite 510, Alexandria, VA 22314",
       "phone": "703-658-5403"
@@ -102,6 +110,7 @@
     "website": "https://morgangriffith.house.gov",
     "dcPhone": "202-225-3861",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "323 W. Main St., Abingdon, VA 24210",
       "phone": "276-525-1405"
@@ -114,6 +123,7 @@
     "website": "https://subramanyam.house.gov",
     "dcPhone": "202-225-5136",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "210 Wirt Street SW, Unit 102, Leesburg, VA 20175",
       "phone": "703-236-1300"
@@ -126,6 +136,7 @@
     "website": "https://walkinshaw.house.gov",
     "dcPhone": "202-225-1492",
     "caseworkUrl": null,
+    "privacyFormUrl": null,
     "districtOffice": {
       "address": "10680 Main Street District, Suite 140, Fairfax, VA 22030",
       "phone": "703-256-3071"

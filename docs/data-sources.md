@@ -12,7 +12,7 @@ The district is all of **Arlington County**, the **City of Alexandria**, the **C
 | --- | --- | --- |
 | Arlington County | Arlington County (one of two VA counties that run their own roads); some routes such as Glebe Rd (VA-120) are VDOT | Split: about 8,000 county-owned, the rest Dominion |
 | City of Alexandria | City of Alexandria | Split: Dominion and City (T&ES, RPCA) |
-| City of Falls Church | City of Falls Church | To verify |
+| City of Falls Church | City of Falls Church | Split: Dominion (1,070 lights) and City (240 lights) |
 | Fairfax County (VA-08 part) | VDOT (Fairfax County does not maintain public roads) | Dominion |
 
 **NOVEC does not serve VA-08.** Fairfax County's NOVEC service-area polygons cover 0% of the district (computed with Shapely against the Census district boundary). The vision's "Dominion vs NOVEC" demo does not work here; see "Demo replacement" at the end.
