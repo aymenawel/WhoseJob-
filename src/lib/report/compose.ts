@@ -44,7 +44,8 @@ export function composeReport(input: {
   const { locale } = input;
   const issue = t(locale, `issue.${input.issue}`);
   const place = where(input.checks, input.address, locale);
-  const pole = input.checks.streetlight?.poleId;
+  // The nearest pole only matters when the light itself is the problem.
+  const pole = input.issue === "streetlight" ? input.checks.streetlight?.poleId : undefined;
   const description = input.description.trim();
 
   const lines = [

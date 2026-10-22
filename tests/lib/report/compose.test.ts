@@ -50,6 +50,11 @@ describe("composeReport", () => {
     expect(body).toContain("Near VA-244E, Fairfax County (");
   });
 
+  test("a pothole report doesn't mention the nearest streetlight's pole", () => {
+    const { body } = composeReport({ issue: "pothole", office: offices.vdot, checks, address: null, description: "", locale: "en" });
+    expect(body).not.toContain("Pole");
+  });
+
   test("Spanish output uses Spanish text", () => {
     const { subject, body } = composeReport({ issue: "streetlight", office: offices.dominion, checks, address: null, description: "", locale: "es" });
     expect(subject).toContain("Luz de la calle apagada");

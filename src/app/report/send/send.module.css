@@ -63,3 +63,22 @@
 .copied:empty {
   display: none;
 }
+
+/* The one next step: what to do on the office's form, then the button that gets you there. */
+.next {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: var(--radius-sign);
+  background: var(--guide);
+}
+
+.nextTitle {
+  font-size: var(--text-sm);
+  font-weight: 800;
+}
+
+.nextSteps {
+  font-size: var(--text-body);
+  line-height: 1.4;
+}

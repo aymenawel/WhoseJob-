@@ -10,6 +10,7 @@ import { useLocale } from "@/lib/i18n/locale";
 import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
 import { composeReport, mailtoUrl } from "@/lib/report/compose";
+import { reportLink } from "@/lib/report/reportLink";
 import { saveMyReport } from "@/lib/map/myReports";
 import s from "../step.module.css";
 import x from "./send.module.css";
@@ -35,12 +36,22 @@ export default function SendStep() {
 
   const office = offices[result.office];
   const msg = composeReport({ issue: flow.issue, office, checks: flow.checks, address: flow.address, description, locale });
-  // Fairfax's own streetlight form arrives pre-filled with the pole; prefer it.
-  const formUrl = (flow.issue === "streetlight" && flow.checks.streetlight?.formUrl) || office.formUrl;
+  const link = reportLink(office, flow.issue, flow.checks, flow.address);
+  const text = `${msg.subject}\n\n${msg.body}`;
+
+  // Copy and open in the same tap: window.open must run during the click
+  // itself or phone browsers block it, so the copy is started, not awaited.
+  function copyAndOpen() {
+    navigator.clipboard?.writeText(text).then(
+      () => setCopied(true),
+      () => setCopied(false),
+    );
+    if (link.url) window.open(link.url, "_blank", "noopener");
+  }
 
   async function copy() {
     try {
-      await navigator.clipboard.writeText(`${msg.subject}\n\n${msg.body}`);
+      await navigator.clipboard.writeText(text);
       setCopied(true);
     } catch {
       setCopied(false);
@@ -76,19 +87,27 @@ export default function SendStep() {
         </section>
 
         <div className={x.actions}>
-          <PrimaryButton onClick={copy}>
+          {link.url && (
+            <section className={x.next} aria-labelledby="next-step">
+              <h2 id="next-step" className={x.nextTitle}>
+                {t("send.onTheForm")}
+              </h2>
+              {link.steps && <p className={x.nextSteps}>{link.steps[locale]}</p>}
+              <PrimaryButton onClick={copyAndOpen}>
+                <Icon name="form" />
+                {link.specific
+                  ? t("send.openForm", { issue: t(`issue.${flow.issue}`).toLowerCase() })
+                  : t("send.openSite", { office: office.name[locale] })}
+              </PrimaryButton>
+            </section>
+          )}
+          <PrimaryButton variant={link.url ? "secondary" : "primary"} onClick={copy}>
             <Icon name={copied ? "check" : "copy"} />
             {t("send.copy")}
           </PrimaryButton>
           <p className={x.copied} role="status" aria-live="polite">
             {copied ? t("send.copied") : ""}
           </p>
-          {formUrl && (
-            <PrimaryButton variant="secondary" href={formUrl}>
-              <Icon name="form" />
-              {t("send.form")}
-            </PrimaryButton>
-          )}
           <PrimaryButton variant="secondary" href={mailtoUrl(office.email, msg)}>
             <Icon name="mail" />
             {t("send.email")}
