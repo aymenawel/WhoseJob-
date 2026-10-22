@@ -4,7 +4,7 @@ Decisions and real technical problems, newest first. This answers the submission
 
 ## Oct 21, 2026
 
-**Decisions:** Next.js on Vercel, Spanish as the second language, community map with labeled sample data plus the user's own reports saved on their device. Coverage area: proposed, not yet confirmed.
+**Decisions:** Next.js on Vercel, Spanish as the second language, community map with labeled sample data plus the user's own reports saved on their device. Coverage: all of VA-08 (Arlington, Alexandria, Falls Church, and the VA-08 part of Fairfax County), since that is the judge's whole territory.
 
 **Problem: the Census Geocoder now returns next Congress's districts.** The default `Current_Current` vintage returns "120th Congressional Districts" (starting Jan 2027). The judge is the *current* Member, so we pin `vintage=ACS2025_Current`, which returns the 119th Congress layer.
 

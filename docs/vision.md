@@ -160,11 +160,12 @@ Keep the AI-use log as you go: what AI generated, what you designed, changed, an
 
 ## Open questions
 
-- [ ] Which congressional district are you entering, and which counties does it cover?
+- [x] District: VA-08 (Rep. Don Beyer). Cover Arlington County, City of Alexandria, City of Falls Church, and the VA-08 part of Fairfax County.
 - [x] Final app name: WhoseJob?
-- [ ] Next.js or plain HTML/JS?
-- [ ] Second language besides Spanish (Amharic? Arabic? Vietnamese?)
-- [ ] Shared community map with a backend, or seeded demo data only?
+- [x] Next.js (TypeScript) on Vercel
+- [x] Languages: English and Spanish
+- [x] Map: labeled sample data, plus the user's own reports saved on their device
+- [ ] Demo moment: NOVEC doesn't serve VA-08, so it changes to streetlight ownership and road owner across the county line (see [data-sources.md](data-sources.md))
 - [ ] Blocking: who is on the team, and is every member enrolled in middle or high school on October 26?
 - [ ] Which real resident can you interview for the video?
 - [ ] Does Prince William County (or each county in the district) publish Dominion/NOVEC service-area data?
