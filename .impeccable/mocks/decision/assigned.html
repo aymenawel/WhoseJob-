@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Pole Tag — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#eceeeb;--ink:#15191b;--muted:#4a5054;--plate:#dfe2de;--local:#0b6e4f;--state:#1f4e9c;--utility:#f2b705;--federal:#2a2d30}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--ground);color:var(--ink);font-family:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,sans-serif;font-size:18px;line-height:1.45}
+.bar{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.mark{display:flex;align-items:center;gap:8px;font-weight:800;font-size:20px;letter-spacing:-.01em}
+.mark i{width:26px;height:18px;background:var(--utility);border-radius:4px;position:relative}
+.mark i::after{content:"";position:absolute;left:5px;top:6px;width:6px;height:6px;border-radius:50%;background:var(--ground)}
+.lang{display:flex;background:var(--plate);border-radius:8px;padding:3px;font-weight:600;font-size:16px}
+.lang b{padding:6px 12px;border-radius:6px}.lang b:first-child{background:var(--ink);color:#fff}
+.map{height:178px;position:relative;background:#d3d7d1;overflow:hidden}
+.rd{position:absolute;background:#f7f7f4}
+.r1{left:-10px;right:-10px;top:78px;height:20px}
+.r2{left:-10px;right:-10px;top:134px;height:14px;transform:rotate(-4deg)}
+.r3{top:-10px;bottom:-10px;left:226px;width:16px}
+.rl{position:absolute;font-size:12px;color:#5d6366;font-weight:600}
+.pin{position:absolute;left:196px;top:46px;width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--ink)}
+.pin::after{content:"";position:absolute;left:8px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--utility)}
+.pole{position:absolute;left:214px;top:100px;display:flex;align-items:center;gap:6px;font:700 15px "Barlow Condensed",sans-serif;background:var(--utility);padding:2px 8px 2px 4px;border-radius:12px}
+.pole::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--ink)}
+main{padding:20px 16px 0}
+h1{font-size:26px;line-height:1.15;font-weight:800;letter-spacing:-.015em}
+.where{font-size:16px;color:var(--muted);margin-top:4px}
+.trace{margin-top:16px;display:grid;gap:10px}
+.chk{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:center;font-size:16px;line-height:1.3}
+.chk span{color:var(--muted)}
+.chk .ln{grid-column:2;height:0;border-top:3px dashed #9aa0a3;margin-top:-4px}
+.chk.win .ln{border-top:4px solid var(--ink)}
+.sh{width:24px;height:24px}
+.s-fed{background:var(--federal);border:3px double #eceeeb;outline:2px solid var(--federal)}
+.s-loc{background:var(--local);border-radius:6px}
+.s-utl{background:var(--utility);border-radius:50%;border:2px solid var(--ink)}
+.tag{margin-top:18px;background:var(--utility);border-radius:22px 10px 10px 22px;padding:16px 16px 16px 46px;position:relative}
+.tag::before{content:"";position:absolute;left:16px;top:50%;width:16px;height:16px;margin-top:-8px;border-radius:50%;background:var(--ground)}
+.lvl{font-weight:800;font-size:15px;display:flex;gap:6px;align-items:center}
+.org{font-size:32px;font-weight:800;line-height:1.05;letter-spacing:-.02em;margin-top:2px}
+.id{font:700 22px "Barlow Condensed",sans-serif;letter-spacing:.02em;margin-top:4px}
+.why{margin-top:14px;font-size:18px}
+.why b{font-weight:800}
+.acts{margin-top:16px;display:grid;gap:10px}
+.btn{height:56px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px}
+.p{background:var(--ink);color:#fff}.s{background:var(--plate)}
+</style></head><body>
+<header class="bar"><div class="mark"><i></i>WhoseJob?</div><div class="lang"><b>EN</b><b>ES</b></div></header>
+<div class="map" aria-label="Map of the spot">
+  <div class="rd r1"></div><div class="rd r2"></div><div class="rd r3"></div>
+  <div class="rl" style="left:16px;top:60px">Clarendon Blvd</div>
+  <div class="rl" style="left:16px;top:152px">Wilson Blvd</div>
+  <div class="rl" style="left:248px;top:12px">N Uhle St</div>
+  <div class="pin"></div><div class="pole">C0918WL6800</div>
+</div>
+<main>
+  <h1>Here's who fixes it</h1>
+  <p class="where">Streetlight out · 2100 Clarendon Blvd, Arlington</p>
+  <div class="trace">
+    <div class="chk"><div class="sh s-fed"></div><div>Virginia's 8th District <span>· checked</span></div><div class="ln"></div></div>
+    <div class="chk"><div class="sh s-loc"></div><div>Clarendon Blvd <span>· Arlington County road</span></div><div class="ln"></div></div>
+    <div class="chk win"><div class="sh s-utl"></div><div><b>Nearest pole is Dominion's</b> <span>· decided it</span></div><div class="ln"></div></div>
+  </div>
+  <section class="tag">
+    <div class="lvl">● Utility company</div>
+    <div class="org">Dominion Energy</div>
+    <div class="id">POLE C0918WL6800</div>
+  </section>
+  <p class="why"><b>Dominion, not Arlington County.</b> This light hangs on Dominion's pole, not one of the county's own.</p>
+  <div class="acts"><div class="btn p">Report to Dominion</div><div class="btn s">Call 1-888-667-3000</div></div>
+</main>
+</body></html>

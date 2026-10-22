@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Guide Sign — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#f4f5f2;--ink:#101314;--muted:#4b5153;--guide:#00653b;--fed:#1b4f9c;--warn:#f7c600;--local:#ffffff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--ground);color:var(--ink);font-family:Overpass,system-ui,sans-serif;font-size:18px;line-height:1.45}
+.bar{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.mark{font-weight:800;font-size:21px;letter-spacing:-.01em}
+.lang{font-weight:800;font-size:16px;border:3px solid var(--ink);border-radius:8px;display:flex}
+.lang b{padding:5px 11px}.lang b:first-child{background:var(--ink);color:#fff}
+.map{height:170px;background:#d8dcd5;position:relative;overflow:hidden}
+.rd{position:absolute;background:#fbfbf8}
+.pin{position:absolute;left:186px;top:52px;width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--guide);border:3px solid #fff}
+main{padding:18px 16px 0}
+.q{font-size:16px;color:var(--muted);font-weight:600}
+.sign{margin-top:10px;background:var(--guide);color:#fff;border-radius:12px;padding:6px}
+.sign .in{border:3px solid #fff;border-radius:8px;padding:14px 14px 16px}
+.sign .k{font-size:16px;font-weight:600;opacity:.95}
+.sign .o{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-top:2px}
+.sign h1{font-size:36px;line-height:1.02;font-weight:800;letter-spacing:-.01em}
+.sign svg{flex:none;margin-top:4px}
+.not{margin-top:10px;background:#fff;border:3px solid var(--ink);border-radius:8px;padding:10px 14px;font-weight:800;font-size:20px;display:flex;gap:10px;align-items:center}
+.not s{text-decoration-thickness:3px}
+.why{margin-top:12px;font-size:18px}
+.mk{margin-top:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.m{border-radius:8px;padding:8px 8px 10px;font-size:14px;line-height:1.25;font-weight:600}
+.m b{display:block;font-size:12px;font-weight:800;letter-spacing:.02em;margin-bottom:2px}
+.m1{background:var(--fed);color:#fff}.m2{background:#fff;border:3px solid var(--ink)}.m3{background:var(--warn)}
+.acts{margin-top:14px;display:grid;gap:10px}
+.btn{height:56px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px}
+.p{background:var(--guide);color:#fff}.s{background:#fff;border:3px solid var(--ink)}
+</style></head><body>
+<header class="bar"><div class="mark">WhoseJob?</div><div class="lang"><b>EN</b><b>ES</b></div></header>
+<div class="map">
+  <div class="rd" style="left:-10px;right:-10px;top:84px;height:20px"></div>
+  <div class="rd" style="left:-10px;right:-10px;top:136px;height:14px;transform:rotate(-4deg)"></div>
+  <div class="rd" style="top:-10px;bottom:-10px;left:230px;width:16px"></div>
+  <div class="pin"></div>
+</div>
+<main>
+  <p class="q">Streetlight out · 2100 Clarendon Blvd, Arlington</p>
+  <section class="sign"><div class="in">
+    <div class="k">This is fixed by</div>
+    <div class="o"><h1>Dominion Energy</h1>
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 32 L30 10 M14 10 H30 V26" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="square"/></svg></div>
+  </div></section>
+  <div class="not"><s>Arlington County</s><span style="font-weight:600;font-size:16px">not the county</span></div>
+  <p class="why">The light is on Dominion's pole C0918WL6800, so Dominion repairs it.</p>
+  <div class="mk">
+    <div class="m m1"><b>DISTRICT</b>VA-08 · Beyer</div>
+    <div class="m m2"><b>ROAD</b>Arlington County</div>
+    <div class="m m3"><b>LIGHT</b>Dominion pole</div>
+  </div>
+  <div class="acts"><div class="btn p">Report to Dominion</div><div class="btn s">Call 1-888-667-3000</div></div>
+</main>
+</body></html>

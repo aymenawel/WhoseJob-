@@ -169,4 +169,4 @@ Keep the AI-use log as you go: what AI generated, what you designed, changed, an
 - [ ] Blocking: who is on the team, and is every member enrolled in middle or high school on October 26?
 - [ ] Which real resident can you interview for the video?
 - [ ] Does Prince William County (or each county in the district) publish Dominion/NOVEC service-area data?
-- [ ] Who runs the 10-person survey, and where (school, library, community event)?
+- [x] Resident survey: not running it. The video hook uses verified routing facts instead of a survey number.

@@ -1,0 +1,7 @@
+.impeccable/questions/
+.impeccable/*.local.json
+node_modules/
+.next/
+.vercel/
+.env*
+.taste-skill/

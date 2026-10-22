@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Civic standard — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b1b1b;--muted:#565c65;--blue:#005ea2;--bg:#ffffff;--base:#f0f0f0;--dark:#162e51}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;font-size:18px;line-height:1.5}
+.bar{height:56px;background:var(--dark);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.mark{font-weight:700;font-size:20px}.lang{font-size:16px;text-decoration:underline}
+main{padding:20px 16px}
+.step{font-size:15px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:6px 0 18px}
+.steps i{height:8px;background:var(--base)}.steps i.on{background:var(--blue)}
+h1{font-size:28px;line-height:1.2;font-weight:700}
+.card{margin-top:16px;border:2px solid #dfe1e2;border-radius:4px;padding:16px}
+.card .k{font-size:15px;color:var(--muted)}
+.card .o{font-size:24px;font-weight:700;margin-top:2px}
+.card p{margin-top:10px}
+.alert{margin-top:16px;border-left:8px solid var(--blue);background:#e7f6f8;padding:12px 14px;font-size:17px}
+.btn{margin-top:18px;height:52px;background:var(--blue);color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px}
+.link{margin-top:14px;color:var(--blue);text-decoration:underline;text-align:center}
+</style></head><body>
+<header class="bar"><div class="mark">WhoseJob?</div><div class="lang">Español</div></header>
+<main>
+  <div class="step">Step 4 of 5</div>
+  <div class="steps"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+  <h1>Dominion Energy fixes this streetlight</h1>
+  <div class="card">
+    <div class="k">Responsible office</div>
+    <div class="o">Dominion Energy</div>
+    <p>Streetlight out at 2100 Clarendon Blvd, Arlington. The nearest pole, C0918WL6800, belongs to Dominion.</p>
+  </div>
+  <div class="alert">This is not Arlington County's light, even though the road is Arlington's.</div>
+  <div class="btn">Report to Dominion</div>
+  <div class="link">Call 1-888-667-3000</div>
+</main>
+</body></html>
