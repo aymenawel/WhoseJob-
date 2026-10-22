@@ -1,0 +1,130 @@
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ground);
+}
+
+/* The resident's photo (or the map) fills the top, like a full-screen story. */
+.media {
+  position: relative;
+  height: min(52dvh, 470px);
+  display: flex;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rail {
+  position: absolute;
+  right: 12px;
+  top: 104px;
+  z-index: 20;
+}
+
+.checked {
+  position: absolute;
+  left: var(--gutter);
+  right: 92px;
+  bottom: 14px;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgb(0 0 0 / 0.72);
+}
+
+.checkedLabel {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.markers {
+  display: contents;
+  list-style: none;
+}
+
+/* "The app thinking": each check lands in turn, then the sign. */
+.markers > li {
+  animation: land 420ms var(--ease-out) both;
+}
+
+.land {
+  animation: land 520ms var(--ease-out) both;
+}
+
+@keyframes land {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.answer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px var(--gutter) 20px;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.why {
+  margin-top: 10px;
+  font-size: var(--text-body);
+  line-height: 1.4;
+}
+
+.note {
+  margin-top: 6px;
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.question {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: var(--radius-sign);
+  background: var(--surface);
+}
+
+.questionTitle {
+  font-size: var(--text-title);
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.choices {
+  display: grid;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .markers > li,
+  .land {
+    animation: none;
+  }
+}

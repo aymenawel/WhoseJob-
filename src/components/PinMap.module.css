@@ -1,0 +1,26 @@
+.wrap {
+  position: relative;
+  /* Leaflet's panes use z-indexes up to 1000; keep them inside the map so
+     overlays (top bar, action rail, checked strip) stay on top. */
+  isolation: isolate;
+  z-index: 0;
+  flex: 1;
+  min-height: 320px;
+  background: var(--surface);
+}
+
+.map {
+  position: absolute;
+  inset: 0;
+}
+
+/* The pin's tip sits exactly on the map center. */
+.pin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+  z-index: 500;
+  filter: drop-shadow(0 3px 4px rgb(0 0 0 / 0.45));
+}

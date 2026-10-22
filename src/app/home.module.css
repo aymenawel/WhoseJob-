@@ -1,0 +1,108 @@
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px var(--gutter) 28px;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: clamp(40px, 12vw, 56px);
+  line-height: 0.98;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  font-size: var(--text-body);
+  color: var(--muted);
+  max-width: 40ch;
+}
+
+.sign {
+  display: block;
+  margin-top: 8px;
+  padding: 6px;
+  border-radius: var(--radius-sign);
+  background: var(--guide);
+  text-decoration: none;
+  transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
+}
+
+.sign:hover {
+  background: #05774a;
+}
+
+.sign:active {
+  transform: scale(0.985);
+}
+
+.inset {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 132px;
+  padding: 16px 16px 18px;
+  border: 3px solid var(--white);
+  border-radius: calc(var(--radius-sign) - 4px);
+}
+
+.signText {
+  font-size: clamp(34px, 10vw, 44px);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  max-width: 10ch;
+}
+
+.arrow {
+  flex: none;
+  stroke-width: 3;
+}
+
+.secondary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 76px;
+  padding: 14px 16px;
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.secondary:hover {
+  background: var(--surface-2);
+}
+
+.secondaryTitle {
+  display: block;
+  font-weight: 800;
+}
+
+.secondaryHint {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.coverage {
+  margin-top: auto;
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.note {
+  font-size: var(--text-sm);
+  color: var(--muted);
+}

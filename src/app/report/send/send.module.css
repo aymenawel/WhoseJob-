@@ -1,0 +1,65 @@
+.label {
+  font-weight: 700;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 96px;
+  padding: 12px 14px;
+  border-radius: var(--radius-control);
+  border: 2px solid rgb(255 255 255 / 0.4);
+  background: var(--surface);
+  font-size: var(--text-body);
+  line-height: 1.4;
+  resize: vertical;
+}
+
+.textarea::placeholder {
+  color: #9aa3b0;
+}
+
+.textarea:focus-visible {
+  border-color: var(--white);
+}
+
+/* The drafted message, shown on a white sheet so it reads like the email it becomes. */
+.preview {
+  padding: 14px 16px;
+  border-radius: var(--radius-control);
+  background: var(--white);
+  color: var(--ink);
+}
+
+.previewTitle {
+  font-size: 14px;
+  font-weight: 800;
+  color: #3b424c;
+}
+
+.subject {
+  margin-top: 6px;
+  font-weight: 800;
+}
+
+.body {
+  margin-top: 8px;
+  white-space: pre-wrap;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.actions {
+  display: grid;
+  gap: 10px;
+}
+
+.copied {
+  min-height: 1.2em;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.copied:empty {
+  display: none;
+}

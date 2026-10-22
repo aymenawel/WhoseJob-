@@ -6,8 +6,31 @@ import { t, type Locale } from "@/lib/i18n";
 export type CaseworkTopic = "passport" | "va" | "social-security" | "irs" | "immigration" | "other";
 type Message = { subject: string; body: string };
 
-function where(checks: Checks, address: string | null) {
-  return address ?? `${checks.point.lat.toFixed(5)}, ${checks.point.lon.toFixed(5)}`;
+/** "Wilson BLVD (PR - Arlington County)" → "Wilson Blvd"; route codes like "VA-244E" stay as they are. */
+function prettyRoad(name: string): string {
+  return name
+    .replace(/\s*\(.*\)\s*$/, "")
+    .split(" ")
+    .map((w) => (/^[A-Z]{2,}$/.test(w) ? w[0] + w.slice(1).toLowerCase() : w))
+    .join(" ");
+}
+
+function where(checks: Checks, address: string | null, locale: Locale) {
+  if (address) return address;
+  const coords = `${checks.point.lat.toFixed(5)}, ${checks.point.lon.toFixed(5)}`;
+  const locality = checks.locality?.name;
+  if (!locality) return coords;
+  // Offices read "near Wilson Blvd" faster than a pair of coordinates.
+  return checks.road
+    ? t(locale, "report.near", { road: prettyRoad(checks.road.name), locality, coords })
+    : t(locale, "report.in", { locality, coords });
+}
+
+/** Short place for a subject line: the address, or the road and locality, never coordinates if avoidable. */
+function shortPlace(checks: Checks, address: string | null) {
+  if (address) return address;
+  const parts = [checks.road && prettyRoad(checks.road.name), checks.locality?.name].filter(Boolean);
+  return parts.length ? parts.join(", ") : `${checks.point.lat.toFixed(5)}, ${checks.point.lon.toFixed(5)}`;
 }
 
 export function composeReport(input: {
@@ -20,7 +43,7 @@ export function composeReport(input: {
 }): Message {
   const { locale } = input;
   const issue = t(locale, `issue.${input.issue}`);
-  const place = where(input.checks, input.address);
+  const place = where(input.checks, input.address, locale);
   const pole = input.checks.streetlight?.poleId;
   const description = input.description.trim();
 
@@ -34,7 +57,7 @@ export function composeReport(input: {
     "",
     t(locale, "report.signature"),
   ];
-  return { subject: t(locale, "report.subject", { issue, where: place }), body: lines.join("\n") };
+  return { subject: t(locale, "report.subject", { issue, where: shortPlace(input.checks, input.address) }), body: lines.join("\n") };
 }
 
 export function mailtoUrl(to: string, msg: Message): string {

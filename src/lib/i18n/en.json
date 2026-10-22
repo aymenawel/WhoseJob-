@@ -127,5 +127,7 @@
   "federal.letter": "Your letter",
   "federal.privacy": "House offices usually need a signed privacy release before they can contact an agency for you. The office will send you the form.",
   "federal.website": "Open the office's website",
-  "federal.outside": "That address isn't in Virginia's 8th District. Your Member of Congress is {name}."
+  "federal.outside": "That address isn't in Virginia's 8th District. Your Member of Congress is {name}.",
+  "report.near": "Near {road}, {locality} ({coords})",
+  "report.in": "In {locality} ({coords})"
 }

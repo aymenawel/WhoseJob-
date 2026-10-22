@@ -128,5 +128,7 @@
   "federal.letter": "Su carta",
   "federal.privacy": "Las oficinas del Congreso normalmente necesitan una autorización de privacidad firmada antes de contactar a una agencia por usted. La oficina le enviará el formulario.",
   "federal.website": "Abrir el sitio web de la oficina",
-  "federal.outside": "Esa dirección no está en el 8.º Distrito de Virginia. Su representante es {name}."
+  "federal.outside": "Esa dirección no está en el 8.º Distrito de Virginia. Su representante es {name}.",
+  "report.near": "Cerca de {road}, {locality} ({coords})",
+  "report.in": "En {locality} ({coords})"
 }

@@ -30,9 +30,24 @@ describe("composeReport", () => {
     expect([...positions].sort((a, b) => a - b)).toEqual(positions);
   });
 
-  test("without an address it gives coordinates to 5 decimals", () => {
+  test("without an address it names the nearest road and locality, plus coordinates to 5 decimals", () => {
     const { body } = composeReport({ issue: "pothole", office: offices.vdot, checks, address: null, description: "", locale: "en" });
-    expect(body).toContain("38.89145, -77.08553");
+    expect(body).toContain("Near Wilson Blvd, Arlington County (38.89145, -77.08553)");
+  });
+
+  test("the subject names the place briefly, without coordinates", () => {
+    const { subject } = composeReport({ issue: "streetlight", office: offices.dominion, checks, address: null, description: "", locale: "en" });
+    expect(subject).toBe("Streetlight out at Wilson Blvd, Arlington County");
+  });
+
+  test("VDOT route codes stay readable", () => {
+    const fairfax: Checks = {
+      ...checks,
+      locality: { id: "fairfax", name: "Fairfax County" },
+      road: { name: "VA-244E", owner: "state", distanceM: 4 },
+    };
+    const { body } = composeReport({ issue: "pothole", office: offices.vdot, checks: fairfax, address: null, description: "", locale: "en" });
+    expect(body).toContain("Near VA-244E, Fairfax County (");
   });
 
   test("Spanish output uses Spanish text", () => {

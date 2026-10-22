@@ -1,46 +1,39 @@
 "use client";
 
-// Temporary milestone page (address → district → Member); the real home
-// screen replaces it in Task 11.
-import { useState } from "react";
-import { memberForDistrict } from "@/lib/members";
-
-type Result = { matchedAddress: string; districtId: string | null; locality: { name: string } | null };
+import Link from "next/link";
+import { TopBar } from "@/components/TopBar";
+import { Icon } from "@/components/Icon";
+import { useLocale } from "@/lib/i18n/locale";
+import s from "./home.module.css";
 
 export default function Home() {
-  const [q, setQ] = useState("");
-  const [result, setResult] = useState<Result | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  async function lookUp(e: React.FormEvent) {
-    e.preventDefault();
-    setError(null);
-    setResult(null);
-    const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
-    if (!res.ok) {
-      setError("We couldn't find that address. Check the spelling, leave out apartment numbers, or drop a pin.");
-      return;
-    }
-    setResult(await res.json());
-  }
-
-  const member = result?.districtId ? memberForDistrict(result.districtId) : null;
-
+  const { t } = useLocale();
   return (
-    <main style={{ padding: 16, fontSize: 18 }}>
-      <h1>WhoseJob?</h1>
-      <form onSubmit={lookUp}>
-        <label htmlFor="q">Address</label>
-        <input id="q" value={q} onChange={(e) => setQ(e.target.value)} style={{ display: "block", width: "100%", fontSize: 18, padding: 8 }} />
-        <button type="submit" style={{ marginTop: 8, fontSize: 18, padding: "8px 16px" }}>Look up</button>
-      </form>
-      {error && <p role="alert">{error}</p>}
-      {result && (
-        <p data-testid="milestone-result">
-          {result.matchedAddress} · {result.locality?.name ?? "outside VA-08 localities"} · {result.districtId}
-          {member ? ` · ${member.name}` : ""}
-        </p>
-      )}
-    </main>
+    <div className={s.screen}>
+      <TopBar />
+      <main className={s.main}>
+        <h1 className={s.title}>{t("home.title")}</h1>
+        <p className={s.lede}>{t("home.lede")}</p>
+
+        {/* The way in is itself a guide sign: the app's one visual idea, from the first screen. */}
+        <Link href="/report/photo" className={s.sign}>
+          <span className={s.inset}>
+            <span className={s.signText}>{t("home.start")}</span>
+            <Icon name="arrow" size={44} className={s.arrow} />
+          </span>
+        </Link>
+
+        <Link href="/report/federal" className={s.secondary}>
+          <Icon name="federal" size={28} />
+          <span>
+            <span className={s.secondaryTitle}>{t("home.federal")}</span>
+            <span className={s.secondaryHint}>{t("home.federalHint")}</span>
+          </span>
+        </Link>
+
+        <p className={s.coverage}>{t("home.coverage")}</p>
+        <p className={s.note}>{t("home.sendNote")}</p>
+      </main>
+    </div>
   );
 }
