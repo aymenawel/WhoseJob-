@@ -1,0 +1,236 @@
+{
+  "_note": "SAMPLE DATA for demonstration. Every entry is shown on screen labeled 'Sample data'. Not real reports.",
+  "reports": [
+    {
+      "id": "sample-1",
+      "issue": "streetlight",
+      "lat": 38.891447,
+      "lon": -77.085525,
+      "office": "dominion",
+      "level": "utility",
+      "createdAt": "2026-10-14T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-2",
+      "issue": "streetlight",
+      "lat": 38.8915,
+      "lon": -77.0853,
+      "office": "dominion",
+      "level": "utility",
+      "createdAt": "2026-10-15T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-3",
+      "issue": "streetlight",
+      "lat": 38.8914,
+      "lon": -77.08575,
+      "office": "dominion",
+      "level": "utility",
+      "createdAt": "2026-10-17T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-4",
+      "issue": "streetlight",
+      "lat": 38.89155,
+      "lon": -77.0851,
+      "office": "dominion",
+      "level": "utility",
+      "createdAt": "2026-10-19T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-5",
+      "issue": "streetlight",
+      "lat": 38.891372,
+      "lon": -77.084805,
+      "office": "arlington-streetlights",
+      "level": "local",
+      "createdAt": "2026-10-18T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-6",
+      "issue": "pothole",
+      "lat": 38.831122,
+      "lon": -77.194538,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-09T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-7",
+      "issue": "pothole",
+      "lat": 38.83125,
+      "lon": -77.1942,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-12T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-8",
+      "issue": "pothole",
+      "lat": 38.831,
+      "lon": -77.1949,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-16T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-9",
+      "issue": "pothole",
+      "lat": 38.8445,
+      "lon": -77.0745,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-11T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-10",
+      "issue": "pothole",
+      "lat": 38.8448,
+      "lon": -77.0747,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-13T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-11",
+      "issue": "pothole",
+      "lat": 38.8849,
+      "lon": -77.0982,
+      "office": "arlington-311",
+      "level": "local",
+      "createdAt": "2026-10-10T15:00:00Z",
+      "sample": true,
+      "fixed": true
+    },
+    {
+      "id": "sample-12",
+      "issue": "streetlight",
+      "lat": 38.80463,
+      "lon": -77.0426,
+      "office": "dominion",
+      "level": "utility",
+      "createdAt": "2026-10-15T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-13",
+      "issue": "pothole",
+      "lat": 38.8052,
+      "lon": -77.047,
+      "office": "alexandria-311",
+      "level": "local",
+      "createdAt": "2026-10-08T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-14",
+      "issue": "pothole",
+      "lat": 38.8054,
+      "lon": -77.0475,
+      "office": "alexandria-311",
+      "level": "local",
+      "createdAt": "2026-10-12T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-15",
+      "issue": "sign-street-name",
+      "lat": 38.812,
+      "lon": -77.056,
+      "office": "alexandria-311",
+      "level": "local",
+      "createdAt": "2026-10-07T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-16",
+      "issue": "pothole",
+      "lat": 38.88492,
+      "lon": -77.17261,
+      "office": "falls-church-dpw",
+      "level": "local",
+      "createdAt": "2026-10-10T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-17",
+      "issue": "trash",
+      "lat": 38.8825,
+      "lon": -77.17,
+      "office": "falls-church-dpw",
+      "level": "local",
+      "createdAt": "2026-10-16T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-18",
+      "issue": "signal",
+      "lat": 38.73096,
+      "lon": -77.10462,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-12T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-19",
+      "issue": "sign-street-name",
+      "lat": 38.735,
+      "lon": -77.095,
+      "office": "fairfax-sign-shop",
+      "level": "local",
+      "createdAt": "2026-10-09T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-20",
+      "issue": "pothole",
+      "lat": 38.84,
+      "lon": -77.15,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-15T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    },
+    {
+      "id": "sample-21",
+      "issue": "flooding",
+      "lat": 38.769,
+      "lon": -77.081,
+      "office": "vdot",
+      "level": "state",
+      "createdAt": "2026-10-19T15:00:00Z",
+      "sample": true,
+      "fixed": false
+    }
+  ]
+}

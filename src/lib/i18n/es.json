@@ -131,5 +131,18 @@
   "federal.outside": "Esa dirección no está en el 8.º Distrito de Virginia. Su representante es {name}.",
   "report.near": "Cerca de {road}, {locality} ({coords})",
   "report.in": "En {locality} ({coords})",
-  "federal.copy": "Copiar la carta"
+  "federal.copy": "Copiar la carta",
+  "map.title": "Reportes cerca de usted",
+  "map.sampleBanner": "Datos de ejemplo: reportes de muestra para mostrar cómo funciona el mapa. No son reportes reales.",
+  "map.neighbors": "{n} vecinos reportaron esto",
+  "map.one": "1 reporte",
+  "map.sentTo": "Va a {office}",
+  "map.sampleChip": "Datos de ejemplo",
+  "map.yours": "Incluye su reporte",
+  "map.fixed": "Marcado como arreglado",
+  "map.markFixed": "Marcar como arreglado",
+  "map.close": "Cerrar",
+  "map.mapLabel": "Mapa de reportes",
+  "map.add": "Agregar al mapa comunitario",
+  "map.added": "Agregado al mapa, solo en este dispositivo."
 }

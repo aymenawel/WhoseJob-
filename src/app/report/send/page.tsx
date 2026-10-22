@@ -10,6 +10,7 @@ import { useLocale } from "@/lib/i18n/locale";
 import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
 import { composeReport, mailtoUrl } from "@/lib/report/compose";
+import { saveMyReport } from "@/lib/map/myReports";
 import s from "../step.module.css";
 import x from "./send.module.css";
 
@@ -21,6 +22,7 @@ export default function SendStep() {
   const router = useRouter();
   const [description, setDescription] = useState("");
   const [copied, setCopied] = useState(false);
+  const [added, setAdded] = useState(false);
 
   // "Not sure" on the pole tag already went to the rule's default; the answer
   // screen only links here once there is an office, so skipPoleTag is safe.
@@ -102,6 +104,30 @@ export default function SendStep() {
         </div>
 
         <p className={s.note}>{t("send.photoNote")}</p>
+
+        <PrimaryButton
+          variant="secondary"
+          disabled={added}
+          onClick={() => {
+            if (!flow.checks || !flow.issue) return;
+            // Saved on this device only; there is no shared server.
+            saveMyReport({
+              id: `mine-${Date.now()}`,
+              issue: flow.issue,
+              lat: flow.checks.point.lat,
+              lon: flow.checks.point.lon,
+              office: result.office,
+              level: result.level,
+              createdAt: new Date().toISOString(),
+              sample: false,
+              fixed: false,
+            });
+            setAdded(true);
+          }}
+        >
+          <Icon name={added ? "check" : "map"} />
+          {added ? t("map.added") : t("map.add")}
+        </PrimaryButton>
 
         <div className={s.footer}>
           <PrimaryButton

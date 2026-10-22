@@ -130,5 +130,18 @@
   "federal.outside": "That address isn't in Virginia's 8th District. Your Member of Congress is {name}.",
   "report.near": "Near {road}, {locality} ({coords})",
   "report.in": "In {locality} ({coords})",
-  "federal.copy": "Copy the letter"
+  "federal.copy": "Copy the letter",
+  "map.title": "Reports near you",
+  "map.sampleBanner": "Sample data: example reports that show how the map works. Not real reports.",
+  "map.neighbors": "{n} neighbors reported this",
+  "map.one": "1 report",
+  "map.sentTo": "Goes to {office}",
+  "map.sampleChip": "Sample data",
+  "map.yours": "Includes your report",
+  "map.fixed": "Marked fixed",
+  "map.markFixed": "Mark it fixed",
+  "map.close": "Close",
+  "map.mapLabel": "Map of reports",
+  "map.add": "Add to the community map",
+  "map.added": "Added to the map, on this device only."
 }

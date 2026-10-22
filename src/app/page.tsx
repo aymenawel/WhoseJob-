@@ -31,6 +31,14 @@ export default function Home() {
           </span>
         </Link>
 
+        <Link href="/map" className={s.secondary}>
+          <Icon name="map" size={28} />
+          <span>
+            <span className={s.secondaryTitle}>{t("home.map")}</span>
+            <span className={s.secondaryHint}>{t("map.sampleChip")}</span>
+          </span>
+        </Link>
+
         <p className={s.coverage}>{t("home.coverage")}</p>
         <p className={s.note}>{t("home.sendNote")}</p>
       </main>

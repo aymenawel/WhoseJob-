@@ -1,0 +1,70 @@
+.map {
+  position: absolute;
+  inset: 0;
+  isolation: isolate;
+  z-index: 0;
+}
+
+.marker {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.fixed {
+  opacity: 0.45;
+}
+
+.shape {
+  display: block;
+  box-shadow: 0 0 0 2px #fff, 0 2px 6px rgb(0 0 0 / 0.45);
+}
+
+.square {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  background: #1b4f9c;
+}
+
+.plate {
+  width: 28px;
+  height: 20px;
+  border-radius: 3px;
+  background: #fff;
+  border: 3px solid #101314;
+}
+
+.diamond {
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background: #f7c600;
+  border: 2px solid #101314;
+}
+
+.shield {
+  width: 22px;
+  height: 24px;
+  background: #fff;
+  border: 3px solid #101314;
+  border-radius: 3px 3px 12px 12px;
+}
+
+.count {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 12px;
+  background: #00653b;
+  color: #fff;
+  font: 800 14px/24px var(--font-overpass), system-ui, sans-serif;
+  text-align: center;
+  box-shadow: 0 0 0 2px #fff;
+}
