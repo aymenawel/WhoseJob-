@@ -4,7 +4,7 @@
 
 Team entry for the 2026 Congressional App Challenge (VA-08, Rep. Don Beyer). Deadline: noon EDT, Monday, Oct 26, 2026.
 
-Live app: _added after the first deploy (see "Deploying")_.
+Live app: **https://whose-job.vercel.app** · Source: https://github.com/aymenawel/WhoseJob-
 
 ## Why it exists
 
@@ -91,15 +91,9 @@ All are free, public, and need no API key. Details, tests and fallbacks are in [
 
 ## Deploying
 
-The app runs free on Vercel's Hobby plan. Log in once, then deploy:
+The app runs free on Vercel's Hobby plan. The Vercel project `whose-job` is connected to this GitHub repository, so every push to `main` deploys to https://whose-job.vercel.app automatically.
 
-```bash
-npx vercel login
-```
-
-```bash
-npx vercel --prod --yes
-```
+Deploy from GitHub rather than with a local `vercel deploy` on Windows: a local build there fails on Windows symlinks (see [docs/dev-log.md](docs/dev-log.md)).
 
 ## Privacy
 
