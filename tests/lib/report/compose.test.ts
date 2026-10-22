@@ -85,6 +85,11 @@ describe("composeCasework", () => {
     expect(body).not.toMatch(/social security number|case number|SSN/i);
   });
 
+  test("no description yet → no empty 'What's going on' line", () => {
+    const { body } = composeCasework({ member, topic: "passport", description: "  ", locale: "en" });
+    expect(body).not.toContain("What's going on");
+  });
+
   test("Spanish casework letter", () => {
     const { body } = composeCasework({ member, topic: "va", description: "Mi reclamo está atrasado.", locale: "es" });
     expect(body).toContain("formulario de autorización de privacidad");

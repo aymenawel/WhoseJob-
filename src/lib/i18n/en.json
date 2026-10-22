@@ -129,5 +129,6 @@
   "federal.website": "Open the office's website",
   "federal.outside": "That address isn't in Virginia's 8th District. Your Member of Congress is {name}.",
   "report.near": "Near {road}, {locality} ({coords})",
-  "report.in": "In {locality} ({coords})"
+  "report.in": "In {locality} ({coords})",
+  "federal.copy": "Copy the letter"
 }

@@ -130,5 +130,6 @@
   "federal.website": "Abrir el sitio web de la oficina",
   "federal.outside": "Esa dirección no está en el 8.º Distrito de Virginia. Su representante es {name}.",
   "report.near": "Cerca de {road}, {locality} ({coords})",
-  "report.in": "En {locality} ({coords})"
+  "report.in": "En {locality} ({coords})",
+  "federal.copy": "Copiar la carta"
 }
