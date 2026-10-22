@@ -83,24 +83,20 @@ describe("queryStreetlight", () => {
     expect(calls).toHaveLength(0);
   });
 
-  test("one layer failing does not stop the other from answering", async () => {
+  // Answering from one layer while the other is down could name the wrong owner
+  // with full confidence (the light overhead may be on the missing layer).
+  test("one layer failing fails the whole lookup, so the resident is asked instead", async () => {
     const { fn } = fetchByLayer({ Arlington_Owned: new Error("down"), DominionLights: domPoleDominion });
-    const light = await queryStreetlight("arlington", 38.891447, -77.085525, fn);
-    expect(light?.owner).toBe("dominion");
+    await expect(queryStreetlight("arlington", 38.891447, -77.085525, fn)).rejects.toThrow();
   });
 
-  test("every layer failing → null", async () => {
-    const { fn } = fetchByLayer({ Arlington_Owned: new Error("down"), DominionLights: new Error("down") });
-    expect(await queryStreetlight("arlington", 38.891447, -77.085525, fn)).toBeNull();
-  });
-
-  test("an ArcGIS error body counts as that layer failing", async () => {
-    const { fn } = fetchByLayer({ Arlington_Owned: rateLimited, DominionLights: rateLimited });
-    expect(await queryStreetlight("arlington", 38.891447, -77.085525, fn)).toBeNull();
-  });
-
-  test("an error body on one layer doesn't hide the other layer's light", async () => {
+  test("an ArcGIS error body on one layer fails the lookup too", async () => {
     const { fn } = fetchByLayer({ Arlington_Owned: rateLimited, DominionLights: domPoleDominion });
-    expect((await queryStreetlight("arlington", 38.891447, -77.085525, fn))?.owner).toBe("dominion");
+    await expect(queryStreetlight("arlington", 38.891447, -77.085525, fn)).rejects.toThrow(/429/);
+  });
+
+  test("every layer answering with no lights nearby → null", async () => {
+    const { fn } = fetchByLayer({ Arlington_Owned: EMPTY, DominionLights: EMPTY });
+    expect(await queryStreetlight("arlington", 38.891447, -77.085525, fn)).toBeNull();
   });
 });

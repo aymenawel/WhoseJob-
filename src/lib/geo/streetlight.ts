@@ -87,9 +87,11 @@ export async function queryStreetlight(
   const layers = LIGHT_LAYERS[locality];
   if (layers.length === 0) return null;
 
-  const settled = await Promise.allSettled(layers.map((l) => fetchLayer(l, lat, lon, fetchFn)));
-  const lights = settled
-    .flatMap((s) => (s.status === "fulfilled" ? s.value : []))
+  // All layers or none: with one layer missing, the light overhead might be
+  // the missing owner's, so a confident answer from the other would be a guess.
+  const perLayer = await Promise.all(layers.map((l) => fetchLayer(l, lat, lon, fetchFn)));
+  const lights = perLayer
+    .flat()
     .filter((l) => Number.isFinite(l.distanceM))
     .sort((a, b) => a.distanceM - b.distanceM);
   if (lights.length === 0) return null;
