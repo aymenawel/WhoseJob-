@@ -6,6 +6,7 @@ import ptOutside from "../../fixtures/census/pt-outside.json";
 import clarendon from "../../fixtures/vdot/clarendon.json";
 import domPoleCounty from "../../fixtures/lights/arl-dom-pole.arl-county.json";
 import domPoleDominion from "../../fixtures/lights/arl-dom-pole.arl-dominion.json";
+import rateLimited from "../../fixtures/arcgis/rate-limited.json";
 
 // Pin on Dominion's pole on Clarendon Blvd.
 const LAT = 38.891447;
@@ -76,9 +77,22 @@ describe("resolveChecks", () => {
     expect(calls.every((u) => u.includes("geocoding.geo.census.gov"))).toBe(true);
   });
 
-  test("VDOT down: road is null and the fallback is recorded", async () => {
+  test("VDOT rate-limited: the road comes from the bundled snapshot instead", async () => {
+    const { fn } = fakeFetch({ ...arlingtonReplies, vdot: rateLimited });
+    const snapshot = { generated: "2026-10-22", roads: [["Wilson BLVD (PR - Arlington County)", "02", [[[-77.0858, 38.89151], [-77.0852, 38.89151]]]]] };
+    const checks = await resolveChecks(LAT, LON, { fetchFn: fn, loadRoadSnapshot: async () => snapshot as never });
+    expect(checks.road).toMatchObject({ name: "Wilson BLVD (PR - Arlington County)", owner: "county" });
+    expect(checks.fallbacks).not.toContain("road");
+  });
+
+  test("VDOT down and no snapshot: road is null and the fallback is recorded", async () => {
     const { fn } = fakeFetch({ ...arlingtonReplies, vdot: new Error("down") });
-    const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
+    const checks = await resolveChecks(LAT, LON, {
+      fetchFn: fn,
+      loadRoadSnapshot: async () => {
+        throw new Error("missing");
+      },
+    });
     expect(checks.road).toBeNull();
     expect(checks.fallbacks).toContain("road");
   });

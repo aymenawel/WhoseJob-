@@ -3,13 +3,14 @@ import type { Feature, FeatureCollection, MultiPolygon, Polygon } from "geojson"
 import type { Checks, FallbackId, Locality, LocalityId } from "@/lib/types";
 import { lookupPoint } from "@/lib/geo/census";
 import { queryRoadOwner } from "@/lib/geo/roadOwner";
+import { loadRoadSnapshot, nearestRoadInSnapshot, type RoadSnapshot } from "@/lib/geo/roadSnapshot";
 import { queryStreetlight } from "@/lib/geo/streetlight";
 import va08 from "@/data/va08-boundary.json";
 import localities from "@/data/localities.json";
 
 const COVERED_DISTRICT = "VA-08";
 
-type Deps = { fetchFn?: typeof fetch; timeoutMs?: number };
+type Deps = { fetchFn?: typeof fetch; timeoutMs?: number; loadRoadSnapshot?: () => Promise<RoadSnapshot> };
 
 function withTimeout<T>(p: Promise<T>, ms: number): Promise<T> {
   return Promise.race([p, new Promise<T>((_, reject) => setTimeout(() => reject(new Error("timeout")), ms))]);
@@ -54,7 +55,15 @@ export async function resolveChecks(lat: number, lon: number, deps: Deps = {}): 
     withTimeout(queryStreetlight(locality.id, lat, lon, fetchFn), timeoutMs),
   ]);
   if (road.status === "fulfilled") checks.road = road.value;
-  else fallbacks.push("road");
+  else {
+    // VDOT's live service shares one quota with all its users and often says
+    // "too many requests"; the bundled snapshot is the same data, a day or so old.
+    try {
+      checks.road = nearestRoadInSnapshot(lat, lon, await (deps.loadRoadSnapshot ?? loadRoadSnapshot)());
+    } catch {
+      fallbacks.push("road");
+    }
+  }
   if (light.status === "fulfilled" && light.value) checks.streetlight = light.value;
   // Falls Church has no layer at all; that's a known gap, not a failure, but the
   // resident still gets the pole-tag question, so record it either way.
