@@ -140,3 +140,18 @@ The vision's demo needed Dominion and NOVEC in one district; VA-08 has only Domi
    - A pothole in Arlington goes to Arlington County.
    - Cross into Fairfax and the same pothole goes to VDOT, because Fairfax County doesn't maintain roads.
    - On Glebe Rd, still inside Arlington, it goes to VDOT.
+
+## 9. Report links (where each report is sent)
+
+Each office in `src/data/offices.json` can have a `forms` entry per problem: the deepest link we found, plus one line telling the resident what to do there. Found on Oct 22 by opening each site in a browser and watching what it loads.
+
+| Office | How deep it goes |
+| --- | --- |
+| Arlington County 311 | The exact problem type (`request/add?typeId=…`) **with the location filled in** (`&location=`). Type IDs come from the portal's own list (`/311/api/v1/type/list`): pothole 395, streetlight 499, signal 466, roadway signs 34099, street flooding 15684, missed collection 330, general inquiry 166677. |
+| City of Falls Church | The exact form (`forms.aspx?fid=…`): pothole 75, streetlight 77, signs 78, signal 80, trash 82, abandoned vehicle 104, stormwater 106. Each confirmed by page title. |
+| Fairfax County | Exact forms for street name signs, storm drains and missed trash; streetlights use the county's own form pre-filled with the pole. |
+| Dominion Energy | Its streetlight-outage page. |
+| Alexandria (Alex311) | No direct links: the request opens in a pop-up on one page, and search needs a login. The app opens Alex311 and says what to search and tap. |
+| VDOT | One form behind a terms notice that only the resident can accept; the app says what to choose. |
+
+`npm run check:links` opens every link and fails if one breaks or now redirects to a home page. GitHub runs it every Monday (`.github/workflows/check-links.yml`).
