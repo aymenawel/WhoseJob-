@@ -1,0 +1,439 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "8350 Richmond Hwy, Alexandria, VA 22309"
+      },
+      "vintage": {
+        "isDefault": false,
+        "id": "425",
+        "vintageName": "ACS2025_Current",
+        "vintageDescription": "ACS2025 Vintage - Current Benchmark"
+      },
+      "benchmark": {
+        "isDefault": true,
+        "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+        "id": "4",
+        "benchmarkName": "Public_AR_Current"
+      }
+    },
+    "addressMatches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "638205663"
+        },
+        "geographies": {
+          "2020 Census Public Use Microdata Areas": [
+            {
+              "GEOID": "5105908",
+              "CENTLAT": "+38.7515007",
+              "AREAWATER": "6125106",
+              "BASENAME": "Fairfax County (Southeast)--Woodlawn, Rose Hill & Mount Vernon",
+              "STATE": "51",
+              "OID": "2177029730526059",
+              "LSADC": "P0",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7503276",
+              "NAME": "Fairfax County (Southeast)--Woodlawn, Rose Hill & Mount Vernon PUMA",
+              "OBJECTID": 1528,
+              "CENTLON": "-077.0906692",
+              "AREALAND": "77507002",
+              "INTPTLON": "-077.0920566",
+              "MTFCC": "G6120",
+              "PUMA": "05908"
+            }
+          ],
+          "2020 Census ZIP Code Tabulation Areas": [
+            {
+              "GEOID": "22309",
+              "CENTLAT": "+38.7192265",
+              "AREAWATER": "2180729",
+              "BASENAME": "22309",
+              "OID": "221704258295843",
+              "ZCTA5": "22309",
+              "LSADC": "Z5",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7203355",
+              "NAME": "ZCTA5 22309",
+              "OBJECTID": 6190,
+              "CENTLON": "-077.1072689",
+              "AREALAND": "19493918",
+              "INTPTLON": "-077.1061545",
+              "MTFCC": "G6350",
+              "ZCTA5CC": "B5"
+            }
+          ],
+          "Urban Areas": [
+            {
+              "GEOID": "92242",
+              "CENTLAT": "+38.8953266",
+              "AREAWATER": "67696923",
+              "BASENAME": "Washington--Arlington, DC--VA--MD",
+              "OID": "27021158105937",
+              "UA": "92242",
+              "LSADC": "67",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.8959429",
+              "NAME": "Washington--Arlington, DC--VA--MD Urban Area",
+              "OBJECTID": 1460,
+              "CENTLON": "-077.1822240",
+              "AREALAND": "3352475823",
+              "INTPTLON": "-077.1830768",
+              "MTFCC": "G3500"
+            }
+          ],
+          "Counties": [
+            {
+              "GEOID": "51059",
+              "CENTLAT": "+38.8344921",
+              "AREAWATER": "40014055",
+              "STATE": "51",
+              "BASENAME": "Fairfax",
+              "OID": "27590241097994",
+              "LSADC": "06",
+              "FUNCSTAT": "A",
+              "INTPTLAT": "+38.8295203",
+              "NAME": "Fairfax County",
+              "OBJECTID": 991,
+              "CENTLON": "-077.2761113",
+              "COUNTYCC": "H1",
+              "COUNTYNS": "01480119",
+              "AREALAND": "1012740195",
+              "INTPTLON": "-077.2732524",
+              "MTFCC": "G4020",
+              "COUNTY": "059"
+            }
+          ],
+          "Unified School Districts": [
+            {
+              "LOGRADE": "PK",
+              "GEOID": "5101260",
+              "CENTLAT": "+38.8344921",
+              "AREAWATER": "40014055",
+              "STATE": "51",
+              "BASENAME": "Fairfax County Public Schools",
+              "OID": "28490241127450",
+              "SDTYP": "",
+              "LSADC": "00",
+              "FUNCSTAT": "E",
+              "INTPTLAT": "+38.8295203",
+              "SDUNI": "01260",
+              "NAME": "Fairfax County Public Schools",
+              "OBJECTID": 6827,
+              "CENTLON": "-077.2761113",
+              "HIGRADE": "12",
+              "AREALAND": "1012740195",
+              "INTPTLON": "-077.2732524",
+              "MTFCC": "G5420"
+            }
+          ],
+          "2024 State Legislative Districts - Upper": [
+            {
+              "GEOID": "51034",
+              "CENTLAT": "+38.7155211",
+              "AREAWATER": "27400544",
+              "STATE": "51",
+              "BASENAME": "34",
+              "OID": "2129035951824231",
+              "SLDU": "034",
+              "LSADC": "LU",
+              "FUNCSTAT": "N",
+              "INTPTLAT": "+38.7146211",
+              "NAME": "State Senate District 34",
+              "OBJECTID": 481,
+              "CENTLON": "-077.1501541",
+              "LSY": "2024",
+              "AREALAND": "203468364",
+              "INTPTLON": "-077.1499401",
+              "MTFCC": "G5210",
+              "LDTYP": "O"
+            }
+          ],
+          "2024 State Legislative Districts - Lower": [
+            {
+              "GEOID": "51016",
+              "CENTLAT": "+38.7410035",
+              "SLDL": "016",
+              "AREAWATER": "5819161",
+              "STATE": "51",
+              "BASENAME": "16",
+              "OID": "2139035951824397",
+              "LSADC": "LL",
+              "FUNCSTAT": "N",
+              "INTPTLAT": "+38.7385489",
+              "NAME": "State House District 16",
+              "OBJECTID": 2170,
+              "CENTLON": "-077.0846297",
+              "LSY": "2024",
+              "AREALAND": "56050656",
+              "INTPTLON": "-077.0828554",
+              "MTFCC": "G5220",
+              "LDTYP": "O"
+            }
+          ],
+          "119th Congressional Districts": [
+            {
+              "GEOID": "5108",
+              "CENTLAT": "+38.7984063",
+              "CDSESSN": "119",
+              "AREAWATER": "29253297",
+              "STATE": "51",
+              "BASENAME": "8",
+              "OID": "2119035951823886",
+              "LSADC": "C2",
+              "FUNCSTAT": "N",
+              "INTPTLAT": "+38.7982990",
+              "NAME": "Congressional District 8",
+              "OBJECTID": 9,
+              "CENTLON": "-077.1364918",
+              "AREALAND": "381276212",
+              "INTPTLON": "-077.1371960",
+              "MTFCC": "G5200"
+            }
+          ],
+          "Metropolitan Divisions": [
+            {
+              "POP100": "",
+              "GEOID": "4790011694",
+              "CENTLAT": "+38.7402844",
+              "AREAWATER": "191262399",
+              "BASENAME": "Arlington-Alexandria-Reston, VA-WV",
+              "OID": "2639034687908154",
+              "LSADC": "M3",
+              "METDIV": "11694",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7419500",
+              "NAME": "Arlington-Alexandria-Reston, VA-WV Metro Division",
+              "CSA": "548",
+              "OBJECTID": 6,
+              "CENTLON": "-077.7218114",
+              "CBSA": "47900",
+              "AREALAND": "10044890280",
+              "INTPTLON": "-077.7169330",
+              "HU100": "",
+              "MTFCC": "G3120"
+            }
+          ],
+          "States": [
+            {
+              "STATENS": "01779803",
+              "GEOID": "51",
+              "CENTLAT": "+37.5182631",
+              "AREAWATER": "8529795937",
+              "STATE": "51",
+              "BASENAME": "Virginia",
+              "STUSAB": "VA",
+              "OID": "2749099610787",
+              "LSADC": "00",
+              "FUNCSTAT": "A",
+              "INTPTLAT": "+37.5222512",
+              "DIVISION": "5",
+              "NAME": "Virginia",
+              "REGION": "3",
+              "OBJECTID": 50,
+              "CENTLON": "-078.6759174",
+              "AREALAND": "102256455003",
+              "INTPTLON": "-078.6681938",
+              "MTFCC": "G4000"
+            }
+          ],
+          "Census Block Groups": [
+            {
+              "GEOID": "510594216003",
+              "CENTLAT": "+38.7353943",
+              "AREAWATER": "0",
+              "STATE": "51",
+              "BASENAME": "3",
+              "OID": "20890241049057",
+              "LSADC": "BG",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7353943",
+              "NAME": "Block Group 3",
+              "OBJECTID": 34371,
+              "TRACT": "421600",
+              "CENTLON": "-077.0989243",
+              "BLKGRP": "3",
+              "AREALAND": "478552",
+              "INTPTLON": "-077.0989243",
+              "MTFCC": "G5030",
+              "COUNTY": "059"
+            }
+          ],
+          "Combined Statistical Areas": [
+            {
+              "POP100": "",
+              "GEOID": "548",
+              "CENTLAT": "+38.9848368",
+              "AREAWATER": "5218521415",
+              "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+              "OID": "2619034687908147",
+              "LSADC": "M0",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.9854484",
+              "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+              "OBJECTID": 156,
+              "CSA": "548",
+              "CENTLON": "-077.2239743",
+              "INTPTLON": "-077.2228175",
+              "AREALAND": "34187347070",
+              "HU100": "",
+              "MTFCC": "G3100"
+            }
+          ],
+          "County Subdivisions": [
+            {
+              "COUSUB": "93633",
+              "GEOID": "5105993633",
+              "CENTLAT": "+38.7696936",
+              "AREAWATER": "780287",
+              "STATE": "51",
+              "BASENAME": "Franconia",
+              "OID": "27690241101607",
+              "LSADC": "27",
+              "FUNCSTAT": "N",
+              "INTPTLAT": "+38.7696495",
+              "NAME": "Franconia district",
+              "OBJECTID": 14067,
+              "CENTLON": "-077.1428935",
+              "COUSUBCC": "Z1",
+              "AREALAND": "71482623",
+              "INTPTLON": "-077.1429192",
+              "MTFCC": "G4040",
+              "COUSUBNS": "01927372",
+              "COUNTY": "059"
+            }
+          ],
+          "Census Designated Places": [
+            {
+              "DISP_CLR": 4,
+              "STGEOMETRY_Area": 9800287.026941434,
+              "NECTAPCI": "N",
+              "GEOID": "5187410",
+              "CENTLAT": "+38.7332274",
+              "AREAWATER": "25413",
+              "BASENAME": "Woodlawn",
+              "STATE": "51",
+              "OID": "280903717241137",
+              "LSADC": "57",
+              "PLACE": "87410",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7328848",
+              "NAME": "Woodlawn CDP",
+              "OBJECTID": 18648,
+              "PLACECC": "U1",
+              "CENTLON": "-077.1148301",
+              "STGEOMETRY_Length": 18866.39331960303,
+              "CBSAPCI": "N",
+              "AREALAND": "5929386",
+              "INTPTLON": "-077.1151704",
+              "PLACENS": "02584939",
+              "MTFCC": "G4210"
+            }
+          ],
+          "Census Divisions": [
+            {
+              "GEOID": "5",
+              "CENTLAT": "+33.7954697",
+              "AREAWATER": "86322320893",
+              "BASENAME": "South Atlantic",
+              "OID": "2739020719808",
+              "LSADC": "69",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+33.7948282",
+              "DIVISION": "5",
+              "REGION": "3",
+              "NAME": "South Atlantic Division",
+              "OBJECTID": 2,
+              "CENTLON": "-080.9687982",
+              "AREALAND": "687142508342",
+              "INTPTLON": "-080.9658812",
+              "MTFCC": "G1200"
+            }
+          ],
+          "Census Regions": [
+            {
+              "GEOID": "3",
+              "CENTLAT": "+33.5118953",
+              "AREAWATER": "148772593044",
+              "BASENAME": "South",
+              "OID": "2729020719822",
+              "LSADC": "68",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+33.5144473",
+              "REGION": "3",
+              "NAME": "South Region",
+              "OBJECTID": 1,
+              "CENTLON": "-090.1228227",
+              "AREALAND": "2249813903076",
+              "INTPTLON": "-090.1228714",
+              "MTFCC": "G1100"
+            }
+          ],
+          "Metropolitan Statistical Areas": [
+            {
+              "POP100": "",
+              "GEOID": "47900",
+              "CENTLAT": "+38.8312021",
+              "AREAWATER": "784736319",
+              "BASENAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+              "OID": "2629034687907926",
+              "LSADC": "M1",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.8297866",
+              "NAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+              "CSA": "548",
+              "OBJECTID": 373,
+              "CENTLON": "-077.4981037",
+              "CBSA": "47900",
+              "AREALAND": "15627121948",
+              "INTPTLON": "-077.4956841",
+              "HU100": "",
+              "MTFCC": "G3110"
+            }
+          ],
+          "Census Tracts": [
+            {
+              "GEOID": "51059421600",
+              "CENTLAT": "+38.7393673",
+              "AREAWATER": "0",
+              "STATE": "51",
+              "BASENAME": "4216",
+              "OID": "20790241117855",
+              "LSADC": "CT",
+              "FUNCSTAT": "S",
+              "INTPTLAT": "+38.7393673",
+              "NAME": "Census Tract 4216",
+              "OBJECTID": 53937,
+              "TRACT": "421600",
+              "CENTLON": "-077.0986647",
+              "AREALAND": "1159764",
+              "INTPTLON": "-077.0986647",
+              "MTFCC": "G5020",
+              "COUNTY": "059"
+            }
+          ]
+        },
+        "coordinates": {
+          "x": -77.10462338876,
+          "y": 38.730961952563
+        },
+        "addressComponents": {
+          "zip": "22309",
+          "streetName": "RICHMOND",
+          "preType": "",
+          "city": "ALEXANDRIA",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "8398",
+          "state": "VA",
+          "suffixType": "HWY",
+          "toAddress": "8308",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "8350 RICHMOND HWY, ALEXANDRIA, VA, 22309"
+      }
+    ]
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "result": {
+    "geographies": {
+      "2020 Census Public Use Microdata Areas": [
+        {
+          "GEOID": "5151000",
+          "CENTLAT": "+38.8184547",
+          "AREAWATER": "1069028",
+          "BASENAME": "Alexandria City",
+          "STATE": "51",
+          "OID": "2177029730526039",
+          "LSADC": "P0",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8192511",
+          "NAME": "Alexandria City PUMA",
+          "OBJECTID": 2008,
+          "CENTLON": "-077.0862029",
+          "AREALAND": "38682331",
+          "INTPTLON": "-077.0836695",
+          "MTFCC": "G6120",
+          "PUMA": "51000"
+        }
+      ],
+      "2020 Census ZIP Code Tabulation Areas": [
+        {
+          "GEOID": "22314",
+          "CENTLAT": "+38.8070832",
+          "AREAWATER": "688091",
+          "BASENAME": "22314",
+          "OID": "221704258296016",
+          "ZCTA5": "22314",
+          "LSADC": "Z5",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8068534",
+          "NAME": "ZCTA5 22314",
+          "OBJECTID": 25400,
+          "CENTLON": "-077.0564058",
+          "AREALAND": "9586886",
+          "INTPTLON": "-077.0563741",
+          "MTFCC": "G6350",
+          "ZCTA5CC": "B5"
+        }
+      ],
+      "Urban Areas": [
+        {
+          "GEOID": "92242",
+          "CENTLAT": "+38.8953266",
+          "AREAWATER": "67696923",
+          "BASENAME": "Washington--Arlington, DC--VA--MD",
+          "OID": "27021158105937",
+          "UA": "92242",
+          "LSADC": "67",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8959429",
+          "NAME": "Washington--Arlington, DC--VA--MD Urban Area",
+          "OBJECTID": 1460,
+          "CENTLON": "-077.1822240",
+          "AREALAND": "3352475823",
+          "INTPTLON": "-077.1830768",
+          "MTFCC": "G3500"
+        }
+      ],
+      "Incorporated Places": [
+        {
+          "DISP_CLR": 2,
+          "STGEOMETRY_Area": 65577435.198896445,
+          "NECTAPCI": "N",
+          "GEOID": "5101000",
+          "CENTLAT": "+38.8184547",
+          "AREAWATER": "1069028",
+          "BASENAME": "Alexandria",
+          "STATE": "51",
+          "OID": "27890316125428",
+          "LSADC": "25",
+          "PLACE": "01000",
+          "FUNCSTAT": "A",
+          "INTPTLAT": "+38.8192511",
+          "NAME": "Alexandria city",
+          "OBJECTID": 30402,
+          "PLACECC": "C7",
+          "CENTLON": "-077.0862029",
+          "STGEOMETRY_Length": 43914.89442537795,
+          "CBSAPCI": "Y",
+          "AREALAND": "38682331",
+          "INTPTLON": "-077.0836695",
+          "PLACENS": "01498415",
+          "MTFCC": "G4110"
+        }
+      ],
+      "Counties": [
+        {
+          "GEOID": "51510",
+          "CENTLAT": "+38.8184547",
+          "AREAWATER": "1069028",
+          "STATE": "51",
+          "BASENAME": "Alexandria",
+          "OID": "27590316036687",
+          "LSADC": "25",
+          "FUNCSTAT": "F",
+          "INTPTLAT": "+38.8192511",
+          "NAME": "Alexandria city",
+          "OBJECTID": 1052,
+          "CENTLON": "-077.0862029",
+          "COUNTYCC": "C7",
+          "COUNTYNS": "01498415",
+          "AREALAND": "38682331",
+          "INTPTLON": "-077.0836695",
+          "MTFCC": "G4020",
+          "COUNTY": "510"
+        }
+      ],
+      "Unified School Districts": [
+        {
+          "LOGRADE": "PK",
+          "GEOID": "5100120",
+          "CENTLAT": "+38.8184547",
+          "AREAWATER": "1069028",
+          "STATE": "51",
+          "BASENAME": "Alexandria City Public Schools",
+          "OID": "28490316178097",
+          "SDTYP": "",
+          "LSADC": "00",
+          "FUNCSTAT": "E",
+          "INTPTLAT": "+38.8192511",
+          "SDUNI": "00120",
+          "NAME": "Alexandria City Public Schools",
+          "OBJECTID": 6594,
+          "CENTLON": "-077.0862029",
+          "HIGRADE": "12",
+          "AREALAND": "38682331",
+          "INTPTLON": "-077.0836695",
+          "MTFCC": "G5420"
+        }
+      ],
+      "2024 State Legislative Districts - Upper": [
+        {
+          "GEOID": "51039",
+          "CENTLAT": "+38.8283018",
+          "AREAWATER": "1341678",
+          "STATE": "51",
+          "BASENAME": "39",
+          "OID": "2129035951824205",
+          "SLDU": "039",
+          "LSADC": "LU",
+          "FUNCSTAT": "N",
+          "INTPTLAT": "+38.8292515",
+          "NAME": "State Senate District 39",
+          "OBJECTID": 1415,
+          "CENTLON": "-077.0867794",
+          "LSY": "2024",
+          "AREALAND": "53955757",
+          "INTPTLON": "-077.0941111",
+          "MTFCC": "G5210",
+          "LDTYP": "O"
+        }
+      ],
+      "2024 State Legislative Districts - Lower": [
+        {
+          "GEOID": "51005",
+          "CENTLAT": "+38.8131620",
+          "SLDL": "005",
+          "AREAWATER": "968175",
+          "STATE": "51",
+          "BASENAME": "5",
+          "OID": "2139035951824421",
+          "LSADC": "LL",
+          "FUNCSTAT": "N",
+          "INTPTLAT": "+38.8121671",
+          "NAME": "State House District 5",
+          "OBJECTID": 4388,
+          "CENTLON": "-077.0726164",
+          "LSY": "2024",
+          "AREALAND": "22175407",
+          "INTPTLON": "-077.0724184",
+          "MTFCC": "G5220",
+          "LDTYP": "O"
+        }
+      ],
+      "119th Congressional Districts": [
+        {
+          "GEOID": "5108",
+          "CENTLAT": "+38.7984063",
+          "CDSESSN": "119",
+          "AREAWATER": "29253297",
+          "STATE": "51",
+          "BASENAME": "8",
+          "OID": "2119035951823886",
+          "LSADC": "C2",
+          "FUNCSTAT": "N",
+          "INTPTLAT": "+38.7982990",
+          "NAME": "Congressional District 8",
+          "OBJECTID": 9,
+          "CENTLON": "-077.1364918",
+          "AREALAND": "381276212",
+          "INTPTLON": "-077.1371960",
+          "MTFCC": "G5200"
+        }
+      ],
+      "Metropolitan Divisions": [
+        {
+          "POP100": "",
+          "GEOID": "4790011694",
+          "CENTLAT": "+38.7402844",
+          "AREAWATER": "191262399",
+          "BASENAME": "Arlington-Alexandria-Reston, VA-WV",
+          "OID": "2639034687908154",
+          "LSADC": "M3",
+          "METDIV": "11694",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.7419500",
+          "NAME": "Arlington-Alexandria-Reston, VA-WV Metro Division",
+          "CSA": "548",
+          "OBJECTID": 6,
+          "CENTLON": "-077.7218114",
+          "CBSA": "47900",
+          "AREALAND": "10044890280",
+          "INTPTLON": "-077.7169330",
+          "HU100": "",
+          "MTFCC": "G3120"
+        }
+      ],
+      "States": [
+        {
+          "STATENS": "01779803",
+          "GEOID": "51",
+          "CENTLAT": "+37.5182631",
+          "AREAWATER": "8529795937",
+          "STATE": "51",
+          "BASENAME": "Virginia",
+          "STUSAB": "VA",
+          "OID": "2749099610787",
+          "LSADC": "00",
+          "FUNCSTAT": "A",
+          "INTPTLAT": "+37.5222512",
+          "DIVISION": "5",
+          "NAME": "Virginia",
+          "REGION": "3",
+          "OBJECTID": 50,
+          "CENTLON": "-078.6759174",
+          "AREALAND": "102256455003",
+          "INTPTLON": "-078.6681938",
+          "MTFCC": "G4000"
+        }
+      ],
+      "Census Block Groups": [
+        {
+          "GEOID": "515102019001",
+          "CENTLAT": "+38.8044640",
+          "AREAWATER": "18020",
+          "STATE": "51",
+          "BASENAME": "1",
+          "OID": "20890315911171",
+          "LSADC": "BG",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8041405",
+          "NAME": "Block Group 1",
+          "OBJECTID": 20514,
+          "TRACT": "201900",
+          "CENTLON": "-077.0446598",
+          "BLKGRP": "1",
+          "AREALAND": "305350",
+          "INTPTLON": "-077.0443046",
+          "MTFCC": "G5030",
+          "COUNTY": "510"
+        }
+      ],
+      "Combined Statistical Areas": [
+        {
+          "POP100": "",
+          "GEOID": "548",
+          "CENTLAT": "+38.9848368",
+          "AREAWATER": "5218521415",
+          "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+          "OID": "2619034687908147",
+          "LSADC": "M0",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.9854484",
+          "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+          "OBJECTID": 156,
+          "CSA": "548",
+          "CENTLON": "-077.2239743",
+          "INTPTLON": "-077.2228175",
+          "AREALAND": "34187347070",
+          "HU100": "",
+          "MTFCC": "G3100"
+        }
+      ],
+      "County Subdivisions": [
+        {
+          "COUSUB": "90020",
+          "GEOID": "5151090020",
+          "CENTLAT": "+38.8184547",
+          "AREAWATER": "1069028",
+          "STATE": "51",
+          "BASENAME": "Alexandria",
+          "OID": "27690316098436",
+          "LSADC": "25",
+          "FUNCSTAT": "F",
+          "INTPTLAT": "+38.8192511",
+          "NAME": "Alexandria city",
+          "OBJECTID": 3520,
+          "CENTLON": "-077.0862029",
+          "COUSUBCC": "Z7",
+          "AREALAND": "38682331",
+          "INTPTLON": "-077.0836695",
+          "MTFCC": "G4040",
+          "COUSUBNS": "01498415",
+          "COUNTY": "510"
+        }
+      ],
+      "Census Divisions": [
+        {
+          "GEOID": "5",
+          "CENTLAT": "+33.7954697",
+          "AREAWATER": "86322320893",
+          "BASENAME": "South Atlantic",
+          "OID": "2739020719808",
+          "LSADC": "69",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+33.7948282",
+          "DIVISION": "5",
+          "REGION": "3",
+          "NAME": "South Atlantic Division",
+          "OBJECTID": 2,
+          "CENTLON": "-080.9687982",
+          "AREALAND": "687142508342",
+          "INTPTLON": "-080.9658812",
+          "MTFCC": "G1200"
+        }
+      ],
+      "Census Regions": [
+        {
+          "GEOID": "3",
+          "CENTLAT": "+33.5118953",
+          "AREAWATER": "148772593044",
+          "BASENAME": "South",
+          "OID": "2729020719822",
+          "LSADC": "68",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+33.5144473",
+          "REGION": "3",
+          "NAME": "South Region",
+          "OBJECTID": 1,
+          "CENTLON": "-090.1228227",
+          "AREALAND": "2249813903076",
+          "INTPTLON": "-090.1228714",
+          "MTFCC": "G1100"
+        }
+      ],
+      "Metropolitan Statistical Areas": [
+        {
+          "POP100": "",
+          "GEOID": "47900",
+          "CENTLAT": "+38.8312021",
+          "AREAWATER": "784736319",
+          "BASENAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+          "OID": "2629034687907926",
+          "LSADC": "M1",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8297866",
+          "NAME": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+          "CSA": "548",
+          "OBJECTID": 373,
+          "CENTLON": "-077.4981037",
+          "CBSA": "47900",
+          "AREALAND": "15627121948",
+          "INTPTLON": "-077.4956841",
+          "HU100": "",
+          "MTFCC": "G3110"
+        }
+      ],
+      "Census Tracts": [
+        {
+          "GEOID": "51510201900",
+          "CENTLAT": "+38.8050424",
+          "AREAWATER": "18020",
+          "STATE": "51",
+          "BASENAME": "2019",
+          "OID": "20790316152105",
+          "LSADC": "CT",
+          "FUNCSTAT": "S",
+          "INTPTLAT": "+38.8049862",
+          "NAME": "Census Tract 2019",
+          "OBJECTID": 34141,
+          "TRACT": "201900",
+          "CENTLON": "-077.0509335",
+          "AREALAND": "691378",
+          "INTPTLON": "-077.0509460",
+          "MTFCC": "G5020",
+          "COUNTY": "510"
+        }
+      ]
+    },
+    "input": {
+      "vintage": {
+        "isDefault": false,
+        "id": "425",
+        "vintageName": "ACS2025_Current",
+        "vintageDescription": "ACS2025 Vintage - Current Benchmark"
+      },
+      "location": {
+        "x": -77.0426068878,
+        "y": 38.80457010077
+      },
+      "benchmark": {
+        "isDefault": true,
+        "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+        "id": "4",
+        "benchmarkName": "Public_AR_Current"
+      }
+    }
+  }
+}
