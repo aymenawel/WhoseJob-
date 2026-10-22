@@ -60,8 +60,9 @@ export function composeReport(input: {
   return { subject: t(locale, "report.subject", { issue, where: shortPlace(input.checks, input.address) }), body: lines.join("\n") };
 }
 
-export function mailtoUrl(to: string, msg: Message): string {
-  return `mailto:${to}?subject=${encodeURIComponent(msg.subject)}&body=${encodeURIComponent(msg.body)}`;
+/** With no known address, the draft opens with an empty "To" for the resident to fill. */
+export function mailtoUrl(to: string | null, msg: Message): string {
+  return `mailto:${to ?? ""}?subject=${encodeURIComponent(msg.subject)}&body=${encodeURIComponent(msg.body)}`;
 }
 
 // Deliberately asks only for a description: no SSN, case number or medical

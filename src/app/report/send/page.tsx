@@ -89,12 +89,10 @@ export default function SendStep() {
               {t("send.form")}
             </PrimaryButton>
           )}
-          {office.email && (
-            <PrimaryButton variant="secondary" href={mailtoUrl(office.email, msg)}>
-              <Icon name="mail" />
-              {t("send.email")}
-            </PrimaryButton>
-          )}
+          <PrimaryButton variant="secondary" href={mailtoUrl(office.email, msg)}>
+            <Icon name="mail" />
+            {t("send.email")}
+          </PrimaryButton>
           {office.phone && (
             <PrimaryButton variant="secondary" href={`tel:${office.phone.replace(/[^\d+]/g, "")}`}>
               <Icon name="call" />

@@ -68,6 +68,12 @@ describe("mailtoUrl", () => {
   });
 });
 
+describe("mailtoUrl without a known office email", () => {
+  test("opens a draft with no recipient so the resident can address it", () => {
+    expect(mailtoUrl(null, { subject: "Pothole", body: "Hi" })).toBe("mailto:?subject=Pothole&body=Hi");
+  });
+});
+
 describe("composeCasework", () => {
   const member = memberForDistrict("VA-08")!;
 

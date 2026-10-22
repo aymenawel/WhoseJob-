@@ -127,6 +127,18 @@ describe("GET /api/resolve", () => {
     expect(res.status).toBe(400);
   });
 
+  test("an answer that used backup data is not cached, so the next resident gets a fresh check", async () => {
+    const res = await handleResolve(new Request(`http://localhost/api/resolve?lat=${LAT}&lon=${LON}`), async (lat, lon) => ({
+      point: { lat, lon },
+      district: { id: "VA-08", inCoverage: true },
+      locality: { id: "arlington", name: "Arlington County" },
+      road: null,
+      streetlight: null,
+      fallbacks: ["streetlight"],
+    }));
+    expect(res.headers.get("Cache-Control")).toBe("no-store");
+  });
+
   test("valid coordinates return the checks", async () => {
     const res = await handleResolve(new Request(`http://localhost/api/resolve?lat=${LAT}&lon=${LON}`), async (lat, lon) => ({
       point: { lat, lon },
