@@ -3,6 +3,12 @@ import type { IssueId, Level, LightOwner, LocalityId, Localized, RoadOwner } fro
 export type OwnerValue = RoadOwner | LightOwner;
 export type LocalIssueId = Exclude<IssueId, "federal">;
 
+/**
+ * A form for one kind of problem. `url` may hold {place}, filled with the
+ * address (or nearest road); a parameter whose value is missing is dropped.
+ */
+export type OfficeForm = { url: string; steps: Localized; verified: string | null };
+
 export type Office = {
   name: Localized;
   detail: Localized | null;
@@ -11,6 +17,8 @@ export type Office = {
   formUrl: string | null;
   email: string | null;
   hours: Localized | null;
+  /** The office's form for each problem type, deeper than `formUrl`. */
+  forms?: Partial<Record<IssueId, OfficeForm>>;
   source: string;
   verified: string | null;
 };
@@ -80,6 +88,14 @@ export function validateRules(rulesJson: unknown, officesJson: unknown): { rules
     if (!isObj(o)) fail(`offices.${id}`, "expected an office object");
     checkLocalized(o.name, `offices.${id}.name`);
     if (!LEVELS.includes(o.level as Level)) fail(`offices.${id}.level`, "must be local, state, utility or federal");
+    if (o.forms !== undefined) {
+      if (!isObj(o.forms)) fail(`offices.${id}.forms`, "expected an object");
+      for (const [issue, f] of Object.entries(o.forms)) {
+        const p = `offices.${id}.forms.${issue}`;
+        if (!isObj(f) || typeof f.url !== "string" || !f.url.startsWith("https://")) fail(`${p}.url`, "needs an https:// link");
+        checkLocalized(f.steps, `${p}.steps`);
+      }
+    }
   }
   const offices = officesJson as Record<string, Office>;
 

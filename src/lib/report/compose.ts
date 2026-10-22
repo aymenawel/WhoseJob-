@@ -7,7 +7,7 @@ export type CaseworkTopic = "passport" | "va" | "social-security" | "irs" | "imm
 type Message = { subject: string; body: string };
 
 /** "Wilson BLVD (PR - Arlington County)" → "Wilson Blvd"; route codes like "VA-244E" stay as they are. */
-function prettyRoad(name: string): string {
+export function prettyRoad(name: string): string {
   return name
     .replace(/\s*\(.*\)\s*$/, "")
     .split(" ")

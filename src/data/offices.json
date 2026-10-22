@@ -17,7 +17,65 @@
       "es": "lun–vie, 7 a.m.–7 p.m."
     },
     "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "pothole": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=395&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "signal": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=466&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "sign-traffic": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=34099&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "sign-street-name": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=34099&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "flooding": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=15684&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "trash": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=330&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "abandoned-car": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=166677&location={place}",
+        "steps": {
+          "en": "The form opens on this problem with the location filled in. Paste your report into Comments and add your photo.",
+          "es": "El formulario se abre en este problema con el lugar ya escrito. Pegue su reporte en Comments y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "arlington-streetlights": {
     "name": {
@@ -37,7 +95,17 @@
       "es": "lun–vie, 7 a.m.–7 p.m."
     },
     "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Streetlights",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "streetlight": {
+        "url": "https://arlingtonva.qscend.com/311/request/add?typeId=499&location={place}",
+        "steps": {
+          "en": "The streetlight form opens with the location filled in. Paste your report into Comments; it includes the pole number.",
+          "es": "Se abre el formulario de alumbrado con el lugar ya escrito. Pegue su reporte en Comments; incluye el número del poste."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "alexandria-311": {
     "name": {
@@ -54,7 +122,73 @@
     "email": null,
     "hours": null,
     "source": "https://www.alexandriava.gov/news-tes/2026-03-22/city-of-alexandria-announces-the-return-of-seasonal-street-sweeping-pothole",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "pothole": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “pothole”, tap Potholes, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “pothole”, toque Potholes, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "streetlight": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “streetlight”, tap the streetlight request, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “streetlight”, toque the streetlight request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "signal": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “traffic light”, tap Traffic Light/Signal (Existing), then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “traffic light”, toque Traffic Light/Signal (Existing), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "sign-traffic": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “sign”, tap the sign request, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “sign”, toque the sign request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "sign-street-name": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “sign”, tap the sign request, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “sign”, toque the sign request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "flooding": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “storm”, tap the storm drain request, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “storm”, toque the storm drain request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "trash": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “trash”, tap Missed Collection, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “trash”, toque Missed Collection, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      },
+      "abandoned-car": {
+        "url": "https://alex311.alexandriava.gov/customer/s/",
+        "steps": {
+          "en": "In “All requests”, search “abandoned”, tap the abandoned vehicle request, then Request This Service and Continue as guest. Paste your report and add your photo.",
+          "es": "En “All requests”, busque “abandoned”, toque the abandoned vehicle request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+        },
+        "verified": null
+      }
+    }
   },
   "falls-church-dpw": {
     "name": {
@@ -71,7 +205,65 @@
     "email": null,
     "hours": null,
     "source": "https://www.fallschurchva.gov/155/Public-Works",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "pothole": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=75",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "signal": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=80",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "sign-traffic": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=78",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "sign-street-name": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=78",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "flooding": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=106",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "trash": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=82",
+        "steps": {
+          "en": "The city's form for this problem opens. Paste your report into the description and add your photo.",
+          "es": "Se abre el formulario de la ciudad para este problema. Pegue su reporte en la descripción y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "abandoned-car": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=104",
+        "steps": {
+          "en": "The city's abandoned-vehicle form (a police form) opens. Paste your report and add your photo.",
+          "es": "Se abre el formulario de vehículos abandonados de la ciudad (de la policía). Pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "falls-church-streetlights": {
     "name": {
@@ -91,7 +283,17 @@
       "es": "lun–vie, 8 a.m.–5 p.m."
     },
     "source": "https://www.fallschurchva.gov/forms.aspx?fid=77",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "streetlight": {
+        "url": "https://www.fallschurchva.gov/forms.aspx?fid=77",
+        "steps": {
+          "en": "The city's streetlight form opens. It asks for the light's ID, which is in your report; paste the rest into the description.",
+          "es": "Se abre el formulario de alumbrado de la ciudad. Pide el número de la luz, que está en su reporte; pegue el resto en la descripción."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "fairfax-main": {
     "name": {
@@ -108,7 +310,25 @@
     "email": null,
     "hours": null,
     "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
-    "verified": null
+    "verified": null,
+    "forms": {
+      "flooding": {
+        "url": "https://www.fairfaxcounty.gov/publicworks/stormwater/contact-msmd-form",
+        "steps": {
+          "en": "Fairfax County's storm drain and flooding form opens. Paste your report and add your photo.",
+          "es": "Se abre el formulario de desagües e inundaciones del Condado de Fairfax. Pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "trash": {
+        "url": "https://www.fairfaxcounty.gov/publicworks/recycling-trash/solid-waste-feedback-form",
+        "steps": {
+          "en": "Fairfax County's missed pickup form opens. Paste your report.",
+          "es": "Se abre el formulario de recolección no realizada del Condado de Fairfax. Pegue su reporte."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "fairfax-sign-shop": {
     "name": {
@@ -125,7 +345,17 @@
     "email": null,
     "hours": null,
     "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "sign-street-name": {
+        "url": "https://www.fairfaxcounty.gov/publicworks/street-name-sign-maintenance-form",
+        "steps": {
+          "en": "Fairfax County's street name sign form opens. Paste your report and add your photo.",
+          "es": "Se abre el formulario de letreros con nombres de calles del Condado de Fairfax. Pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "vdot": {
     "name": {
@@ -145,7 +375,41 @@
       "es": "24 horas"
     },
     "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "pothole": {
+        "url": "https://my.vdot.virginia.gov/",
+        "steps": {
+          "en": "Agree to VDOT's notice, choose the problem type, then paste your report and add your photo.",
+          "es": "Acepte el aviso de VDOT, elija el tipo de problema y luego pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "signal": {
+        "url": "https://my.vdot.virginia.gov/",
+        "steps": {
+          "en": "Agree to VDOT's notice, choose the problem type, then paste your report and add your photo.",
+          "es": "Acepte el aviso de VDOT, elija el tipo de problema y luego pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "sign-traffic": {
+        "url": "https://my.vdot.virginia.gov/",
+        "steps": {
+          "en": "Agree to VDOT's notice, choose the problem type, then paste your report and add your photo.",
+          "es": "Acepte el aviso de VDOT, elija el tipo de problema y luego pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      },
+      "flooding": {
+        "url": "https://my.vdot.virginia.gov/",
+        "steps": {
+          "en": "Agree to VDOT's notice, choose the problem type, then paste your report and add your photo.",
+          "es": "Acepte el aviso de VDOT, elija el tipo de problema y luego pegue su reporte y agregue su foto."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "dominion": {
     "name": {
@@ -162,7 +426,17 @@
     "email": null,
     "hours": null,
     "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Streetlights",
-    "verified": "2026-10-21"
+    "verified": "2026-10-21",
+    "forms": {
+      "streetlight": {
+        "url": "https://www.dominionenergy.com/virginia/report-outage-or-emergency/streetlight-and-watchlight-outages",
+        "steps": {
+          "en": "Dominion's streetlight form opens. Enter the pole number from your report and the nearest address, then paste the rest.",
+          "es": "Se abre el formulario de alumbrado de Dominion. Escriba el número del poste de su reporte y la dirección más cercana, y pegue el resto."
+        },
+        "verified": "2026-10-22"
+      }
+    }
   },
   "novec": {
     "name": {
