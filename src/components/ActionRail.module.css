@@ -1,0 +1,55 @@
+.rail {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+}
+
+.action {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  min-width: 64px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  background: var(--scrim);
+  border: 2px solid rgb(255 255 255 / 0.35);
+  transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
+}
+
+/* Labels get their own dark backing so they stay readable over bright photos. */
+.label {
+  padding: 1px 7px;
+  border-radius: 6px;
+  background: var(--scrim);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.action:active .icon {
+  transform: scale(0.94);
+}
+
+.action:hover .icon {
+  background: rgb(0 0 0 / 0.8);
+}
+
+.action:focus-visible {
+  outline: none;
+}
+
+.action:focus-visible .icon {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}

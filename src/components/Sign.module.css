@@ -1,0 +1,46 @@
+.sign {
+  background: var(--guide);
+  border-radius: var(--radius-sign);
+  padding: 5px;
+}
+
+.inset {
+  border: 3px solid var(--white);
+  border-radius: calc(var(--radius-sign) - 4px);
+  padding: 12px 14px 14px;
+}
+
+.kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  font-size: var(--text-sm);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.office {
+  font-size: var(--text-sign);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.arrow {
+  flex: none;
+  stroke-width: 3;
+}
+
+.detail {
+  margin-top: 6px;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}

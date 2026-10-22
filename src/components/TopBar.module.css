@@ -1,0 +1,49 @@
+.bar {
+  position: relative;
+  z-index: 10;
+  padding: 12px var(--gutter) 14px;
+  background: var(--ground);
+}
+
+/* Over a photo: a flat dark band keeps the wordmark readable on any image. */
+.overlay {
+  position: absolute;
+  inset: 0 0 auto 0;
+  background: rgb(0 0 0 / 0.55);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mark {
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.progress {
+  margin-top: 10px;
+}
+
+.segments {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+
+.segments span {
+  height: 5px;
+  border-radius: 3px;
+  background: rgb(255 255 255 / 0.3);
+}
+
+.segments .on {
+  background: var(--white);
+}

@@ -1,0 +1,44 @@
+.marker {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 3px 9px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.district,
+.federal {
+  background: var(--white);
+  color: var(--ink);
+}
+
+.local {
+  background: var(--local);
+  color: var(--white);
+}
+
+.state {
+  background: var(--white);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+}
+
+.utility {
+  background: var(--utility);
+  color: var(--ink);
+}
+
+.unknown {
+  background: var(--surface-2);
+  color: var(--white);
+}
+
+/* The check that decided the answer: a white ring, like a highlighted route. */
+.decided {
+  outline: 3px solid var(--white);
+  outline-offset: 2px;
+}

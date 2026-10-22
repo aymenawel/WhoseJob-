@@ -1,0 +1,57 @@
+.marker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.md {
+  font-size: var(--text-sm);
+}
+
+.sm {
+  font-size: 14px;
+  gap: 8px;
+}
+
+.shape {
+  flex: none;
+  display: inline-block;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: var(--local);
+  box-shadow: 0 0 0 2px var(--white);
+}
+
+.plate {
+  width: 26px;
+  height: 18px;
+  border-radius: 3px;
+  background: var(--white);
+  border: 3px solid var(--ink);
+  box-shadow: 0 0 0 2px var(--white);
+}
+
+.diamond {
+  width: 17px;
+  height: 17px;
+  margin: 0 3px;
+  transform: rotate(45deg);
+  background: var(--utility);
+  border: 2px solid var(--ink);
+  box-shadow: 0 0 0 2px var(--white);
+}
+
+.shield {
+  width: 20px;
+  height: 22px;
+}
+
+.label {
+  min-width: 0;
+}
