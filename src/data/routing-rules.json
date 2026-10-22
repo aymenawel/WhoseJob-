@@ -308,10 +308,11 @@
       },
       "streetlight": {
         "decidedBy": "streetlight",
-        "byValue": { "dominion": "dominion", "novec": "novec" },
+        "byValue": { "dominion": "dominion", "novec": "novec", "county": "fairfax-main" },
         "default": "dominion",
         "notOffice": { "dominion": "fairfax-main", "novec": "fairfax-main", "default": "fairfax-main" },
         "why": {
+          "county": { "en": "This light isn't marked as Dominion's. Fairfax County can find out who owns it and pass your report on.", "es": "Esta luz no está marcada como de Dominion. El Condado de Fairfax puede averiguar de quién es y pasar su reporte." },
           "dominion": { "en": "In Fairfax County, streetlights are repaired by the power company. This one is Dominion Energy's.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de Dominion Energy." },
           "novec": { "en": "In Fairfax County, streetlights are repaired by the power company. This one is NOVEC's.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica. Esta luz es de NOVEC." },
           "default": { "en": "In Fairfax County, streetlights are repaired by the power company, usually Dominion Energy.", "es": "En el Condado de Fairfax, el alumbrado lo repara la compañía eléctrica, normalmente Dominion Energy." }

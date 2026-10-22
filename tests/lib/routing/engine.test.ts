@@ -62,6 +62,11 @@ describe("route", () => {
     expect(run("federal", outside)).toEqual({ kind: "out-of-coverage", districtId: "VA-04" });
   });
 
+  test("outside VA-08 with the district unknown (Census down) is out of coverage, district unnamed", () => {
+    const outside = checks({ district: { id: "", inCoverage: false }, locality: { id: "fairfax", name: "Fairfax County" } });
+    expect(run("pothole", outside)).toEqual({ kind: "out-of-coverage", districtId: null });
+  });
+
   test("a federal issue in VA-08 goes to the Member's district office", () => {
     expect(run("federal", checks({}))).toMatchObject({
       kind: "routed",
@@ -83,5 +88,17 @@ describe("pole-tag answer: not sure", () => {
   test("skipPoleTag routes an unknown light to the rule's default office", () => {
     const r = route("streetlight", checks({ streetlight: { owner: "unknown", distanceM: 7 } }), rules, offices, { skipPoleTag: true });
     expect(r).toMatchObject({ kind: "routed", office: "arlington-streetlights", decidedBy: "streetlight" });
+  });
+});
+
+describe("pole-tag answer: no, it doesn't say Dominion", () => {
+  test.each([
+    ["arlington", "county", "arlington-streetlights"],
+    ["alexandria", "city", "alexandria-311"],
+    ["falls-church", "city", "falls-church-streetlights"],
+    ["fairfax", "county", "fairfax-main"],
+  ] as const)("%s: a light that isn't Dominion's never routes to Dominion", (id, owner, office) => {
+    const r = route("streetlight", checks({ locality: { id, name: id }, streetlight: { owner, distanceM: 0 } }), rules, offices);
+    expect(r).toMatchObject({ kind: "routed", office });
   });
 });

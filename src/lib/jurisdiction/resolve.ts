@@ -24,8 +24,8 @@ function fromBundledBoundaries(lat: number, lon: number): { district: Checks["di
     (f: Feature<Polygon | MultiPolygon, { id: LocalityId; name: string }>) => booleanPointInPolygon(pt, f),
   );
   return {
-    // Outside VA-08 we can't name the district without the Census, so leave it unknown.
-    district: inVa08 ? { id: COVERED_DISTRICT, inCoverage: true } : null,
+    // Outside VA-08 we can't name the district without the Census, but we do know it isn't ours.
+    district: inVa08 ? { id: COVERED_DISTRICT, inCoverage: true } : { id: "", inCoverage: false },
     locality: hit ? { id: hit.properties.id, name: hit.properties.name } : null,
   };
 }
@@ -39,7 +39,9 @@ export async function resolveChecks(lat: number, lon: number, deps: Deps = {}): 
   let locality: Locality | null;
   try {
     const census = await withTimeout(lookupPoint(lat, lon, fetchFn), timeoutMs);
-    district = census.districtId ? { id: census.districtId, inCoverage: census.districtId === COVERED_DISTRICT } : null;
+    district = census.districtId
+      ? { id: census.districtId, inCoverage: census.districtId === COVERED_DISTRICT }
+      : fromBundledBoundaries(lat, lon).district;
     locality = census.locality;
   } catch {
     ({ district, locality } = fromBundledBoundaries(lat, lon));

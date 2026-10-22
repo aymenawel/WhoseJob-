@@ -6,7 +6,7 @@ import { TopBar } from "@/components/TopBar";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon } from "@/components/Icon";
 import { useFlow } from "@/lib/flow/context";
-import { readPhotoGps } from "@/lib/flow/state";
+import { readPhotoGps, startReport } from "@/lib/flow/state";
 import { useLocale } from "@/lib/i18n/locale";
 import s from "../step.module.css";
 
@@ -19,10 +19,12 @@ export default function PhotoStep() {
   async function onFile(file: File | undefined) {
     if (!file) return;
     if (flow.photoUrl) URL.revokeObjectURL(flow.photoUrl);
-    flow.set({ photoUrl: URL.createObjectURL(file) });
+    const photoUrl = URL.createObjectURL(file);
+    // A new photo starts a new report: drop the previous spot until we know this one's.
+    flow.set(startReport(photoUrl, null));
     setStatus("reading");
     const point = await readPhotoGps(file);
-    if (point) flow.set({ point });
+    flow.set(startReport(photoUrl, point));
     setStatus(point ? "found" : "none");
   }
 
@@ -61,7 +63,13 @@ export default function PhotoStep() {
               {t("photo.next")}
             </PrimaryButton>
           ) : (
-            <PrimaryButton variant="secondary" onClick={() => router.push("/report/issue")}>
+            <PrimaryButton
+              variant="secondary"
+              onClick={() => {
+                flow.set(startReport(null, null));
+                router.push("/report/issue");
+              }}
+            >
               {t("photo.skip")}
             </PrimaryButton>
           )}

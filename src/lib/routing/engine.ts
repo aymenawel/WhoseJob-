@@ -24,7 +24,7 @@ function decide(rule: Rule, value: OwnerValue | undefined, offices: Record<strin
 export function route(issue: IssueId, checks: Checks, rules: RulesFile, offices: Record<string, Office>, opts: Options = {}): Route {
   // Never route a spot outside the district we have rules for.
   if (checks.district?.inCoverage === false || !checks.locality) {
-    return { kind: "out-of-coverage", districtId: checks.district?.id ?? null };
+    return { kind: "out-of-coverage", districtId: checks.district?.id || null };
   }
   if (issue === "federal") return decide(rules.federal, undefined, offices);
 

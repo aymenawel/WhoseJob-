@@ -32,3 +32,11 @@ export async function readPhotoGps(file: File): Promise<Point | null> {
     return null;
   }
 }
+
+/**
+ * Patch for step 1 of a new report: nothing from the previous report (its
+ * spot, checks or issue) may carry over into this one.
+ */
+export function startReport(photoUrl: string | null, point: Point | null): Partial<FlowState> {
+  return { photoUrl, point, address: null, issue: null, checks: null };
+}

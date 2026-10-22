@@ -2,7 +2,7 @@ import { describe, expect, test, vi } from "vitest";
 
 vi.mock("exifr", () => ({ default: { gps: vi.fn() } }));
 import exifr from "exifr";
-import { flowReducer, initialFlow, readPhotoGps } from "@/lib/flow/state";
+import { flowReducer, initialFlow, readPhotoGps, startReport } from "@/lib/flow/state";
 import type { Checks } from "@/lib/types";
 
 const gps = exifr.gps as unknown as ReturnType<typeof vi.fn>;
@@ -43,5 +43,18 @@ describe("flowReducer", () => {
     const s = flowReducer({ ...initialFlow, point: { lat: 1, lon: 2 }, checks, issue: "pothole" }, { issue: "streetlight" });
     expect(s.checks).toBe(checks);
     expect(s.issue).toBe("streetlight");
+  });
+});
+
+describe("startReport", () => {
+  test("starting a new report drops the previous report's spot, checks and issue", () => {
+    const old = { ...initialFlow, point: { lat: 1, lon: 2 }, address: "old", issue: "pothole" as const, checks: { point: { lat: 1, lon: 2 } } as Checks };
+    const s = flowReducer(old, startReport(null, null));
+    expect(s).toMatchObject({ point: null, address: null, issue: null, checks: null, photoUrl: null });
+  });
+
+  test("a new photo with GPS starts the report at the photo's spot", () => {
+    const s = flowReducer(initialFlow, startReport("blob:x", { lat: 38.9, lon: -77.1 }));
+    expect(s).toMatchObject({ photoUrl: "blob:x", point: { lat: 38.9, lon: -77.1 }, checks: null, issue: null });
   });
 });

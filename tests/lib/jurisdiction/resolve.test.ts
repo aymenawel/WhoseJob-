@@ -60,6 +60,22 @@ describe("resolveChecks", () => {
     expect(checks.streetlight?.owner).toBe("dominion");
   });
 
+  test("Census down and the spot is outside VA-08 (Reston, Fairfax County): out of coverage, no local lookups", async () => {
+    const { fn, calls } = fakeFetch({ census: "hang" });
+    const checks = await resolveChecks(38.9586, -77.357, { fetchFn: fn, timeoutMs: 50 });
+    expect(checks.district).toEqual({ id: "", inCoverage: false });
+    expect(checks.fallbacks).toContain("census");
+    expect(calls.every((u) => u.includes("geocoding.geo.census.gov"))).toBe(true);
+  });
+
+  test("Census answers without a district: the bundled VA-08 outline decides", async () => {
+    const noDistrict = JSON.parse(JSON.stringify(ptArlington));
+    for (const k of Object.keys(noDistrict.result.geographies)) if (k.includes("Congressional")) delete noDistrict.result.geographies[k];
+    const { fn } = fakeFetch({ ...arlingtonReplies, census: noDistrict });
+    const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
+    expect(checks.district).toEqual({ id: "VA-08", inCoverage: true });
+  });
+
   test("Census erroring falls back the same way", async () => {
     const { fn } = fakeFetch({ ...arlingtonReplies, census: new Error("503") });
     const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
