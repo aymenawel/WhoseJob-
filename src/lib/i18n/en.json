@@ -1,0 +1,35 @@
+{
+  "issue.pothole": "Pothole or road damage",
+  "issue.streetlight": "Streetlight out",
+  "issue.signal": "Traffic signal broken",
+  "issue.sign-traffic": "Stop, yield or speed sign",
+  "issue.sign-street-name": "Street name sign",
+  "issue.flooding": "Flooding or drainage",
+  "issue.trash": "Trash or recycling",
+  "issue.abandoned-car": "Abandoned car",
+  "issue.federal": "Federal agency problem",
+
+  "topic.passport": "a passport",
+  "topic.va": "a VA claim or benefit",
+  "topic.social-security": "Social Security",
+  "topic.irs": "the IRS",
+  "topic.immigration": "an immigration case",
+  "topic.other": "a federal agency",
+
+  "report.subject": "{issue} at {where}",
+  "report.greeting": "Hello {office},",
+  "report.intro": "I'd like to report a problem: {issue}.",
+  "report.location": "Location: {where}",
+  "report.pole": "Pole {id}",
+  "report.details": "Details: {description}",
+  "report.signature": "Sent by a resident using WhoseJob? — the resident will attach a photo if they have one.",
+
+  "casework.subject": "Request for help with {topic}",
+  "casework.greeting": "Dear Rep. {name}'s office,",
+  "casework.office": "({office})",
+  "casework.intro": "I live in Virginia's 8th District and I'm asking for your office's help with {topic}.",
+  "casework.details": "What's going on: {description}",
+  "casework.privacy": "Your office may need my signed privacy release form before contacting the agency. Please let me know how to send it.",
+  "casework.thanks": "Thank you,",
+  "casework.sign": "[Your name]\n[Your phone or email]"
+}
