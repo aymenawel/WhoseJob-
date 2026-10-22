@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { TopBar } from "@/components/TopBar";
 import { CommunityMap } from "@/components/CommunityMap";
 import { LevelMarker } from "@/components/LevelMarker";
@@ -14,10 +14,9 @@ import s from "./map.module.css";
 
 export default function MapPage() {
   const { t, locale } = useLocale();
-  const [mine, setMine] = useState<MapReport[]>([]);
+  // Own reports only affect the map layer drawn after mount, never the server HTML.
+  const [mine, setMine] = useState<MapReport[]>(() => (typeof window === "undefined" ? [] : loadMyReports()));
   const [selected, setSelected] = useState<Cluster | null>(null);
-
-  useEffect(() => setMine(loadMyReports()), []);
 
   const clusters = useMemo(() => clusterReports([...(sample.reports as MapReport[]), ...mine]), [mine]);
 

@@ -42,8 +42,7 @@ export function FlowProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!hydrated) return;
     try {
-      const { photoUrl: _photo, ...rest } = flow;
-      sessionStorage.setItem(KEY, JSON.stringify(rest));
+      sessionStorage.setItem(KEY, JSON.stringify({ ...flow, photoUrl: null }));
     } catch {
       // Ignore: persistence is a convenience.
     }
