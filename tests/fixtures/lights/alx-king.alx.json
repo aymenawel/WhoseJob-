@@ -1,0 +1,1376 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04266005875607,
+          38.80433108275956
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2159,
+        "FACILITYID": "C1014XJ1400",
+        "FEATURE": 1,
+        "ELEVATION": 27.11300086,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ1400",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "103 S FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2096,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04260227013383,
+          38.804629506575274
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2096,
+        "FACILITYID": "C1014XJ3700",
+        "FEATURE": 1,
+        "ELEVATION": 27.30200004,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ3700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "221 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2502,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04196382757993,
+          38.80449968017771
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2502,
+        "FACILITYID": "C1014XJ6700",
+        "FEATURE": 1,
+        "ELEVATION": 16.54800033,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ6700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "215 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04215218902367,
+          38.80440519337172
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2124,
+        "FACILITYID": "C1014XJ5500",
+        "FEATURE": 1,
+        "ELEVATION": 20.46199989,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ5500",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "214 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10823,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0424411680674,
+          38.80508982785308
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10823,
+        "FACILITYID": "016999UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 30.94199943,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "117 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": null,
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10815,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04302213371449,
+          38.804994977107775
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10815,
+        "FACILITYID": "016979UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 33.19400024,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "301 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04296089017166,
+          38.80449534758671
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2156,
+        "FACILITYID": "C1014WJ9600",
+        "FEATURE": 1,
+        "ELEVATION": 28.3959999,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014WJ9600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "310 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2093,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0432194351919,
+          38.80466935666681
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2093,
+        "FACILITYID": "C1014WJ8800",
+        "FEATURE": 1,
+        "ELEVATION": 29.57500076,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014WJ8800",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "322 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2048,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04196382757993,
+          38.80449968017771
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2048,
+        "FACILITYID": "C1014XJ6700",
+        "FEATURE": 1,
+        "ELEVATION": 16.54800033,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ6700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "215 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04239735992594,
+          38.80455070728512
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2122,
+        "FACILITYID": "C1014XJ5700",
+        "FEATURE": 1,
+        "ELEVATION": 21.59900093,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ5700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "221 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04236679923997,
+          38.80494901302664
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2165,
+        "FACILITYID": "C1014XJ5800",
+        "FEATURE": 1,
+        "ELEVATION": 26.96500015,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ5800",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "113 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10821,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04311093397693,
+          38.804575172505864
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10821,
+        "FACILITYID": "016985UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 33.97299957,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "322 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10830,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04265394751717,
+          38.80406439662563
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10830,
+        "FACILITYID": "017066UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 27.36499977,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "107 S FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": null,
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04203129375271,
+          38.80439079478453
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2125,
+        "FACILITYID": "C1014XJ6500",
+        "FEATURE": 1,
+        "ELEVATION": 17.26300048,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ6500",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "212 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10818,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427629050763,
+          38.804732260612305
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10818,
+        "FACILITYID": "016982UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 35.95100021,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "108 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0428246705403,
+          38.80447774210154
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2157,
+        "FACILITYID": "C1014XJ1600",
+        "FEATURE": 1,
+        "ELEVATION": 28.10199928,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ1600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "310 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10816,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04287052863722,
+          38.80497637348573
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10816,
+        "FACILITYID": "016980UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 33.27899932,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "301 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2094,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04293465846706,
+          38.8046338363579
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2094,
+        "FACILITYID": "C1014XJ0800",
+        "FEATURE": 1,
+        "ELEVATION": 28.31200027,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ0800",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "320 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18462,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04303583661581,
+          38.80451132125829
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18462,
+        "FACILITYID": "C1014WJ8600",
+        "FEATURE": null,
+        "ELEVATION": null,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014WJ8600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "320 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0420932289983,
+          38.804513833726475
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2120,
+        "FACILITYID": "C1014XJ4800",
+        "FEATURE": 1,
+        "ELEVATION": 18.42099952,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ4800",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "217 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10819,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04275647852874,
+          38.804760473808685
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10819,
+        "FACILITYID": "016983UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 35.82500076,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "108 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427097140317,
+          38.80410295753957
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2160,
+        "FACILITYID": "C1014XJ3500",
+        "FEATURE": 1,
+        "ELEVATION": 28.60700035,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ3500",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "109 S FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04324945149881,
+          38.80453179202629
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2154,
+        "FACILITYID": "C1014WJ7700",
+        "FEATURE": 1,
+        "ELEVATION": 30.10099983,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014WJ7700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "322 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04227928805996,
+          38.80442138197816
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2123,
+        "FACILITYID": "C1014XJ4600",
+        "FEATURE": 1,
+        "ELEVATION": 21.09399986,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ4600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "218 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2097,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04256322216504,
+          38.804812356883026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2097,
+        "FACILITYID": "C1014XJ3800",
+        "FEATURE": 1,
+        "ELEVATION": 28.47999954,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ3800",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "108 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04202350625752,
+          38.80483635578482
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12253,
+        "FACILITYID": "C1014XK5100",
+        "FEATURE": null,
+        "ELEVATION": null,
+        "EDIT_D": null,
+        "WATTS": 70,
+        "FIXTURE_ST": "ENCL",
+        "DECAL_COLO": "YLO",
+        "DECAL_NUMB": "7",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "W",
+        "STYLE": "STD",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 5000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XK5100",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "213 RAMSAY AL",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10814,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04304082226565,
+          38.80490798001888
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10814,
+        "FACILITYID": "016978UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 33.11000061,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "301 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0431192658512,
+          38.80451327998943
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2155,
+        "FACILITYID": "C1014WJ8700",
+        "FEATURE": 1,
+        "ELEVATION": 29.30100059,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014WJ8700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "320 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2098,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04252903318364,
+          38.80497143328693
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2098,
+        "FACILITYID": "C1014XJ4900",
+        "FEATURE": 1,
+        "ELEVATION": 29.57500076,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ4900",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "108 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10817,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04288963041344,
+          38.80488903965334
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10817,
+        "FACILITYID": "016981UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 33.27899932,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "301 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04268009927173,
+          38.80446042223134
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2158,
+        "FACILITYID": "C1014XJ2600",
+        "FEATURE": 1,
+        "ELEVATION": 26.18700027,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1064620800000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ2600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "300 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2095,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427960250625,
+          38.80461585708244
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2095,
+        "FACILITYID": "C1014XJ2700",
+        "FEATURE": 1,
+        "ELEVATION": 27.21699905,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ2700",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "300 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04223986639201,
+          38.804530306527205
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2121,
+        "FACILITYID": "C1014XJ3600",
+        "FEATURE": 1,
+        "ELEVATION": 19.83099937,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ3600",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "221 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10820,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04295826080282,
+          38.80455560271008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10820,
+        "FACILITYID": "016984UTLP",
+        "FEATURE": 1,
+        "ELEVATION": 34.09899902,
+        "EDIT_D": null,
+        "WATTS": null,
+        "FIXTURE_ST": null,
+        "DECAL_COLO": null,
+        "DECAL_NUMB": null,
+        "MOUNT_HEIG": null,
+        "INSTALL_DA": null,
+        "MATERIAL_C": null,
+        "STYLE": null,
+        "CREATION_D": null,
+        "LUMENS": null,
+        "NOM_VOLT": null,
+        "SUBMISSION": null,
+        "DVP_POLE_ID": null,
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "320 KING ST",
+        "Zone": 1,
+        "SL_OWNER": "City-RPCA",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04241888535678,
+          38.80470699529412
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2164,
+        "FACILITYID": "C1014XJ3900",
+        "FEATURE": 1,
+        "ELEVATION": 26.18700027,
+        "EDIT_D": null,
+        "WATTS": 327,
+        "FIXTURE_ST": "GADS",
+        "DECAL_COLO": "ORG",
+        "DECAL_NUMB": "32",
+        "MOUNT_HEIG": 0,
+        "INSTALL_DA": null,
+        "MATERIAL_C": "S",
+        "STYLE": "SPL",
+        "CREATION_D": 1061424000000,
+        "LUMENS": 4000,
+        "NOM_VOLT": 0,
+        "SUBMISSION": "ALX05",
+        "DVP_POLE_ID": "C1014XJ3900",
+        "Inspection_Status": 2,
+        "In_Service": null,
+        "Light_On": 1,
+        "Near_Address": "107 N FAIRFAX ST",
+        "Zone": 1,
+        "SL_OWNER": "DOM",
+        "SL_POLE_DAMAGE": null,
+        "POLE_STATUS_TEXT": "Existing SL- Not Checked"
+      }
+    }
+  ]
+}

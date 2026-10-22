@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 27228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10511501946584,
+          38.73081333297453
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB2000",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "175",
+        "CREATION_DATE": 1676505600000,
+        "POLE_STYLE": "CONCRETE",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FAX10",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 33586763,
+        "GPS_X": 11880933.3324,
+        "GPS_Y": 6952211.88124999,
+        "COMMENTS": "  CONV YLO40",
+        "ADDRESS_NEAR": "8356 RICHMOND HWY",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB2000&closestAddress=8356 RICHMOND HWY&location=11880933.33240000,6952211.88124999' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27228
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27366,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10473066018933,
+          38.73094897120786
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB4100",
+        "FIXTURE_STYLE": "CLCO",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "41",
+        "CREATION_DATE": 1702512000000,
+        "POLE_STYLE": "FIBERGLASS",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FAX10",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 10569241,
+        "GPS_X": 11880924.699,
+        "GPS_Y": 6952267.49500001,
+        "COMMENTS": null,
+        "ADDRESS_NEAR": "8356 RICHMOND HWY",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB4100&closestAddress=8356 RICHMOND HWY&location=11880924.69900000,6952267.49500001' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27366
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10526043139812,
+          38.73077140195135
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB1100",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "60",
+        "CREATION_DATE": 1685404800000,
+        "POLE_STYLE": "CONCRETE",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FAX10",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 10569234,
+        "GPS_X": 11880894.2464,
+        "GPS_Y": 6952204.34199999,
+        "COMMENTS": "  CONV YLO15",
+        "ADDRESS_NEAR": "4287 BUCKMAN RD",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB1100&closestAddress=4287 BUCKMAN RD&location=11880894.24640000,6952204.34199999' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27349
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10447271868192,
+          38.73113489013246
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB5200",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "175",
+        "CREATION_DATE": 1575849600000,
+        "POLE_STYLE": "CONCRETE",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": null,
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": null,
+        "GPS_X": 11880997.243,
+        "GPS_Y": 6952336.315,
+        "COMMENTS": "CONV HPS40",
+        "ADDRESS_NEAR": "8356 RICHMOND HWY",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB5200&closestAddress=8356 RICHMOND HWY&location=11880997.24300000,6952336.31500000' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27229
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27078,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10465534688761,
+          38.730682823851
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LA2800",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "106",
+        "CREATION_DATE": 1702512000000,
+        "POLE_STYLE": "WOOD",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FINAL",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 10569241,
+        "GPS_X": 11881059.4317,
+        "GPS_Y": 6952170.905,
+        "COMMENTS": "Upgraded 20 MV to 42,000 lm HPSV CONV YLO40",
+        "ADDRESS_NEAR": "8359 RICHMOND HWY",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LA2800&closestAddress=8359 RICHMOND HWY&location=11881059.43170000,6952170.90500000' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27078
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10518893958499,
+          38.73116841127042
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB3000",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "60",
+        "CREATION_DATE": 1685404800000,
+        "POLE_STYLE": "CONCRETE",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FAX10",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 10569234,
+        "GPS_X": 11880907.3374,
+        "GPS_Y": 6952349.221,
+        "COMMENTS": "  CONV YLO15",
+        "ADDRESS_NEAR": "4287 BUCKMAN RD",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB3000&closestAddress=4287 BUCKMAN RD&location=11880907.33740000,6952349.22100000' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27307
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27350,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10502372309588,
+          38.73089754702284
+        ]
+      },
+      "properties": {
+        "POLE_NUMBER": "C0911LB2200",
+        "FIXTURE_STYLE": "SBBA",
+        "DECAL_COLOR": "GREEN",
+        "DECAL_NUMBER": "60",
+        "CREATION_DATE": 1685404800000,
+        "POLE_STYLE": "CONCRETE",
+        "BRIDGE_INDICATOR": "NO",
+        "SUBMISSION": "FAX10",
+        "CONTRACT_NAME": "SL",
+        "QUANTITY": null,
+        "CHANGES": "Y",
+        "REC_NUMBER": 10569234,
+        "GPS_X": 11880845.19675,
+        "GPS_Y": 6952251.303,
+        "COMMENTS": "  CONV YLO15",
+        "ADDRESS_NEAR": "8356 RICHMOND HWY",
+        "FORM_HTML": "<a href='https://www.fairfaxcounty.gov/gisapps/StreetlightReporter/ReportProblem.aspx?provider=Dominion&poleId=C0911LB2200&closestAddress=8356 RICHMOND HWY&location=11880845.19675000,6952251.30300000' target='_blank'>Click here to report a problem with this street light</a>",
+        "OBJECTID": 27350
+      }
+    }
+  ]
+}

@@ -66,7 +66,34 @@ async function vdot() {
   }
 }
 
-const SECTIONS = { census, vdot };
+const ARL = "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311";
+const LIGHT_LAYERS = {
+  "arl-county": `${ARL}/CRMS311_Arlington_Owned_Street_Lights/MapServer/0/query`,
+  "arl-dominion": `${ARL}/CRMS311_DominionLights/MapServer/0/query`,
+  alx: "https://maps.alexandriava.gov/arcgis/rest/services/alxCCCStreetlights/MapServer/0/query",
+  "ffx-dominion": "https://www.fairfaxcounty.gov/gispub1/rest/services/DPWES/StreetLightReporter/MapServer/1/query",
+};
+const LIGHT_POINTS = {
+  // Two dark lights ~60 m apart on Clarendon Blvd: Dominion's C0918WL6800
+  // and the county's 190MA01SE. The demo drops a pin on each.
+  "arl-dom-pole": [["arl-county", "arl-dominion"], -77.085525, 38.891447],
+  "arl-cty-pole": [["arl-county", "arl-dominion"], -77.084805, 38.891372],
+  // 2201 Wilson Blvd's address point: a county light at 7 m and a Dominion
+  // light at 9 m, a real near-tie.
+  "arl-wilson": [["arl-county", "arl-dominion"], -77.085917, 38.891248],
+  "alx-king": [["alx"], -77.042607, 38.80457],
+  "ffx-richmond": [["ffx-dominion"], -77.104623, 38.730962],
+};
+
+async function lights() {
+  for (const [id, [layers, lon, lat]] of Object.entries(LIGHT_POINTS)) {
+    for (const layer of layers) {
+      await save("lights", `${id}.${layer}`, await getJson(LIGHT_LAYERS[layer], nearQuery(lon, lat, "*")));
+    }
+  }
+}
+
+const SECTIONS = { census, vdot, lights };
 
 const wanted = process.argv.slice(2);
 for (const name of wanted.length ? wanted : Object.keys(SECTIONS)) {
