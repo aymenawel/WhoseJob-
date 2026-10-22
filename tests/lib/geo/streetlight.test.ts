@@ -9,6 +9,10 @@ import wilsonDominion from "../../fixtures/lights/arl-wilson.arl-dominion.json";
 import alxKing from "../../fixtures/lights/alx-king.alx.json";
 import ffxRichmond from "../../fixtures/lights/ffx-richmond.ffx-dominion.json";
 import rateLimited from "../../fixtures/arcgis/rate-limited.json";
+import fcCityDominion from "../../fixtures/lights/fc-city-light.fc-dominion.json";
+import fcCityCity from "../../fixtures/lights/fc-city-light.fc-city.json";
+import fcParkDominion from "../../fixtures/lights/fc-park.fc-dominion.json";
+import fcParkCity from "../../fixtures/lights/fc-park.fc-city.json";
 
 const EMPTY = { type: "FeatureCollection", features: [] };
 
@@ -77,14 +81,18 @@ describe("queryStreetlight", () => {
     expect(light!.formUrl).toMatch(/^https:\/\/www\.fairfaxcounty\.gov\/gisapps\/StreetlightReporter\/ReportProblem\.aspx/);
   });
 
-  test("Falls Church has no public layer: null without any request", async () => {
-    const { fn, calls } = fetchByLayer({});
-    expect(await queryStreetlight("falls-church", 38.8849, -77.1726, fn)).toBeNull();
-    expect(calls).toHaveLength(0);
+  test("Falls Church: a city-owned light gives the city and its streetlight ID for the repair form", async () => {
+    const { fn } = fetchByLayer({ "FeatureServer/1/": fcCityDominion, "FeatureServer/2/": fcCityCity });
+    const light = await queryStreetlight("falls-church", 38.894499, -77.190152, fn);
+    expect(light).toMatchObject({ owner: "city", poleId: "1002" });
   });
 
-  // Answering from one layer while the other is down could name the wrong owner
-  // with full confidence (the light overhead may be on the missing layer).
+  test("Falls Church: a Dominion-maintained light near Park Ave gives Dominion and its pole number", async () => {
+    const { fn } = fetchByLayer({ "FeatureServer/1/": fcParkDominion, "FeatureServer/2/": fcParkCity });
+    const light = await queryStreetlight("falls-church", 38.884922, -77.172613, fn);
+    expect(light).toMatchObject({ owner: "dominion", poleId: "C0718UH2800" });
+  });
+
   test("one layer failing fails the whole lookup, so the resident is asked instead", async () => {
     const { fn } = fetchByLayer({ Arlington_Owned: new Error("down"), DominionLights: domPoleDominion });
     await expect(queryStreetlight("arlington", 38.891447, -77.085525, fn)).rejects.toThrow();

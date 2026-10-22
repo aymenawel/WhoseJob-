@@ -21,6 +21,7 @@ const str = (v: unknown) => (typeof v === "string" && v.trim() ? v.trim() : unde
 
 const ARL = "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311";
 const FFX = "https://www.fairfaxcounty.gov/gispub1/rest/services/DPWES/StreetLightReporter/MapServer";
+const FC = "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/StreetlightInventory_2017/FeatureServer";
 
 const ALX_OWNER: Record<string, LightOwner> = { DOM: "dominion", "City-TES": "city", "City-RPCA": "city", PVT: "private" };
 
@@ -51,8 +52,11 @@ export const LIGHT_LAYERS: Record<LocalityId, LightLayer[]> = {
     { url: `${FFX}/1/query`, ownerOf: () => "dominion", poleIdOf: (p) => str(p.POLE_NUMBER), formUrlOf: fairfaxFormUrl },
     { url: `${FFX}/0/query`, ownerOf: () => "novec", poleIdOf: (p) => str(p.POLE_NUMBER) },
   ],
-  // No public streetlight layer found for Falls Church yet.
-  "falls-church": [],
+  // The city's own Streetlight Repair App layers; the repair form asks for the city light's Streetlight_ID.
+  "falls-church": [
+    { url: `${FC}/1/query`, ownerOf: () => "dominion", poleIdOf: (p) => str(p.Pole__) },
+    { url: `${FC}/2/query`, ownerOf: () => "city", poleIdOf: (p) => (p.Streetlight_ID == null ? undefined : String(p.Streetlight_ID)) },
+  ],
 };
 
 async function fetchLayer(layer: LightLayer, lat: number, lon: number, fetchFn: typeof fetch) {

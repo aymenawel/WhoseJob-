@@ -83,13 +83,14 @@ Instead of guessing the utility from a territory polygon, we find **the actual s
 | Arlington | `arlgis.arlingtonva.us/.../CRMS_311/CRMS311_DominionLights/MapServer/0` | `OWNER: "DOM"` | Dominion light found within 60 m of 2100 Clarendon Blvd |
 | Alexandria | `maps.alexandriava.gov/arcgis/rest/services/alxCCCStreetlights/MapServer/0` | `SL_OWNER`: DOM / City-TES / City-RPCA / PVT | Lights found near 301 King St |
 | Fairfax | `fairfaxcounty.gov/gispub1/rest/services/DPWES/StreetLightReporter/MapServer/1` (Dominion), `/0` (NOVEC) | which layer it is in | Dominion pole `C0911LB9200` at 8351 Richmond Hwy |
+| Falls Church | `services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/StreetlightInventory_2017/FeatureServer/1` (Dominion-maintained, 1,070 lights), `/2` (City-maintained, 240 lights) | which layer it is in; pole id `Pole__` (Dominion) or `Streetlight_ID` (city, the ID the city's repair form asks for) | City light 1002 at 1245 W Broad St; Dominion pole C0718UH2800 near Park Ave (tested Oct 22) |
 
 - **Browser access:** all three servers send CORS headers.
 - **Bonus:** Fairfax's layer includes `FORM_HTML`, a link to the county's StreetlightReporter form **pre-filled with the pole number and address**. The report screen can open that exact form.
 - **Limits and cautions:**
   - Arlington's Dominion layer is publicly reachable, but its metadata says "Internal Use Only." **Before the demo, our team should email Arlington DES to ask whether we may use it.** If they say no, use the fallback.
   - Alexandria's data was collected from aerial photography and may be out of date.
-  - Falls Church: no public layer found yet.
+  - Falls Church: found Oct 22 behind the city's "Streetlight Repair App" (ArcGIS Instant App 584e6a6f…); public and CORS-enabled.
 - **Fallback:** "Look for a metal tag on the pole. Does it say Dominion?" with a photo example, plus the locality's 311 line, which forwards to Dominion.
 
 ## 5. Traffic signals (Arlington)

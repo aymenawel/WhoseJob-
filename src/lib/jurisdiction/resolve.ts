@@ -67,8 +67,7 @@ export async function resolveChecks(lat: number, lon: number, deps: Deps = {}): 
     }
   }
   if (light.status === "fulfilled" && light.value) checks.streetlight = light.value;
-  // Falls Church has no layer at all; that's a known gap, not a failure, but the
-  // resident still gets the pole-tag question, so record it either way.
+  // A failed lookup, or no light near the pin: the resident gets the pole-tag question.
   else fallbacks.push("streetlight");
 
   return checks;

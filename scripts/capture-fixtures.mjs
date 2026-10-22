@@ -72,6 +72,8 @@ const LIGHT_LAYERS = {
   "arl-dominion": `${ARL}/CRMS311_DominionLights/MapServer/0/query`,
   alx: "https://maps.alexandriava.gov/arcgis/rest/services/alxCCCStreetlights/MapServer/0/query",
   "ffx-dominion": "https://www.fairfaxcounty.gov/gispub1/rest/services/DPWES/StreetLightReporter/MapServer/1/query",
+  "fc-dominion": "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/StreetlightInventory_2017/FeatureServer/1/query",
+  "fc-city": "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/StreetlightInventory_2017/FeatureServer/2/query",
 };
 const LIGHT_POINTS = {
   // Two dark lights ~60 m apart on Clarendon Blvd: Dominion's C0918WL6800
@@ -83,6 +85,9 @@ const LIGHT_POINTS = {
   "arl-wilson": [["arl-county", "arl-dominion"], -77.085917, 38.891248],
   "alx-king": [["alx"], -77.042607, 38.80457],
   "ffx-richmond": [["ffx-dominion"], -77.104623, 38.730962],
+  // Falls Church: a city-owned light on W Broad St, and the Park Ave area (Dominion lights).
+  "fc-city-light": [["fc-dominion", "fc-city"], -77.190152, 38.894499],
+  "fc-park": [["fc-dominion", "fc-city"], -77.172613, 38.884922],
 };
 
 async function lights() {

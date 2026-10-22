@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.190151688095,
+          38.8944985132502
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Type": "Standalone",
+        "ID_Name": "1",
+        "Other_ID": "1",
+        "Pole_Number": "1-1",
+        "Fixture_Type": 3,
+        "Pole_Type": 2,
+        "Streetlight_ID": 1002,
+        "Panel": "1",
+        "GlobalID": "bf367a13-8410-4686-b87c-c9f251429ab3",
+        "Status": null,
+        "RPC": "52101002",
+        "ADDRESS": "1245 W BROAD ST",
+        "Distance": 160.78966675877624,
+        "Owner": "City",
+        "Lamps": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1900615003746,
+          38.8943179605837
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Type": "Standalone",
+        "ID_Name": "1",
+        "Other_ID": "55",
+        "Pole_Number": "1-55",
+        "Fixture_Type": 3,
+        "Pole_Type": 2,
+        "Streetlight_ID": 1056,
+        "Panel": "1",
+        "GlobalID": "53e96fcc-7310-4e7e-86e3-e02562ac4e61",
+        "Status": null,
+        "RPC": "52101002",
+        "ADDRESS": "1245 W BROAD ST",
+        "Distance": 93.34470927869563,
+        "Owner": "City",
+        "Lamps": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1898593695295,
+          38.8943100043765
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Type": "Standalone",
+        "ID_Name": "1",
+        "Other_ID": "2",
+        "Pole_Number": "1-2",
+        "Fixture_Type": 3,
+        "Pole_Type": 2,
+        "Streetlight_ID": 1003,
+        "Panel": "1",
+        "GlobalID": "c66df0f1-70f6-44b0-a0fe-0ddb0aaa406d",
+        "Status": null,
+        "RPC": "52101002",
+        "ADDRESS": "1245 W BROAD ST",
+        "Distance": 114.16095503667636,
+        "Owner": "City",
+        "Lamps": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1895811203139,
+          38.8942964472309
+        ]
+      },
+      "properties": {
+        "OBJECTID": 204,
+        "Type": "Standalone",
+        "ID_Name": "1",
+        "Other_ID": "5",
+        "Pole_Number": "1-5",
+        "Fixture_Type": 3,
+        "Pole_Type": 2,
+        "Streetlight_ID": 1005,
+        "Panel": "1",
+        "GlobalID": "1430debf-f110-420d-a32d-d3a143bfac2a",
+        "Status": null,
+        "RPC": null,
+        "ADDRESS": "1202 W BROAD ST",
+        "Distance": 136.82119385100827,
+        "Owner": "City",
+        "Lamps": 1
+      }
+    }
+  ]
+}

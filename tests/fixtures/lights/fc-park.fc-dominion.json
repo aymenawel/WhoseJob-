@@ -1,0 +1,374 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 896,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1725751552112,
+          38.8849769335079
+        ]
+      },
+      "properties": {
+        "OBJECTID": 896,
+        "Pole__": "C0718UH2800",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "B",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10808343",
+        "X_COORD": 11860890.4204,
+        "Y_COORD": 4212669.70061,
+        "NEAR_FID": 1377,
+        "NEAR_DIST": 134.32471873103123,
+        "FullAddress": "200 LITTLE FALLS ST 1",
+        "GlobalID": "dff76f4e-bffe-473c-bde1-76b4ed8e46cc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1048,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1728017694172,
+          38.8849285427506
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1048,
+        "Pole__": "C0718UH4800",
+        "Watts": 70,
+        "Fixture_Style": "COXX",
+        "Lamp_Code": "LED",
+        "Pole_Material": "W",
+        "Lumens": 1,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "B",
+        "CUID": "LEDCOXX0323GXXX",
+        "Pattern": "2",
+        "Color_Temp": "3",
+        "Base_Color": "G",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860826.1462,
+        "Y_COORD": 4212651.16521,
+        "NEAR_FID": 1463,
+        "NEAR_DIST": 75.8213980015961,
+        "FullAddress": "301 PARK AVE",
+        "GlobalID": "9a86b89f-14fb-4a7b-905d-279bde1cda40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1728066255003,
+          38.8850821547328
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Pole__": "C0718UH1400",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860823.9768,
+        "Y_COORD": 4212707.10517,
+        "NEAR_FID": 1463,
+        "NEAR_DIST": 123.02852000534669,
+        "FullAddress": "301 PARK AVE",
+        "GlobalID": "78ecb6d9-4704-41c2-9c0d-fb605e2b9993"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 931,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1724108889204,
+          38.8851189246889
+        ]
+      },
+      "properties": {
+        "OBJECTID": 931,
+        "Pole__": "C0718UH2500",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860936.4632,
+        "Y_COORD": 4212722.08397,
+        "NEAR_FID": 1377,
+        "NEAR_DIST": 115.56449507039214,
+        "FullAddress": "200 LITTLE FALLS ST 1",
+        "GlobalID": "f768b92d-0b3a-4581-922d-2b4a5d3b50df"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1722252786106,
+          38.8846698293434
+        ]
+      },
+      "properties": {
+        "OBJECTID": 308,
+        "Pole__": "C0718UH4900",
+        "Watts": 70,
+        "Fixture_Style": "COXX",
+        "Lamp_Code": "LED",
+        "Pole_Material": "W",
+        "Lumens": 1,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "B",
+        "CUID": "LEDCOXX0323GXXX",
+        "Pattern": "2",
+        "Color_Temp": "3",
+        "Base_Color": "G",
+        "Work_Request__": "10677841",
+        "X_COORD": 11860991.6118,
+        "Y_COORD": 4212559.22756,
+        "NEAR_FID": 1578,
+        "NEAR_DIST": 89.91663143125616,
+        "FullAddress": "211 PARK AVE",
+        "GlobalID": "19cb3f22-f567-4daa-861f-6cbfc17e5522"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1730854626309,
+          38.8851021219509
+        ]
+      },
+      "properties": {
+        "OBJECTID": 388,
+        "Pole__": "C0718TH9200",
+        "Watts": 70,
+        "Fixture_Style": "COXX",
+        "Lamp_Code": "LED",
+        "Pole_Material": "W",
+        "Lumens": 1,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "B",
+        "CUID": "LEDCOXX0323GXXX",
+        "Pattern": "2",
+        "Color_Temp": "3",
+        "Base_Color": "G",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860744.4835,
+        "Y_COORD": 4212713.26274,
+        "NEAR_FID": 1411,
+        "NEAR_DIST": 70.45026592292555,
+        "FullAddress": "311 PARK AVE 1-A",
+        "GlobalID": "58a9a639-f390-4783-b06c-5c712d0f23ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1730200842578,
+          38.8852061499573
+        ]
+      },
+      "properties": {
+        "OBJECTID": 117,
+        "Pole__": "C0718UH0500",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10813961",
+        "X_COORD": 11860762.5652,
+        "Y_COORD": 4212751.42061,
+        "NEAR_FID": 1411,
+        "NEAR_DIST": 109.21508516102334,
+        "FullAddress": "311 PARK AVE 1-A",
+        "GlobalID": "64c40229-779f-4638-876d-b56b026518d0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1727075868287,
+          38.8853670762275
+        ]
+      },
+      "properties": {
+        "OBJECTID": 398,
+        "Pole__": "C0718UH7900",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860850.7157,
+        "Y_COORD": 4212811.29495,
+        "NEAR_FID": 1176,
+        "NEAR_DIST": 130.00883010443934,
+        "FullAddress": "300 PARK AVE",
+        "GlobalID": "8e879c15-f78b-4d8e-a6dc-f175bdd62190"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 514,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1722073972686,
+          38.8852866278268
+        ]
+      },
+      "properties": {
+        "OBJECTID": 514,
+        "Pole__": "C0718UH4500",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "10672506",
+        "X_COORD": 11860993.5427,
+        "Y_COORD": 4212783.99151,
+        "NEAR_FID": 1377,
+        "NEAR_DIST": 142.08039204871906,
+        "FullAddress": "200 LITTLE FALLS ST 1",
+        "GlobalID": "3e8911ab-c9e3-49ac-952c-59d643a75be4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1724203822844,
+          38.8853993247996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 363,
+        "Pole__": "C0718UH8500",
+        "Watts": 70,
+        "Fixture_Style": "ACCO",
+        "Lamp_Code": "LED",
+        "Pole_Material": "C",
+        "Lumens": 2,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "P",
+        "CUID": "LEDACCO0333BXXX",
+        "Pattern": "3",
+        "Color_Temp": "3",
+        "Base_Color": "B",
+        "Work_Request__": "34623988",
+        "X_COORD": 11860932.3239,
+        "Y_COORD": 4212824.19272,
+        "NEAR_FID": 1176,
+        "NEAR_DIST": 118.38136432386996,
+        "FullAddress": "300 PARK AVE",
+        "GlobalID": "6853c6a8-f537-4702-a10a-06036e9b8323"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1729371164982,
+          38.8844677592909
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "Pole__": "C0718TG9900",
+        "Watts": 70,
+        "Fixture_Style": "COXX",
+        "Lamp_Code": "LED",
+        "Pole_Material": "W",
+        "Lumens": 1,
+        "Contract__": 374360,
+        "Basic_vs_Premium": "B",
+        "CUID": "LEDCOXX0323GXXX",
+        "Pattern": "2",
+        "Color_Temp": "3",
+        "Base_Color": "G",
+        "Work_Request__": "10677841",
+        "X_COORD": 11860789.9696,
+        "Y_COORD": 4212482.76584,
+        "NEAR_FID": 1521,
+        "NEAR_DIST": 62.9473065474464,
+        "FullAddress": "140 LITTLE FALLS ST",
+        "GlobalID": "f602252a-2878-413a-9b1d-34433cd0bbf1"
+      }
+    }
+  ]
+}
