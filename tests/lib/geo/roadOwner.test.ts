@@ -1,0 +1,42 @@
+import { describe, expect, test } from "vitest";
+import { mapMaintenance, queryRoadOwner } from "@/lib/geo/roadOwner";
+import clarendon from "../../fixtures/vdot/clarendon.json";
+import glebe from "../../fixtures/vdot/glebe.json";
+import kingSt from "../../fixtures/vdot/king-st.json";
+import us1 from "../../fixtures/vdot/us-1.json";
+import empty from "../../fixtures/vdot/empty.json";
+
+const fetchReturning = (body: unknown) => (async () => new Response(JSON.stringify(body))) as unknown as typeof fetch;
+
+describe("mapMaintenance", () => {
+  test.each([
+    ["01-State Hwy Agency (1,2)", "state"],
+    ["02-County Hwy Agency (3)", "county"],
+    ["04-Municipal or City Hwy Agency (4* Verify)", "city"],
+    [null, "unknown"],
+  ] as const)("%s → %s", (code, owner) => {
+    expect(mapMaintenance(code)).toBe(owner);
+  });
+});
+
+describe("queryRoadOwner", () => {
+  test("picks Clarendon Blvd, not the cross streets, and it is the county's", async () => {
+    const road = await queryRoadOwner(38.8914, -77.0849, fetchReturning(clarendon));
+    expect(road).toMatchObject({ name: "Clarendon BLVD (PR - Arlington County)", owner: "county" });
+    expect(road!.distanceM).toBeLessThan(60);
+  });
+
+  test.each([
+    ["Glebe Rd in Arlington is still a state road", glebe, 38.8445, -77.0745, "state"],
+    ["King St is Alexandria's", kingSt, 38.8046, -77.0426, "city"],
+    ["US-1 in Fairfax is VDOT's", us1, 38.731, -77.1046, "state"],
+  ] as const)("%s", async (_name, fixture, lat, lon, owner) => {
+    const road = await queryRoadOwner(lat, lon, fetchReturning(fixture));
+    expect(road?.owner).toBe(owner);
+    expect(road!.distanceM).toBeLessThan(60);
+  });
+
+  test("no road within range is null", async () => {
+    expect(await queryRoadOwner(38.815, -77.03, fetchReturning(empty))).toBeNull();
+  });
+});
