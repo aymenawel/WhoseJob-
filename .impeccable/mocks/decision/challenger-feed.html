@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Full-Screen Story — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#ffffff;--utility:#f2b705;--night:#0b0b0c}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--night);color:var(--ink);font-family:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,sans-serif;font-size:18px;line-height:1.4;position:relative}
+.photo{position:absolute;inset:0;background:#1c2230}
+.sky{position:absolute;left:0;right:0;top:0;height:560px;background:#222a3b}
+.bld{position:absolute;bottom:250px;background:#151a24}
+.street{position:absolute;left:0;right:0;bottom:0;height:260px;background:#2c2f35}
+.lane{position:absolute;bottom:150px;height:6px;width:60px;background:#5b5e63}
+.pole{position:absolute;left:236px;bottom:250px;width:12px;height:430px;background:#0d0f12}
+.arm{position:absolute;left:160px;bottom:670px;width:86px;height:10px;background:#0d0f12}
+.lamp{position:absolute;left:150px;bottom:650px;width:46px;height:22px;border-radius:4px 4px 14px 14px;background:#3a3f48}
+.decal{position:absolute;left:226px;bottom:430px;width:32px;height:32px;border-radius:50%;background:var(--utility);border:3px solid #0d0f12}
+.top{position:absolute;left:16px;right:16px;top:14px;display:flex;justify-content:space-between;align-items:center}
+.mark{font-weight:800;font-size:20px}
+.lang{display:flex;background:#00000099;border-radius:999px;padding:3px;font-weight:700;font-size:16px}.lang b{padding:5px 12px;border-radius:999px}.lang b:first-child{background:#fff;color:#000}
+.dots{position:absolute;left:16px;right:16px;top:62px;display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.dots i{height:4px;border-radius:2px;background:#ffffff55}.dots i.on{background:#fff}
+.scrim{position:absolute;left:0;right:0;bottom:0;height:380px;background:#000000cc}
+.cap{position:absolute;left:16px;right:96px;bottom:118px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--utility);color:#111;font-weight:800;font-size:15px;padding:4px 10px 4px 6px;border-radius:999px}
+.chip i{width:14px;height:14px;border-radius:50%;background:#111}
+.cap h1{font-size:34px;line-height:1.05;font-weight:800;letter-spacing:-.015em;margin-top:10px}
+.cap p{margin-top:10px;font-size:18px}
+.cap .loc{font-size:15px;opacity:.85;margin-top:8px}
+.rail{position:absolute;right:12px;bottom:118px;display:grid;gap:14px;justify-items:center}
+.ra{display:grid;justify-items:center;gap:4px;font-size:13px;font-weight:700}
+.ra i{width:52px;height:52px;border-radius:50%;background:#ffffff26;display:grid;place-items:center}
+.ra i b{width:20px;height:20px;border:3px solid #fff;border-radius:4px}
+.ra.main i{background:var(--utility)}.ra.main i b{border-color:#111}
+.next{position:absolute;left:16px;right:16px;bottom:28px;height:64px;border-radius:999px;background:#fff;color:#000;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px}
+</style></head><body>
+<div class="photo" role="img" aria-label="Photo of the dark streetlight">
+  <div class="sky"></div>
+  <div class="bld" style="left:0;width:120px;height:240px"></div><div class="bld" style="left:300px;width:90px;height:300px"></div>
+  <div class="street"></div><div class="lane" style="left:30px"></div><div class="lane" style="left:160px"></div><div class="lane" style="left:290px"></div>
+  <div class="pole"></div><div class="arm"></div><div class="lamp"></div><div class="decal"></div>
+</div>
+<div class="top"><div class="mark">WhoseJob?</div><div class="lang"><b>EN</b><b>ES</b></div></div>
+<div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+<div class="scrim"></div>
+<div class="cap">
+  <span class="chip"><i></i>Utility company</span>
+  <h1>Dominion Energy fixes this</h1>
+  <p>Not Arlington County: the light hangs on Dominion's pole C0918WL6800.</p>
+  <div class="loc">2100 Clarendon Blvd · checked district, road, pole</div>
+</div>
+<div class="rail">
+  <div class="ra main"><i><b></b></i>Report</div>
+  <div class="ra"><i><b></b></i>Call</div>
+  <div class="ra"><i><b></b></i>Copy</div>
+  <div class="ra"><i><b></b></i>Map</div>
+</div>
+<div class="next">Report to Dominion</div>
+</body></html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Transit Line — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#0f1d3a;--ink:#f4f1e8;--muted:#b9c0cf;--local:#e0483e;--state:#2f7bf0;--utility:#f2a900;--federal:#2bb673;--plate:#1a2b52}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--ground);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;font-size:18px;line-height:1.4}
+.bar{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.mark{font-weight:800;font-size:21px;display:flex;align-items:center;gap:8px}
+.mark i{width:22px;height:22px;border-radius:50%;border:5px solid var(--ink)}
+.lang{display:flex;background:var(--plate);border-radius:999px;padding:3px;font-weight:700;font-size:16px}
+.lang b{padding:5px 12px;border-radius:999px}.lang b:first-child{background:var(--ink);color:var(--ground)}
+main{padding:10px 16px 0}
+.q{font-size:16px;color:var(--muted);font-weight:600}
+h1{font-size:28px;font-weight:800;line-height:1.1;margin-top:2px}
+.route{position:relative;margin-top:18px;padding-left:50px}
+.seg{position:absolute;left:19px;width:10px}
+.s1{top:12px;height:172px;background:var(--local)}
+.s2{top:184px;height:104px;background:var(--utility)}
+.st{position:relative;min-height:58px}
+.st::before{content:"";position:absolute;left:-38px;top:6px;width:22px;height:22px;border-radius:50%;background:var(--ground);border:5px solid var(--ink)}
+.st .n{font-weight:700;font-size:19px;line-height:1.2}
+.st .d{font-size:15px;color:var(--muted)}
+.tick::before{left:-40px;top:10px;width:16px;height:6px;border-radius:0;border:0;background:var(--ink)}
+.xchg::before{left:-44px;top:0;width:34px;height:34px;border-width:6px}
+.xchg .chg{display:inline-block;margin-top:6px;background:var(--utility);color:#1b1400;font-weight:800;font-size:15px;padding:3px 10px;border-radius:999px}
+.term{margin-top:6px;background:var(--utility);color:#1b1400;border-radius:14px;padding:14px 16px;position:relative}
+.term::before{content:"";position:absolute;left:-44px;top:18px;width:34px;height:34px;border-radius:50%;background:var(--ink);border:6px solid var(--utility)}
+.term .k{font-size:15px;font-weight:700}
+.term .o{font-size:30px;font-weight:800;line-height:1.05;letter-spacing:-.01em}
+.term .id{font-size:16px;font-weight:700;margin-top:2px}
+.key{display:flex;gap:12px;margin-top:14px;font-size:14px;color:var(--muted);font-weight:600}
+.key span{display:flex;align-items:center;gap:5px}.key i{width:16px;height:6px;border-radius:3px}
+.acts{margin-top:14px;display:grid;gap:10px}
+.btn{height:56px;border-radius:999px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px}
+.p{background:var(--ink);color:var(--ground)}.s{background:var(--plate);color:var(--ink)}
+</style></head><body>
+<header class="bar"><div class="mark"><i></i>WhoseJob?</div><div class="lang"><b>EN</b><b>ES</b></div></header>
+<main>
+  <p class="q">Streetlight out</p>
+  <h1>Here's who fixes it</h1>
+  <div class="route">
+    <div class="seg s1"></div><div class="seg s2"></div>
+    <div class="st"><div class="n">2100 Clarendon Blvd</div><div class="d">Your spot · Arlington</div></div>
+    <div class="st tick"><div class="n">Virginia's 8th District</div><div class="d">Rep. Don Beyer · checked</div></div>
+    <div class="st tick"><div class="n">Clarendon Blvd</div><div class="d">Arlington County road · checked</div></div>
+    <div class="st xchg"><div class="n">Pole C0918WL6800</div><span class="chg">Change here: the light is Dominion's</span></div>
+    <section class="term"><div class="k">Last stop · Utility company</div><div class="o">Dominion Energy</div><div class="id">Not Arlington County</div></section>
+  </div>
+  <div class="key"><span><i style="background:var(--local)"></i>Local</span><span><i style="background:var(--state)"></i>State</span><span><i style="background:var(--utility)"></i>Utility</span><span><i style="background:var(--federal)"></i>Federal</span></div>
+  <div class="acts"><div class="btn p">Report to Dominion</div><div class="btn s">Call 1-888-667-3000</div></div>
+</main>
+</body></html>

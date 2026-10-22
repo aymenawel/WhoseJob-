@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Guide Sign × Full-Screen Story — pothole</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* Sign colors come from Virginia road signage; the photo layout from full-screen stories. */
+:root{--guide:#00653b;--guide-dk:#004d2d;--ink:#101314;--white:#ffffff;--local:#1b4f9c;--utility:#f7c600;--night:#0c0f14}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--night);color:var(--white);font-family:Overpass,system-ui,sans-serif;font-size:18px;line-height:1.4;position:relative}
+/* drawn stand-in for the resident's photo */
+.photo{position:absolute;inset:0 0 auto 0;height:560px;background:#222a3b;overflow:hidden}
+.bld{position:absolute;bottom:0;background:#161b26}
+.pole{position:absolute;left:230px;top:120px;width:12px;height:460px;background:#0b0d10}
+.arm{position:absolute;left:150px;top:120px;width:92px;height:10px;background:#0b0d10}
+.lamp{position:absolute;left:138px;top:128px;width:48px;height:22px;border-radius:4px 4px 14px 14px;background:#3a3f48}
+.decal{position:absolute;left:220px;top:300px;width:32px;height:32px;border-radius:50%;background:var(--utility);border:3px solid #0b0d10}
+.fade{position:absolute;left:0;right:0;top:470px;height:90px;background:var(--night);opacity:.55}
+.topband{position:absolute;left:0;right:0;top:0;height:84px;background:#000000;opacity:.55}
+.top{position:absolute;left:16px;right:16px;top:14px;display:flex;justify-content:space-between;align-items:center}
+.mark{font-weight:800;font-size:21px}
+.lang{display:flex;border:3px solid var(--white);border-radius:8px;font-weight:800;font-size:16px}
+.lang b{padding:4px 11px}.lang b:first-child{background:var(--white);color:var(--ink)}
+.dots{position:absolute;left:16px;right:16px;top:62px;display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.dots i{height:5px;border-radius:2px;background:#ffffff4d}.dots i.on{background:var(--white)}
+/* action rail over the photo */
+.rail{position:absolute;right:14px;top:118px;display:grid;gap:14px;justify-items:center}
+.ra{display:grid;justify-items:center;gap:4px;font-size:14px;font-weight:800}
+.ra i{width:54px;height:54px;border-radius:12px;background:#000000a6;border:2px solid #ffffff59;display:grid;place-items:center}
+.ra svg{width:24px;height:24px}
+/* checks as route markers */
+.checks{position:absolute;left:16px;top:410px;display:flex;gap:6px;align-items:center;background:#000000b3;border-radius:10px;padding:6px 8px 6px 10px;font-size:14px;font-weight:600}
+.mk{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border-radius:6px;font-weight:800;font-size:13px}
+.mk.f{background:var(--white);color:var(--ink)}
+.mk.l{background:var(--local)}
+.mk.s{background:var(--white);color:var(--ink);border:2px solid var(--ink);outline:3px solid var(--white)}
+.mk.u{background:var(--utility);color:var(--ink);outline:3px solid var(--white)}
+/* answer, anchored low */
+.ans{position:absolute;left:16px;right:16px;top:470px}
+.sign{background:var(--guide);border-radius:12px;padding:5px}
+.sign .in{border:3px solid var(--white);border-radius:8px;padding:12px 14px 14px}
+.lvl{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800}
+.dia{flex:none;margin:0 4px;width:17px;height:17px;background:var(--utility);transform:rotate(45deg);border:2px solid var(--ink);outline:2px solid var(--white)}
+.st{background:var(--white);color:var(--ink);border:2px solid var(--ink);outline:2px solid var(--white);border-radius:3px;padding:1px 6px;font-size:12px}
+.row{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px}
+.row h1{font-size:38px;line-height:1;font-weight:800;letter-spacing:-.01em}
+.row svg{flex:none}
+.not{margin-top:8px;background:var(--white);color:var(--ink);border:3px solid var(--ink);border-radius:8px;padding:7px 12px;display:flex;gap:10px;align-items:baseline;font-weight:800;font-size:19px}
+.not s{text-decoration-thickness:3px}.not span{font-weight:600;font-size:15px}
+.why{margin-top:10px;font-size:17px;line-height:1.35}
+.go{position:absolute;left:16px;right:16px;bottom:22px;height:60px;border-radius:10px;background:var(--white);color:var(--ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px}
+</style></head><body>
+<div class="photo" role="img" aria-label="Your photo: a pothole on Columbia Pike" style="background:#9fb3c4">
+  <div class="bld" style="left:0;width:150px;height:300px;background:#7d8b97"></div><div class="bld" style="left:270px;width:120px;height:260px;background:#6f7d89"></div>
+  <div style="position:absolute;left:0;right:0;bottom:0;height:300px;background:#4a4d52"></div>
+  <div style="position:absolute;left:0;right:0;bottom:258px;height:8px;background:#e8c547"></div>
+  <div style="position:absolute;left:70px;bottom:150px;width:160px;height:58px;border-radius:50%;background:#26282b;border:5px solid #3a3c40"></div>
+  <div class="fade"></div>
+</div>
+<div class="topband"></div>
+<div class="top"><div class="mark">WhoseJob?</div><div class="lang"><b>EN</b><b>ES</b></div></div>
+<div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+<div class="rail">
+  <div class="ra"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"><path d="M5 3h4l2 5-3 2a12 12 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2A18 18 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></i>Call</div>
+  <div class="ra"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg></i>Copy</div>
+  <div class="ra"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></i>Map</div>
+</div>
+<div class="checks">Checked <span class="mk f">VA-08</span><span class="mk s">State road</span><span class="mk l">Fairfax County</span></div>
+<section class="ans">
+  <div class="sign"><div class="in">
+    <div class="lvl"><span class="st">STATE</span>Fixed by a Virginia state agency</div>
+    <div class="row"><h1>VDOT</h1>
+      <svg width="44" height="44" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 32 L30 10 M14 10 H30 V26" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="square"/></svg></div>
+  </div></div>
+  <div class="not"><s>Fairfax County</s><span>not the county</span></div>
+  <p class="why">Fairfax County doesn't maintain roads. Columbia Pike is a state road, so the Virginia Department of Transportation fixes it.</p>
+</section>
+<div class="go">Report to VDOT</div>
+</body></html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<title>Data Field — Here's who fixes it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--k:#000;--w:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:var(--k);color:var(--w);font-family:"JetBrains Mono",ui-monospace,monospace;font-size:16px;line-height:1.4}
+.bar{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.mark{font-weight:800;font-size:19px}
+.lang{display:flex;font-weight:700;border:2px solid var(--w)}.lang b{padding:4px 10px}.lang b:first-child{background:var(--w);color:var(--k)}
+.field{margin:6px 16px 0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;height:250px}
+.col{display:flex;flex-direction:column;justify-content:space-between;padding:8px}
+.bars{flex:1;margin:8px 0;background:repeating-linear-gradient(90deg,#fff 0 2px,#000 2px 5px,#fff 5px 6px,#000 6px 11px,#fff 11px 14px,#000 14px 16px)}
+.col .l{font-size:13px;font-weight:700}.col .v{font-size:14px;font-weight:800}
+.col.win{background:var(--w);color:var(--k)}
+.col.win .bars{background:repeating-linear-gradient(90deg,#000 0 3px,#fff 3px 5px,#000 5px 6px,#fff 6px 10px)}
+.sine{margin:8px 16px 0;height:28px}
+main{padding:12px 16px 0}
+.q{font-size:14px}
+h1{font-size:34px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin-top:6px}
+.id{font-size:18px;font-weight:700;margin-top:6px}
+.why{margin-top:12px;font-size:17px}
+.ref{margin-top:10px;font-size:14px}
+.acts{margin-top:22px;display:grid;gap:10px}
+.btn{height:56px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;border:2px solid var(--w)}
+.p{background:var(--w);color:var(--k)}
+</style></head><body>
+<header class="bar"><div class="mark">WHOSEJOB?</div><div class="lang"><b>EN</b><b>ES</b></div></header>
+<div class="field" aria-label="Checks the app ran">
+  <div class="col"><div class="l">DISTRICT</div><div class="bars"></div><div class="v">VA-08</div></div>
+  <div class="col"><div class="l">ROAD</div><div class="bars"></div><div class="v">ARL CO</div></div>
+  <div class="col win"><div class="l">LIGHT</div><div class="bars"></div><div class="v">DOMINION</div></div>
+</div>
+<svg class="sine" viewBox="0 0 358 28" width="358" height="28" aria-hidden="true"><path d="M0 14 C30 0 60 0 90 14 S150 28 180 14 S240 0 270 14 S330 28 358 14" stroke="#fff" stroke-width="2" fill="none"/></svg>
+<main>
+  <p class="q">STREETLIGHT OUT · 2100 CLARENDON BLVD</p>
+  <h1>DOMINION ENERGY</h1>
+  <div class="id">POLE C0918WL6800</div>
+  <p class="why">Not Arlington County. The road is the county's; the pole is Dominion's.</p>
+  <p class="ref">REF WJ-0412</p>
+  <div class="acts"><div class="btn p">REPORT TO DOMINION</div><div class="btn">CALL 1-888-667-3000</div></div>
+</main>
+</body></html>
