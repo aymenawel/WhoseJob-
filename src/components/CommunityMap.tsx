@@ -9,12 +9,20 @@ import styles from "./CommunityMap.module.css";
 const SHAPE = { local: "square", state: "plate", utility: "diamond", federal: "shield" } as const;
 
 /** Report groups drawn with the same level shapes as the answer screen. */
-export function CommunityMap({ clusters, label, onSelect }: { clusters: Cluster[]; label: string; onSelect: (c: Cluster) => void }) {
+export function CommunityMap({ clusters, label, nameOf, onSelect }: {
+  clusters: Cluster[];
+  label: string;
+  /** Accessible name for a marker, e.g. "Streetlight out: 4 neighbors reported this". */
+  nameOf: (c: Cluster) => string;
+  onSelect: (c: Cluster) => void;
+}) {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<LeafletMap | null>(null);
   const layer = useRef<LayerGroup | null>(null);
   const select = useRef(onSelect);
   select.current = onSelect;
+  const name = useRef(nameOf);
+  name.current = nameOf;
 
   useEffect(() => {
     let cancelled = false;
@@ -45,10 +53,10 @@ export function CommunityMap({ clusters, label, onSelect }: { clusters: Cluster[
       const icon = L.divIcon({
         className: "",
         html: `<span class="${styles.marker} ${fixed ? styles.fixed : ""}"><span class="${styles.shape} ${styles[SHAPE[c.level]]}"></span>${n > 1 ? `<span class="${styles.count}">${n}</span>` : ""}</span>`,
-        iconSize: [40, 40],
-        iconAnchor: [20, 20],
+        iconSize: [44, 44],
+        iconAnchor: [22, 22],
       });
-      L.marker([c.lat, c.lon], { icon, keyboard: true, title: `${n}` })
+      L.marker([c.lat, c.lon], { icon, keyboard: true, title: name.current(c), alt: name.current(c) })
         .on("click", () => select.current(c))
         .addTo(layer.current);
     }

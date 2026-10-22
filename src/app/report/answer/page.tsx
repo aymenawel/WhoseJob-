@@ -98,7 +98,7 @@ export default function AnswerStep() {
             <span className={s.checkedLabel}>{t("answer.checked")}</span>
             <ul className={s.markers}>
               {markers.map((m, i) => (
-                <RouteMarker key={m.key} label={m.label} level={m.level} decided={m.decided} style={{ animationDelay: `${150 + i * 250}ms` }} />
+                <RouteMarker key={m.key} label={m.label} level={m.level} decided={m.decided} decidedLabel={t("answer.decided")} style={{ animationDelay: `${150 + i * 250}ms` }} />
               ))}
             </ul>
           </div>

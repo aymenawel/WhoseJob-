@@ -144,5 +144,7 @@
   "map.close": "Cerrar",
   "map.mapLabel": "Mapa de reportes",
   "map.add": "Agregar al mapa comunitario",
-  "map.added": "Agregado al mapa, solo en este dispositivo."
+  "map.added": "Agregado al mapa, solo en este dispositivo.",
+  "answer.decided": "decidió la respuesta",
+  "map.markerName": "{issue}: {count}"
 }

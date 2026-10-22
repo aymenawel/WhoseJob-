@@ -143,5 +143,7 @@
   "map.close": "Close",
   "map.mapLabel": "Map of reports",
   "map.add": "Add to the community map",
-  "map.added": "Added to the map, on this device only."
+  "map.added": "Added to the map, on this device only.",
+  "answer.decided": "decided the answer",
+  "map.markerName": "{issue}: {count}"
 }

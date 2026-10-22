@@ -28,7 +28,17 @@ export default function MapPage() {
       <TopBar />
       <h1 className="sr-only">{t("map.title")}</h1>
       <div className={s.mapArea}>
-        <CommunityMap clusters={clusters} label={t("map.mapLabel")} onSelect={setSelected} />
+        <CommunityMap
+          clusters={clusters}
+          label={t("map.mapLabel")}
+          nameOf={(c) =>
+            t("map.markerName", {
+              issue: t(`issue.${c.issue}`),
+              count: c.reports.length > 1 ? t("map.neighbors", { n: String(c.reports.length) }) : t("map.one"),
+            })
+          }
+          onSelect={setSelected}
+        />
         <p className={s.banner} role="note">
           {t("map.sampleBanner")}
         </p>
