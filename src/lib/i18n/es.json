@@ -148,7 +148,7 @@
   "answer.decided": "decidió la respuesta",
   "map.markerName": "{issue}: {count}",
   "federal.privacyForm": "Obtener el formulario de autorización de privacidad (PDF)",
-  "send.openForm": "Copiar el reporte y abrir el formulario de {issue}",
+  "send.openForm": "Copiar el reporte y abrir el formulario de {office}",
   "send.openSite": "Copiar el reporte y abrir el sitio de {office}",
   "send.onTheForm": "En el formulario",
   "send.openedNote": "Su reporte está copiado. Si el formulario no se abrió, use el botón otra vez."

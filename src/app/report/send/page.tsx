@@ -11,6 +11,7 @@ import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
 import { composeReport, mailtoUrl } from "@/lib/report/compose";
 import { reportLink } from "@/lib/report/reportLink";
+import { OpenFormLink } from "@/components/OpenFormLink";
 import { saveMyReport } from "@/lib/map/myReports";
 import s from "../step.module.css";
 import x from "./send.module.css";
@@ -39,14 +40,12 @@ export default function SendStep() {
   const link = reportLink(office, flow.issue, flow.checks, flow.address);
   const text = `${msg.subject}\n\n${msg.body}`;
 
-  // Copy and open in the same tap: window.open must run during the click
-  // itself or phone browsers block it, so the copy is started, not awaited.
-  function copyAndOpen() {
+  // Runs as the form link is tapped; the link itself does the opening.
+  function copyOnOpen() {
     navigator.clipboard?.writeText(text).then(
       () => setCopied(true),
       () => setCopied(false),
     );
-    if (link.url) window.open(link.url, "_blank", "noopener");
   }
 
   async function copy() {
@@ -93,12 +92,15 @@ export default function SendStep() {
                 {t("send.onTheForm")}
               </h2>
               {link.steps && <p className={x.nextSteps}>{link.steps[locale]}</p>}
-              <PrimaryButton onClick={copyAndOpen}>
-                <Icon name="form" />
-                {link.specific
-                  ? t("send.openForm", { issue: t(`issue.${flow.issue}`).toLowerCase() })
-                  : t("send.openSite", { office: office.name[locale] })}
-              </PrimaryButton>
+              <OpenFormLink
+                href={link.url}
+                onOpen={copyOnOpen}
+                label={
+                  link.specific
+                    ? t("send.openForm", { office: office.name[locale] })
+                    : t("send.openSite", { office: office.name[locale] })
+                }
+              />
             </section>
           )}
           <PrimaryButton variant={link.url ? "secondary" : "primary"} onClick={copy}>

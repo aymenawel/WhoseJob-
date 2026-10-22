@@ -147,7 +147,7 @@
   "answer.decided": "decided the answer",
   "map.markerName": "{issue}: {count}",
   "federal.privacyForm": "Get the privacy release form (PDF)",
-  "send.openForm": "Copy report & open the {issue} form",
+  "send.openForm": "Copy report & open {office}'s form",
   "send.openSite": "Copy report & open {office}'s site",
   "send.onTheForm": "On the form",
   "send.openedNote": "Your report is copied. If the form didn't open, use the button again."

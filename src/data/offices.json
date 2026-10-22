@@ -431,8 +431,8 @@
       "streetlight": {
         "url": "https://www.dominionenergy.com/virginia/report-outage-or-emergency/streetlight-and-watchlight-outages",
         "steps": {
-          "en": "Dominion's streetlight form opens. Enter the pole number from your report and the nearest address, then paste the rest.",
-          "es": "Se abre el formulario de alumbrado de Dominion. Escriba el número del poste de su reporte y la dirección más cercana, y pegue el resto."
+          "en": "On Dominion's page, tap Report Streetlight Outage. Enter the pole number from your report and the nearest address, then paste the rest.",
+          "es": "En la página de Dominion, toque Report Streetlight Outage. Escriba el número del poste de su reporte y la dirección más cercana, y pegue el resto."
         },
         "verified": "2026-10-22"
       }
