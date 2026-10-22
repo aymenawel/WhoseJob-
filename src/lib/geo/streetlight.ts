@@ -1,6 +1,7 @@
-import type { Feature, FeatureCollection, Geometry } from "geojson";
+import type { Feature, Geometry } from "geojson";
 import type { Checks, LightOwner, LocalityId } from "@/lib/types";
 import { distanceToGeometry } from "@/lib/geo/nearest";
+import { readFeatures } from "@/lib/geo/arcgis";
 
 type Props = Record<string, unknown>;
 
@@ -69,10 +70,8 @@ async function fetchLayer(layer: LightLayer, lat: number, lon: number, fetchFn: 
     f: "geojson",
   };
   for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v);
-  const res = await fetchFn(u);
-  if (!res.ok) throw new Error(`streetlight layer ${res.status}`);
-  const fc = (await res.json()) as FeatureCollection<Geometry, Props>;
-  return (fc.features ?? []).map((feature: Feature<Geometry, Props>) => ({
+  const fc = await readFeatures<Props>(await fetchFn(u), "streetlight layer");
+  return fc.features.map((feature: Feature<Geometry, Props>) => ({
     layer,
     props: feature.properties ?? {},
     distanceM: distanceToGeometry(lon, lat, feature.geometry),

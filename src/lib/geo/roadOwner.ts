@@ -1,6 +1,6 @@
-import type { FeatureCollection, Geometry } from "geojson";
 import type { Checks, RoadOwner } from "@/lib/types";
 import { nearestFeature } from "@/lib/geo/nearest";
+import { readFeatures } from "@/lib/geo/arcgis";
 
 const VDOT =
   "https://services.arcgis.com/p5v98VHDX9Atv3l7/ArcGIS/rest/services/VDOT_Route_Responsibility/FeatureServer/0/query";
@@ -38,13 +38,11 @@ export async function queryRoadOwner(lat: number, lon: number, fetchFn: typeof f
   };
   for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v);
 
-  const res = await fetchFn(u);
-  if (!res.ok) throw new Error(`VDOT ${res.status}`);
-  const fc = (await res.json()) as FeatureCollection<Geometry, Props>;
+  const fc = await readFeatures<Props>(await fetchFn(u), "VDOT");
 
   // The buffer returns every segment in range, cross streets included;
   // the one the pin is actually on is the nearest.
-  const hit = nearestFeature(lon, lat, fc.features ?? []);
+  const hit = nearestFeature(lon, lat, fc.features);
   if (!hit) return null;
   return {
     name: hit.feature.properties.RTE_COMMON_NM,

@@ -8,6 +8,7 @@ import wilsonCounty from "../../fixtures/lights/arl-wilson.arl-county.json";
 import wilsonDominion from "../../fixtures/lights/arl-wilson.arl-dominion.json";
 import alxKing from "../../fixtures/lights/alx-king.alx.json";
 import ffxRichmond from "../../fixtures/lights/ffx-richmond.ffx-dominion.json";
+import rateLimited from "../../fixtures/arcgis/rate-limited.json";
 
 const EMPTY = { type: "FeatureCollection", features: [] };
 
@@ -91,5 +92,15 @@ describe("queryStreetlight", () => {
   test("every layer failing → null", async () => {
     const { fn } = fetchByLayer({ Arlington_Owned: new Error("down"), DominionLights: new Error("down") });
     expect(await queryStreetlight("arlington", 38.891447, -77.085525, fn)).toBeNull();
+  });
+
+  test("an ArcGIS error body counts as that layer failing", async () => {
+    const { fn } = fetchByLayer({ Arlington_Owned: rateLimited, DominionLights: rateLimited });
+    expect(await queryStreetlight("arlington", 38.891447, -77.085525, fn)).toBeNull();
+  });
+
+  test("an error body on one layer doesn't hide the other layer's light", async () => {
+    const { fn } = fetchByLayer({ Arlington_Owned: rateLimited, DominionLights: domPoleDominion });
+    expect((await queryStreetlight("arlington", 38.891447, -77.085525, fn))?.owner).toBe("dominion");
   });
 });

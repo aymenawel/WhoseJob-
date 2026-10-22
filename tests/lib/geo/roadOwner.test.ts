@@ -5,6 +5,7 @@ import glebe from "../../fixtures/vdot/glebe.json";
 import kingSt from "../../fixtures/vdot/king-st.json";
 import us1 from "../../fixtures/vdot/us-1.json";
 import empty from "../../fixtures/vdot/empty.json";
+import rateLimited from "../../fixtures/arcgis/rate-limited.json";
 
 const fetchReturning = (body: unknown) => (async () => new Response(JSON.stringify(body))) as unknown as typeof fetch;
 
@@ -38,5 +39,9 @@ describe("queryRoadOwner", () => {
 
   test("no road within range is null", async () => {
     expect(await queryRoadOwner(38.815, -77.03, fetchReturning(empty))).toBeNull();
+  });
+
+  test("an ArcGIS error inside a 200 response is a failure, not 'no road nearby'", async () => {
+    await expect(queryRoadOwner(38.8914, -77.0849, fetchReturning(rateLimited))).rejects.toThrow(/429/);
   });
 });
