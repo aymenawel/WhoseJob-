@@ -73,7 +73,7 @@ export function composeCasework(input: { member: Member; topic: CaseworkTopic; d
     t(locale, "casework.greeting", { name: member.name }),
     ...(member.districtOffice ? [t(locale, "casework.office", { office: member.districtOffice.address })] : []),
     "",
-    t(locale, "casework.intro", { topic }),
+    t(locale, "casework.intro", { topic, district: member.district }),
     ...(input.description.trim() ? [t(locale, "casework.details", { description: input.description.trim() })] : []),
     "",
     t(locale, "casework.privacy"),

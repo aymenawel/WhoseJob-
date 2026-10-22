@@ -24,7 +24,7 @@
   "casework.subject": "Request for help with {topic}",
   "casework.greeting": "Dear Rep. {name}'s office,",
   "casework.office": "({office})",
-  "casework.intro": "I live in Virginia's 8th District and I'm asking for your office's help with {topic}.",
+  "casework.intro": "I live in your district ({district}) and I'm asking for your office's help with {topic}.",
   "casework.details": "What's going on: {description}",
   "casework.privacy": "Your office may need my signed privacy release form before contacting the agency. Please let me know how to send it.",
   "casework.thanks": "Thank you,",

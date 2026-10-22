@@ -85,6 +85,13 @@ describe("composeCasework", () => {
     expect(body).not.toMatch(/social security number|case number|SSN/i);
   });
 
+  test("a letter to another Member names that Member's district, not VA-08", () => {
+    const va04 = memberForDistrict("VA-04")!;
+    const { body } = composeCasework({ member: va04, topic: "passport", description: "Pending 14 weeks.", locale: "en" });
+    expect(body).toContain("VA-04");
+    expect(body).not.toContain("8th District");
+  });
+
   test("no description yet → no empty 'What's going on' line", () => {
     const { body } = composeCasework({ member, topic: "passport", description: "  ", locale: "en" });
     expect(body).not.toContain("What's going on");

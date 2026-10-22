@@ -25,7 +25,7 @@
   "casework.subject": "Solicitud de ayuda con {topic}",
   "casework.greeting": "Estimada oficina del Rep. {name}:",
   "casework.office": "({office})",
-  "casework.intro": "Vivo en el 8.º Distrito de Virginia y pido la ayuda de su oficina con {topic}.",
+  "casework.intro": "Vivo en su distrito ({district}) y pido la ayuda de su oficina con {topic}.",
   "casework.details": "Lo que está pasando: {description}",
   "casework.privacy": "Es posible que su oficina necesite mi formulario de autorización de privacidad firmado antes de contactar a la agencia. Por favor, díganme cómo enviarlo.",
   "casework.thanks": "Gracias,",
