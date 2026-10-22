@@ -1,0 +1,123 @@
+{
+  "arlington-311": {
+    "name": { "en": "Arlington County", "es": "Condado de Arlington" },
+    "detail": { "en": "Customer Contact Center", "es": "Centro de Atención al Cliente" },
+    "level": "local",
+    "phone": "703-228-5000",
+    "formUrl": "https://topics.arlingtonva.us/reportproblem/",
+    "email": null,
+    "hours": { "en": "Mon–Fri, 7 a.m.–7 p.m.", "es": "lun–vie, 7 a.m.–7 p.m." },
+    "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Street-Maintenance",
+    "verified": "2026-10-21"
+  },
+  "arlington-streetlights": {
+    "name": { "en": "Arlington County", "es": "Condado de Arlington" },
+    "detail": { "en": "Streetlights (county-owned)", "es": "Alumbrado público (del condado)" },
+    "level": "local",
+    "phone": "703-228-5000",
+    "formUrl": "https://arlingtonva.qscend.com/311/request/add?typeId=499",
+    "email": null,
+    "hours": { "en": "Mon–Fri, 7 a.m.–7 p.m.", "es": "lun–vie, 7 a.m.–7 p.m." },
+    "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Streetlights",
+    "verified": "2026-10-21"
+  },
+  "alexandria-311": {
+    "name": { "en": "City of Alexandria", "es": "Ciudad de Alexandria" },
+    "detail": { "en": "Alex311", "es": "Alex311" },
+    "level": "local",
+    "phone": "703-746-4311",
+    "formUrl": "https://alex311.alexandriava.gov",
+    "email": null,
+    "hours": null,
+    "source": "https://www.alexandriava.gov/news-tes/2026-03-22/city-of-alexandria-announces-the-return-of-seasonal-street-sweeping-pothole",
+    "verified": "2026-10-21"
+  },
+  "falls-church-dpw": {
+    "name": { "en": "City of Falls Church", "es": "Ciudad de Falls Church" },
+    "detail": { "en": "Department of Public Works", "es": "Departamento de Obras Públicas" },
+    "level": "local",
+    "phone": "703-248-5350",
+    "formUrl": "https://www.fallschurchva.gov/requesttracker.aspx",
+    "email": null,
+    "hours": null,
+    "source": "https://www.fallschurchva.gov/155/Public-Works",
+    "verified": "2026-10-21"
+  },
+  "falls-church-streetlights": {
+    "name": { "en": "City of Falls Church", "es": "Ciudad de Falls Church" },
+    "detail": { "en": "Street light repair", "es": "Reparación de alumbrado público" },
+    "level": "local",
+    "phone": "703-248-5004",
+    "formUrl": "https://www.fallschurchva.gov/forms.aspx?fid=77",
+    "email": null,
+    "hours": { "en": "Mon–Fri, 8 a.m.–5 p.m.", "es": "lun–vie, 8 a.m.–5 p.m." },
+    "source": "https://www.fallschurchva.gov/forms.aspx?fid=77",
+    "verified": "2026-10-21"
+  },
+  "fairfax-main": {
+    "name": { "en": "Fairfax County", "es": "Condado de Fairfax" },
+    "detail": { "en": "703-FAIRFAX", "es": "703-FAIRFAX" },
+    "level": "local",
+    "phone": "703-324-7329",
+    "formUrl": "https://www.fairfaxcounty.gov/publicworks/report",
+    "email": null,
+    "hours": null,
+    "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
+    "verified": null
+  },
+  "fairfax-sign-shop": {
+    "name": { "en": "Fairfax County", "es": "Condado de Fairfax" },
+    "detail": { "en": "Public Works sign shop", "es": "Taller de señales de Obras Públicas" },
+    "level": "local",
+    "phone": "703-877-2800",
+    "formUrl": "https://www.fairfaxcounty.gov/publicworks/street-name-sign-maintenance-form",
+    "email": null,
+    "hours": null,
+    "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
+    "verified": "2026-10-21"
+  },
+  "vdot": {
+    "name": { "en": "VDOT", "es": "VDOT" },
+    "detail": { "en": "Virginia Department of Transportation", "es": "Departamento de Transporte de Virginia" },
+    "level": "state",
+    "phone": "1-800-367-7623",
+    "formUrl": "https://my.vdot.virginia.gov",
+    "email": null,
+    "hours": { "en": "24 hours", "es": "24 horas" },
+    "source": "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
+    "verified": "2026-10-21"
+  },
+  "dominion": {
+    "name": { "en": "Dominion Energy", "es": "Dominion Energy" },
+    "detail": { "en": "Streetlight outages", "es": "Fallas de alumbrado público" },
+    "level": "utility",
+    "phone": "1-866-366-4357",
+    "formUrl": "https://www.dominionenergy.com/virginia/report-outage-or-emergency",
+    "email": null,
+    "hours": null,
+    "source": "https://www.arlingtonva.us/Government/Programs/Transportation/Streets/Streetlights",
+    "verified": "2026-10-21"
+  },
+  "novec": {
+    "name": { "en": "NOVEC", "es": "NOVEC" },
+    "detail": { "en": "Northern Virginia Electric Cooperative", "es": "Cooperativa Eléctrica del Norte de Virginia" },
+    "level": "utility",
+    "phone": "703-335-0500",
+    "formUrl": null,
+    "email": null,
+    "hours": null,
+    "source": "https://www.pwcva.gov/department/transportation/streetlights",
+    "verified": null
+  },
+  "member-district-office": {
+    "name": { "en": "Rep. Don Beyer", "es": "Rep. Don Beyer" },
+    "detail": { "en": "District office, 700 N Fairfax St., Suite 510, Alexandria", "es": "Oficina de distrito, 700 N Fairfax St., Suite 510, Alexandria" },
+    "level": "federal",
+    "phone": "703-658-5403",
+    "formUrl": "https://beyer.house.gov",
+    "email": null,
+    "hours": null,
+    "source": "https://unitedstates.github.io/congress-legislators/legislators-district-offices.json",
+    "verified": "2026-10-21"
+  }
+}
