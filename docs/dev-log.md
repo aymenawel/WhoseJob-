@@ -4,6 +4,8 @@ Decisions and real technical problems, newest first. This answers the submission
 
 ## Oct 22, 2026
 
+**Problem: the first deploy failed with a missing file that was really there.** A login-free "temporary" Vercel deploy builds on the local Windows machine. Vercel's packager links each page's prefetch segments to its function folder with symlinks, and Windows created those as file links pointing at folders, which Node can't follow (`ENOENT … _global-error.segments/__PAGE__.segment.rsc.func`). `next build` itself had passed. Fix: deploy from a logged-in Vercel account, which uploads the source and builds on Vercel's Linux servers.
+
 **Problem: the road-owner service silently said "no road here".** While testing a demo point, the road check came back empty with no error. Querying VDOT directly showed why: its public map service shares one request quota (6,000 units a minute) with everyone who uses it, and when the quota runs out it still answers with HTTP 200, just with an error message inside. Our code read that as an empty list of roads. Two fixes:
 1. Every map-service response now goes through one reader (`src/lib/geo/arcgis.ts`) that treats an error inside a 200 as a failure, so the app says honestly that it couldn't check.
 2. We bundled a snapshot of VDOT's road ownership for the area around VA-08. The statewide file is about 680 MB, so `scripts/build-roads.mjs` streams it and keeps only the 7,965 segments near our district (4.7 MB). When the live service is throttled, the server answers from the snapshot instead.
