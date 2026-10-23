@@ -8,6 +8,7 @@ import { Icon } from "@/components/Icon";
 import { PinMap, type PinMapHandle } from "@/components/PinMap";
 import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
+import { findAddress as geocode } from "@/lib/api/findAddress";
 import type { Checks } from "@/lib/types";
 import s from "./where.module.css";
 
@@ -29,12 +30,12 @@ function WhereScreen() {
     e.preventDefault();
     if (!q.trim()) return;
     setMessage(null);
-    const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
-    if (!res.ok) {
-      setMessage(t("where.notFound"));
+    const found = await geocode(q);
+    if ("error" in found) {
+      setMessage(t(found.error === "not-found" ? "where.notFound" : "where.unavailable"));
       return;
     }
-    const hit = (await res.json()) as { lat: number; lon: number; matchedAddress: string };
+    const { hit } = found;
     flow.set({ address: hit.matchedAddress });
     addressAt.current = { lat: hit.lat, lon: hit.lon };
     map.current?.flyTo(addressAt.current);

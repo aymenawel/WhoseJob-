@@ -29,6 +29,39 @@ describe("GET /api/geocode", () => {
     });
   });
 
+  test("Census failing is 'unavailable', never 'not found': the resident isn't blamed for our upstream", async () => {
+    const res = await handleGeocode(req("2300 Wilson Blvd, Arlington, VA"), {
+      geocodeAddress: async () => {
+        throw new Error("Census 503");
+      },
+      lookupPoint: async () => ({ districtId: null, locality: null, localityFips: null }),
+    });
+    expect(res.status).toBe(503);
+    expect(await res.json()).toEqual({ error: "unavailable" });
+  });
+
+  test("Census hanging becomes 'unavailable' after the timeout", async () => {
+    const res = await handleGeocode(req("2300 Wilson Blvd, Arlington, VA"), {
+      geocodeAddress: () => new Promise(() => {}),
+      lookupPoint: async () => ({ districtId: null, locality: null, localityFips: null }),
+      timeoutMs: 20,
+    });
+    expect(res.status).toBe(503);
+  });
+
+  test("one failed try is retried once", async () => {
+    let calls = 0;
+    const res = await handleGeocode(req("2300 Wilson Blvd, Arlington, VA"), {
+      geocodeAddress: async () => {
+        if (++calls === 1) throw new Error("Census 502");
+        return { lat: 38.89, lon: -77.08, matchedAddress: "2300 WILSON BLVD, ARLINGTON, VA, 22201" };
+      },
+      lookupPoint: async () => ({ districtId: "VA-08", locality: { id: "arlington", name: "Arlington County" }, localityFips: "51013" }),
+    });
+    expect(res.status).toBe(200);
+    expect(calls).toBe(2);
+  });
+
   test("a missing query is a 400", async () => {
     const res = await handleGeocode(req(), { geocodeAddress: async () => null, lookupPoint: async () => ({ districtId: null, locality: null, localityFips: null }) });
     expect(res.status).toBe(400);
