@@ -28,23 +28,21 @@ function renderToggle() {
   );
 }
 
-test("with no choice saved, the theme follows the phone", () => {
-  phonePrefers("light");
-  expect(readTheme()).toBe("light");
+test("with no choice saved, the app is light, even on a phone set to dark", () => {
   phonePrefers("dark");
-  expect(readTheme()).toBe("dark");
+  expect(readTheme()).toBe("light");
 });
 
-test("tapping the switch overrides the phone and is remembered", () => {
+test("tapping the switch picks dark, and the choice is remembered", () => {
   renderToggle();
-  fireEvent.click(screen.getByRole("button", { name: "Switch to light mode" }));
-  expect(document.documentElement.dataset.theme).toBe("light");
-  expect(localStorage.getItem("whosejob.theme")).toBe("light");
-  expect(readTheme()).toBe("light");
-
   fireEvent.click(screen.getByRole("button", { name: "Switch to dark mode" }));
   expect(document.documentElement.dataset.theme).toBe("dark");
+  expect(localStorage.getItem("whosejob.theme")).toBe("dark");
   expect(readTheme()).toBe("dark");
+
+  fireEvent.click(screen.getByRole("button", { name: "Switch to light mode" }));
+  expect(document.documentElement.dataset.theme).toBe("light");
+  expect(readTheme()).toBe("light");
 });
 
 test("a saved choice wins over the phone's setting", () => {

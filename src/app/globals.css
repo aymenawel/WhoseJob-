@@ -41,7 +41,7 @@
 
 /* Light mode: a paper ground, black type and lines, and the green sign doing the talking.
    The main action turns green so it reads as the next step. data-theme is set before the
-   first paint from the resident's saved choice or the phone's setting (src/lib/theme.ts). */
+   first paint: light unless the resident switched to dark (src/lib/theme.ts). */
 :root[data-theme="light"] {
   color-scheme: light;
   --ground: #ecece6;

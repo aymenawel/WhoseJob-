@@ -9,7 +9,7 @@ import styles from "./LanguageToggle.module.css";
 /** One tap flips light and dark; the icon shows the mode it switches to. */
 export function ThemeToggle() {
   const { t } = useLocale();
-  const theme = useSyncExternalStore(subscribeTheme, readTheme, () => "dark" as Theme);
+  const theme = useSyncExternalStore(subscribeTheme, readTheme, () => "light" as Theme);
   const next: Theme = theme === "dark" ? "light" : "dark";
   return (
     <button
