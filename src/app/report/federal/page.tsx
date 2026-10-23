@@ -8,6 +8,7 @@ import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon, type IconName } from "@/components/Icon";
 import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
+import { findAddress } from "@/lib/api/findAddress";
 import { memberForDistrict } from "@/lib/members";
 import { composeCasework, type CaseworkTopic } from "@/lib/report/compose";
 import s from "../step.module.css";
@@ -31,7 +32,7 @@ function FederalScreen() {
   const [description, setDescription] = useState("");
   const [address, setAddress] = useState("");
   const [districtId, setDistrictId] = useState<string | null>(null);
-  const [notFound, setNotFound] = useState(false);
+  const [lookupError, setLookupError] = useState<"not-found" | "unavailable" | null>(null);
   const [copied, setCopied] = useState(false);
 
   // A district already found in the report flow is reused; otherwise ask for a home address.
@@ -41,13 +42,13 @@ function FederalScreen() {
 
   async function findDistrict(e: React.FormEvent) {
     e.preventDefault();
-    setNotFound(false);
-    const res = await fetch(`/api/geocode?q=${encodeURIComponent(address)}`);
-    if (!res.ok) {
-      setNotFound(true);
+    setLookupError(null);
+    const found = await findAddress(address);
+    if ("error" in found) {
+      setLookupError(found.error);
       return;
     }
-    setDistrictId(((await res.json()) as { districtId: string | null }).districtId);
+    setDistrictId(found.hit.districtId);
   }
 
   const letter = member && topic ? composeCasework({ member, topic, description, locale }) : null;
@@ -73,7 +74,11 @@ function FederalScreen() {
               {t("federal.addressLabel")}
             </label>
             <input id="home" className={x.textarea} style={{ minHeight: 52 }} value={address} onChange={(e) => setAddress(e.target.value)} autoComplete="street-address" />
-            {notFound && <p role="alert" className={s.status}>{t("where.notFound")}</p>}
+            {lookupError && (
+              <p role="alert" className={s.status}>
+                {t(lookupError === "not-found" ? "federal.notFound" : "federal.unavailable")}
+              </p>
+            )}
             <PrimaryButton type="submit" variant="secondary">
               <Icon name="search" />
               {t("where.find")}
@@ -83,7 +88,13 @@ function FederalScreen() {
 
         {district && !inVa08 && (
           <p className={s.status} role="status">
-            {t("federal.outside", { name: member?.name ?? district })}
+            {member ? (
+              t("federal.outside", { name: member.name })
+            ) : (
+              <>
+                {t("federal.noMember")} <a href="https://www.house.gov/representatives/find-your-representative">{t("federal.findRep")}</a>
+              </>
+            )}
           </p>
         )}
 
@@ -141,7 +152,7 @@ function FederalScreen() {
               )}
               <PrimaryButton variant="secondary" href={member.caseworkUrl ?? member.website}>
                 <Icon name="federal" />
-                {t("federal.website")}
+                {t(member.caseworkUrl ? "federal.website" : "federal.homepage")}
               </PrimaryButton>
             </div>
           </>

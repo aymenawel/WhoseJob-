@@ -1,4 +1,4 @@
-import members from "@/data/members-va.json";
+import members from "@/data/members.json";
 
 export type Member = {
   district: string;

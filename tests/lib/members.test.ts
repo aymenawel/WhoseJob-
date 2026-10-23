@@ -19,3 +19,9 @@ test("VA-08 links to Rep. Beyer's casework page and his privacy release form", (
   expect(m?.caseworkUrl).toBe("https://beyer.house.gov/constituent-services/casework/");
   expect(m?.privacyFormUrl).toBe("https://beyer.house.gov/uploadedfiles/privacy_release_form_-_general.pdf");
 });
+
+test("an address outside Virginia still finds its Member: Maryland's 8th, DC's delegate, an at-large state", () => {
+  expect(memberForDistrict("MD-08")?.name).toBeTruthy();
+  expect(memberForDistrict("DC-98")?.name).toBeTruthy();
+  expect(memberForDistrict("WY-00")?.name).toBeTruthy();
+});

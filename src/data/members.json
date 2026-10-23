@@ -1,0 +1,5693 @@
+[
+  {
+    "district": "AK-00",
+    "name": "Nicholas J. Begich III",
+    "party": "Republican",
+    "website": "https://begich.house.gov",
+    "dcPhone": "202-225-5765",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1016 W Sixth Ave, Suite 406, Anchorage, AK 99501",
+      "phone": "907-921-6575"
+    }
+  },
+  {
+    "district": "AL-01",
+    "name": "Barry Moore",
+    "party": "Republican",
+    "website": "https://barrymoore.house.gov",
+    "dcPhone": "202-225-2901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "217 Graceland Drive, Suite 5, Dothan, AL 36305",
+      "phone": "334-547-6630"
+    }
+  },
+  {
+    "district": "AL-02",
+    "name": "Shomari Figures",
+    "party": "Democrat",
+    "website": "https://figures.house.gov",
+    "dcPhone": "202-225-4931",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "150 Dexter Ave, Montgomery, AL 36104",
+      "phone": "334-777-5700"
+    }
+  },
+  {
+    "district": "AL-03",
+    "name": "Mike Rogers",
+    "party": "Republican",
+    "website": "https://mikerogers.house.gov",
+    "dcPhone": "202-225-3261",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "701 Avenue A, Suite 300, Opelika, AL 36801",
+      "phone": "334-745-6221"
+    }
+  },
+  {
+    "district": "AL-04",
+    "name": "Robert B. Aderholt",
+    "party": "Republican",
+    "website": "https://aderholt.house.gov",
+    "dcPhone": "202-225-4876",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "205 4th Ave. NE, Suite 104, Cullman, AL 35055",
+      "phone": "256-734-6043"
+    }
+  },
+  {
+    "district": "AL-05",
+    "name": "Dale W. Strong",
+    "party": "Republican",
+    "website": "https://strong.house.gov",
+    "dcPhone": "202-225-4801",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "302 Lee Street NE, Decatur, AL 35601",
+      "phone": "256-355-9400"
+    }
+  },
+  {
+    "district": "AL-06",
+    "name": "Gary J. Palmer",
+    "party": "Republican",
+    "website": "https://palmer.house.gov",
+    "dcPhone": "202-225-4921",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3535 Grandview Pkwy., Suite 525, Birmingham, AL 35243",
+      "phone": "205-968-1290"
+    }
+  },
+  {
+    "district": "AL-07",
+    "name": "Terri A. Sewell",
+    "party": "Democrat",
+    "website": "https://sewell.house.gov",
+    "dcPhone": "202-225-2665",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "908 Alabama Ave., Suite 112, Selma, AL 36701",
+      "phone": "334-877-4414"
+    }
+  },
+  {
+    "district": "AR-01",
+    "name": "Eric A. \"Rick\" Crawford",
+    "party": "Republican",
+    "website": "https://crawford.house.gov",
+    "dcPhone": "202-225-4076",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "112 S. 1st, Cabot, AR 72023",
+      "phone": "501-843-3043"
+    }
+  },
+  {
+    "district": "AR-02",
+    "name": "J. French Hill",
+    "party": "Republican",
+    "website": "https://hill.house.gov",
+    "dcPhone": "202-225-2506",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1501 N. University Ave., Suite 630, Little Rock, AR 72207",
+      "phone": "501-324-5941"
+    }
+  },
+  {
+    "district": "AR-03",
+    "name": "Steve Womack",
+    "party": "Republican",
+    "website": "https://womack.house.gov",
+    "dcPhone": "202-225-4301",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6101 Phoenix Ave, Suite 4, Fort Smith, AR 72903-5083",
+      "phone": "479-424-1146"
+    }
+  },
+  {
+    "district": "AR-04",
+    "name": "Bruce Westerman",
+    "party": "Republican",
+    "website": "https://westerman.house.gov",
+    "dcPhone": "202-225-3772",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "101 N. Washington Ave., Suite 406, El Dorado, AR 71730",
+      "phone": "501-609-9796"
+    }
+  },
+  {
+    "district": "AS-98",
+    "name": "Aumua Amata Coleman Radewagen",
+    "party": "Republican",
+    "website": "https://radewagen.house.gov",
+    "dcPhone": "202-225-8577",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1 Fagatogo Square, Box 5859, Pagopago, AS 96799",
+      "phone": "684-633-3601"
+    }
+  },
+  {
+    "district": "AZ-01",
+    "name": "David Schweikert",
+    "party": "Republican",
+    "website": "https://schweikert.house.gov",
+    "dcPhone": "202-225-2190",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "14500 N Northsight Blvd, Suite 221, Scottsdale, AZ 85260-3658",
+      "phone": "480-946-2411"
+    }
+  },
+  {
+    "district": "AZ-02",
+    "name": "Elijah Crane",
+    "party": "Republican",
+    "website": "https://crane.house.gov",
+    "dcPhone": "202-225-3361",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "122 N. Cortez St., Suite 211, Prescott, AZ 86301",
+      "phone": "928-286-5338"
+    }
+  },
+  {
+    "district": "AZ-03",
+    "name": "Yassamin Ansari",
+    "party": "Democrat",
+    "website": "https://ansari.house.gov",
+    "dcPhone": "202-225-4065",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3770 N 7th St, 100b, Phoenix, AZ 85014",
+      "phone": "602-956-2285"
+    }
+  },
+  {
+    "district": "AZ-04",
+    "name": "Greg Stanton",
+    "party": "Democrat",
+    "website": "https://stanton.house.gov",
+    "dcPhone": "202-225-9888",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1220 S Alma School Rd, Ste 209, Mesa, AZ 85210",
+      "phone": "602-956-2463"
+    }
+  },
+  {
+    "district": "AZ-05",
+    "name": "Andy Biggs",
+    "party": "Republican",
+    "website": "https://biggs.house.gov",
+    "dcPhone": "202-225-2635",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2509 S. Power Rd., Suite 204, Mesa, AZ 85209",
+      "phone": "480-699-8239"
+    }
+  },
+  {
+    "district": "AZ-06",
+    "name": "Juan Ciscomani",
+    "party": "Republican",
+    "website": "https://ciscomani.house.gov",
+    "dcPhone": "202-225-2542",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2600 E. Wilcox Dr., Room H-106, Sierra Vista, AZ 85635",
+      "phone": "520-459-3115"
+    }
+  },
+  {
+    "district": "AZ-07",
+    "name": "Adelita S. Grijalva",
+    "party": "Democrat",
+    "website": "https://grijalva.house.gov",
+    "dcPhone": "202-225-2435",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "101 W. Irvington Road, Tucson, AZ 85714",
+      "phone": "520-622-6788"
+    }
+  },
+  {
+    "district": "AZ-08",
+    "name": "Abraham J. Hamadeh",
+    "party": "Republican",
+    "website": "https://hamadeh.house.gov",
+    "dcPhone": "202-225-4576",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "12515 W. Bell Rd, Suite 104, Surprise, AZ 85378"
+    }
+  },
+  {
+    "district": "AZ-09",
+    "name": "Paul A. Gosar",
+    "party": "Republican",
+    "website": "https://gosar.house.gov",
+    "dcPhone": "202-225-2315",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1300 S. Litchfield Road, Suite 115-H, Goodyear, AZ 85338",
+      "phone": "623-707-0530"
+    }
+  },
+  {
+    "district": "CA-01",
+    "name": "James Gallagher",
+    "party": "Republican",
+    "website": "https://gallagher.house.gov/",
+    "dcPhone": "202-225-3076",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": null
+  },
+  {
+    "district": "CA-02",
+    "name": "Jared Huffman",
+    "party": "Democrat",
+    "website": "https://huffman.house.gov",
+    "dcPhone": "202-225-5161",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "317 Third St., Suite 1, Eureka, CA 95501",
+      "phone": "707-407-3585"
+    }
+  },
+  {
+    "district": "CA-03",
+    "name": "Kevin Kiley",
+    "party": "Independent",
+    "website": "https://kiley.house.gov",
+    "dcPhone": "202-225-2523",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6538 Lonetree Blvd, Suite 200, Rocklin, CA 95765",
+      "phone": "916-724-2575"
+    }
+  },
+  {
+    "district": "CA-04",
+    "name": "Mike Thompson",
+    "party": "Democrat",
+    "website": "https://mikethompson.house.gov",
+    "dcPhone": "202-225-3311",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2721 Napa Valley Corporate Dr., Napa, CA 94558",
+      "phone": "707-226-9898"
+    }
+  },
+  {
+    "district": "CA-05",
+    "name": "Tom McClintock",
+    "party": "Republican",
+    "website": "https://mcclintock.house.gov",
+    "dcPhone": "202-225-2511",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1020 15th Street, Suite 11, Modesto, CA 95354",
+      "phone": "209-550-6910"
+    }
+  },
+  {
+    "district": "CA-06",
+    "name": "Ami Bera",
+    "party": "Democrat",
+    "website": "https://bera.house.gov",
+    "dcPhone": "202-225-5716",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8950 Cal Center Dr., Suite 100, Sacramento, CA 95826",
+      "phone": "916-635-0505"
+    }
+  },
+  {
+    "district": "CA-07",
+    "name": "Doris O. Matsui",
+    "party": "Democrat",
+    "website": "https://matsui.house.gov",
+    "dcPhone": "202-225-7163",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "501 I St., Suite 12-600, Sacramento, CA 95814",
+      "phone": "916-498-5600"
+    }
+  },
+  {
+    "district": "CA-08",
+    "name": "John Garamendi",
+    "party": "Democrat",
+    "website": "https://garamendi.house.gov",
+    "dcPhone": "202-225-1880",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1261 Travis Boulevard, Suite 100, Fairfield, CA 94533",
+      "phone": "707-438-1822"
+    }
+  },
+  {
+    "district": "CA-09",
+    "name": "Josh Harder",
+    "party": "Democrat",
+    "website": "https://harder.house.gov",
+    "dcPhone": "202-225-4540",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1776 W March Ln, Suite 360, Stockton, CA 95207",
+      "phone": "209-579-5458"
+    }
+  },
+  {
+    "district": "CA-10",
+    "name": "Mark DeSaulnier",
+    "party": "Democrat",
+    "website": "https://desaulnier.house.gov",
+    "dcPhone": "202-225-2095",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3100 Oak Road, Suite 110, Walnut Creek, CA 94597",
+      "phone": "925-933-2660"
+    }
+  },
+  {
+    "district": "CA-11",
+    "name": "Nancy Pelosi",
+    "party": "Democrat",
+    "website": "https://pelosi.house.gov",
+    "dcPhone": "202-225-4965",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "90 7th St., Suite 2-800, San Francisco, CA 94103",
+      "phone": "415-556-4862"
+    }
+  },
+  {
+    "district": "CA-12",
+    "name": "Lateefah Simon",
+    "party": "Democrat",
+    "website": "https://simon.house.gov",
+    "dcPhone": "202-225-2661",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "Oakland, CA 94612",
+      "phone": "510-763-0370"
+    }
+  },
+  {
+    "district": "CA-13",
+    "name": "Adam Gray",
+    "party": "Democrat",
+    "website": "https://gray.house.gov",
+    "dcPhone": "202-225-1947",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "90 S. First St., Turlock, CA 95380",
+      "phone": "209-226-6880"
+    }
+  },
+  {
+    "district": "CA-14",
+    "party": "Democrat",
+    "website": "https://wahab.house.gov/",
+    "dcPhone": "202-225-5065",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": null
+  },
+  {
+    "district": "CA-15",
+    "name": "Kevin Mullin",
+    "party": "Democrat",
+    "website": "https://kevinmullin.house.gov",
+    "dcPhone": "202-225-3531",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1528 S. El Camino Real, Suite 307, San Mateo, CA 94402",
+      "phone": "650-342-0300"
+    }
+  },
+  {
+    "district": "CA-16",
+    "name": "Sam T. Liccardo",
+    "party": "Democrat",
+    "website": "https://liccardo.house.gov",
+    "dcPhone": "202-225-8104",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "270 Capistrano Rd, Suite 6, Half Moon Bay, CA 94019"
+    }
+  },
+  {
+    "district": "CA-17",
+    "name": "Ro Khanna",
+    "party": "Democrat",
+    "website": "https://khanna.house.gov",
+    "dcPhone": "202-225-2631",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3150 De La Cruz Blvd, Suite 240, Santa Clara, CA 95054",
+      "phone": "408-436-2720"
+    }
+  },
+  {
+    "district": "CA-18",
+    "name": "Zoe Lofgren",
+    "party": "Democrat",
+    "website": "https://lofgren.house.gov",
+    "dcPhone": "202-225-3072",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "635 N. First St., Suite B, San Jose, CA 95112",
+      "phone": "408-271-8700"
+    }
+  },
+  {
+    "district": "CA-19",
+    "name": "Jimmy Panetta",
+    "party": "Democrat",
+    "website": "https://panetta.house.gov",
+    "dcPhone": "202-225-2861",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "701 Ocean St., Room 318C, Santa Cruz, CA 95060",
+      "phone": "831-429-1976"
+    }
+  },
+  {
+    "district": "CA-20",
+    "name": "Vince Fong",
+    "party": "Republican",
+    "website": "https://fong.house.gov",
+    "dcPhone": "202-225-2915",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9700 Stockdale Highway, Suite 300, Bakersfield, CA 93311",
+      "phone": "661-327-3611"
+    }
+  },
+  {
+    "district": "CA-21",
+    "name": "Jim Costa",
+    "party": "Democrat",
+    "website": "https://costa.house.gov",
+    "dcPhone": "202-225-3341",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "425 E. Oak Ave, Suite 202, Visalia, CA 93291",
+      "phone": "559-749-9330"
+    }
+  },
+  {
+    "district": "CA-22",
+    "name": "David G. Valadao",
+    "party": "Republican",
+    "website": "https://valadao.house.gov",
+    "dcPhone": "202-225-4695",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "107 South Douty Street, Hanford, CA 93230",
+      "phone": "559-460-6070"
+    }
+  },
+  {
+    "district": "CA-23",
+    "name": "Jay Obernolte",
+    "party": "Republican",
+    "website": "https://obernolte.house.gov",
+    "dcPhone": "202-225-5861",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9700 Seventh Ave., Suite 201, Hesperia, CA 92345",
+      "phone": "760-247-1815"
+    }
+  },
+  {
+    "district": "CA-24",
+    "name": "Salud O. Carbajal",
+    "party": "Democrat",
+    "website": "https://carbajal.house.gov",
+    "dcPhone": "202-225-3601",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1411 Marsh St., Suite 205, San Luis Obispo, CA 93401",
+      "phone": "805-546-8348"
+    }
+  },
+  {
+    "district": "CA-25",
+    "name": "Raul Ruiz",
+    "party": "Democrat",
+    "website": "https://ruiz.house.gov",
+    "dcPhone": "202-225-5330",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "445 E. Florida Ave., 2nd Floor, Hemet, CA 92543",
+      "phone": "951-492-3575"
+    }
+  },
+  {
+    "district": "CA-26",
+    "name": "Julia Brownley",
+    "party": "Democrat",
+    "website": "https://juliabrownley.house.gov",
+    "dcPhone": "202-225-5811",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "201 East Fourth St., Suite 209B, Oxnard, CA 93030",
+      "phone": "805-379-1779"
+    }
+  },
+  {
+    "district": "CA-27",
+    "name": "George Whitesides",
+    "party": "Democrat",
+    "website": "https://whitesides.house.gov",
+    "dcPhone": "202-225-1956",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1043 West Ave M4, Suite A, Palmdale, CA 93551",
+      "phone": "661-839-0532"
+    }
+  },
+  {
+    "district": "CA-28",
+    "name": "Judy Chu",
+    "party": "Democrat",
+    "website": "https://chu.house.gov",
+    "dcPhone": "202-225-5464",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "415 W. Foothill Blvd., Suite 122, Claremont, CA 91711",
+      "phone": "909-625-5394"
+    }
+  },
+  {
+    "district": "CA-29",
+    "name": "Luz M. Rivas",
+    "party": "Democrat",
+    "website": "https://rivas.house.gov",
+    "dcPhone": "202-225-6131",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9300 Laurel Canyon Blvd, First Floor, Arleta, CA 91331",
+      "phone": "818-253-3535"
+    }
+  },
+  {
+    "district": "CA-30",
+    "name": "Laura Friedman",
+    "party": "Democrat",
+    "website": "https://friedman.house.gov",
+    "dcPhone": "202-225-4176",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "245 E Olive Ave, Suite 200, Burbank, CA 91502",
+      "phone": "818-524-4384"
+    }
+  },
+  {
+    "district": "CA-31",
+    "name": "Gilbert Ray Cisneros, Jr.",
+    "party": "Democrat",
+    "website": "https://cisneros.house.gov",
+    "dcPhone": "202-225-5256",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 S. Citrus Ave, Suite 204, Covina, CA 91723",
+      "phone": "626-646-0369"
+    }
+  },
+  {
+    "district": "CA-32",
+    "name": "Brad Sherman",
+    "party": "Democrat",
+    "website": "https://sherman.house.gov",
+    "dcPhone": "202-225-5911",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5000 Van Nuys Blvd., Suite 420, Sherman Oaks, CA 91403",
+      "phone": "818-501-9200"
+    }
+  },
+  {
+    "district": "CA-33",
+    "name": "Pete Aguilar",
+    "party": "Democrat",
+    "website": "https://aguilar.house.gov",
+    "dcPhone": "202-225-3201",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "685 E. Carnegie Dr., Suite 100, San Bernardino, CA 92408",
+      "phone": "909-890-4445"
+    }
+  },
+  {
+    "district": "CA-34",
+    "name": "Jimmy Gomez",
+    "party": "Democrat",
+    "website": "https://gomez.house.gov",
+    "dcPhone": "202-225-6235",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "350 S. Bixel St., #120, Los Angeles, CA 90017",
+      "phone": "213-481-1425"
+    }
+  },
+  {
+    "district": "CA-35",
+    "name": "Norma J. Torres",
+    "party": "Democrat",
+    "website": "https://torres.house.gov",
+    "dcPhone": "202-225-6161",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3200 Inland Empire Blvd., Suite 200B, Ontario, CA 91764",
+      "phone": "909-481-6474"
+    }
+  },
+  {
+    "district": "CA-36",
+    "name": "Ted Lieu",
+    "party": "Democrat",
+    "website": "https://lieu.house.gov",
+    "dcPhone": "202-225-3976",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1600 Rosecrans Ave., 4th Floor, Manhattan Beach, CA 90266",
+      "phone": "310-321-7664"
+    }
+  },
+  {
+    "district": "CA-37",
+    "name": "Sydney Kamlager-Dove",
+    "party": "Democrat",
+    "website": "https://kamlager-dove.house.gov",
+    "dcPhone": "202-225-7084",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4929 Wilshire Blvd., Suite 650, Los Angeles, CA 90010",
+      "phone": "323-965-1422"
+    }
+  },
+  {
+    "district": "CA-38",
+    "name": "Linda T. Sánchez",
+    "party": "Democrat",
+    "website": "https://lindasanchez.house.gov",
+    "dcPhone": "202-225-6676",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "15111 Whittier Blvd, Suite 220, Whittier, CA 90603",
+      "phone": "562-860-5050"
+    }
+  },
+  {
+    "district": "CA-39",
+    "name": "Mark Takano",
+    "party": "Democrat",
+    "website": "https://takano.house.gov",
+    "dcPhone": "202-225-2305",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3403 10th St., Suite 610, Riverside, CA 92501",
+      "phone": "951-222-0203"
+    }
+  },
+  {
+    "district": "CA-40",
+    "name": "Young Kim",
+    "party": "Republican",
+    "website": "https://youngkim.house.gov",
+    "dcPhone": "202-225-4111",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "200 Civic Center, Mission Viejo, CA 92691",
+      "phone": "949-268-6706"
+    }
+  },
+  {
+    "district": "CA-41",
+    "name": "Ken Calvert",
+    "party": "Republican",
+    "website": "https://calvert.house.gov",
+    "dcPhone": "202-225-1986",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "400 S. Vicentia Ave., Suite 125, Corona, CA 92882",
+      "phone": "951-277-0042"
+    }
+  },
+  {
+    "district": "CA-42",
+    "name": "Robert Garcia",
+    "party": "Democrat",
+    "website": "https://robertgarcia.house.gov",
+    "dcPhone": "202-225-7924",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "415 West Ocean Blvd., Suite 2803, Long Beach, CA 90802",
+      "phone": "562-512-8489"
+    }
+  },
+  {
+    "district": "CA-43",
+    "name": "Maxine Waters",
+    "party": "Democrat",
+    "website": "https://waters.house.gov",
+    "dcPhone": "202-225-2201",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "13605 Hawthorne Blvd., Hawthorne, CA 90250",
+      "phone": "323-757-8900"
+    }
+  },
+  {
+    "district": "CA-44",
+    "name": "Nanette Diaz Barragán",
+    "party": "Democrat",
+    "website": "https://barragan.house.gov",
+    "dcPhone": "202-225-8220",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "701 E. Carson St., Carson, CA 90745",
+      "phone": "310-831-1799"
+    }
+  },
+  {
+    "district": "CA-45",
+    "name": "Derek Tran",
+    "party": "Democrat",
+    "website": "https://tran.house.gov",
+    "dcPhone": "202-225-2415",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6803 International Ave., 100, Cypress, CA 90630",
+      "phone": "714-960-6483"
+    }
+  },
+  {
+    "district": "CA-46",
+    "name": "J. Luis Correa",
+    "party": "Democrat",
+    "website": "https://correa.house.gov",
+    "dcPhone": "202-225-2965",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2323 N. Broadway, Suite 319, Santa Ana, CA 92706",
+      "phone": "714-559-6190"
+    }
+  },
+  {
+    "district": "CA-47",
+    "name": "Dave Min",
+    "party": "Democrat",
+    "website": "https://min.house.gov",
+    "dcPhone": "202-225-5611",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1370 Adams Ave, Suite A, Costa Mesa, CA 92626",
+      "phone": "949-668-6600"
+    }
+  },
+  {
+    "district": "CA-48",
+    "name": "Darrell Issa",
+    "party": "Republican",
+    "website": "https://issa.house.gov",
+    "dcPhone": "202-225-5672",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "221 W. Crest St, #110, Escondido, CA 92025",
+      "phone": "760-304-7575"
+    }
+  },
+  {
+    "district": "CA-49",
+    "name": "Mike Levin",
+    "party": "Democrat",
+    "website": "https://levin.house.gov",
+    "dcPhone": "202-225-3906",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2204 El Camino Real, Suite 314, Oceanside, CA 92054",
+      "phone": "760-599-5000"
+    }
+  },
+  {
+    "district": "CA-50",
+    "name": "Scott H. Peters",
+    "party": "Democrat",
+    "website": "https://scottpeters.house.gov",
+    "dcPhone": "202-225-0508",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4350 Executive Dr., Suite 105, San Diego, CA 92121",
+      "phone": "858-455-5550"
+    }
+  },
+  {
+    "district": "CA-51",
+    "name": "Sara Jacobs",
+    "party": "Democrat",
+    "website": "https://sarajacobs.house.gov",
+    "dcPhone": "202-225-2040",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3465 Camino del Rio S, 350, San Diego, CA undefined",
+      "phone": "619-280-5353"
+    }
+  },
+  {
+    "district": "CA-52",
+    "name": "Juan Vargas",
+    "party": "Democrat",
+    "website": "https://vargas.house.gov",
+    "dcPhone": "202-225-8045",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "333 F St., Suite A, Chula Vista, CA 91910",
+      "phone": "619-422-5963"
+    }
+  },
+  {
+    "district": "CO-01",
+    "name": "Diana DeGette",
+    "party": "Democrat",
+    "website": "https://degette.house.gov",
+    "dcPhone": "202-225-4431",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "600 Grant Street, Suite 850, Denver, CO 80203",
+      "phone": "303-844-4988"
+    }
+  },
+  {
+    "district": "CO-02",
+    "name": "Joe Neguse",
+    "party": "Democrat",
+    "website": "https://neguse.house.gov",
+    "dcPhone": "202-225-2161",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2503 Walnut St, Suite 300, Boulder, CO 80302-5748",
+      "phone": "303-335-1045"
+    }
+  },
+  {
+    "district": "CO-03",
+    "name": "Jeff Hurd",
+    "party": "Republican",
+    "website": "https://hurd.house.gov",
+    "dcPhone": "202-225-4676",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "743 Horizon Ct, Suite 112, Grand Junction, CO 81506",
+      "phone": "970-208-0455"
+    }
+  },
+  {
+    "district": "CO-04",
+    "name": "Lauren Boebert",
+    "party": "Republican",
+    "website": "https://boebert.house.gov",
+    "dcPhone": "202-225-4761",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "900 Castleton Rd., Suite 112, Castle Rock, CO 80109",
+      "phone": "720-639-9165"
+    }
+  },
+  {
+    "district": "CO-05",
+    "name": "Jeff Crank",
+    "party": "Republican",
+    "website": "https://crank.house.gov",
+    "dcPhone": "202-225-4422",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "455 E. Pikes Peak Ave, Suite 103, Colorado Springs, CO 80903",
+      "phone": "719-520-0055"
+    }
+  },
+  {
+    "district": "CO-06",
+    "name": "Jason Crow",
+    "party": "Democrat",
+    "website": "https://crow.house.gov",
+    "dcPhone": "202-225-7882",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2170 S Parker Road, #280, Aurora, CO 80231",
+      "phone": "720-748-7514"
+    }
+  },
+  {
+    "district": "CO-07",
+    "name": "Brittany Pettersen",
+    "party": "Democrat",
+    "website": "https://pettersen.house.gov",
+    "dcPhone": "202-225-2645",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "550 S. Wadsworth Blvd., Suite 400, Lakewood, CO 80226",
+      "phone": "303-274-7944"
+    }
+  },
+  {
+    "district": "CO-08",
+    "name": "Gabe Evans",
+    "party": "Republican",
+    "website": "https://gabeevans.house.gov",
+    "dcPhone": "202-225-5625",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3400 West 16th St, Suite C, Greeley, CO 80634",
+      "phone": "970-324-2567"
+    }
+  },
+  {
+    "district": "CT-01",
+    "name": "John B. Larson",
+    "party": "Democrat",
+    "website": "https://larson.house.gov",
+    "dcPhone": "202-225-2265",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "361 Main Street, 3rd Floor, East Hartford, CT 06118",
+      "phone": "860-278-8888"
+    }
+  },
+  {
+    "district": "CT-02",
+    "name": "Joe Courtney",
+    "party": "Democrat",
+    "website": "https://courtney.house.gov",
+    "dcPhone": "202-225-2076",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "77 Hazard Ave., Unit J, Enfield, CT 06082",
+      "phone": "860-741-6011"
+    }
+  },
+  {
+    "district": "CT-03",
+    "name": "Rosa L. DeLauro",
+    "party": "Democrat",
+    "website": "https://delauro.house.gov",
+    "dcPhone": "202-225-3661",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "59 Elm St., New Haven, CT 06510",
+      "phone": "203-562-3718"
+    }
+  },
+  {
+    "district": "CT-04",
+    "name": "James A. Himes",
+    "party": "Democrat",
+    "website": "https://himes.house.gov",
+    "dcPhone": "202-225-5541",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "888 Washington Blvd., 10th Floor, Stamford, CT 06901",
+      "phone": "203-353-9400"
+    }
+  },
+  {
+    "district": "CT-05",
+    "name": "Jahana Hayes",
+    "party": "Democrat",
+    "website": "https://hayes.house.gov",
+    "dcPhone": "202-225-4476",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "108 Bank St, 2nd Floor, Waterbury, CT 06702-2233",
+      "phone": "860-223-8412"
+    }
+  },
+  {
+    "district": "DC-98",
+    "name": "Eleanor Holmes Norton",
+    "party": "Democrat",
+    "website": "https://norton.house.gov",
+    "dcPhone": "202-225-8050",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1300 Pennsylvania Ave NW, M-1000, Washington, DC 20004",
+      "phone": "202-408-9041"
+    }
+  },
+  {
+    "district": "DE-00",
+    "name": "Sarah McBride",
+    "party": "Democrat",
+    "website": "https://mcbride.house.gov",
+    "dcPhone": "202-225-4165",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1105 North Market St, Suite 400, Wilmington, DE 19801",
+      "phone": "302-830-2330"
+    }
+  },
+  {
+    "district": "FL-01",
+    "name": "Jimmy Patronis",
+    "party": "Republican",
+    "website": "https://patronis.house.gov",
+    "dcPhone": "202-225-4136",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "805 E. James Lee Blvd., Crestview, FL 32539",
+      "phone": "850-603-6690"
+    }
+  },
+  {
+    "district": "FL-02",
+    "name": "Neal P. Dunn",
+    "party": "Republican",
+    "website": "https://dunn.house.gov",
+    "dcPhone": "202-225-5235",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "840 W. 11th St., Suite 2250, Panama City, FL 32401",
+      "phone": "850-785-0812"
+    }
+  },
+  {
+    "district": "FL-03",
+    "name": "Kat Cammack",
+    "party": "Republican",
+    "website": "https://cammack.house.gov",
+    "dcPhone": "202-225-5744",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5550 NW 111th Boulevard, Suite A, Gainesville, FL 32653",
+      "phone": "352-505-0838"
+    }
+  },
+  {
+    "district": "FL-04",
+    "name": "Aaron Bean",
+    "party": "Republican",
+    "website": "https://bean.house.gov",
+    "dcPhone": "202-225-0123",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4465-6 US Highway 17, Fleming Island, FL 32003",
+      "phone": "904-830-3933"
+    }
+  },
+  {
+    "district": "FL-05",
+    "name": "John H. Rutherford",
+    "party": "Republican",
+    "website": "https://rutherford.house.gov",
+    "dcPhone": "202-225-2501",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4130 Salisbury Road, Suite 2500, Jacksonville, FL 32216",
+      "phone": "904-831-5205"
+    }
+  },
+  {
+    "district": "FL-06",
+    "name": "Randy Fine",
+    "party": "Republican",
+    "website": "https://fine.house.gov",
+    "dcPhone": "202-225-2706",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "31 Lupi Court, Suite 130, Palm Coast, FL 32137-4761",
+      "phone": "386-302-0442"
+    }
+  },
+  {
+    "district": "FL-07",
+    "name": "Cory Mills",
+    "party": "Republican",
+    "website": "https://mills.house.gov",
+    "dcPhone": "202-225-4035",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "phone": "386-238-9711"
+    }
+  },
+  {
+    "district": "FL-08",
+    "name": "Mike Haridopolos",
+    "party": "Republican",
+    "website": "https://haridopolos.house.gov",
+    "dcPhone": "202-225-3671",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2725 Judge Fran Jamieson Way, Melbourne, FL 32940",
+      "phone": "321-632-1776"
+    }
+  },
+  {
+    "district": "FL-09",
+    "name": "Darren Soto",
+    "party": "Democrat",
+    "website": "https://soto.house.gov",
+    "dcPhone": "202-225-9889",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "804 Bryan St., Kissimmee, FL 34741",
+      "phone": "407-452-1171"
+    }
+  },
+  {
+    "district": "FL-10",
+    "name": "Maxwell Frost",
+    "party": "Democrat",
+    "website": "https://frost.house.gov",
+    "dcPhone": "202-225-2176",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "617 N. Magnolia Ave., Orlando, FL 32801",
+      "phone": "321-388-9808"
+    }
+  },
+  {
+    "district": "FL-11",
+    "name": "Daniel Webster",
+    "party": "Republican",
+    "website": "https://webster.house.gov",
+    "dcPhone": "202-225-1002",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8015 E County Rd 466, Suite B, The Villages, FL 32162",
+      "phone": "352-383-3552"
+    }
+  },
+  {
+    "district": "FL-12",
+    "name": "Gus M. Bilirakis",
+    "party": "Republican",
+    "website": "https://bilirakis.house.gov",
+    "dcPhone": "202-225-5755",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "212 W Main Street, Suite 208A, Inverness, FL 34450",
+      "phone": "352-654-1004"
+    }
+  },
+  {
+    "district": "FL-13",
+    "name": "Anna Paulina Luna",
+    "party": "Republican",
+    "website": "https://luna.house.gov",
+    "dcPhone": "202-225-5961",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9200 113th St. N., Suite 305, Seminole, FL 33772",
+      "phone": "727-610-3980"
+    }
+  },
+  {
+    "district": "FL-14",
+    "name": "Kathy Castor",
+    "party": "Democrat",
+    "website": "https://castor.house.gov",
+    "dcPhone": "202-225-3376",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4144 N. Armenia Ave., Suite 300, Tampa, FL 33607",
+      "phone": "813-871-2817"
+    }
+  },
+  {
+    "district": "FL-15",
+    "name": "Laurel M. Lee",
+    "party": "Republican",
+    "website": "https://laurellee.house.gov",
+    "dcPhone": "202-225-5626",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "17425 Bridge Hill Court, Suite 203, Tampa, FL 33647",
+      "phone": "813-393-5077"
+    }
+  },
+  {
+    "district": "FL-16",
+    "name": "Vern Buchanan",
+    "party": "Republican",
+    "website": "https://buchanan.house.gov",
+    "dcPhone": "202-225-5015",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "510 Vonderburg Drive, Suite 303, Brandon, FL 33511",
+      "phone": "813-657-1013"
+    }
+  },
+  {
+    "district": "FL-17",
+    "name": "W. Gregory Steube",
+    "party": "Republican",
+    "website": "https://steube.house.gov",
+    "dcPhone": "202-225-5792",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "226 Taylor St, Suite 230, Punta Gorda, FL 33950-4457",
+      "phone": "941-575-9101"
+    }
+  },
+  {
+    "district": "FL-18",
+    "name": "Scott Franklin",
+    "party": "Republican",
+    "website": "https://franklin.house.gov",
+    "dcPhone": "202-225-1252",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "124 S. Florida Avenue, Suite 304, Lakeland, FL 33801",
+      "phone": "863-644-8215"
+    }
+  },
+  {
+    "district": "FL-19",
+    "name": "Byron Donalds",
+    "party": "Republican",
+    "website": "https://donalds.house.gov",
+    "dcPhone": "202-225-2536",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1039 SE 9th Ave, Suite 308, Cape Coral, FL 33990",
+      "phone": "239-599-6033"
+    }
+  },
+  {
+    "district": "FL-21",
+    "name": "Brian J. Mast",
+    "party": "Republican",
+    "website": "https://mast.house.gov",
+    "dcPhone": "202-225-3026",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "121 SW. Port St. Lucie Blvd., Port St. Lucie, FL 34984",
+      "phone": "772-336-2877"
+    }
+  },
+  {
+    "district": "FL-22",
+    "name": "Lois Frankel",
+    "party": "Democrat",
+    "website": "https://frankel.house.gov",
+    "dcPhone": "202-225-9890",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "7499 West Atlantic Ave, Unit 206, Delray Beach, FL 33446",
+      "phone": "561-998-9045"
+    }
+  },
+  {
+    "district": "FL-23",
+    "name": "Jared Moskowitz",
+    "party": "Democrat",
+    "website": "https://moskowitz.house.gov",
+    "dcPhone": "202-225-3001",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9500 W. Sample Road, Suite 201, Coral Springs, FL 33065",
+      "phone": "754-240-6330"
+    }
+  },
+  {
+    "district": "FL-24",
+    "name": "Frederica S. Wilson",
+    "party": "Democrat",
+    "website": "https://wilson.house.gov",
+    "dcPhone": "202-225-4506",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1965 South State Road 7, West Park, FL 33023",
+      "phone": "954-989-2688"
+    }
+  },
+  {
+    "district": "FL-25",
+    "name": "Debbie Wasserman Schultz",
+    "party": "Democrat",
+    "website": "https://wassermanschultz.house.gov",
+    "dcPhone": "202-225-7931",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "777 Sawgrass Corporate Parkway, Sunrise, FL 33325",
+      "phone": "954-845-1179"
+    }
+  },
+  {
+    "district": "FL-26",
+    "name": "Mario Diaz-Balart",
+    "party": "Republican",
+    "website": "https://mariodiazbalart.house.gov",
+    "dcPhone": "202-225-4211",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8669 NW. 36th St., Suite 100, Doral, FL 33166",
+      "phone": "305-470-8555"
+    }
+  },
+  {
+    "district": "FL-27",
+    "name": "Maria Elvira Salazar",
+    "party": "Republican",
+    "website": "https://salazar.house.gov",
+    "dcPhone": "202-225-3931",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5725 SW 8th St, Suite 200, Miami, FL 33144",
+      "phone": "305-668-2285"
+    }
+  },
+  {
+    "district": "FL-28",
+    "name": "Carlos A. Gimenez",
+    "party": "Republican",
+    "website": "https://gimenez.house.gov",
+    "dcPhone": "202-225-2778",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1100 Simonton St., Room 1-213, Key West, FL 33040",
+      "phone": "305-292-4485"
+    }
+  },
+  {
+    "district": "GA-01",
+    "name": "Earl L. \"Buddy\" Carter",
+    "party": "Republican",
+    "website": "https://buddycarter.house.gov",
+    "dcPhone": "202-225-5831",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6602 Abercorn St., Suite 105B, Savannah, GA 31405",
+      "phone": "912-352-0101"
+    }
+  },
+  {
+    "district": "GA-02",
+    "name": "Sanford D. Bishop, Jr.",
+    "party": "Democrat",
+    "website": "https://bishop.house.gov",
+    "dcPhone": "202-225-3631",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "323 Pine Ave, 400, Albany, GA 31701-2596",
+      "phone": "229-439-8067"
+    }
+  },
+  {
+    "district": "GA-03",
+    "name": "Brian Jack",
+    "party": "Republican",
+    "website": "https://jack.house.gov",
+    "dcPhone": "202-225-5901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1601 E HWY 34, Suite B, Newnan, GA 30265",
+      "phone": "770-683-2033"
+    }
+  },
+  {
+    "district": "GA-04",
+    "name": "Henry C. \"Hank\" Johnson, Jr.",
+    "party": "Democrat",
+    "website": "https://hankjohnson.house.gov",
+    "dcPhone": "202-225-1605",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5240 Snapfinger Park Drive, Ste 140, Decatur, GA 30035",
+      "phone": "770-987-2291"
+    }
+  },
+  {
+    "district": "GA-05",
+    "name": "Nikema Williams",
+    "party": "Democrat",
+    "website": "https://nikemawilliams.house.gov",
+    "dcPhone": "202-225-3801",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 Peachtree Street Northwest, Suite 1920, Atlanta, GA 30303",
+      "phone": "404-659-0116"
+    }
+  },
+  {
+    "district": "GA-06",
+    "name": "Lucy McBath",
+    "party": "Democrat",
+    "website": "https://mcbath.house.gov",
+    "dcPhone": "202-225-4501",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3330 Cumberland Boulevard SE, Suite 610, Atlanta, GA 30339",
+      "phone": "470-773-6330"
+    }
+  },
+  {
+    "district": "GA-07",
+    "name": "Richard McCormick",
+    "party": "Republican",
+    "website": "https://mccormick.house.gov",
+    "dcPhone": "202-225-4272",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "115 W Court House Square, Cumming, GA 30040",
+      "phone": "770-232-3005"
+    }
+  },
+  {
+    "district": "GA-08",
+    "name": "Austin Scott",
+    "party": "Republican",
+    "website": "https://austinscott.house.gov",
+    "dcPhone": "202-225-6531",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "127-B N. Central Ave., Tifton, GA 31794",
+      "phone": "229-396-5175"
+    }
+  },
+  {
+    "district": "GA-09",
+    "name": "Andrew S. Clyde",
+    "party": "Republican",
+    "website": "https://clyde.house.gov",
+    "dcPhone": "202-225-9893",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "210 Washington St NW, Suite 202, Gainesville, GA 30501",
+      "phone": "470-768-6520"
+    }
+  },
+  {
+    "district": "GA-10",
+    "name": "Mike Collins",
+    "party": "Republican",
+    "website": "https://collins.house.gov",
+    "dcPhone": "202-225-4101",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 Court St., Monroe, GA 30655",
+      "phone": "770-207-1776"
+    }
+  },
+  {
+    "district": "GA-11",
+    "name": "Barry Loudermilk",
+    "party": "Republican",
+    "website": "https://loudermilk.house.gov",
+    "dcPhone": "202-225-2931",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "135 W. Cherokee Ave., Suite 122, Cartersville, GA 30120",
+      "phone": "770-429-1776"
+    }
+  },
+  {
+    "district": "GA-12",
+    "name": "Rick W. Allen",
+    "party": "Republican",
+    "website": "https://allen.house.gov",
+    "dcPhone": "202-225-2823",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 S. Church St., Dublin, GA 31021",
+      "phone": "478-291-6324"
+    }
+  },
+  {
+    "district": "GA-13",
+    "name": "Everton Blair Jr.",
+    "party": "Democrat",
+    "website": "https://blair.house.gov/",
+    "dcPhone": "202-225-2939",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": null
+  },
+  {
+    "district": "GA-14",
+    "name": "Clay Fuller",
+    "party": "Republican",
+    "website": "https://fuller.house.gov",
+    "dcPhone": "202-225-5211",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "P.O. Box 829, Dalton, GA 30722",
+      "phone": "706-226-5320"
+    }
+  },
+  {
+    "district": "GU-98",
+    "name": "James C. Moylan",
+    "party": "Republican",
+    "website": "https://moylan.house.gov",
+    "dcPhone": "202-225-1188",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "330 Hernan Cortez Avenue, Suite 300, Hagatna, GU 96910",
+      "phone": "671-922-6673"
+    }
+  },
+  {
+    "district": "HI-01",
+    "name": "Ed Case",
+    "party": "Democrat",
+    "website": "https://case.house.gov",
+    "dcPhone": "202-225-2726",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1003 Bishop Street, Suite 1110, Honolulu, HI 96813",
+      "phone": "808-650-6688"
+    }
+  },
+  {
+    "district": "HI-02",
+    "name": "Jill N. Tokuda",
+    "party": "Democrat",
+    "website": "https://tokuda.house.gov",
+    "dcPhone": "202-225-4906",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1001 Bishop St., Suite 1503, Honolulu, HI 96813",
+      "phone": "808-746-6220"
+    }
+  },
+  {
+    "district": "IA-01",
+    "name": "Mariannette Miller-Meeks",
+    "party": "Republican",
+    "website": "https://millermeeks.house.gov",
+    "dcPhone": "202-225-6576",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "126 N Howard Street, Indianola, IA 50125",
+      "phone": "515-808-6040"
+    }
+  },
+  {
+    "district": "IA-02",
+    "name": "Ashley Hinson",
+    "party": "Republican",
+    "website": "https://hinson.house.gov",
+    "dcPhone": "202-225-2911",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "531 Commercial St., Suite 302, Waterloo, IA 50701",
+      "phone": "319-266-6925"
+    }
+  },
+  {
+    "district": "IA-03",
+    "name": "Zachary Nunn",
+    "party": "Republican",
+    "website": "https://nunn.house.gov",
+    "dcPhone": "202-225-5476",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "400 Locust Street, Suite 250, Des Moines, IA 50309",
+      "phone": "515-400-8180"
+    }
+  },
+  {
+    "district": "IA-04",
+    "name": "Randy Feenstra",
+    "party": "Republican",
+    "website": "https://feenstra.house.gov",
+    "dcPhone": "202-225-4426",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "723 Central Avenue, Fort Dodge, IA 50501",
+      "phone": "515-302-7060"
+    }
+  },
+  {
+    "district": "ID-01",
+    "name": "Russ Fulcher",
+    "party": "Republican",
+    "website": "https://fulcher.house.gov",
+    "dcPhone": "202-225-6611",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "313 D St, Suite 107, Lewiston, ID 83501-1894",
+      "phone": "208-743-1388"
+    }
+  },
+  {
+    "district": "ID-02",
+    "name": "Michael K. Simpson",
+    "party": "Republican",
+    "website": "https://simpson.house.gov",
+    "dcPhone": "202-225-5531",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "802 W. Bannock, Suite 600, Boise, ID 83702",
+      "phone": "208-334-1953"
+    }
+  },
+  {
+    "district": "IL-01",
+    "name": "Jonathan L. Jackson",
+    "party": "Democrat",
+    "website": "https://jonathanjackson.house.gov",
+    "dcPhone": "202-225-4372",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "435 E. 35th Street, Chicago, IL 60616",
+      "phone": "773-779-2400"
+    }
+  },
+  {
+    "district": "IL-02",
+    "name": "Robin L. Kelly",
+    "party": "Democrat",
+    "website": "https://robinkelly.house.gov",
+    "dcPhone": "202-225-0773",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "600 Town Center Road, Suite 505, Matteson, IL 60443",
+      "phone": "708-679-0078"
+    }
+  },
+  {
+    "district": "IL-03",
+    "name": "Delia C. Ramirez",
+    "party": "Democrat",
+    "website": "https://ramirez.house.gov",
+    "dcPhone": "202-225-5701",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "946 N Neltnor Blvd, Suite 104, West Chicago, IL 60185",
+      "phone": "630-520-9494"
+    }
+  },
+  {
+    "district": "IL-04",
+    "name": "Jesús G. \"Chuy\" García",
+    "party": "Democrat",
+    "website": "https://chuygarcia.house.gov",
+    "dcPhone": "202-225-8203",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "125 N 19th Ave, Suite A, Melrose Park, IL 60160",
+      "phone": "773-342-0774"
+    }
+  },
+  {
+    "district": "IL-05",
+    "name": "Mike Quigley",
+    "party": "Democrat",
+    "website": "https://quigley.house.gov",
+    "dcPhone": "202-225-4061",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1925 N. Clybourn Ave., Chicago, IL 60614",
+      "phone": "773-267-5926"
+    }
+  },
+  {
+    "district": "IL-06",
+    "name": "Sean Casten",
+    "party": "Democrat",
+    "website": "https://casten.house.gov",
+    "dcPhone": "202-225-4561",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "800 Roosevelt Road, Suite 204, Glen Ellyn, IL 60137",
+      "phone": "630-520-9450"
+    }
+  },
+  {
+    "district": "IL-07",
+    "name": "Danny K. Davis",
+    "party": "Democrat",
+    "website": "https://davis.house.gov",
+    "dcPhone": "202-225-5006",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2815 W. Fifth Avenue, Chicago, IL 60612",
+      "phone": "773-533-7520"
+    }
+  },
+  {
+    "district": "IL-08",
+    "name": "Raja Krishnamoorthi",
+    "party": "Democrat",
+    "website": "https://krishnamoorthi.house.gov",
+    "dcPhone": "202-225-3711",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1701 E. Woodfield Rd., Suite 704, Schaumburg, IL 60173",
+      "phone": "847-413-1959"
+    }
+  },
+  {
+    "district": "IL-09",
+    "name": "Janice D. Schakowsky",
+    "party": "Democrat",
+    "website": "https://schakowsky.house.gov",
+    "dcPhone": "202-225-2111",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4500 Oakton Street, Skokie, IL 60076",
+      "phone": "773-506-7100"
+    }
+  },
+  {
+    "district": "IL-10",
+    "name": "Bradley Scott Schneider",
+    "party": "Democrat",
+    "website": "https://schneider.house.gov",
+    "dcPhone": "202-225-4835",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "111 Barclay Blvd., Suite 200, Lincolnshire, IL 60069",
+      "phone": "847-383-4870"
+    }
+  },
+  {
+    "district": "IL-11",
+    "name": "Bill Foster",
+    "party": "Democrat",
+    "website": "https://foster.house.gov",
+    "dcPhone": "202-225-3515",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "11187 E Dundee Rd, Suite 101, Huntley, IL 60142",
+      "phone": "630-585-7672"
+    }
+  },
+  {
+    "district": "IL-12",
+    "name": "Mike Bost",
+    "party": "Republican",
+    "website": "https://bost.house.gov",
+    "dcPhone": "202-225-5661",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "205 East Harnett Street, Mascoutah, IL 62258",
+      "phone": "618-622-0766"
+    }
+  },
+  {
+    "district": "IL-13",
+    "name": "Nikki Budzinski",
+    "party": "Democrat",
+    "website": "https://budzinski.house.gov",
+    "dcPhone": "202-225-2371",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "44 East Main Street, Suite 205, Champaign, IL 61820",
+      "phone": "217-305-6991"
+    }
+  },
+  {
+    "district": "IL-14",
+    "name": "Lauren Underwood",
+    "party": "Democrat",
+    "website": "https://underwood.house.gov",
+    "dcPhone": "202-225-2976",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "116 N. Chicago Street, Suite 201, Joliet, IL 60432",
+      "phone": "630-549-2190"
+    }
+  },
+  {
+    "district": "IL-15",
+    "name": "Mary E. Miller",
+    "party": "Republican",
+    "website": "https://marymiller.house.gov",
+    "dcPhone": "202-225-5271",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "604 East Main Street, G, Mahomet, IL 61853",
+      "phone": "217-703-6100"
+    }
+  },
+  {
+    "district": "IL-16",
+    "name": "Darin LaHood",
+    "party": "Republican",
+    "website": "https://lahood.house.gov",
+    "dcPhone": "202-225-6201",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 NE Monroe St., Room 100, Peoria, IL 61602",
+      "phone": "309-671-7027"
+    }
+  },
+  {
+    "district": "IL-17",
+    "name": "Eric Sorensen",
+    "party": "Democrat",
+    "website": "https://sorensen.house.gov",
+    "dcPhone": "202-225-5905",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "401 E. State Street, Ground Floor, Rockford, IL 61104",
+      "phone": "779-513-4960"
+    }
+  },
+  {
+    "district": "IN-01",
+    "name": "Frank J. Mrvan",
+    "party": "Democrat",
+    "website": "https://mrvan.house.gov",
+    "dcPhone": "202-225-2461",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8001 Broadway, Suite 201, Merrillville, IN 46410",
+      "phone": "219-795-1844"
+    }
+  },
+  {
+    "district": "IN-02",
+    "name": "Rudy Yakym III",
+    "party": "Republican",
+    "website": "https://yakym.house.gov",
+    "dcPhone": "202-225-3915",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2410 Grape Road, Suite 2A, Mishawaka, IN 46545",
+      "phone": "574-204-2645"
+    }
+  },
+  {
+    "district": "IN-03",
+    "name": "Marlin A. Stutzman",
+    "party": "Republican",
+    "website": "https://stutzman.house.gov",
+    "dcPhone": "202-225-4436",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6714 Pointe Inverness Way, Fort Wayne, IN 46804",
+      "phone": "260-702-4750"
+    }
+  },
+  {
+    "district": "IN-04",
+    "name": "James R. Baird",
+    "party": "Republican",
+    "website": "https://baird.house.gov",
+    "dcPhone": "202-225-5037",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "355 S Washington St, Suite 210, Danville, IN 46122-1779",
+      "phone": "317-563-5567"
+    }
+  },
+  {
+    "district": "IN-05",
+    "name": "Victoria Spartz",
+    "party": "Republican",
+    "website": "https://spartz.house.gov",
+    "dcPhone": "202-225-2276",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5540 Pebble Village Lane, Suite 400, Noblesville, IN 46062",
+      "phone": "317-848-0201"
+    }
+  },
+  {
+    "district": "IN-06",
+    "name": "Jefferson Shreve",
+    "party": "Republican",
+    "website": "https://shreve.house.gov",
+    "dcPhone": "202-225-3021",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "50 N Fifth St, 2nd Floor, Richmond, IN 47374",
+      "phone": "317-399-3333"
+    }
+  },
+  {
+    "district": "IN-07",
+    "name": "André Carson",
+    "party": "Democrat",
+    "website": "https://carson.house.gov",
+    "dcPhone": "202-225-4011",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 E. Fall Creek Pkwy N Dr., Suite 300, Indianapolis, IN 46205",
+      "phone": "317-283-6516"
+    }
+  },
+  {
+    "district": "IN-08",
+    "name": "Mark B. Messmer",
+    "party": "Republican",
+    "website": "https://messmer.house.gov",
+    "dcPhone": "202-225-4636",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "20 NW Third St, Suite 1230, Evansville, IN 47708",
+      "phone": "812-465-6484"
+    }
+  },
+  {
+    "district": "IN-09",
+    "name": "Erin Houchin",
+    "party": "Republican",
+    "website": "https://houchin.house.gov",
+    "dcPhone": "202-225-5315",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "104 W Hackberry St, Salem, IN 47167",
+      "phone": "812-288-3999"
+    }
+  },
+  {
+    "district": "KS-01",
+    "name": "Tracey Mann",
+    "party": "Republican",
+    "website": "https://mann.house.gov",
+    "dcPhone": "202-225-2715",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "317 Houston Street, Suite A, Manhattan, KS 66502",
+      "phone": "785-370-7277"
+    }
+  },
+  {
+    "district": "KS-02",
+    "name": "Derek Schmidt",
+    "party": "Republican",
+    "website": "https://schmidt.house.gov",
+    "dcPhone": "202-225-6601",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "402 N Broadway St, Suite B, Pittsburg, KS 66762",
+      "phone": "620-308-7450"
+    }
+  },
+  {
+    "district": "KS-03",
+    "name": "Sharice Davids",
+    "party": "Democrat",
+    "website": "https://davids.house.gov",
+    "dcPhone": "202-225-2865",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9200 Indian Creek Parkway, Suite 562, Overland Park, KS 66210",
+      "phone": "913-621-0832"
+    }
+  },
+  {
+    "district": "KS-04",
+    "name": "Ron Estes",
+    "party": "Republican",
+    "website": "https://estes.house.gov",
+    "dcPhone": "202-225-6216",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "7701 E. Kellogg, Ste. 510, Wichita, KS 67207",
+      "phone": "316-262-8992"
+    }
+  },
+  {
+    "district": "KY-01",
+    "name": "James Comer",
+    "party": "Republican",
+    "website": "https://comer.house.gov",
+    "dcPhone": "202-225-3115",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 S. 3rd St., Paducah, KY 42003",
+      "phone": "270-408-1865"
+    }
+  },
+  {
+    "district": "KY-02",
+    "name": "Brett Guthrie",
+    "party": "Republican",
+    "website": "https://guthrie.house.gov",
+    "dcPhone": "202-225-3501",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "996 Wilkinson Trce., Suite B2, Bowling Green, KY 42103",
+      "phone": "270-842-9896"
+    }
+  },
+  {
+    "district": "KY-03",
+    "name": "Morgan McGarvey",
+    "party": "Democrat",
+    "website": "https://mcgarvey.house.gov",
+    "dcPhone": "202-225-5401",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "600 Dr Martin Luther King Jr Pl, Suite 216, Louisville, KY 40202",
+      "phone": "502-582-5129"
+    }
+  },
+  {
+    "district": "KY-04",
+    "name": "Thomas Massie",
+    "party": "Republican",
+    "website": "https://massie.house.gov",
+    "dcPhone": "202-225-3465",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "541 Buttermilk Pike, Suite 208, Crescent Springs, KY 41017",
+      "phone": "859-426-0080"
+    }
+  },
+  {
+    "district": "KY-05",
+    "name": "Harold Rogers",
+    "party": "Republican",
+    "website": "https://halrogers.house.gov",
+    "dcPhone": "202-225-4601",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "48 S. KY Hwy. 15, Hazard, KY 41701",
+      "phone": "606-439-0794"
+    }
+  },
+  {
+    "district": "KY-06",
+    "name": "Andy Barr",
+    "party": "Republican",
+    "website": "https://barr.house.gov",
+    "dcPhone": "202-225-4706",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2709 Old Rosebud Rd., Ste. 100, Lexington, KY 40509",
+      "phone": "859-219-1366"
+    }
+  },
+  {
+    "district": "LA-01",
+    "name": "Steve Scalise",
+    "party": "Republican",
+    "website": "https://scalise.house.gov",
+    "dcPhone": "202-225-3015",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "21454 Koop Drive, Suite 2C, Mandeville, LA 70471",
+      "phone": "985-893-9064"
+    }
+  },
+  {
+    "district": "LA-02",
+    "name": "Troy A. Carter",
+    "party": "Democrat",
+    "website": "https://troycarter.house.gov",
+    "dcPhone": "202-225-6636",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "200 Derbigny St, Suite 3200, Gretna, LA 70053"
+    }
+  },
+  {
+    "district": "LA-03",
+    "name": "Clay Higgins",
+    "party": "Republican",
+    "website": "https://clayhiggins.house.gov",
+    "dcPhone": "202-225-2031",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "600 Jefferson Street, Suite 808, Lafayette, LA 70501",
+      "phone": "337-703-6105"
+    }
+  },
+  {
+    "district": "LA-04",
+    "name": "Mike Johnson",
+    "party": "Republican",
+    "website": "https://mikejohnson.house.gov",
+    "dcPhone": "202-225-2777",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2250 Hospital Dr., Suite 248, Bossier City, LA 71111",
+      "phone": "318-840-0309"
+    }
+  },
+  {
+    "district": "LA-05",
+    "name": "Julia Letlow",
+    "party": "Republican",
+    "website": "https://letlow.house.gov",
+    "dcPhone": "202-225-8490",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "109 E. Oak Street, Amite, LA 70422",
+      "phone": "985-284-5200"
+    }
+  },
+  {
+    "district": "LA-06",
+    "name": "Cleo Fields",
+    "party": "Democrat",
+    "website": "https://fields.house.gov",
+    "dcPhone": "202-225-3901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "700 North 10th St, Fourth Floor, Baton Rouge, LA 70802",
+      "phone": "225-952-1965"
+    }
+  },
+  {
+    "district": "MA-01",
+    "name": "Richard E. Neal",
+    "party": "Democrat",
+    "website": "https://neal.house.gov",
+    "dcPhone": "202-225-5601",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "78 Center St., Pittsfield, MA 01201",
+      "phone": "413-442-0946"
+    }
+  },
+  {
+    "district": "MA-02",
+    "name": "James P. McGovern",
+    "party": "Democrat",
+    "website": "https://mcgovern.house.gov",
+    "dcPhone": "202-225-6101",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "24 Church St., Room 27, Leominster, MA 01453",
+      "phone": "978-466-3552"
+    }
+  },
+  {
+    "district": "MA-03",
+    "name": "Lori Trahan",
+    "party": "Democrat",
+    "website": "https://trahan.house.gov",
+    "dcPhone": "202-225-3411",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "126 John St, Suite 12, Lowell, MA 01852-1152",
+      "phone": "978-459-0101"
+    }
+  },
+  {
+    "district": "MA-04",
+    "name": "Jake Auchincloss",
+    "party": "Democrat",
+    "website": "https://auchincloss.house.gov",
+    "dcPhone": "202-225-5931",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "29 Crafts St., Suite 375, Newton, MA 02458",
+      "phone": "617-332-3333"
+    }
+  },
+  {
+    "district": "MA-05",
+    "name": "Katherine M. Clark",
+    "party": "Democrat",
+    "website": "https://katherineclark.house.gov",
+    "dcPhone": "202-225-2836",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "157 Pleasant St, Suite 4, Malden, MA 02148",
+      "phone": "617-354-0292"
+    }
+  },
+  {
+    "district": "MA-06",
+    "name": "Seth Moulton",
+    "party": "Democrat",
+    "website": "https://moulton.house.gov",
+    "dcPhone": "202-225-8020",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "21 Front St., Salem, MA 01970",
+      "phone": "978-531-1669"
+    }
+  },
+  {
+    "district": "MA-07",
+    "name": "Ayanna Pressley",
+    "party": "Democrat",
+    "website": "https://pressley.house.gov",
+    "dcPhone": "202-225-5111",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "50 Redfield Street, Suite 302, Boston, MA 02122",
+      "phone": "617-850-0040"
+    }
+  },
+  {
+    "district": "MA-08",
+    "name": "Stephen F. Lynch",
+    "party": "Democrat",
+    "website": "https://lynch.house.gov",
+    "dcPhone": "202-225-8273",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "37 Belmont Street, 2nd Floor, Suite 3, Brockton, MA 02301",
+      "phone": "508-586-5555"
+    }
+  },
+  {
+    "district": "MA-09",
+    "name": "William R. Keating",
+    "party": "Democrat",
+    "website": "https://keating.house.gov",
+    "dcPhone": "202-225-3111",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "128 Union Street, Suite 103, New Bedford, MA 02740",
+      "phone": "508-999-6462"
+    }
+  },
+  {
+    "district": "MD-01",
+    "name": "Andy Harris",
+    "party": "Republican",
+    "website": "https://harris.house.gov",
+    "dcPhone": "202-225-5311",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "15 E. Churchville Rd., Suite 102B, Bel Air, MD 21014",
+      "phone": "410-588-5670"
+    }
+  },
+  {
+    "district": "MD-02",
+    "name": "Johnny Olszewski, Jr.",
+    "party": "Democrat",
+    "website": "https://olszewski.house.gov",
+    "dcPhone": "202-225-3061",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "110 West Rd, Suite 420, Towson, MD 21204",
+      "phone": "410-427-5725"
+    }
+  },
+  {
+    "district": "MD-03",
+    "name": "Sarah Elfreth",
+    "party": "Democrat",
+    "website": "https://elfreth.house.gov",
+    "dcPhone": "202-225-4016",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "10440 Little Patuxent Pkwy, Suite 550, Columbia, MD 21044",
+      "phone": "410-832-8890"
+    }
+  },
+  {
+    "district": "MD-04",
+    "name": "Glenn Ivey",
+    "party": "Democrat",
+    "website": "https://ivey.house.gov",
+    "dcPhone": "202-225-8699",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4301 Garden City Dr., Suite 405, Landover, MD 20785",
+      "phone": "240-906-6262"
+    }
+  },
+  {
+    "district": "MD-05",
+    "name": "Steny H. Hoyer",
+    "party": "Democrat",
+    "website": "https://hoyer.house.gov",
+    "dcPhone": "202-225-4131",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6500 Cherrywood Ln., Suite 310, Greenbelt, MD 20770",
+      "phone": "301-474-0119"
+    }
+  },
+  {
+    "district": "MD-06",
+    "name": "April McClain Delaney",
+    "party": "Democrat",
+    "website": "https://mcclaindelaney.house.gov",
+    "dcPhone": "202-225-2721",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "30 W. Patrick St., Suite 505, Frederick, MD 21701",
+      "phone": "301-926-0300"
+    }
+  },
+  {
+    "district": "MD-07",
+    "name": "Kweisi Mfume",
+    "party": "Democrat",
+    "website": "https://mfume.house.gov",
+    "dcPhone": "202-225-4741",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1010 Park Avenue, Suite 105, Baltimore, MD 21201",
+      "phone": "410-685-9199"
+    }
+  },
+  {
+    "district": "MD-08",
+    "name": "Jamie Raskin",
+    "party": "Democrat",
+    "website": "https://raskin.house.gov",
+    "dcPhone": "202-225-5341",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "51 Monroe St., Suite 503, Rockville, MD 20850",
+      "phone": "301-354-1000"
+    }
+  },
+  {
+    "district": "ME-01",
+    "name": "Chellie Pingree",
+    "party": "Democrat",
+    "website": "https://pingree.house.gov",
+    "dcPhone": "202-225-6116",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2 Portland Fish Pier, Suite 304, Portland, ME 04101",
+      "phone": "207-774-5019"
+    }
+  },
+  {
+    "district": "ME-02",
+    "name": "Jared F. Golden",
+    "party": "Democrat",
+    "website": "https://golden.house.gov",
+    "dcPhone": "202-225-6306",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6 State St, Suite 101, Bangor, ME 04401-5112",
+      "phone": "207-249-7400"
+    }
+  },
+  {
+    "district": "MI-01",
+    "name": "Jack Bergman",
+    "party": "Republican",
+    "website": "https://bergman.house.gov",
+    "dcPhone": "202-225-4735",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1396 Douglas Drive, Suite 22B, Traverse City, MI 49696",
+      "phone": "231-944-7633"
+    }
+  },
+  {
+    "district": "MI-02",
+    "name": "John R. Moolenaar",
+    "party": "Republican",
+    "website": "https://moolenaar.house.gov",
+    "dcPhone": "202-225-3561",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "431 North McEwan Street, Clare, MI 48617",
+      "phone": "989-802-6040"
+    }
+  },
+  {
+    "district": "MI-03",
+    "name": "Hillary J. Scholten",
+    "party": "Democrat",
+    "website": "https://scholten.house.gov",
+    "dcPhone": "202-225-3831",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "110 Michigan Street NW, Grand Rapids, MI 49503",
+      "phone": "616-451-8383"
+    }
+  },
+  {
+    "district": "MI-04",
+    "name": "Bill Huizenga",
+    "party": "Republican",
+    "website": "https://huizenga.house.gov",
+    "dcPhone": "202-225-4401",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5228 Lovers Lane, Suite 108, Portage, MI 49002",
+      "phone": "269-569-8595"
+    }
+  },
+  {
+    "district": "MI-05",
+    "name": "Tim Walberg",
+    "party": "Republican",
+    "website": "https://walberg.house.gov",
+    "dcPhone": "202-225-6276",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "401 W. Michigan Ave., Jackson, MI 49201",
+      "phone": "517-780-9075"
+    }
+  },
+  {
+    "district": "MI-06",
+    "name": "Debbie Dingell",
+    "party": "Democrat",
+    "website": "https://debbiedingell.house.gov",
+    "dcPhone": "202-225-4071",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2006 Hogback Road, Suite 7, Ann Arbor, MI 48105",
+      "phone": "734-481-1100"
+    }
+  },
+  {
+    "district": "MI-07",
+    "name": "Tom Barrett",
+    "party": "Republican",
+    "website": "https://barrett.house.gov",
+    "dcPhone": "202-225-4872",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "328 W Ottawa St, Suite A, Lansing, MI 48933",
+      "phone": "517-993-0510"
+    }
+  },
+  {
+    "district": "MI-08",
+    "name": "Kristen McDonald Rivet",
+    "party": "Democrat",
+    "website": "https://mcdonaldrivet.house.gov",
+    "dcPhone": "202-225-3611",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "601 Saginaw St, Suite 403, Flint, MI 48502",
+      "phone": "810-238-8627"
+    }
+  },
+  {
+    "district": "MI-09",
+    "name": "Lisa C. McClain",
+    "party": "Republican",
+    "website": "https://mcclain.house.gov",
+    "dcPhone": "202-225-2106",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "30 N Broadway St., Lake Orion, MI 48362",
+      "phone": "586-697-9300"
+    }
+  },
+  {
+    "district": "MI-10",
+    "name": "John James",
+    "party": "Republican",
+    "website": "https://james.house.gov",
+    "dcPhone": "202-225-4961",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "30500 Van Dyke Avenue, Suite 306, Warren, MI 48093",
+      "phone": "586-498-7122"
+    }
+  },
+  {
+    "district": "MI-11",
+    "name": "Haley M. Stevens",
+    "party": "Democrat",
+    "website": "https://stevens.house.gov",
+    "dcPhone": "202-225-8171",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "30500 Northwestern Highway, Suite 525, Farmington Hills, MI 48334",
+      "phone": "734-853-3040"
+    }
+  },
+  {
+    "district": "MI-12",
+    "name": "Rashida Tlaib",
+    "party": "Democrat",
+    "website": "https://tlaib.house.gov",
+    "dcPhone": "202-225-5126",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "26080 Berg Rd., Southfield, MI 48033",
+      "phone": "313-203-7540"
+    }
+  },
+  {
+    "district": "MI-13",
+    "name": "Shri Thanedar",
+    "party": "Democrat",
+    "website": "https://thanedar.house.gov",
+    "dcPhone": "202-225-5802",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "400 Monroe Street, Suite 420, Detroit, MI 48226",
+      "phone": "313-880-2400"
+    }
+  },
+  {
+    "district": "MN-01",
+    "name": "Brad Finstad",
+    "party": "Republican",
+    "website": "https://finstad.house.gov",
+    "dcPhone": "202-225-2472",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2746 Superior Drive NW, Suite 100, Rochester, MN 55901",
+      "phone": "507-577-6140"
+    }
+  },
+  {
+    "district": "MN-02",
+    "name": "Angie Craig",
+    "party": "Democrat",
+    "website": "https://craig.house.gov",
+    "dcPhone": "202-225-2271",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1915 Plaza Dr., Suite 202, Eagan, MN 55122",
+      "phone": "651-846-2120"
+    }
+  },
+  {
+    "district": "MN-03",
+    "name": "Kelly Morrison",
+    "party": "Democrat",
+    "website": "https://morrison.house.gov",
+    "dcPhone": "202-225-2871",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3033 Campus Dr., W105, Plymouth, MN 55441",
+      "phone": "952-656-5176"
+    }
+  },
+  {
+    "district": "MN-04",
+    "name": "Betty McCollum",
+    "party": "Democrat",
+    "website": "https://mccollum.house.gov",
+    "dcPhone": "202-225-6631",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "661 LaSalle Street, Suite 110, St. Paul, MN 55114",
+      "phone": "651-224-9191"
+    }
+  },
+  {
+    "district": "MN-05",
+    "name": "Ilhan Omar",
+    "party": "Democrat",
+    "website": "https://omar.house.gov",
+    "dcPhone": "202-225-4755",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "310 E 38th St, Suite 222, Minneapolis, MN 55409",
+      "phone": "612-333-1272"
+    }
+  },
+  {
+    "district": "MN-06",
+    "name": "Tom Emmer",
+    "party": "Republican",
+    "website": "https://emmer.house.gov",
+    "dcPhone": "202-225-2331",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9201 Quaday Ave. NE, Suite 206, Otsego, MN 55330",
+      "phone": "763-241-6848"
+    }
+  },
+  {
+    "district": "MN-07",
+    "name": "Michelle Fischbach",
+    "party": "Republican",
+    "website": "https://fischbach.house.gov",
+    "dcPhone": "202-225-2165",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2211 1st Street S, Suite 190, Willmar, MN 56201",
+      "phone": "320-403-6100"
+    }
+  },
+  {
+    "district": "MN-08",
+    "name": "Pete Stauber",
+    "party": "Republican",
+    "website": "https://stauber.house.gov",
+    "dcPhone": "202-225-6211",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "501 Laurel St, Brainerd, MN 56401-3595",
+      "phone": "218-355-0862"
+    }
+  },
+  {
+    "district": "MO-01",
+    "name": "Wesley Bell",
+    "party": "Democrat",
+    "website": "https://bell.house.gov",
+    "dcPhone": "202-225-2406",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1191 Dr. M.L. King Dr., St. Louis, MO 63101",
+      "phone": "314-955-9980"
+    }
+  },
+  {
+    "district": "MO-02",
+    "name": "Ann Wagner",
+    "party": "Republican",
+    "website": "https://wagner.house.gov",
+    "dcPhone": "202-225-1621",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "301 Sovereign Ct., Suite 201, Ballwin, MO 63011",
+      "phone": "636-779-5449"
+    }
+  },
+  {
+    "district": "MO-03",
+    "name": "Robert F. Onder, Jr.",
+    "party": "Republican",
+    "website": "https://onder.house.gov",
+    "dcPhone": "202-225-2956",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5330 Highway N, Cottleville, MO 63304",
+      "phone": "636-327-7055"
+    }
+  },
+  {
+    "district": "MO-04",
+    "name": "Mark Alford",
+    "party": "Republican",
+    "website": "https://alford.house.gov",
+    "dcPhone": "202-225-2876",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1272 West Foxwood Dr., Raymore, MO 64083",
+      "phone": "816-441-6318"
+    }
+  },
+  {
+    "district": "MO-05",
+    "name": "Emanuel Cleaver",
+    "party": "Democrat",
+    "website": "https://cleaver.house.gov",
+    "dcPhone": "202-225-4535",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "411 W Maple Ave, F, Independence, MO 64050-2840",
+      "phone": "816-833-4545"
+    }
+  },
+  {
+    "district": "MO-06",
+    "name": "Sam Graves",
+    "party": "Republican",
+    "website": "https://graves.house.gov",
+    "dcPhone": "202-225-7041",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "411 Jules St., Room 111, St. Joseph, MO 64501",
+      "phone": "816-749-0800"
+    }
+  },
+  {
+    "district": "MO-07",
+    "name": "Eric Burlison",
+    "party": "Republican",
+    "website": "https://burlison.house.gov",
+    "dcPhone": "202-225-6536",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2727 E. 32nd Street, Suite 2, Joplin, MO 64804",
+      "phone": "417-781-1041"
+    }
+  },
+  {
+    "district": "MO-08",
+    "name": "Jason Smith",
+    "party": "Republican",
+    "website": "https://jasonsmith.house.gov",
+    "dcPhone": "202-225-4404",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2502 Tanner Dr., Suite 205, Cape Girardeau, MO 63703",
+      "phone": "573-335-0101"
+    }
+  },
+  {
+    "district": "MP-98",
+    "name": "Kimberlyn King-Hinds",
+    "party": "Republican",
+    "website": "https://king-hinds.house.gov",
+    "dcPhone": "202-225-2646",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "P.O. Box 504879, Saipan, MP 96950",
+      "phone": "670-323-2647"
+    }
+  },
+  {
+    "district": "MS-01",
+    "name": "Trent Kelly",
+    "party": "Republican",
+    "website": "https://trentkelly.house.gov",
+    "dcPhone": "202-225-4306",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "318 N. 7th St., Suite D, Columbus, MS 39701",
+      "phone": "662-327-0748"
+    }
+  },
+  {
+    "district": "MS-02",
+    "name": "Bennie G. Thompson",
+    "party": "Democrat",
+    "website": "https://benniethompson.house.gov",
+    "dcPhone": "202-225-5876",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "107 W. Madison St., Bolton, MS 39041",
+      "phone": "601-866-9003"
+    }
+  },
+  {
+    "district": "MS-03",
+    "name": "Michael Guest",
+    "party": "Republican",
+    "website": "https://guest.house.gov",
+    "dcPhone": "202-225-5031",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "308 B East Government Street, Brandon, MS 39042",
+      "phone": "769-241-6120"
+    }
+  },
+  {
+    "district": "MS-04",
+    "name": "Mike Ezell",
+    "party": "Republican",
+    "website": "https://ezell.house.gov",
+    "dcPhone": "202-225-5772",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "641 Main Street, Suite 142, Hattiesburg, MS 39401",
+      "phone": "601-582-3246"
+    }
+  },
+  {
+    "district": "MT-01",
+    "name": "Ryan K. Zinke",
+    "party": "Republican",
+    "website": "https://zinke.house.gov",
+    "dcPhone": "202-225-5628",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "601 Nikles Drive, #5, Bozeman, MT 59715",
+      "phone": "406-602-6030"
+    }
+  },
+  {
+    "district": "MT-02",
+    "name": "Troy Downing",
+    "party": "Republican",
+    "website": "https://downing.house.gov",
+    "dcPhone": "202-225-3211",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "401 North 31st St, Suite 770, Billings, MT 59101",
+      "phone": "406-413-6720"
+    }
+  },
+  {
+    "district": "NC-01",
+    "name": "Donald G. Davis",
+    "party": "Democrat",
+    "website": "https://dondavis.house.gov",
+    "dcPhone": "202-225-3101",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "306 E. Colonial Ave, Elizabeth City, NC 27809",
+      "phone": "252-999-7600"
+    }
+  },
+  {
+    "district": "NC-02",
+    "name": "Deborah K. Ross",
+    "party": "Democrat",
+    "website": "https://ross.house.gov",
+    "dcPhone": "202-225-3032",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 Fayetteville Street, P.O. Box 1548, Raleigh, NC 27602",
+      "phone": "919-334-0840"
+    }
+  },
+  {
+    "district": "NC-03",
+    "name": "Gregory F. Murphy",
+    "party": "Republican",
+    "website": "https://murphy.house.gov",
+    "dcPhone": "202-225-3415",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1105 Corporate Drive, Suite C, Greenville, NC 27858",
+      "phone": "252-931-1003"
+    }
+  },
+  {
+    "district": "NC-04",
+    "name": "Valerie P. Foushee",
+    "party": "Democrat",
+    "website": "https://foushee.house.gov",
+    "dcPhone": "202-225-1784",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2605 Meridian Parkway, Suite 110, Durham, NC 27713",
+      "phone": "919-967-7924"
+    }
+  },
+  {
+    "district": "NC-05",
+    "name": "Virginia Foxx",
+    "party": "Republican",
+    "website": "https://foxx.house.gov",
+    "dcPhone": "202-225-2071",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "400 Shadowline Dr., Suite 205, Boone, NC 28607",
+      "phone": "828-265-0240"
+    }
+  },
+  {
+    "district": "NC-06",
+    "name": "Addison P. McDowell",
+    "party": "Republican",
+    "website": "https://mcdowell.house.gov",
+    "dcPhone": "202-225-3065",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "30 E. 1st Ave, Lexington, NC 27292",
+      "phone": "336-333-5005"
+    }
+  },
+  {
+    "district": "NC-07",
+    "name": "David Rouzer",
+    "party": "Republican",
+    "website": "https://rouzer.house.gov",
+    "dcPhone": "202-225-2731",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "310 Government Center Dr., Unit 1, Bolivia, NC 28422",
+      "phone": "910-253-6111"
+    }
+  },
+  {
+    "district": "NC-08",
+    "name": "Mark Harris",
+    "party": "Republican",
+    "website": "https://markharris.house.gov",
+    "dcPhone": "202-225-1976",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 North Main St, Monroe, NC 28112",
+      "phone": "704-218-5300"
+    }
+  },
+  {
+    "district": "NC-09",
+    "name": "Richard Hudson",
+    "party": "Republican",
+    "website": "https://hudson.house.gov",
+    "dcPhone": "202-225-3715",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "225 Green Street, Suite 202, Fayetteville, NC 28301",
+      "phone": "910-997-2070"
+    }
+  },
+  {
+    "district": "NC-10",
+    "name": "Pat Harrigan",
+    "party": "Republican",
+    "website": "https://harrigan.house.gov",
+    "dcPhone": "202-225-2576",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "800 17th St NW, Suite G467, Hickory, NC 28601",
+      "phone": "828-327-6100"
+    }
+  },
+  {
+    "district": "NC-11",
+    "name": "Chuck Edwards",
+    "party": "Republican",
+    "website": "https://edwards.house.gov",
+    "dcPhone": "202-225-6401",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "200 North Grove Street, Suite 121, Hendersonville, NC 28792",
+      "phone": "828-435-7310"
+    }
+  },
+  {
+    "district": "NC-12",
+    "name": "Alma S. Adams",
+    "party": "Democrat",
+    "website": "https://adams.house.gov",
+    "dcPhone": "202-225-1510",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "10815 David Taylor Dr., Suite 100, Charlotte, NC 28262",
+      "phone": "704-344-9950"
+    }
+  },
+  {
+    "district": "NC-13",
+    "name": "Brad Knott",
+    "party": "Republican",
+    "website": "https://knott.house.gov",
+    "dcPhone": "202-225-4531",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "12450 Cleveland Road, 203, Garner, NC 27529",
+      "phone": "984-275-6150"
+    }
+  },
+  {
+    "district": "NC-14",
+    "name": "Tim Moore",
+    "party": "Republican",
+    "website": "https://timmoore.house.gov",
+    "dcPhone": "202-225-5634",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "128 West Main Ave, Gastonia, NC 28052",
+      "phone": "980-460-8110"
+    }
+  },
+  {
+    "district": "ND-00",
+    "name": "Julie Fedorchak",
+    "party": "Republican",
+    "website": "https://fedorchak.house.gov",
+    "dcPhone": "202-225-2611",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "220 E Rosser Ave, Room 228, Bismarck, ND 58501",
+      "phone": "701-354-6700"
+    }
+  },
+  {
+    "district": "NE-01",
+    "name": "Mike Flood",
+    "party": "Republican",
+    "website": "https://flood.house.gov",
+    "dcPhone": "202-225-4806",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "301 South 13th Street, Suite 100, Lincoln, NE 68508",
+      "phone": "402-438-1598"
+    }
+  },
+  {
+    "district": "NE-02",
+    "name": "Don Bacon",
+    "party": "Republican",
+    "website": "https://bacon.house.gov",
+    "dcPhone": "202-225-4155",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "13906 Gold Circle, Suite 101, Omaha, NE 68144",
+      "phone": "402-938-0300"
+    }
+  },
+  {
+    "district": "NE-03",
+    "name": "Adrian Smith",
+    "party": "Republican",
+    "website": "https://adriansmith.house.gov",
+    "dcPhone": "202-225-6435",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1811 W. Second St., Suite 275, Grand Island, NE 68803",
+      "phone": "308-384-3900"
+    }
+  },
+  {
+    "district": "NH-01",
+    "name": "Chris Pappas",
+    "party": "Democrat",
+    "website": "https://pappas.house.gov",
+    "dcPhone": "202-225-5456",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "660 Central Ave, Suite 101, Dover, NH 03820-3491",
+      "phone": "603-285-4300"
+    }
+  },
+  {
+    "district": "NH-02",
+    "name": "Maggie Goodlander",
+    "party": "Democrat",
+    "website": "https://goodlander.house.gov",
+    "dcPhone": "202-225-5206",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "18 North Main St, 4th Floor, Concord, NH 03301",
+      "phone": "603-226-1002"
+    }
+  },
+  {
+    "district": "NJ-01",
+    "name": "Donald Norcross",
+    "party": "Democrat",
+    "website": "https://norcross.house.gov",
+    "dcPhone": "202-225-6501",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "10 Melrose Ave., Suite 210, Cherry Hill, NJ 08003",
+      "phone": "856-427-7000"
+    }
+  },
+  {
+    "district": "NJ-02",
+    "name": "Jefferson Van Drew",
+    "party": "Republican",
+    "website": "https://vandrew.house.gov",
+    "dcPhone": "202-225-6572",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1001 Tilton Road, Suite 101, Northfield, NJ 08225",
+      "phone": "609-625-5008"
+    }
+  },
+  {
+    "district": "NJ-03",
+    "name": "Herbert C. Conaway, Jr.",
+    "party": "Democrat",
+    "website": "https://conaway.house.gov",
+    "dcPhone": "202-225-4765",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4573 S Broad Street, Trenton, NJ 08620",
+      "phone": "609-438-6290"
+    }
+  },
+  {
+    "district": "NJ-04",
+    "name": "Christopher H. Smith",
+    "party": "Republican",
+    "website": "https://chrissmith.house.gov",
+    "dcPhone": "202-225-3765",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1715 Highway 35 North, Suite 303, Middletown, NJ 07748",
+      "phone": "732-780-3035"
+    }
+  },
+  {
+    "district": "NJ-05",
+    "name": "Josh Gottheimer",
+    "party": "Democrat",
+    "website": "https://gottheimer.house.gov",
+    "dcPhone": "202-225-4465",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "93 Spring St., Suite 408, Newton, NJ 07860",
+      "phone": "973-940-1117"
+    }
+  },
+  {
+    "district": "NJ-06",
+    "name": "Frank Pallone, Jr.",
+    "party": "Democrat",
+    "website": "https://pallone.house.gov",
+    "dcPhone": "202-225-4671",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "504 Broadway, Long Branch, NJ 07740",
+      "phone": "732-571-1140"
+    }
+  },
+  {
+    "district": "NJ-07",
+    "name": "Thomas H. Kean, Jr.",
+    "party": "Republican",
+    "website": "https://kean.house.gov",
+    "dcPhone": "202-225-5361",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1385 US Highway 22 East, Mountainside, NJ 07092"
+    }
+  },
+  {
+    "district": "NJ-08",
+    "name": "Robert Menendez",
+    "party": "Democrat",
+    "website": "https://menendez.house.gov",
+    "dcPhone": "202-225-7919",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "257 Cornelison Avenue, Suite 4408, Jersey City, NJ 07302",
+      "phone": "201-309-0301"
+    }
+  },
+  {
+    "district": "NJ-09",
+    "name": "Nellie Pou",
+    "party": "Democrat",
+    "website": "https://pou.house.gov",
+    "dcPhone": "202-225-5751",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 Hamilton Plaza, Suite 1400, Paterson, NJ 07505",
+      "phone": "973-523-5152"
+    }
+  },
+  {
+    "district": "NJ-10",
+    "name": "LaMonica McIver",
+    "party": "Democrat",
+    "website": "https://mciver.house.gov",
+    "dcPhone": "202-225-3436",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "60 Nelson Pl, 14th Floor, Newark, NJ 07102",
+      "phone": "973-645-3213"
+    }
+  },
+  {
+    "district": "NJ-11",
+    "name": "Analilia Mejia",
+    "party": "Democrat",
+    "website": "https://mejia.house.gov",
+    "dcPhone": "202-225-5034",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "357 S. Livingston Avenue, Suite 201, Livingston, NJ 07039",
+      "phone": "973-526-5668"
+    }
+  },
+  {
+    "district": "NJ-12",
+    "name": "Bonnie Watson Coleman",
+    "party": "Democrat",
+    "website": "https://watsoncoleman.house.gov",
+    "dcPhone": "202-225-5801",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "850 Bear Tavern Rd., Suite 201, Ewing, NJ 08628",
+      "phone": "609-883-0026"
+    }
+  },
+  {
+    "district": "NM-01",
+    "name": "Melanie A. Stansbury",
+    "party": "Democrat",
+    "website": "https://stansbury.house.gov",
+    "dcPhone": "202-225-6316",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6301 Indian School Rd, Suite 420, Albuquerque, NM 87110",
+      "phone": "505-346-6781"
+    }
+  },
+  {
+    "district": "NM-02",
+    "name": "Gabe Vasquez",
+    "party": "Democrat",
+    "website": "https://vasquez.house.gov",
+    "dcPhone": "202-225-2365",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "201 Unser Blvd. NW, Unit 116, Albuquerque, NM 87121",
+      "phone": "505-208-4777"
+    }
+  },
+  {
+    "district": "NM-03",
+    "name": "Teresa Leger Fernandez",
+    "party": "Democrat",
+    "website": "https://fernandez.house.gov",
+    "dcPhone": "202-225-6190",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "207 West Hill Ave., Office 301A, Gallup, NM 87301",
+      "phone": "505-551-4696"
+    }
+  },
+  {
+    "district": "NV-01",
+    "name": "Dina Titus",
+    "party": "Democrat",
+    "website": "https://titus.house.gov",
+    "dcPhone": "202-225-5965",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "495 South Main St., 3rd Floor, Las Vegas, NV 89101",
+      "phone": "702-220-9823"
+    }
+  },
+  {
+    "district": "NV-02",
+    "name": "Mark E. Amodei",
+    "party": "Republican",
+    "website": "https://amodei.house.gov",
+    "dcPhone": "202-225-6155",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5310 Kietzke Ln., Suite 103, Reno, NV 89511",
+      "phone": "775-686-5760"
+    }
+  },
+  {
+    "district": "NV-03",
+    "name": "Susie Lee",
+    "party": "Democrat",
+    "website": "https://susielee.house.gov",
+    "dcPhone": "202-225-3252",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "7785 W Sahara Ave, Suite 203, Las Vegas, NV 89117",
+      "phone": "702-963-9336"
+    }
+  },
+  {
+    "district": "NV-04",
+    "name": "Steven Horsford",
+    "party": "Democrat",
+    "website": "https://horsford.house.gov",
+    "dcPhone": "202-225-9894",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2250 N Las Vegas Blvd, Suite 500, North Las Vegas, NV 89030",
+      "phone": "702-963-9360"
+    }
+  },
+  {
+    "district": "NY-01",
+    "name": "Nick LaLota",
+    "party": "Republican",
+    "website": "https://lalota.house.gov",
+    "dcPhone": "202-225-3826",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "109 King Road, Rocky Point, NY 11778",
+      "phone": "631-289-1097"
+    }
+  },
+  {
+    "district": "NY-02",
+    "name": "Andrew R. Garbarino",
+    "party": "Republican",
+    "website": "https://garbarino.house.gov",
+    "dcPhone": "202-225-7896",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "31 Oak Street, Suite 20, Patchogue, NY 11772",
+      "phone": "631-541-4225"
+    }
+  },
+  {
+    "district": "NY-03",
+    "name": "Thomas R. Suozzi",
+    "party": "Democrat",
+    "website": "https://suozzi.house.gov",
+    "dcPhone": "202-225-3335",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "242-09 Northern Boulevard, Douglaston, NY 11363",
+      "phone": "718-631-0400"
+    }
+  },
+  {
+    "district": "NY-04",
+    "name": "Laura Gillen",
+    "party": "Democrat",
+    "website": "https://gillen.house.gov",
+    "dcPhone": "202-225-5516",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "229 7th St, Suite 102, Garden City, NY 11530",
+      "phone": "516-739-3008"
+    }
+  },
+  {
+    "district": "NY-05",
+    "name": "Gregory W. Meeks",
+    "party": "Democrat",
+    "website": "https://meeks.house.gov",
+    "dcPhone": "202-225-3461",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "67-12 Rockaway Beach Blvd., Arverne, NY 11692",
+      "phone": "347-230-4032"
+    }
+  },
+  {
+    "district": "NY-06",
+    "name": "Grace Meng",
+    "party": "Democrat",
+    "website": "https://meng.house.gov",
+    "dcPhone": "202-225-2601",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "40-13 159th St., Suite A, Flushing, NY 11358",
+      "phone": "718-358-6364"
+    }
+  },
+  {
+    "district": "NY-07",
+    "name": "Nydia M. Velázquez",
+    "party": "Democrat",
+    "website": "https://velazquez.house.gov",
+    "dcPhone": "202-225-2361",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "266 Broadway, Suite 201, Brooklyn, NY 11211",
+      "phone": "718-599-3658"
+    }
+  },
+  {
+    "district": "NY-08",
+    "name": "Hakeem S. Jeffries",
+    "party": "Democrat",
+    "website": "https://jeffries.house.gov",
+    "dcPhone": "202-225-5936",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "445 Neptune Ave, 1st Floor, Community Room 2C, Brooklyn, NY 11224",
+      "phone": "718-373-0033"
+    }
+  },
+  {
+    "district": "NY-09",
+    "name": "Yvette D. Clarke",
+    "party": "Democrat",
+    "website": "https://clarke.house.gov",
+    "dcPhone": "202-225-6231",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "222 Lenox Rd., Suites 1 & 2, Brooklyn, NY 11226",
+      "phone": "718-287-1142"
+    }
+  },
+  {
+    "district": "NY-10",
+    "name": "Daniel S. Goldman",
+    "party": "Democrat",
+    "website": "https://goldman.house.gov",
+    "dcPhone": "202-225-7944",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "290 Broadway, Suite 291, New York, NY 10007",
+      "phone": "212-822-7878"
+    }
+  },
+  {
+    "district": "NY-11",
+    "name": "Nicole Malliotakis",
+    "party": "Republican",
+    "website": "https://malliotakis.house.gov",
+    "dcPhone": "202-225-3371",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1698 Victory Blvd, Suite 2L, Staten Island, NY 10314",
+      "phone": "718-568-2870"
+    }
+  },
+  {
+    "district": "NY-12",
+    "name": "Jerrold Nadler",
+    "party": "Democrat",
+    "website": "https://nadler.house.gov",
+    "dcPhone": "202-225-5635",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "201 Varick St., Suite 669, New York, NY 10014",
+      "phone": "212-367-7350"
+    }
+  },
+  {
+    "district": "NY-13",
+    "name": "Adriano Espaillat",
+    "party": "Democrat",
+    "website": "https://espaillat.house.gov",
+    "dcPhone": "202-225-4365",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "163 West 125th Street, #508, New York, NY 10027",
+      "phone": "212-663-3900"
+    }
+  },
+  {
+    "district": "NY-14",
+    "name": "Alexandria Ocasio-Cortez",
+    "party": "Democrat",
+    "website": "https://ocasio-cortez.house.gov",
+    "dcPhone": "202-225-3965",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1231 Lafayette Ave, Suite L-610, Bronx, NY 10474"
+    }
+  },
+  {
+    "district": "NY-15",
+    "name": "Ritchie Torres",
+    "party": "Democrat",
+    "website": "https://ritchietorres.house.gov",
+    "dcPhone": "202-225-4361",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "540 E Fordham Rd., Suite 2A, Bronx, NY 10458",
+      "phone": "718-503-9610"
+    }
+  },
+  {
+    "district": "NY-16",
+    "name": "George Latimer",
+    "party": "Democrat",
+    "website": "https://latimer.house.gov",
+    "dcPhone": "202-225-2464",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "222 Mamaroneck Ave, Suite 312, White Plains, NY 10605",
+      "phone": "914-323-5550"
+    }
+  },
+  {
+    "district": "NY-17",
+    "name": "Michael Lawler",
+    "party": "Republican",
+    "website": "https://lawler.house.gov",
+    "dcPhone": "202-225-6506",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "60 McAlpin Ave, Mahopac, NY 10541",
+      "phone": "845-743-7130"
+    }
+  },
+  {
+    "district": "NY-18",
+    "name": "Patrick Ryan",
+    "party": "Democrat",
+    "website": "https://patryan.house.gov",
+    "dcPhone": "202-225-5614",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "307 Wall Street, #6, Kingston, NY 12401",
+      "phone": "845-443-2930"
+    }
+  },
+  {
+    "district": "NY-19",
+    "name": "Josh Riley",
+    "party": "Democrat",
+    "website": "https://riley.house.gov",
+    "dcPhone": "202-225-5441",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "49 Court St, Suite 210, Binghamton, NY 13901",
+      "phone": "607-242-0200"
+    }
+  },
+  {
+    "district": "NY-20",
+    "name": "Paul Tonko",
+    "party": "Democrat",
+    "website": "https://tonko.house.gov",
+    "dcPhone": "202-225-5076",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "19 Dove Street, Suite 302, Albany, NY 12210",
+      "phone": "518-465-0700"
+    }
+  },
+  {
+    "district": "NY-21",
+    "name": "Elise M. Stefanik",
+    "party": "Republican",
+    "website": "https://stefanik.house.gov",
+    "dcPhone": "202-225-4611",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "Herkimer, NY ",
+      "phone": "315-219-8005"
+    }
+  },
+  {
+    "district": "NY-22",
+    "name": "John W. Mannion",
+    "party": "Democrat",
+    "website": "https://mannion.house.gov",
+    "dcPhone": "202-225-3701",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "440 South Warren St, Suite 706, Syracuse, NY 13202",
+      "phone": "315-233-4333"
+    }
+  },
+  {
+    "district": "NY-23",
+    "name": "Nicholas A. Langworthy",
+    "party": "Republican",
+    "website": "https://langworthy.house.gov",
+    "dcPhone": "202-225-3161",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8201 Main Street, Suite 13, Williamsville, NY 14221",
+      "phone": "716-547-6844"
+    }
+  },
+  {
+    "district": "NY-24",
+    "name": "Claudia Tenney",
+    "party": "Republican",
+    "website": "https://tenney.house.gov",
+    "dcPhone": "202-225-3665",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "46 E Bridge Street, Suite 102, Oswego, NY 13126",
+      "phone": "315-236-7088"
+    }
+  },
+  {
+    "district": "NY-25",
+    "name": "Joseph D. Morelle",
+    "party": "Democrat",
+    "website": "https://morelle.house.gov",
+    "dcPhone": "202-225-3615",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "255 East Ave., Suite 150, Rochester, NY 14604",
+      "phone": "585-232-4850"
+    }
+  },
+  {
+    "district": "NY-26",
+    "name": "Timothy M. Kennedy",
+    "party": "Democrat",
+    "website": "https://kennedy.house.gov",
+    "dcPhone": "202-225-3306",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "726 Exchange Street, Suite 601, Buffalo, NY 14210",
+      "phone": "716-852-3501"
+    }
+  },
+  {
+    "district": "OH-01",
+    "name": "Greg Landsman",
+    "party": "Democrat",
+    "website": "https://landsman.house.gov",
+    "dcPhone": "202-225-2216",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "11 S Broadway St, Ste 301, Lebanon, OH 45036",
+      "phone": "513-409-6188"
+    }
+  },
+  {
+    "district": "OH-02",
+    "name": "David J. Taylor",
+    "party": "Republican",
+    "website": "https://taylor.house.gov",
+    "dcPhone": "202-225-3164",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4350 Aicholtz Rd, Suite 110, Cincinnati, OH 45245",
+      "phone": "513-474-7777"
+    }
+  },
+  {
+    "district": "OH-03",
+    "name": "Joyce Beatty",
+    "party": "Democrat",
+    "website": "https://beatty.house.gov",
+    "dcPhone": "202-225-4324",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "471 E. Broad St., Suite 1100, Columbus, OH 43215",
+      "phone": "614-220-0003"
+    }
+  },
+  {
+    "district": "OH-04",
+    "name": "Jim Jordan",
+    "party": "Republican",
+    "website": "https://jordan.house.gov",
+    "dcPhone": "202-225-2676",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3121 W. Elm Plz., Lima, OH 45805",
+      "phone": "419-999-6455"
+    }
+  },
+  {
+    "district": "OH-05",
+    "name": "Robert E. Latta",
+    "party": "Republican",
+    "website": "https://latta.house.gov",
+    "dcPhone": "202-225-6405",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1045 N. Main St., Suite 6, Bowling Green, OH 43402",
+      "phone": "419-354-8700"
+    }
+  },
+  {
+    "district": "OH-06",
+    "name": "Michael A. Rulli",
+    "party": "Republican",
+    "website": "https://rulli.house.gov",
+    "dcPhone": "202-225-5705",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4137 Boardman-Canfield Road, Suite 106, Canfield, OH 44406",
+      "phone": "330-967-7312"
+    }
+  },
+  {
+    "district": "OH-07",
+    "name": "Max L. Miller",
+    "party": "Republican",
+    "website": "https://maxmiller.house.gov",
+    "dcPhone": "202-225-3876",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "Parma, OH ",
+      "phone": "440-692-6120"
+    }
+  },
+  {
+    "district": "OH-08",
+    "name": "Warren Davidson",
+    "party": "Republican",
+    "website": "https://davidson.house.gov",
+    "dcPhone": "202-225-6205",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4879 Mercedes Drive, Suite A, Liberty Township, OH 45011",
+      "phone": "513-779-5400"
+    }
+  },
+  {
+    "district": "OH-09",
+    "name": "Marcy Kaptur",
+    "party": "Democrat",
+    "website": "https://kaptur.house.gov",
+    "dcPhone": "202-225-4146",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1 Maritime Plaza, #600, Toledo, OH 43604",
+      "phone": "419-259-7500"
+    }
+  },
+  {
+    "district": "OH-10",
+    "name": "Michael R. Turner",
+    "party": "Republican",
+    "website": "https://turner.house.gov",
+    "dcPhone": "202-225-6465",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "120 W. 3rd St., Suite 305, Dayton, OH 45402",
+      "phone": "937-225-2843"
+    }
+  },
+  {
+    "district": "OH-11",
+    "name": "Shontel M. Brown",
+    "party": "Democrat",
+    "website": "https://shontelbrown.house.gov",
+    "dcPhone": "202-225-7032",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "17021 Lorain Avenue, Cleveland, OH 44111",
+      "phone": "216-535-1100"
+    }
+  },
+  {
+    "district": "OH-12",
+    "name": "Troy Balderson",
+    "party": "Republican",
+    "website": "https://balderson.house.gov",
+    "dcPhone": "202-225-5355",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "12931 Stonecreek Drive, Pickerington, OH 43147",
+      "phone": "614-523-2555"
+    }
+  },
+  {
+    "district": "OH-13",
+    "name": "Emilia Strong Sykes",
+    "party": "Democrat",
+    "website": "https://sykes.house.gov",
+    "dcPhone": "202-225-6265",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "121 South Main Street, Suite 107, Akron, OH 44308",
+      "phone": "330-400-5350"
+    }
+  },
+  {
+    "district": "OH-14",
+    "name": "David P. Joyce",
+    "party": "Republican",
+    "website": "https://joyce.house.gov",
+    "dcPhone": "202-225-5731",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8500 Station St, Suite 390, Mentor, OH 44060",
+      "phone": "440-352-3939"
+    }
+  },
+  {
+    "district": "OH-15",
+    "name": "Mike Carey",
+    "party": "Republican",
+    "website": "https://carey.house.gov",
+    "dcPhone": "202-225-2015",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "140 E Town St., Suite 1200, Columbus, OH 43215",
+      "phone": "614-927-6902"
+    }
+  },
+  {
+    "district": "OK-01",
+    "name": "Kevin Hern",
+    "party": "Republican",
+    "website": "https://hern.house.gov",
+    "dcPhone": "202-225-2211",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2448 E. 81st St., Suite 5150, Tulsa, OK 74137",
+      "phone": "918-935-3222"
+    }
+  },
+  {
+    "district": "OK-02",
+    "name": "Josh Brecheen",
+    "party": "Republican",
+    "website": "https://brecheen.house.gov",
+    "dcPhone": "202-225-2701",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "223 W Patti Page Blvd., Claremore, OK 74017",
+      "phone": "918-283-6262"
+    }
+  },
+  {
+    "district": "OK-03",
+    "name": "Frank D. Lucas",
+    "party": "Republican",
+    "website": "https://lucas.house.gov",
+    "dcPhone": "202-225-5565",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "11528 SW 15th Street, Suite 200, Yukon, OK 73099",
+      "phone": "405-373-1958"
+    }
+  },
+  {
+    "district": "OK-04",
+    "name": "Tom Cole",
+    "party": "Republican",
+    "website": "https://cole.house.gov",
+    "dcPhone": "202-225-6165",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "711 SW. D Ave., Suite 201, Lawton, OK 73501",
+      "phone": "580-357-2131"
+    }
+  },
+  {
+    "district": "OK-05",
+    "name": "Stephanie I. Bice",
+    "party": "Republican",
+    "website": "https://bice.house.gov",
+    "dcPhone": "202-225-2132",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "101 N Robinson, Suite 1105, Oklahoma City, OK 73102",
+      "phone": "405-300-6890"
+    }
+  },
+  {
+    "district": "OR-01",
+    "name": "Suzanne Bonamici",
+    "party": "Democrat",
+    "website": "https://bonamici.house.gov",
+    "dcPhone": "202-225-0855",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "12725 SW Millikan Way, Suite 220, Beaverton, OR 97005",
+      "phone": "503-469-6010"
+    }
+  },
+  {
+    "district": "OR-02",
+    "name": "Cliff Bentz",
+    "party": "Republican",
+    "website": "https://bentz.house.gov",
+    "dcPhone": "202-225-6730",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "14 N. Central Avenue, Suite 112, Medford, OR 97501",
+      "phone": "541-776-4646"
+    }
+  },
+  {
+    "district": "OR-03",
+    "name": "Maxine Dexter",
+    "party": "Democrat",
+    "website": "https://dexter.house.gov",
+    "dcPhone": "202-225-4811",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "911 NE 11th Ave, Portland, OR 97232",
+      "phone": "503-231-2300"
+    }
+  },
+  {
+    "district": "OR-04",
+    "name": "Val T. Hoyle",
+    "party": "Democrat",
+    "website": "https://hoyle.house.gov",
+    "dcPhone": "202-225-6416",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "940 Willamette St, Eugene, OR 97401",
+      "phone": "541-465-6732"
+    }
+  },
+  {
+    "district": "OR-05",
+    "name": "Janelle S. Bynum",
+    "party": "Democrat",
+    "website": "https://bynum.house.gov",
+    "dcPhone": "202-225-5711",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "502 7th Street, Suite 203, Oregon City, OR 97045",
+      "phone": "503-387-8651"
+    }
+  },
+  {
+    "district": "OR-06",
+    "name": "Andrea Salinas",
+    "party": "Democrat",
+    "website": "https://salinas.house.gov",
+    "dcPhone": "202-225-5643",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "18861 SW Martinazzi Avenue, #200, Tualatin, OR 97062",
+      "phone": "503-385-0906"
+    }
+  },
+  {
+    "district": "PA-01",
+    "name": "Brian K. Fitzpatrick",
+    "party": "Republican",
+    "website": "https://fitzpatrick.house.gov",
+    "dcPhone": "202-225-4276",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1717 Langhorne Newtown Rd., Suite 225, Langhorne, PA 19047",
+      "phone": "215-579-8102"
+    }
+  },
+  {
+    "district": "PA-02",
+    "name": "Brendan F. Boyle",
+    "party": "Democrat",
+    "website": "https://boyle.house.gov",
+    "dcPhone": "202-225-6111",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5675 N. Front St., Suite 180, Philadelphia, PA 19120",
+      "phone": "267-335-5643"
+    }
+  },
+  {
+    "district": "PA-03",
+    "name": "Dwight Evans",
+    "party": "Democrat",
+    "website": "https://evans.house.gov",
+    "dcPhone": "202-225-4001",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "7174 Ogontz Ave., Philadelphia, PA 19138",
+      "phone": "215-276-0340"
+    }
+  },
+  {
+    "district": "PA-04",
+    "name": "Madeleine Dean",
+    "party": "Democrat",
+    "website": "https://dean.house.gov",
+    "dcPhone": "202-225-4731",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "115 E Glenside Ave, Suite 1, Glenside, PA 19038-4618",
+      "phone": "215-884-4300"
+    }
+  },
+  {
+    "district": "PA-05",
+    "name": "Mary Gay Scanlon",
+    "party": "Democrat",
+    "website": "https://scanlon.house.gov",
+    "dcPhone": "202-225-2011",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2501 Seaport Drive, BH230, Chester, PA 19013",
+      "phone": "610-626-2020"
+    }
+  },
+  {
+    "district": "PA-06",
+    "name": "Chrissy Houlahan",
+    "party": "Democrat",
+    "website": "https://houlahan.house.gov",
+    "dcPhone": "202-225-4315",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "709 E. Gay Street, Suite 4, West Chester, PA 19380",
+      "phone": "610-883-5050"
+    }
+  },
+  {
+    "district": "PA-07",
+    "name": "Ryan Mackenzie",
+    "party": "Republican",
+    "website": "https://mackenzie.house.gov",
+    "dcPhone": "202-225-6411",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1125 S Cedar Crest Blvd, Suite 109 (Bottom Floor), Allentown, PA 18103",
+      "phone": "484-781-6000"
+    }
+  },
+  {
+    "district": "PA-08",
+    "name": "Robert P. Bresnahan, Jr.",
+    "party": "Republican",
+    "website": "https://bresnahan.house.gov",
+    "dcPhone": "202-225-5546",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2398 Rt 611, Suite 101, Scotrun, PA 18355",
+      "phone": "570-534-6220"
+    }
+  },
+  {
+    "district": "PA-09",
+    "name": "Daniel Meuser",
+    "party": "Republican",
+    "website": "https://meuser.house.gov",
+    "dcPhone": "202-225-6511",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "121 Progress Ave, Suite 110, Pottsville, PA 17901-2968",
+      "phone": "570-871-6370"
+    }
+  },
+  {
+    "district": "PA-10",
+    "name": "Scott Perry",
+    "party": "Republican",
+    "website": "https://perry.house.gov",
+    "dcPhone": "202-225-5836",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "800 Corporate Cir, Suite 202, Harrisburg, PA 17110-9346",
+      "phone": "717-603-4980"
+    }
+  },
+  {
+    "district": "PA-11",
+    "name": "Lloyd Smucker",
+    "party": "Republican",
+    "website": "https://smucker.house.gov",
+    "dcPhone": "202-225-2411",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 Redco Ave, Red Lion, PA 17356-1436",
+      "phone": "717-969-6133"
+    }
+  },
+  {
+    "district": "PA-12",
+    "name": "Summer L. Lee",
+    "party": "Democrat",
+    "website": "https://summerlee.house.gov",
+    "dcPhone": "202-225-2135",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "551 Ravensburg Boulevard, Clairton, PA 15025",
+      "phone": "412-214-5000"
+    }
+  },
+  {
+    "district": "PA-13",
+    "name": "John Joyce",
+    "party": "Republican",
+    "website": "https://johnjoyce.house.gov",
+    "dcPhone": "202-225-2431",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5414 6th Ave, Altoona, PA 16602-1203",
+      "phone": "814-656-6081"
+    }
+  },
+  {
+    "district": "PA-14",
+    "name": "Guy Reschenthaler",
+    "party": "Republican",
+    "website": "https://reschenthaler.house.gov",
+    "dcPhone": "202-225-2065",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5856 Route 981, Latrobe, PA 15650",
+      "phone": "724-219-4200"
+    }
+  },
+  {
+    "district": "PA-15",
+    "name": "Glenn Thompson",
+    "party": "Republican",
+    "website": "https://thompson.house.gov",
+    "dcPhone": "202-225-5121",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3555 Benner Pike., Suite 101, Bellefonte, PA 16823",
+      "phone": "814-353-0215"
+    }
+  },
+  {
+    "district": "PA-16",
+    "name": "Mike Kelly",
+    "party": "Republican",
+    "website": "https://kelly.house.gov",
+    "dcPhone": "202-225-5406",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "33 Chestnut Ave., Sharon, PA 16146",
+      "phone": "724-342-7170"
+    }
+  },
+  {
+    "district": "PA-17",
+    "name": "Christopher R. Deluzio",
+    "party": "Democrat",
+    "website": "https://deluzio.house.gov",
+    "dcPhone": "202-225-2301",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3468 Brodhead Road, Suite 1, Monaca, PA 15061",
+      "phone": "724-206-4860"
+    }
+  },
+  {
+    "district": "PR-98",
+    "name": "Pablo José Hernández",
+    "party": "Democrat",
+    "website": "https://hernandez.house.gov",
+    "dcPhone": "202-225-2615",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "Centro de Bellas Artes, Calle Padial, esquina Calle Ruiz Belvis, Caguas, PR 00725",
+      "phone": "787-230-7959"
+    }
+  },
+  {
+    "district": "RI-01",
+    "name": "Gabe Amo",
+    "party": "Democrat",
+    "website": "https://amo.house.gov",
+    "dcPhone": "202-225-4911",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1070 Main Street, Suite 300, Pawtucket, RI 02860",
+      "phone": "401-729-5600"
+    }
+  },
+  {
+    "district": "RI-02",
+    "name": "Seth Magaziner",
+    "party": "Democrat",
+    "website": "https://magaziner.house.gov",
+    "dcPhone": "202-225-2735",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "935 Jefferson Blvd., Suite 3003, Warwick, RI 02886",
+      "phone": "401-244-1201"
+    }
+  },
+  {
+    "district": "SC-01",
+    "name": "Nancy Mace",
+    "party": "Republican",
+    "website": "https://mace.house.gov",
+    "dcPhone": "202-225-3176",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "900 Island Park Dr., Suite 260, Daniel Island, SC 29492",
+      "phone": "843-352-7572"
+    }
+  },
+  {
+    "district": "SC-02",
+    "name": "Joe Wilson",
+    "party": "Republican",
+    "website": "https://joewilson.house.gov",
+    "dcPhone": "202-225-2452",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1700 Sunset Blvd. (US 378), Suite 1, West Columbia, SC 29169",
+      "phone": "803-939-0041"
+    }
+  },
+  {
+    "district": "SC-03",
+    "name": "Sheri Biggs",
+    "party": "Republican",
+    "website": "https://sheribiggs.house.gov",
+    "dcPhone": "202-225-5301",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "303 West Beltline Blvd, Anderson, SC 29625",
+      "phone": "864-224-7401"
+    }
+  },
+  {
+    "district": "SC-04",
+    "name": "William R. Timmons IV",
+    "party": "Republican",
+    "website": "https://timmons.house.gov",
+    "dcPhone": "202-225-6030",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "114 Trade Street, Greer, SC 29651",
+      "phone": "864-241-0175"
+    }
+  },
+  {
+    "district": "SC-05",
+    "name": "Ralph Norman",
+    "party": "Republican",
+    "website": "https://norman.house.gov",
+    "dcPhone": "202-225-5501",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "516 Oakland Ave, Rock Hill, SC 29730",
+      "phone": "803-327-1114"
+    }
+  },
+  {
+    "district": "SC-06",
+    "name": "James E. Clyburn",
+    "party": "Democrat",
+    "website": "https://clyburn.house.gov",
+    "dcPhone": "202-225-3315",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1225 Lady St., Suite 200, Columbia, SC 29201",
+      "phone": "803-799-1100"
+    }
+  },
+  {
+    "district": "SC-07",
+    "name": "Russell Fry",
+    "party": "Republican",
+    "website": "https://fry.house.gov",
+    "dcPhone": "202-225-9895",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1831 West Evans Street, Suite 300, Florence, SC 29501",
+      "phone": "843-799-6880"
+    }
+  },
+  {
+    "district": "SD-00",
+    "name": "Dusty Johnson",
+    "party": "Republican",
+    "website": "https://dustyjohnson.house.gov",
+    "dcPhone": "202-225-2801",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2525 W Main St, Suite 310, Rapid City, SD 57702-0901",
+      "phone": "605-646-6454"
+    }
+  },
+  {
+    "district": "TN-01",
+    "name": "Diana Harshbarger",
+    "party": "Republican",
+    "website": "https://harshbarger.house.gov",
+    "dcPhone": "202-225-6356",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "205 Revere Street, Kingsport, TN 37660",
+      "phone": "423-398-5186"
+    }
+  },
+  {
+    "district": "TN-02",
+    "name": "Tim Burchett",
+    "party": "Republican",
+    "website": "https://burchett.house.gov",
+    "dcPhone": "202-225-5435",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "800 Market St, Suite 110, Knoxville, TN 37902-2327",
+      "phone": "865-523-3772"
+    }
+  },
+  {
+    "district": "TN-03",
+    "name": "Charles J. \"Chuck\" Fleischmann",
+    "party": "Republican",
+    "website": "https://fleischmann.house.gov",
+    "dcPhone": "202-225-3271",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6 E. Madison Ave., Athens, TN 37303",
+      "phone": "423-745-4671"
+    }
+  },
+  {
+    "district": "TN-04",
+    "name": "Scott DesJarlais",
+    "party": "Republican",
+    "website": "https://desjarlais.house.gov",
+    "dcPhone": "202-225-6831",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "200 S. Jefferson St., Suite 311, Winchester, TN 37398",
+      "phone": "931-962-3180"
+    }
+  },
+  {
+    "district": "TN-05",
+    "name": "Andrew Ogles",
+    "party": "Republican",
+    "website": "https://ogles.house.gov",
+    "dcPhone": "202-225-4311",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "22 Public Square, Suite 5, Columbia, TN 38401",
+      "phone": "931-777-2140"
+    }
+  },
+  {
+    "district": "TN-06",
+    "name": "John W. Rose",
+    "party": "Republican",
+    "website": "https://johnrose.house.gov",
+    "dcPhone": "202-225-4231",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "355 N Belvedere Dr, Suite 308, Gallatin, TN 37066-5466",
+      "phone": "615-206-8204"
+    }
+  },
+  {
+    "district": "TN-07",
+    "name": "Matt Van Epps",
+    "party": "Republican",
+    "website": "https://vanepps.house.gov",
+    "dcPhone": "202-225-2811",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "128 N Second St, Suite 104, Clarksville, TN 37040",
+      "phone": "931-266-4483"
+    }
+  },
+  {
+    "district": "TN-08",
+    "name": "David Kustoff",
+    "party": "Republican",
+    "website": "https://kustoff.house.gov",
+    "dcPhone": "202-225-4714",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5900 Poplar Ave., Suite 202, Memphis, TN 38119",
+      "phone": "901-682-4422"
+    }
+  },
+  {
+    "district": "TN-09",
+    "name": "Steve Cohen",
+    "party": "Democrat",
+    "website": "https://cohen.house.gov",
+    "dcPhone": "202-225-3265",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "167 N. Main St., Suite 369, Memphis, TN 38103",
+      "phone": "901-544-4131"
+    }
+  },
+  {
+    "district": "TX-01",
+    "name": "Nathaniel Moran",
+    "party": "Republican",
+    "website": "https://moran.house.gov",
+    "dcPhone": "202-225-3035",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2500 North Robison Rd., Suite 190, Texarkana, TX 75501",
+      "phone": "903-561-6349"
+    }
+  },
+  {
+    "district": "TX-02",
+    "name": "Dan Crenshaw",
+    "party": "Republican",
+    "website": "https://crenshaw.house.gov",
+    "dcPhone": "202-225-6565",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1849 Kingwood Dr., #100, Kingwood, TX 77339",
+      "phone": "713-860-1330"
+    }
+  },
+  {
+    "district": "TX-03",
+    "name": "Keith Self",
+    "party": "Republican",
+    "website": "https://keithself.house.gov",
+    "dcPhone": "202-225-4201",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4500 W. Eldorado Pkwy, Suite 3500, Mckinney, TX 75070",
+      "phone": "972-202-4150"
+    }
+  },
+  {
+    "district": "TX-04",
+    "name": "Pat Fallon",
+    "party": "Republican",
+    "website": "https://fallon.house.gov",
+    "dcPhone": "202-225-6673",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6531 Horizon Rd., Suite A, Rockwall, TX 75032",
+      "phone": "972-771-0100"
+    }
+  },
+  {
+    "district": "TX-05",
+    "name": "Lance Gooden",
+    "party": "Republican",
+    "website": "https://gooden.house.gov",
+    "dcPhone": "202-225-3484",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "201 W Nash St., #103, Terrell, TX 75160",
+      "phone": "903-502-5300"
+    }
+  },
+  {
+    "district": "TX-06",
+    "name": "Jake Ellzey",
+    "party": "Republican",
+    "website": "https://ellzey.house.gov",
+    "dcPhone": "202-225-2002",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "122 N. Beaton St, Corsicana, TX 75110",
+      "phone": "903-602-7860"
+    }
+  },
+  {
+    "district": "TX-07",
+    "name": "Lizzie Fletcher",
+    "party": "Democrat",
+    "website": "https://fletcher.house.gov",
+    "dcPhone": "202-225-2571",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3700 Buffalo Speedway, Suite 610, Houston, TX 77098",
+      "phone": "713-353-8680"
+    }
+  },
+  {
+    "district": "TX-08",
+    "name": "Morgan Luttrell",
+    "party": "Republican",
+    "website": "https://luttrell.house.gov",
+    "dcPhone": "202-225-4901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "18230 FM 1488, Suite 308, Magnolia, TX 77354",
+      "phone": "281-305-7890"
+    }
+  },
+  {
+    "district": "TX-09",
+    "name": "Al Green",
+    "party": "Democrat",
+    "website": "https://algreen.house.gov",
+    "dcPhone": "202-225-7508",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3003 South Loop West, Suite 460, Houston, TX 77054",
+      "phone": "713-383-9234"
+    }
+  },
+  {
+    "district": "TX-10",
+    "name": "Michael T. McCaul",
+    "party": "Republican",
+    "website": "https://mccaul.house.gov",
+    "dcPhone": "202-225-2401",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "175 Century Square Drive, Suite 210, College Station, TX 77840",
+      "phone": "979-431-6480"
+    }
+  },
+  {
+    "district": "TX-11",
+    "name": "August Pfluger",
+    "party": "Republican",
+    "website": "https://pfluger.house.gov",
+    "dcPhone": "202-225-3605",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "505 E Jasper Drive, Killeen, TX 76541",
+      "phone": "254-669-6570"
+    }
+  },
+  {
+    "district": "TX-12",
+    "name": "Craig A. Goldman",
+    "party": "Republican",
+    "website": "https://craiggoldman.house.gov",
+    "dcPhone": "202-225-5071",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "306 West Seventh St, Suite 1145, Fort Worth, TX 76102",
+      "phone": "817-806-9474"
+    }
+  },
+  {
+    "district": "TX-13",
+    "name": "Ronny Jackson",
+    "party": "Republican",
+    "website": "https://jackson.house.gov",
+    "dcPhone": "202-225-3706",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "110 W. Hickory Street, Suite 303, Denton, TX 76201",
+      "phone": "940-334-2030"
+    }
+  },
+  {
+    "district": "TX-14",
+    "name": "Randy K. Weber, Sr.",
+    "party": "Republican",
+    "website": "https://weber.house.gov",
+    "dcPhone": "202-225-2831",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "122 West Way, Suite 301, Lake Jackson, TX 77566",
+      "phone": "979-285-0231"
+    }
+  },
+  {
+    "district": "TX-15",
+    "name": "Monica De La Cruz",
+    "party": "Republican",
+    "website": "https://delacruz.house.gov",
+    "dcPhone": "202-225-9901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "402 Houston St, George West, TX 78022",
+      "phone": "830-463-0800"
+    }
+  },
+  {
+    "district": "TX-16",
+    "name": "Veronica Escobar",
+    "party": "Democrat",
+    "website": "https://escobar.house.gov",
+    "dcPhone": "202-225-4831",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "221 N Kansas St, Suite 1500, El Paso, TX 79901-1443",
+      "phone": "915-541-1400"
+    }
+  },
+  {
+    "district": "TX-17",
+    "name": "Pete Sessions",
+    "party": "Republican",
+    "website": "https://sessions.house.gov",
+    "dcPhone": "202-225-6105",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 E Shepherd Ave, Suite 210, Lufkin, TX 75902-3252",
+      "phone": "936-219-6450"
+    }
+  },
+  {
+    "district": "TX-18",
+    "name": "Christian D. Menefee",
+    "party": "Democrat",
+    "website": "https://menefee.house.gov",
+    "dcPhone": "202-225-3816",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "15651 North Freeway, Houston, TX 77090",
+      "phone": "281-891-4899"
+    }
+  },
+  {
+    "district": "TX-19",
+    "name": "Jodey C. Arrington",
+    "party": "Republican",
+    "website": "https://arrington.house.gov",
+    "dcPhone": "202-225-4005",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "500 Chestnut St., Suite 819, Abilene, TX 79602",
+      "phone": "325-675-9779"
+    }
+  },
+  {
+    "district": "TX-20",
+    "name": "Joaquin Castro",
+    "party": "Democrat",
+    "website": "https://castro.house.gov",
+    "dcPhone": "202-225-3236",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "727 E. Cesar E. Chavez Blvd, B-128, San Antonio, TX 78206",
+      "phone": "210-348-8216"
+    }
+  },
+  {
+    "district": "TX-21",
+    "name": "Chip Roy",
+    "party": "Republican",
+    "website": "https://roy.house.gov",
+    "dcPhone": "202-225-4236",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "125 Lehmann Drive, Suite 201, Kerrville, TX 78028",
+      "phone": "830-896-0154"
+    }
+  },
+  {
+    "district": "TX-22",
+    "name": "Troy E. Nehls",
+    "party": "Republican",
+    "website": "https://nehls.house.gov",
+    "dcPhone": "202-225-5951",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6510 FM 359 S, Suite 200, Fulshear, TX 77441",
+      "phone": "346-762-6600"
+    }
+  },
+  {
+    "district": "TX-24",
+    "name": "Beth Van Duyne",
+    "party": "Republican",
+    "website": "https://vanduyne.house.gov",
+    "dcPhone": "202-225-6605",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "14951 Dallas Pkwy, Unit 830, Dallas, TX 75254",
+      "phone": "972-966-5500"
+    }
+  },
+  {
+    "district": "TX-25",
+    "name": "Roger Williams",
+    "party": "Republican",
+    "website": "https://williams.house.gov",
+    "dcPhone": "202-225-9896",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "115 S. Main St., Suite 206, Cleburne, TX 76033",
+      "phone": "682-218-5965"
+    }
+  },
+  {
+    "district": "TX-26",
+    "name": "Brandon Gill",
+    "party": "Republican",
+    "website": "https://gill.house.gov",
+    "dcPhone": "202-225-7772",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "600 Parker Square, Suite 205, Flower Mound, TX 75028",
+      "phone": "972-966-5454"
+    }
+  },
+  {
+    "district": "TX-27",
+    "name": "Michael Cloud",
+    "party": "Republican",
+    "website": "https://cloud.house.gov",
+    "dcPhone": "202-225-7742",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "120 S. Main St., Suite 310, Victoria, TX 77901",
+      "phone": "361-894-6446"
+    }
+  },
+  {
+    "district": "TX-28",
+    "name": "Henry Cuellar",
+    "party": "Democrat",
+    "website": "https://cuellar.house.gov",
+    "dcPhone": "202-225-1640",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "602 E. Calton Rd., Suite 2, Laredo, TX 78041",
+      "phone": "956-725-0639"
+    }
+  },
+  {
+    "district": "TX-29",
+    "name": "Sylvia R. Garcia",
+    "party": "Democrat",
+    "website": "https://sylviagarcia.house.gov",
+    "dcPhone": "202-225-1688",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "11811 East Fwy, Suite 430, Houston, TX 77029-1974",
+      "phone": "832-325-3150"
+    }
+  },
+  {
+    "district": "TX-30",
+    "name": "Jasmine Crockett",
+    "party": "Democrat",
+    "website": "https://crockett.house.gov",
+    "dcPhone": "202-225-8885",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1825 Market Center Blvd., Suite 440, Dallas, TX 75207",
+      "phone": "214-922-8885"
+    }
+  },
+  {
+    "district": "TX-31",
+    "name": "John R. Carter",
+    "party": "Republican",
+    "website": "https://carter.house.gov",
+    "dcPhone": "202-225-3864",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2180 North Main Street, Suite #I-10, Belton, TX 76513",
+      "phone": "254-933-1392"
+    }
+  },
+  {
+    "district": "TX-32",
+    "name": "Julie Johnson",
+    "party": "Democrat",
+    "website": "https://juliejohnson.house.gov",
+    "dcPhone": "202-225-2231",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 N Central Expy, Suite 602, Richardson, TX 75080",
+      "phone": "972-972-7949"
+    }
+  },
+  {
+    "district": "TX-33",
+    "name": "Marc A. Veasey",
+    "party": "Democrat",
+    "website": "https://veasey.house.gov",
+    "dcPhone": "202-225-9897",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1881 Sylvan Ave., Suite 108, Dallas, TX 75208",
+      "phone": "214-741-1387"
+    }
+  },
+  {
+    "district": "TX-34",
+    "name": "Vicente Gonzalez",
+    "party": "Democrat",
+    "website": "https://gonzalez.house.gov",
+    "dcPhone": "202-225-2531",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "100 W. King Ave., Suite 106, Kingsville, TX 78363",
+      "phone": "956-682-5545"
+    }
+  },
+  {
+    "district": "TX-35",
+    "name": "Greg Casar",
+    "party": "Democrat",
+    "website": "https://casar.house.gov",
+    "dcPhone": "202-225-5645",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "San Antonio, TX 78205",
+      "phone": "210-580-7000"
+    }
+  },
+  {
+    "district": "TX-36",
+    "name": "Brian Babin",
+    "party": "Republican",
+    "website": "https://babin.house.gov",
+    "dcPhone": "202-225-1555",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "203 Ivy Ave., Suite 600, Deer Park, TX 77536",
+      "phone": "832-780-0966"
+    }
+  },
+  {
+    "district": "TX-37",
+    "name": "Lloyd Doggett",
+    "party": "Democrat",
+    "website": "https://doggett.house.gov",
+    "dcPhone": "202-225-4865",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "300 East 8th St, 7th Floor, Austin, TX 78701",
+      "phone": "512-916-5921"
+    }
+  },
+  {
+    "district": "TX-38",
+    "name": "Wesley Hunt",
+    "party": "Republican",
+    "website": "https://hunt.house.gov",
+    "dcPhone": "202-225-5646",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "5599 San Felipe St., Suite 950, Houston, TX 77056",
+      "phone": "832-357-0555"
+    }
+  },
+  {
+    "district": "UT-01",
+    "name": "Blake D. Moore",
+    "party": "Republican",
+    "website": "https://blakemoore.house.gov",
+    "dcPhone": "202-225-0453",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "324 25th Street, Ogden, UT 84401",
+      "phone": "801-625-0107"
+    }
+  },
+  {
+    "district": "UT-02",
+    "name": "Celeste Maloy",
+    "party": "Republican",
+    "website": "https://maloy.house.gov",
+    "dcPhone": "202-225-9730",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "585 W 500 S, #230, Bountiful, UT 84010",
+      "phone": "801-364-5550"
+    }
+  },
+  {
+    "district": "UT-03",
+    "name": "Mike Kennedy",
+    "party": "Republican",
+    "website": "https://mikekennedy.house.gov",
+    "dcPhone": "202-225-7751",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3549 N University Ave, Suite 275, Provo, UT 84604",
+      "phone": "801-607-3238"
+    }
+  },
+  {
+    "district": "UT-04",
+    "name": "Burgess Owens",
+    "party": "Republican",
+    "website": "https://owens.house.gov",
+    "dcPhone": "202-225-3011",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "9067 S. 1300 W, Suite 101, West Jordan, UT 84088",
+      "phone": "801-999-9801"
+    }
+  },
+  {
+    "district": "VA-01",
+    "name": "Robert J. Wittman",
+    "party": "Republican",
+    "website": "https://wittman.house.gov",
+    "dcPhone": "202-225-4261",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "4201 Dominion Blvd, Suite 110, Glen Allen, VA 23060",
+      "phone": "804-401-4120"
+    }
+  },
+  {
+    "district": "VA-02",
+    "name": "Jennifer A. Kiggans",
+    "party": "Republican",
+    "website": "https://kiggans.house.gov",
+    "dcPhone": "202-225-4215",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "25020 Shore Parkway, 1B, Onley, VA 23418",
+      "phone": "757-666-6020"
+    }
+  },
+  {
+    "district": "VA-03",
+    "name": "Robert C. \"Bobby\" Scott",
+    "party": "Democrat",
+    "website": "https://bobbyscott.house.gov",
+    "dcPhone": "202-225-8351",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2600 Washington Ave., Suite 1010, Newport News, VA 23607",
+      "phone": "757-380-1000"
+    }
+  },
+  {
+    "district": "VA-04",
+    "name": "Jennifer L. McClellan",
+    "party": "Democrat",
+    "website": "https://mcclellan.house.gov",
+    "dcPhone": "202-225-6365",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "11 S. 12th Street, Suite 401, Richmond, VA 23219",
+      "phone": "804-486-1840"
+    }
+  },
+  {
+    "district": "VA-05",
+    "name": "John J. McGuire III",
+    "party": "Republican",
+    "website": "https://mcguire.house.gov",
+    "dcPhone": "202-225-4711",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "900 Church St, Lynchburg, VA 24505",
+      "phone": "202-225-4711"
+    }
+  },
+  {
+    "district": "VA-06",
+    "name": "Ben Cline",
+    "party": "Republican",
+    "website": "https://cline.house.gov",
+    "dcPhone": "202-225-5431",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "70 N Mason St, Suite 110, Harrisonburg, VA 22802-4126",
+      "phone": "540-432-2391"
+    }
+  },
+  {
+    "district": "VA-07",
+    "name": "Eugene Simon Vindman",
+    "party": "Democrat",
+    "website": "https://vindman.house.gov",
+    "dcPhone": "202-225-2815",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2241D Tacketts Mill Dr., Woodbridge, VA 22192",
+      "phone": "703-987-2180"
+    }
+  },
+  {
+    "district": "VA-08",
+    "name": "Donald S. Beyer, Jr.",
+    "party": "Democrat",
+    "website": "https://beyer.house.gov",
+    "dcPhone": "202-225-4376",
+    "caseworkUrl": "https://beyer.house.gov/constituent-services/casework/",
+    "privacyFormUrl": "https://beyer.house.gov/uploadedfiles/privacy_release_form_-_general.pdf",
+    "districtOffice": {
+      "address": "700 N Fairfax St., Suite 510, Alexandria, VA 22314",
+      "phone": "703-658-5403"
+    }
+  },
+  {
+    "district": "VA-09",
+    "name": "H. Morgan Griffith",
+    "party": "Republican",
+    "website": "https://morgangriffith.house.gov",
+    "dcPhone": "202-225-3861",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "323 W. Main St., Abingdon, VA 24210",
+      "phone": "276-525-1405"
+    }
+  },
+  {
+    "district": "VA-10",
+    "name": "Suhas Subramanyam",
+    "party": "Democrat",
+    "website": "https://subramanyam.house.gov",
+    "dcPhone": "202-225-5136",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "210 Wirt Street SW, Unit 102, Leesburg, VA 20175",
+      "phone": "703-236-1300"
+    }
+  },
+  {
+    "district": "VA-11",
+    "name": "James R. Walkinshaw",
+    "party": "Democrat",
+    "website": "https://walkinshaw.house.gov",
+    "dcPhone": "202-225-1492",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "10680 Main Street District, Suite 140, Fairfax, VA 22030",
+      "phone": "703-256-3071"
+    }
+  },
+  {
+    "district": "VI-98",
+    "name": "Stacey E. Plaskett",
+    "party": "Democrat",
+    "website": "https://plaskett.house.gov",
+    "dcPhone": "202-225-1790",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "60 King St., Frederiksted, VI 00840",
+      "phone": "340-778-5900"
+    }
+  },
+  {
+    "district": "VT-00",
+    "name": "Becca Balint",
+    "party": "Democrat",
+    "website": "https://balint.house.gov",
+    "dcPhone": "202-225-4115",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "130 Austine Drive, 2nd Floor, Brattleboro, VT 05301",
+      "phone": "802-652-2450"
+    }
+  },
+  {
+    "district": "WA-01",
+    "name": "Suzan K. DelBene",
+    "party": "Democrat",
+    "website": "https://delbene.house.gov",
+    "dcPhone": "202-225-6311",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "520 112th Ave NE, Suite 400-C, Bellevue, WA 98004",
+      "phone": "425-485-0085"
+    }
+  },
+  {
+    "district": "WA-02",
+    "name": "Rick Larsen",
+    "party": "Democrat",
+    "website": "https://larsen.house.gov",
+    "dcPhone": "202-225-2605",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "119 N. Commercial St., Suite 275, Bellingham, WA 98225",
+      "phone": "360-733-4500"
+    }
+  },
+  {
+    "district": "WA-03",
+    "name": "Marie Gluesenkamp Perez",
+    "party": "Democrat",
+    "website": "https://gluesenkampperez.house.gov",
+    "dcPhone": "202-225-3536",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "308 S. Pacific Ave., Suite B, Kelso, WA 98626"
+    }
+  },
+  {
+    "district": "WA-04",
+    "name": "Dan Newhouse",
+    "party": "Republican",
+    "website": "https://newhouse.house.gov",
+    "dcPhone": "202-225-5816",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3100 George Washington Way, #130, Richland, WA 99354",
+      "phone": "509-713-7374"
+    }
+  },
+  {
+    "district": "WA-05",
+    "name": "Michael Baumgartner",
+    "party": "Republican",
+    "website": "https://baumgartner.house.gov",
+    "dcPhone": "202-225-2006",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "528 E. Spokane Falls Blvd, Suite 115, Spokane, WA 99202",
+      "phone": "509-353-2374"
+    }
+  },
+  {
+    "district": "WA-06",
+    "name": "Emily Randall",
+    "party": "Democrat",
+    "website": "https://randall.house.gov",
+    "dcPhone": "202-225-5916",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "345 6th St., Suite 500, Bremerton, WA 98337",
+      "phone": "360-373-9725"
+    }
+  },
+  {
+    "district": "WA-07",
+    "name": "Pramila Jayapal",
+    "party": "Democrat",
+    "website": "https://jayapal.house.gov",
+    "dcPhone": "202-225-3106",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2033 6th Ave., Suite 1011, Seattle, WA 98121",
+      "phone": "206-674-0040"
+    }
+  },
+  {
+    "district": "WA-08",
+    "name": "Kim Schrier",
+    "party": "Democrat",
+    "website": "https://schrier.house.gov",
+    "dcPhone": "202-225-7761",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "22500 SE 64th Pl, Suite 226, Issaquah, WA 98027-7900",
+      "phone": "425-657-1001"
+    }
+  },
+  {
+    "district": "WA-09",
+    "name": "Adam Smith",
+    "party": "Democrat",
+    "website": "https://adamsmith.house.gov",
+    "dcPhone": "202-225-8901",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6811 S. 204th Street, Suite 360, Kent, WA 98032",
+      "phone": "425-793-5180"
+    }
+  },
+  {
+    "district": "WA-10",
+    "name": "Marilyn Strickland",
+    "party": "Democrat",
+    "website": "https://strickland.house.gov",
+    "dcPhone": "202-225-9740",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "6000 Main Street SW, Suite 3B, Lakewood, WA 98499",
+      "phone": "360-459-8514"
+    }
+  },
+  {
+    "district": "WI-01",
+    "name": "Bryan Steil",
+    "party": "Republican",
+    "website": "https://steil.house.gov",
+    "dcPhone": "202-225-3031",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "20 S Main St, Suite 10, Janesville, WI 53545-3959",
+      "phone": "608-752-4050"
+    }
+  },
+  {
+    "district": "WI-02",
+    "name": "Mark Pocan",
+    "party": "Democrat",
+    "website": "https://pocan.house.gov",
+    "dcPhone": "202-225-2906",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "10 E. Doty St., Suite 405, Madison, WI 53703",
+      "phone": "608-258-9800"
+    }
+  },
+  {
+    "district": "WI-03",
+    "name": "Derrick Van Orden",
+    "party": "Republican",
+    "website": "https://vanorden.house.gov",
+    "dcPhone": "202-225-5506",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "210 7th St S, Suite 204, La Crosse, WI 54601",
+      "phone": "608-782-2558"
+    }
+  },
+  {
+    "district": "WI-04",
+    "name": "Gwen Moore",
+    "party": "Democrat",
+    "website": "https://gwenmoore.house.gov",
+    "dcPhone": "202-225-4572",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "250 East Wisconsin, Suite 950, Milwaukee, WI 53202",
+      "phone": "414-297-1140"
+    }
+  },
+  {
+    "district": "WI-05",
+    "name": "Scott Fitzgerald",
+    "party": "Republican",
+    "website": "https://fitzgerald.house.gov",
+    "dcPhone": "202-225-5101",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "175 E Wisconsin Ave, H (2nd Floor), Oconomowoc, WI 53066",
+      "phone": "262-784-1111"
+    }
+  },
+  {
+    "district": "WI-06",
+    "name": "Glenn Grothman",
+    "party": "Republican",
+    "website": "https://grothman.house.gov",
+    "dcPhone": "202-225-2476",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "525 N Peters Ave, Suite 700, Fond du Lac, WI 54937",
+      "phone": "920-907-0624"
+    }
+  },
+  {
+    "district": "WI-07",
+    "name": "Thomas P. Tiffany",
+    "party": "Republican",
+    "website": "https://tiffany.house.gov",
+    "dcPhone": "202-225-3365",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2620 Stewart Avenue, Suite 312, Wausau, WI 54401",
+      "phone": "715-298-9344"
+    }
+  },
+  {
+    "district": "WI-08",
+    "name": "Tony Wied",
+    "party": "Republican",
+    "website": "https://wied.house.gov",
+    "dcPhone": "202-225-5665",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "1702 Scheuring Rd, Suite B, De Pere, WI 54115",
+      "phone": "920-301-4500"
+    }
+  },
+  {
+    "district": "WV-01",
+    "name": "Carol D. Miller",
+    "party": "Republican",
+    "website": "https://miller.house.gov",
+    "dcPhone": "202-225-3452",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "3 Tennessee Ave, Charleston, WV 25302",
+      "phone": "681-945-6556"
+    }
+  },
+  {
+    "district": "WV-02",
+    "name": "Riley M. Moore",
+    "party": "Republican",
+    "website": "https://rileymoore.house.gov",
+    "dcPhone": "202-225-2711",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "8 Suburban Ct, Morgantown, WV 26505",
+      "phone": "304-350-6995"
+    }
+  },
+  {
+    "district": "WY-00",
+    "name": "Harriet M. Hageman",
+    "party": "Republican",
+    "website": "https://hageman.house.gov",
+    "dcPhone": "202-225-2311",
+    "caseworkUrl": null,
+    "privacyFormUrl": null,
+    "districtOffice": {
+      "address": "2120 Capitol Avenue, Suite 8005, Cheyenne, WY 82001",
+      "phone": "307-772-2595"
+    }
+  }
+]

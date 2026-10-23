@@ -1,5 +1,6 @@
-// Builds src/data/members-va.json from the public-domain
-// unitedstates/congress-legislators dataset (current House members, VA only).
+// Builds src/data/members.json from the public-domain
+// unitedstates/congress-legislators dataset: every current House member, so
+// the federal flow can name anyone's Member, not only Virginia's.
 // Usage: node scripts/build-members.mjs
 import { writeFile } from "node:fs/promises";
 
@@ -17,18 +18,22 @@ const CASEWORK = {
   },
 };
 
+// Census GEOIDs: at-large states are "00", DC and the territories' delegates "98".
+const DELEGATES = new Set(["DC", "PR", "GU", "VI", "AS", "MP"]);
+const censusDistrict = (t) => (DELEGATES.has(t.state) ? "98" : String(t.district).padStart(2, "0"));
+
 const officesById = new Map(offices.map((o) => [o.id.bioguide, o.offices]));
 
 const members = legislators
   .filter((l) => {
     const t = l.terms.at(-1);
-    return t.type === "rep" && t.state === "VA";
+    return t.type === "rep";
   })
   .map((l) => {
     const t = l.terms.at(-1);
     // A Member can list several district offices; the first is the main one.
     const o = officesById.get(l.id.bioguide)?.[0];
-    const district = `VA-${String(t.district).padStart(2, "0")}`;
+    const district = `${t.state}-${censusDistrict(t)}`;
     return {
       district,
       name: l.name.official_full,
@@ -44,5 +49,5 @@ const members = legislators
   })
   .sort((a, b) => a.district.localeCompare(b.district));
 
-await writeFile("src/data/members-va.json", JSON.stringify(members, null, 2) + "\n");
+await writeFile("src/data/members.json", JSON.stringify(members, null, 2) + "\n");
 console.log(`wrote ${members.length} members`, members.find((m) => m.district === "VA-08"));
