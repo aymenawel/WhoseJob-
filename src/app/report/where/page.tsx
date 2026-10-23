@@ -65,6 +65,9 @@ export default function WhereStep() {
       router.push("/report/answer");
     } catch {
       setMessage(t("where.error"));
+    } finally {
+      // Next.js keeps this screen's state when the resident leaves and comes
+      // back (e.g. "Move the point"), so the button must not stay on "Checking…".
       setChecking(false);
     }
   }
