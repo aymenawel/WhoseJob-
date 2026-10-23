@@ -118,6 +118,17 @@
   margin-top: 6px;
 }
 
+/* Opens Google Maps at the pin, to see the spot from the street. */
+.streetView {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  min-height: 44px;
+  font-weight: 700;
+  text-underline-offset: 4px;
+}
+
 .footer {
   margin-top: auto;
   padding-top: 12px;

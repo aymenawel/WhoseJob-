@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { TopBar } from "@/components/TopBar";
 import { CommunityMap } from "@/components/CommunityMap";
+import { MapStyleToggle } from "@/components/MapStyleToggle";
 import { LevelMarker } from "@/components/LevelMarker";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { useLocale } from "@/lib/i18n/locale";
@@ -48,6 +49,7 @@ export default function MapPage() {
           }
           onSelect={setSelected}
         />
+        <MapStyleToggle placement="bottom-left" />
         <p className={s.banner} role="note">
           {t("map.sampleBanner")}
         </p>

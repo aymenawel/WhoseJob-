@@ -1,9 +1,10 @@
 "use client";
 
 import "leaflet/dist/leaflet.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { LayerGroup, Map as LeafletMap } from "leaflet";
 import type { Cluster } from "@/lib/map/cluster";
+import { useBasemapTiles } from "@/lib/map/basemap";
 import styles from "./CommunityMap.module.css";
 
 const SHAPE = { local: "square", state: "plate", utility: "diamond", federal: "shield" } as const;
@@ -19,6 +20,9 @@ export function CommunityMap({ clusters, label, nameOf, onSelect }: {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<LeafletMap | null>(null);
   const layer = useRef<LayerGroup | null>(null);
+  const leaflet = useRef<typeof import("leaflet") | null>(null);
+  const [ready, setReady] = useState(false);
+  useBasemapTiles(leaflet, map, ready);
   const select = useRef(onSelect);
   select.current = onSelect;
   const name = useRef(nameOf);
@@ -29,10 +33,8 @@ export function CommunityMap({ clusters, label, nameOf, onSelect }: {
     import("leaflet").then((L) => {
       if (cancelled || !el.current || map.current) return;
       map.current = L.map(el.current).setView([38.85, -77.1], 12);
-      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      }).addTo(map.current);
+      leaflet.current = L;
+      setReady(true);
       layer.current = L.layerGroup().addTo(map.current);
       draw(L);
     });
@@ -40,6 +42,7 @@ export function CommunityMap({ clusters, label, nameOf, onSelect }: {
       cancelled = true;
       map.current?.remove();
       map.current = null;
+      setReady(false);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

@@ -183,5 +183,11 @@
   "map.countSampleOne": "1 reporte de ejemplo",
   "map.countSample": "{n} reportes de ejemplo",
   "where.suggestions": "Sugerencias de direcciones",
-  "where.suggestionCount": "Se encontraron {n} direcciones. Use las flechas para elegir una."
+  "where.suggestionCount": "Se encontraron {n} direcciones. Use las flechas para elegir una.",
+  "map.style": "Estilo del mapa",
+  "map.styleMap": "Mapa",
+  "map.styleSatellite": "Satélite",
+  "action.streetView": "Street View",
+  "where.opensGoogle": "(abre Google Maps)",
+  "answer.streetView": "Ver este lugar en Street View"
 }

@@ -9,11 +9,13 @@ import { RouteMarker } from "@/components/RouteMarker";
 import { ActionRail, type RailAction } from "@/components/ActionRail";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { PinMap } from "@/components/PinMap";
+import { Icon } from "@/components/Icon";
 import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
 import { composeReport } from "@/lib/report/compose";
+import { streetViewUrl } from "@/lib/map/streetView";
 import type { Level, LightOwner, LocalityId, RoadOwner } from "@/lib/types";
 import s from "./answer.module.css";
 
@@ -155,6 +157,12 @@ function AnswerScreen() {
             <p>{result.districtId ? t("out.lede", { district: result.districtId }) : t("out.ledeUnknown")}</p>
           </section>
         )}
+
+        <a className={s.streetView} href={streetViewUrl(checks.point)} target="_blank" rel="noopener noreferrer">
+          <Icon name="street-view" />
+          {t("answer.streetView")}
+          <span className="sr-only">{t("where.opensGoogle")}</span>
+        </a>
 
         <div className={s.footer}>
           {result.kind === "routed" && office && <PrimaryButton href="/report/send">{t("answer.report", { office: office.name[locale] })}</PrimaryButton>}

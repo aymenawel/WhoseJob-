@@ -53,3 +53,19 @@
   outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
+
+/* Short phones (iPhone SE): the rail must fit inside the photo or map above the answer. */
+@media (max-height: 760px) {
+  .rail {
+    gap: 8px;
+  }
+
+  .icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .label {
+    font-size: 13px;
+  }
+}

@@ -12,6 +12,7 @@ import { findAddress as geocode } from "@/lib/api/findAddress";
 import { AddressSearch } from "@/components/AddressSearch";
 import { locateSuggestion, locateText, type AddressSuggestion } from "@/lib/geo/vgin";
 import type { Checks } from "@/lib/types";
+import { streetViewUrl } from "@/lib/map/streetView";
 import s from "./where.module.css";
 
 // Roughly the middle of VA-08, zoomed out enough to show the district.
@@ -117,16 +118,33 @@ function WhereScreen() {
 
       {/* Wait for a saved pin to be restored: the map reads its starting point once. */}
       {flow.hydrated ? (
-        <PinMap ref={map} initial={flow.point ?? DISTRICT_CENTER} zoom={flow.point ? 18 : 12} label={t("where.lede")} />
+        <PinMap ref={map} initial={flow.point ?? DISTRICT_CENTER} zoom={flow.point ? 18 : 12} label={t("where.lede")} styleToggle />
       ) : (
         <div className={s.mapPlaceholder} />
       )}
 
       <div className={s.foot}>
-        <button type="button" className={s.locate} onClick={useMyLocation}>
-          <Icon name="locate" />
-          {t("where.useLocation")}
-        </button>
+        <div className={s.tools}>
+          <button type="button" className={s.locate} onClick={useMyLocation}>
+            <Icon name="locate" />
+            {t("where.useLocation")}
+          </button>
+          {/* Looks at wherever the pin is now: the href is set as it's tapped. */}
+          <a
+            className={s.locate}
+            href={streetViewUrl(flow.point ?? DISTRICT_CENTER)}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => {
+              const c = map.current?.center();
+              if (c) e.currentTarget.href = streetViewUrl(c);
+            }}
+          >
+            <Icon name="street-view" />
+            {t("action.streetView")}
+            <span className="sr-only">{t("where.opensGoogle")}</span>
+          </a>
+        </div>
         <PrimaryButton onClick={confirm} disabled={checking}>
           {checking ? t("where.checking") : t("where.confirm")}
         </PrimaryButton>

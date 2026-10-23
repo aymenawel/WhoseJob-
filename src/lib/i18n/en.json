@@ -182,5 +182,11 @@
   "map.countSampleOne": "1 sample report",
   "map.countSample": "{n} sample reports",
   "where.suggestions": "Address suggestions",
-  "where.suggestionCount": "{n} addresses found. Use the arrow keys to choose one."
+  "where.suggestionCount": "{n} addresses found. Use the arrow keys to choose one.",
+  "map.style": "Map style",
+  "map.styleMap": "Map",
+  "map.styleSatellite": "Satellite",
+  "action.streetView": "Street View",
+  "where.opensGoogle": "(opens Google Maps)",
+  "answer.streetView": "See this spot in Street View"
 }
