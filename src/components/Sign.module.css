@@ -1,5 +1,6 @@
 .sign {
   background: var(--guide);
+  color: var(--white);
   border-radius: var(--radius-sign);
   padding: 5px;
 }

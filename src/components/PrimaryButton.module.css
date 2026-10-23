@@ -17,15 +17,15 @@
 }
 
 .primary {
-  background: var(--white);
-  color: var(--ink);
+  background: var(--cta);
+  color: var(--cta-ink);
   border: 0;
 }
 
 .secondary {
   background: transparent;
-  color: var(--white);
-  border: 3px solid var(--white);
+  color: var(--fg);
+  border: 3px solid var(--fg);
 }
 
 .button:active:not(:disabled) {
@@ -33,7 +33,7 @@
 }
 
 .primary:hover:not(:disabled) {
-  background: #e7ebef;
+  background: var(--cta-hover);
 }
 
 .secondary:hover:not(:disabled) {

@@ -9,7 +9,7 @@ import styles from "./TopBar.module.css";
 export function TopBar({ step, overlay = false }: { step?: 1 | 2 | 3 | 4 | 5; overlay?: boolean }) {
   const { t } = useLocale();
   return (
-    <header className={`${styles.bar} ${overlay ? styles.overlay : ""}`}>
+    <header className={`${styles.bar} ${overlay ? `${styles.overlay} on-dark` : ""}`}>
       <div className={styles.row}>
         <Link href="/" className={styles.mark}>
           {t("app.name")}

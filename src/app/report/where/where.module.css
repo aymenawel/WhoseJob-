@@ -32,17 +32,17 @@
   min-height: 52px;
   padding: 0 14px;
   border-radius: var(--radius-control);
-  border: 2px solid rgb(255 255 255 / 0.4);
+  border: 2px solid var(--line);
   background: var(--surface);
   font-size: var(--text-body);
 }
 
 .input::placeholder {
-  color: #9aa3b0;
+  color: var(--placeholder);
 }
 
 .input:focus-visible {
-  border-color: var(--white);
+  border-color: var(--fg);
 }
 
 .find,
@@ -63,8 +63,8 @@
 .message {
   padding: 10px 12px;
   border-radius: 8px;
-  background: var(--white);
-  color: var(--ink);
+  background: var(--fg);
+  color: var(--on-fg);
   font-weight: 600;
   font-size: var(--text-sm);
 }
@@ -83,5 +83,5 @@
 .locate {
   width: 100%;
   background: transparent;
-  border: 2px solid rgb(255 255 255 / 0.4);
+  border: 2px solid var(--line);
 }

@@ -94,7 +94,7 @@ function AnswerScreen() {
           <ActionRail actions={rail} label={t("answer.title")} />
         </div>
         {markers.length > 0 && (
-          <div className={s.checked}>
+          <div className={`${s.checked} on-dark`}>
             <span className={s.checkedLabel}>{t("answer.checked")}</span>
             <ul className={s.markers}>
               {markers.map((m, i) => (

@@ -1,6 +1,6 @@
 .toggle {
   display: inline-flex;
-  border: 3px solid var(--white);
+  border: 3px solid var(--fg);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -11,7 +11,7 @@
   padding: 0 12px;
   border: 0;
   background: transparent;
-  color: var(--white);
+  color: var(--fg);
   font: inherit;
   font-weight: 800;
   font-size: 16px;
@@ -19,8 +19,8 @@
 }
 
 .option[aria-pressed="true"] {
-  background: var(--white);
-  color: var(--ink);
+  background: var(--fg);
+  color: var(--on-fg);
 }
 
 .option:focus-visible {

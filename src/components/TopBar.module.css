@@ -41,9 +41,9 @@
 .segments span {
   height: 5px;
   border-radius: 3px;
-  background: rgb(255 255 255 / 0.3);
+  background: var(--line-faint);
 }
 
 .segments .on {
-  background: var(--white);
+  background: var(--fg);
 }

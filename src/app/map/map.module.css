@@ -56,7 +56,7 @@
 .close {
   min-height: 44px;
   padding: 0 14px;
-  border: 2px solid rgb(255 255 255 / 0.4);
+  border: 2px solid var(--line);
   border-radius: var(--radius-control);
   background: transparent;
   font-weight: 700;

@@ -103,6 +103,7 @@
   padding: 16px;
   border-radius: var(--radius-sign);
   background: var(--surface);
+  box-shadow: inset 0 0 0 2px var(--edge);
 }
 
 .questionTitle {
