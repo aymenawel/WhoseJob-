@@ -24,7 +24,7 @@ describe("composeReport", () => {
       locale: "en",
     });
     expect(subject).toContain("Streetlight out");
-    const order = ["Streetlight out", "2100 Clarendon Blvd, Arlington, VA 22201", "Pole C0918WL6800", "Dark for three nights.", "Sent by a resident using WhoseJob?"];
+    const order = ["Streetlight out", "2100 Clarendon Blvd, Arlington, VA 22201", "Pole ID in the map data: C0918WL6800", "Dark for three nights.", "Sent by a resident using WhoseJob?"];
     const positions = order.map((s) => body.indexOf(s));
     expect(positions.every((p) => p >= 0)).toBe(true);
     expect([...positions].sort((a, b) => a - b)).toEqual(positions);
@@ -58,7 +58,7 @@ describe("composeReport", () => {
   test("Spanish output uses Spanish text", () => {
     const { subject, body } = composeReport({ issue: "streetlight", office: offices.dominion, checks, address: null, description: "", locale: "es" });
     expect(subject).toContain("Luz de la calle apagada");
-    expect(body).toContain("Poste C0918WL6800");
+    expect(body).toContain("ID del poste en los datos del mapa: C0918WL6800");
   });
 });
 

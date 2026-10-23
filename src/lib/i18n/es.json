@@ -19,7 +19,7 @@
   "report.greeting": "Hola, {office}:",
   "report.intro": "Quiero reportar un problema: {issue}.",
   "report.location": "Lugar: {where}",
-  "report.pole": "Poste {id}",
+  "report.pole": "ID del poste en los datos del mapa: {id}",
   "report.details": "Detalles: {description}",
   "report.signature": "Enviado por un residente usando WhoseJob? — el residente adjuntará una foto si la tiene.",
   "casework.subject": "Solicitud de ayuda con {topic}",

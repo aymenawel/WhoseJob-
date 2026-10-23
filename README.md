@@ -10,7 +10,7 @@ Live app: **https://whose-job.vercel.app** · Source: https://github.com/aymenaw
 
 In VA-08, the same problem goes to different offices depending on the exact spot:
 
-- **Arlington** maintains its own streets, but state roads inside Arlington (like Glebe Rd) are VDOT's.
+- **Arlington** maintains most of its own streets, but some stretches of state routes inside Arlington (such as parts of Glebe Rd, VA-120) are VDOT's, and federal roads like the GW Parkway are the National Park Service's.
 - **Fairfax County** maintains no public roads at all; VDOT does.
 - **Alexandria and Falls Church** maintain their own streets.
 - Two dark streetlights 60 m apart on the same Arlington block go to two different places: one is the county's, the other is Dominion Energy's.

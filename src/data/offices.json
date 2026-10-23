@@ -136,7 +136,7 @@
         "url": "https://alex311.alexandriava.gov/customer/s/",
         "steps": {
           "en": "In “All requests”, search “streetlight”, tap the streetlight request, then Request This Service and Continue as guest. Paste your report and add your photo.",
-          "es": "En “All requests”, busque “streetlight”, toque the streetlight request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+          "es": "En “All requests”, busque “streetlight”, toque la solicitud de alumbrado (streetlight), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
         },
         "verified": null
       },
@@ -152,7 +152,7 @@
         "url": "https://alex311.alexandriava.gov/customer/s/",
         "steps": {
           "en": "In “All requests”, search “sign”, tap the sign request, then Request This Service and Continue as guest. Paste your report and add your photo.",
-          "es": "En “All requests”, busque “sign”, toque the sign request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+          "es": "En “All requests”, busque “sign”, toque la solicitud de letreros (sign), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
         },
         "verified": null
       },
@@ -160,7 +160,7 @@
         "url": "https://alex311.alexandriava.gov/customer/s/",
         "steps": {
           "en": "In “All requests”, search “sign”, tap the sign request, then Request This Service and Continue as guest. Paste your report and add your photo.",
-          "es": "En “All requests”, busque “sign”, toque the sign request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+          "es": "En “All requests”, busque “sign”, toque la solicitud de letreros (sign), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
         },
         "verified": null
       },
@@ -168,7 +168,7 @@
         "url": "https://alex311.alexandriava.gov/customer/s/",
         "steps": {
           "en": "In “All requests”, search “storm”, tap the storm drain request, then Request This Service and Continue as guest. Paste your report and add your photo.",
-          "es": "En “All requests”, busque “storm”, toque the storm drain request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+          "es": "En “All requests”, busque “storm”, toque la solicitud de desagües (storm drain), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
         },
         "verified": null
       },
@@ -184,7 +184,7 @@
         "url": "https://alex311.alexandriava.gov/customer/s/",
         "steps": {
           "en": "In “All requests”, search “abandoned”, tap the abandoned vehicle request, then Request This Service and Continue as guest. Paste your report and add your photo.",
-          "es": "En “All requests”, busque “abandoned”, toque the abandoned vehicle request, luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
+          "es": "En “All requests”, busque “abandoned”, toque la solicitud de vehículos abandonados (abandoned vehicle), luego Request This Service y Continue as guest. Pegue su reporte y agregue su foto."
         },
         "verified": null
       }
@@ -431,8 +431,8 @@
       "streetlight": {
         "url": "https://www.dominionenergy.com/virginia/report-outage-or-emergency/streetlight-and-watchlight-outages",
         "steps": {
-          "en": "On Dominion's page, tap Report Streetlight Outage. Enter the pole number from your report and the nearest address, then paste the rest.",
-          "es": "En la página de Dominion, toque Report Streetlight Outage. Escriba el número del poste de su reporte y la dirección más cercana, y pegue el resto."
+          "en": "On Dominion's page, tap Report Streetlight Outage. Under Pole Numbers, copy the number on the tag on the pole (it looks like B1831 RL22). Add the nearest address, then paste your report: its map ID helps Dominion find the right light.",
+          "es": "En la página de Dominion, toque Report Streetlight Outage. En Pole Numbers, copie el número de la placa del poste (se parece a B1831 RL22). Agregue la dirección más cercana y pegue su reporte: su ID del mapa ayuda a Dominion a encontrar la luz correcta."
         },
         "verified": "2026-10-22"
       }
