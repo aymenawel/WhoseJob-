@@ -6,7 +6,7 @@ import { CommunityMap } from "@/components/CommunityMap";
 import { LevelMarker } from "@/components/LevelMarker";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { useLocale } from "@/lib/i18n/locale";
-import { clusterReports, type Cluster, type MapReport } from "@/lib/map/cluster";
+import { clusterReports, reportCounts, type Cluster, type MapReport } from "@/lib/map/cluster";
 import { loadMyReports, markFixed } from "@/lib/map/myReports";
 import { offices } from "@/lib/routing/data";
 import sample from "@/data/sample-reports.json";
@@ -23,6 +23,15 @@ export default function MapPage() {
   const fresh = selected && clusters.find((c) => c.reports.some((r) => r.id === selected.reports[0].id));
   const own = fresh?.reports.filter((r) => !r.sample) ?? [];
 
+  // "Your report · 3 sample reports": samples are labeled, never passed off as neighbors.
+  function countOf(c: Cluster): string {
+    const { mine: m, samples } = reportCounts(c.reports);
+    const parts = [];
+    if (m) parts.push(m === 1 ? t("map.countMineOne") : t("map.countMine", { n: String(m) }));
+    if (samples) parts.push(samples === 1 ? t("map.countSampleOne") : t("map.countSample", { n: String(samples) }));
+    return parts.join(" · ");
+  }
+
   return (
     <div className={s.screen}>
       <TopBar />
@@ -34,7 +43,7 @@ export default function MapPage() {
           nameOf={(c) =>
             t("map.markerName", {
               issue: t(`issue.${c.issue}`),
-              count: c.reports.length > 1 ? t("map.neighbors", { n: String(c.reports.length) }) : t("map.one"),
+              count: countOf(c),
             })
           }
           onSelect={setSelected}
@@ -53,7 +62,7 @@ export default function MapPage() {
             </button>
           </div>
           <LevelMarker level={fresh.level} label={t("map.sentTo", { office: offices[fresh.office].name[locale] })} />
-          <p className={s.count}>{fresh.reports.length > 1 ? t("map.neighbors", { n: String(fresh.reports.length) }) : t("map.one")}</p>
+          <p className={s.count}>{countOf(fresh)}</p>
           <p className={s.chips}>
             {fresh.reports.some((r) => r.sample) && <span className={s.sampleChip}>{t("map.sampleChip")}</span>}
             {own.length > 0 && <span className={s.chip}>{t("map.yours")}</span>}

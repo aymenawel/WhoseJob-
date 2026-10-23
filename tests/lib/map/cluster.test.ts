@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { clusterReports, type MapReport } from "@/lib/map/cluster";
+import { clusterReports, reportCounts, type MapReport } from "@/lib/map/cluster";
 
 const report = (id: string, lat: number, lon: number, createdAt = "2026-10-20T12:00:00Z"): MapReport => ({
   id,
@@ -42,5 +42,12 @@ describe("clusterReports", () => {
 
   test("an empty list gives no groups", () => {
     expect(clusterReports([])).toEqual([]);
+  });
+});
+
+describe("reportCounts", () => {
+  test("sample reports are never counted as real ones", () => {
+    const mine = { ...report("mine-1", 38.89, -77.08), sample: false };
+    expect(reportCounts([report("s1", 38.89, -77.08), report("s2", 38.89, -77.08), mine])).toEqual({ mine: 1, samples: 2 });
   });
 });

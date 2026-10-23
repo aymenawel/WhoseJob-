@@ -38,3 +38,12 @@ export function clusterReports(reports: MapReport[], radiusM = 150): Cluster[] {
   }
   return clusters;
 }
+
+/**
+ * Real reports here are only the resident's own (nothing leaves the device),
+ * so a cluster is counted as theirs plus samples, never as "neighbors".
+ */
+export function reportCounts(reports: MapReport[]): { mine: number; samples: number } {
+  const samples = reports.filter((r) => r.sample).length;
+  return { mine: reports.length - samples, samples };
+}

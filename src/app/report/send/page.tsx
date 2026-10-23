@@ -110,10 +110,13 @@ function SendScreen() {
           <p className={x.copied} role="status" aria-live="polite">
             {copied ? t("send.copied") : ""}
           </p>
-          <PrimaryButton variant="secondary" href={mailtoUrl(office.email, msg)}>
-            <Icon name="mail" />
-            {t("send.email")}
-          </PrimaryButton>
+          {/* Only with a real address: a blank "To" line leaves the resident guessing. */}
+          {office.email && (
+            <PrimaryButton variant="secondary" href={mailtoUrl(office.email, msg)}>
+              <Icon name="mail" />
+              {t("send.email")}
+            </PrimaryButton>
+          )}
           {office.phone && (
             <PrimaryButton variant="secondary" href={`tel:${office.phone.replace(/[^\d+]/g, "")}`}>
               <Icon name="call" />
