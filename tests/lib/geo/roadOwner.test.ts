@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { mapMaintenance, queryRoadOwner } from "@/lib/geo/roadOwner";
+import { mapMaintenance, queryRoadOwner, vdotOwner } from "@/lib/geo/roadOwner";
 import clarendon from "../../fixtures/vdot/clarendon.json";
 import glebe from "../../fixtures/vdot/glebe.json";
 import kingSt from "../../fixtures/vdot/king-st.json";
@@ -14,9 +14,24 @@ describe("mapMaintenance", () => {
     ["01-State Hwy Agency (1,2)", "state"],
     ["02-County Hwy Agency (3)", "county"],
     ["04-Municipal or City Hwy Agency (4* Verify)", "city"],
+    ["04a-City no VDOT Payment", "city"],
+    ["26-Private: other than railroad-Incl private toll facilities", "private"],
+    ["66-National Park Service (D)", "federal"],
+    ["60-Other Federal Agency (A)", "federal"],
+    ["74-Army", "federal"],
+    ["03-Town or Twnship Hwy Agency (4* Verify)", "other"],
+    ["12-Local Park, Forest, or Reservation Agency", "other"],
+    ["40-Other Public Instrumentality (Airport,School/College,etc)", "other"],
     [null, "unknown"],
   ] as const)("%s → %s", (code, owner) => {
     expect(mapMaintenance(code)).toBe(owner);
+  });
+
+  test("federal and other owners name who they are", () => {
+    expect(vdotOwner("66-National Park Service (D)")).toEqual({ owner: "federal", agency: "nps" });
+    expect(vdotOwner("74-Army")).toEqual({ owner: "federal", agency: "army" });
+    expect(vdotOwner("40-Other Public Instrumentality (Airport,School/College,etc)")).toEqual({ owner: "other", agency: "institution" });
+    expect(vdotOwner("02-County Hwy Agency (3)")).toEqual({ owner: "county" });
   });
 });
 

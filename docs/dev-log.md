@@ -4,6 +4,13 @@ Decisions and real technical problems, newest first. This answers the submission
 
 ## Oct 22, 2026
 
+**Problem: federal land got a confident wrong answer.** A review (by another AI, then checked by hand against the live site) found that a pothole pin on the GW Parkway, at the Pentagon or at Arlington National Cemetery was sent to Arlington County with a sure-sounding reason. VDOT's road map has almost nothing there, and the app read "no road found" as "the county's". Arlington's own 311 street layer turned out to record every street's owner, the Park Service and the Pentagon included, so the app now asks it first. Roads owned by someone none of our offices answers for get an honest answer that names the owner, and federal ones point to your Member of Congress's office. When no street is near the pin, the answer says it is the usual one, not a checked one. The same review led to these fixes:
+- A failing address service no longer tells residents to check their spelling.
+- The federal flow now names any Member of Congress, not only Virginia's.
+- The map no longer counts sample reports as neighbors.
+- The Email button is hidden when an office has no address.
+- Tests now run on GitHub with every push.
+
 **Problem: screens remembered the last report.** After "Move the pin", the map button was stuck on "Checking who owns this spot…". A second report still showed the first one's note, and "Add to the community map" stayed greyed out. Our version of Next.js doesn't throw a screen away when you leave it; it hides it and shows it again, exactly as it was, when you come back. Fixes:
 1. The map button turns itself back on after every check.
 2. Each report now gets an ID, and every report screen starts fresh when the ID changes.

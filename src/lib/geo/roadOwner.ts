@@ -1,4 +1,4 @@
-import type { Checks, RoadOwner } from "@/lib/types";
+import type { Agency, Checks, RoadOwner } from "@/lib/types";
 import { nearestFeature } from "@/lib/geo/nearest";
 import { readFeatures } from "@/lib/geo/arcgis";
 
@@ -8,18 +8,40 @@ const RADIUS_M = 60;
 
 type Props = { RTE_COMMON_NM: string; RIM_MAINT_RESPONSIBILITY_NM: string | null };
 
-/** VDOT codes look like "02-County Hwy Agency (3)"; only the prefix is stable. */
-export function mapMaintenance(code: string | null): RoadOwner {
+/**
+ * VDOT codes look like "02-County Hwy Agency (3)"; only the prefix is stable.
+ * Federal land (Park Service, Army) and private roads have codes of their own,
+ * so they are never mistaken for the county's.
+ */
+export function vdotOwner(code: string | null): { owner: RoadOwner; agency?: Agency } {
   switch (code?.slice(0, 2)) {
     case "01":
-      return "state";
+      return { owner: "state" };
     case "02":
-      return "county";
+      return { owner: "county" };
     case "04":
-      return "city";
+      return { owner: "city" };
+    case "26":
+      return { owner: "private" };
+    case "66":
+      return { owner: "federal", agency: "nps" };
+    case "74":
+      return { owner: "federal", agency: "army" };
+    case "60":
+      return { owner: "federal", agency: "federal" };
+    case "03":
+      return { owner: "other", agency: "town" };
+    case "12":
+      return { owner: "other", agency: "park" };
+    case "40":
+      return { owner: "other", agency: "institution" };
     default:
-      return "unknown";
+      return { owner: "unknown" };
   }
+}
+
+export function mapMaintenance(code: string | null): RoadOwner {
+  return vdotOwner(code).owner;
 }
 
 export async function queryRoadOwner(lat: number, lon: number, fetchFn: typeof fetch = fetch): Promise<Checks["road"]> {
@@ -46,7 +68,7 @@ export async function queryRoadOwner(lat: number, lon: number, fetchFn: typeof f
   if (!hit) return null;
   return {
     name: hit.feature.properties.RTE_COMMON_NM,
-    owner: mapMaintenance(hit.feature.properties.RIM_MAINT_RESPONSIBILITY_NM),
+    ...vdotOwner(hit.feature.properties.RIM_MAINT_RESPONSIBILITY_NM),
     distanceM: Math.round(hit.distanceM),
   };
 }

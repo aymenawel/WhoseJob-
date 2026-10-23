@@ -102,3 +102,25 @@ describe("pole-tag answer: no, it doesn't say Dominion", () => {
     expect(r).toMatchObject({ kind: "routed", office });
   });
 });
+
+describe("roads that aren't the county's, the city's or VDOT's", () => {
+  test("a pothole on the GW Parkway is the National Park Service's, not Arlington County's", () => {
+    const r = run("pothole", checks({ road: { name: "George Washington Memorial Pkwy", owner: "federal", agency: "nps", distanceM: 8 } }));
+    expect(r).toEqual({ kind: "not-ours", owner: "federal", agency: "nps", road: "George Washington Memorial Pkwy" });
+  });
+
+  test("a private road in Arlington is not sent to the county", () => {
+    const r = run("signal", checks({ road: { name: "N Uhle St", owner: "private", distanceM: 4 } }));
+    expect(r).toMatchObject({ kind: "not-ours", owner: "private" });
+  });
+
+  test("Fairfax's private-road rule is reachable now: HOA potholes go to Fairfax County, not VDOT", () => {
+    const r = run("pothole", checks({ locality: { id: "fairfax", name: "Fairfax County" }, road: { name: "Lakeview Ct", owner: "private", distanceM: 5 } }));
+    expect(r).toMatchObject({ kind: "routed", office: "fairfax-main" });
+  });
+
+  test("the road owner doesn't matter for problems decided by the locality", () => {
+    const r = run("trash", checks({ road: { name: "George Washington Memorial Pkwy", owner: "federal", agency: "nps", distanceM: 8 } }));
+    expect(r).toMatchObject({ kind: "routed" });
+  });
+});

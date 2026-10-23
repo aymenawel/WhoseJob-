@@ -17,7 +17,9 @@ import { composeReport } from "@/lib/report/compose";
 import type { Level, LightOwner, LocalityId, RoadOwner } from "@/lib/types";
 import s from "./answer.module.css";
 
-const ROAD_LEVEL: Record<RoadOwner, Level | "unknown"> = { state: "state", county: "local", city: "local", private: "unknown", unknown: "unknown" };
+const ROAD_LEVEL: Record<RoadOwner, Level | "unknown"> = {
+  state: "state", county: "local", city: "local", federal: "federal", private: "unknown", other: "unknown", unknown: "unknown",
+};
 const LIGHT_LEVEL: Record<LightOwner, Level | "unknown"> = {
   dominion: "utility", novec: "utility", county: "local", city: "local", private: "unknown", unknown: "unknown",
 };
@@ -51,7 +53,7 @@ function AnswerScreen() {
   const markers: { key: string; label: string; level: Level | "district" | "unknown"; decided: boolean }[] = [];
   if (checks.district) markers.push({ key: "d", label: checks.district.id, level: "district", decided: result.kind === "routed" && result.decidedBy === "federal" });
   if (checks.road && issue !== "federal") {
-    markers.push({ key: "r", label: t(`answer.marker.road.${checks.road.owner}`), level: ROAD_LEVEL[checks.road.owner], decided: result.kind === "routed" && result.decidedBy === "road" });
+    markers.push({ key: "r", label: t(`answer.marker.road.${checks.road.owner}`), level: ROAD_LEVEL[checks.road.owner], decided: (result.kind === "routed" && result.decidedBy === "road") || result.kind === "not-ours" });
   }
   if (checks.streetlight && issue === "streetlight") {
     markers.push({ key: "l", label: t(`answer.marker.light.${checks.streetlight.owner}`), level: LIGHT_LEVEL[checks.streetlight.owner], decided: result.kind === "routed" && result.decidedBy === "streetlight" });
@@ -116,6 +118,7 @@ function AnswerScreen() {
             {result.verified === null && <p className={s.note}>{t("answer.verifying")}</p>}
             {checks.fallbacks.includes("census") && <p className={s.note}>{t("answer.fallback.census")}</p>}
             {checks.fallbacks.includes("road") && result.decidedBy === "road" && <p className={s.note}>{t("answer.fallback.road")}</p>}
+            {checks.fallbacks.includes("no-road") && result.decidedBy === "road" && <p className={s.note}>{t("answer.fallback.no-road")}</p>}
           </div>
         )}
 
@@ -134,6 +137,18 @@ function AnswerScreen() {
           </section>
         )}
 
+        {result.kind === "not-ours" && (
+          <section className={s.question} aria-labelledby="notours">
+            <h2 id="notours" className={s.questionTitle}>{t(`notours.title.${result.owner}`)}</h2>
+            <p>
+              {result.owner === "private"
+                ? t("notours.private", { road: result.road, locality: checks.locality?.name ?? "" })
+                : t("notours.lede", { road: result.road, agency: t(`agency.${result.agency ?? "other"}`), locality: checks.locality?.name ?? "" })}
+            </p>
+            {result.owner === "federal" && <p className={s.note}>{t("notours.federalHelp")}</p>}
+          </section>
+        )}
+
         {result.kind === "out-of-coverage" && (
           <section className={s.question} aria-labelledby="out">
             <h2 id="out" className={s.questionTitle}>{t("out.title")}</h2>
@@ -143,7 +158,12 @@ function AnswerScreen() {
 
         <div className={s.footer}>
           {result.kind === "routed" && office && <PrimaryButton href="/report/send">{t("answer.report", { office: office.name[locale] })}</PrimaryButton>}
-          {result.kind === "out-of-coverage" && <PrimaryButton href="/report/where">{t("out.move")}</PrimaryButton>}
+          {result.kind === "not-ours" && result.owner === "federal" && <PrimaryButton href="/report/federal">{t("notours.askMember")}</PrimaryButton>}
+          {(result.kind === "out-of-coverage" || result.kind === "not-ours") && (
+            <PrimaryButton variant={result.kind === "not-ours" && result.owner === "federal" ? "secondary" : "primary"} href="/report/where">
+              {t("out.move")}
+            </PrimaryButton>
+          )}
         </div>
       </main>
     </div>

@@ -71,7 +71,17 @@ The district is all of **Arlington County**, the **City of Alexandria**, the **C
   - A buffered query returns every segment within range (cross streets too), so we request geometry and pick the nearest segment ourselves with Turf.js.
   - Maximum 2,000 records per query.
   - Private roads and parking lots may return nothing.
-- **Fallback:** if nothing is within ~60 m, use the locality's default owner (table above) and say so honestly in the "why" line.
+- **Other owners (added Oct 22):** VDOT also codes roads it doesn't maintain: `26` private, `66` National Park Service, `74` Army, `60` other federal, `03` town, `12` park agency, `40` airport/school/college. The app reads them all, so federal land and private roads are never sent to the county or VDOT.
+- **Fallback:** if nothing is within ~60 m, use the locality's default owner (table above) and say so on the answer screen.
+
+### 3a. Arlington: the county's own street ownership (preferred in Arlington)
+
+**Arlington County CRMS311_Streets (the street layer behind Arlington 311)**
+
+- **URL:** `https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311/CRMS311_Streets/MapServer/0/query`
+- **Provides:** `STNAME` and `Owner`: ARL (county) 5,977 segments, VDOT 1,211, FED 320, OT 176, MWAA 169, PVT 150, NPS 89, PENT 47, DDOT 18 (counted Oct 22, 2026).
+- **Why:** VDOT's layer has almost nothing on Arlington's federal land. Tested Oct 22: the GW Parkway returns no VDOT segment even 150 m out, but this layer says `NPS`; the cemetery's Grant Dr is `FED`.
+- **Fallback:** if it fails, the app asks VDOT (then VDOT's snapshot).
 
 ## 4. Streetlight owner (replaces the power-utility polygon idea)
 
@@ -115,7 +125,7 @@ Instead of guessing the utility from a territory polygon, we find **the actual s
   - VA-08 = **Donald S. Beyer, Jr.** (D), bioguide `B001292`, term ends 2027-01-03, `beyer.house.gov`, DC 202-225-4376.
   - District office: 700 N Fairfax St, Suite 510, Alexandria VA 22314, 703-658-5403.
 - **Limits:** `contact_form` is empty for Beyer, so we link to the website's casework page instead (team to confirm the URL).
-- **Fallback:** we bundle a trimmed JSON with all 11 VA members; no runtime fetch.
+- **Fallback:** we bundle a trimmed JSON with all 439 House members and delegates (`src/data/members.json`), so the federal flow can name anyone's Member; no runtime fetch.
 
 ## 7. Office contacts (routing rules)
 

@@ -1,6 +1,6 @@
 import type { Checks } from "@/lib/types";
 import { distanceToGeometry } from "@/lib/geo/nearest";
-import { mapMaintenance } from "@/lib/geo/roadOwner";
+import { vdotOwner } from "@/lib/geo/roadOwner";
 
 /** [common name, maintenance code prefix, lines]; built by scripts/build-roads.mjs. */
 export type SnapshotRoad = [name: string, code: string, lines: number[][][]];
@@ -38,7 +38,7 @@ export function nearestRoadInSnapshot(lat: number, lon: number, snap: RoadSnapsh
     const d = distanceToGeometry(lon, lat, { type: "MultiLineString", coordinates: road[2] });
     if (d <= RADIUS_M && (!best || d < best.d)) best = { road, d };
   }
-  return best ? { name: best.road[0], owner: mapMaintenance(best.road[1]), distanceM: Math.round(best.d) } : null;
+  return best ? { name: best.road[0], ...vdotOwner(best.road[1]), distanceM: Math.round(best.d) } : null;
 }
 
 /** Loaded only when the live VDOT service fails, so the large file stays off the common path. */

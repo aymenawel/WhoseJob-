@@ -121,6 +121,8 @@
 .footer {
   margin-top: auto;
   padding-top: 12px;
+  display: grid;
+  gap: 10px;
 }
 
 @media (prefers-reduced-motion: reduce) {

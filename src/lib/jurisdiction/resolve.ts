@@ -3,6 +3,7 @@ import type { Feature, FeatureCollection, MultiPolygon, Polygon } from "geojson"
 import type { Checks, FallbackId, Locality, LocalityId } from "@/lib/types";
 import { lookupPoint } from "@/lib/geo/census";
 import { queryRoadOwner } from "@/lib/geo/roadOwner";
+import { queryArlingtonStreet } from "@/lib/geo/arlingtonStreets";
 import { loadRoadSnapshot, nearestRoadInSnapshot, type RoadSnapshot } from "@/lib/geo/roadSnapshot";
 import { queryStreetlight } from "@/lib/geo/streetlight";
 import va08 from "@/data/va08-boundary.json";
@@ -52,8 +53,13 @@ export async function resolveChecks(lat: number, lon: number, deps: Deps = {}): 
   // Outside our four localities there is no rule to apply, so skip the slow lookups.
   if (!locality || district?.inCoverage === false) return checks;
 
+  // Arlington's own street map is the authority there; VDOT steps in if it's down.
+  const roadQuery =
+    locality.id === "arlington"
+      ? queryArlingtonStreet(lat, lon, fetchFn).catch(() => queryRoadOwner(lat, lon, fetchFn))
+      : queryRoadOwner(lat, lon, fetchFn);
   const [road, light] = await Promise.allSettled([
-    withTimeout(queryRoadOwner(lat, lon, fetchFn), timeoutMs),
+    withTimeout(roadQuery, timeoutMs),
     withTimeout(queryStreetlight(locality.id, lat, lon, fetchFn), timeoutMs),
   ]);
   if (road.status === "fulfilled") checks.road = road.value;
@@ -66,6 +72,9 @@ export async function resolveChecks(lat: number, lon: number, deps: Deps = {}): 
       fallbacks.push("road");
     }
   }
+  // Checked, but no street within range (a parking lot, a federal site): the
+  // answer can only be the locality's usual one, and the resident is told so.
+  if (checks.road === null && !fallbacks.includes("road")) fallbacks.push("no-road");
   if (light.status === "fulfilled" && light.value) checks.streetlight = light.value;
   // A failed lookup, or no light near the pin: the resident gets the pole-tag question.
   else fallbacks.push("streetlight");

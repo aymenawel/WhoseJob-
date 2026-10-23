@@ -30,8 +30,15 @@ export function route(issue: IssueId, checks: Checks, rules: RulesFile, offices:
 
   const rule = rules.localities[checks.locality.id][issue];
   switch (rule.decidedBy) {
-    case "road":
-      return decide(rule, checks.road?.owner, offices);
+    case "road": {
+      const road = checks.road;
+      // Federal land, private roads and the like: no office of ours fixes them
+      // unless the rule names one (Fairfax helps with private roads).
+      if (road && (road.owner === "federal" || road.owner === "private" || road.owner === "other") && !rule.byValue[road.owner]) {
+        return { kind: "not-ours", owner: road.owner, ...(road.agency && { agency: road.agency }), road: road.name };
+      }
+      return decide(rule, road?.owner, offices);
+    }
     case "streetlight": {
       const owner = checks.streetlight?.owner;
       if ((!owner || owner === "unknown") && !opts.skipPoleTag) return { kind: "ask-pole-tag" };

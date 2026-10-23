@@ -1,6 +1,9 @@
 export type LocalityId = "arlington" | "alexandria" | "falls-church" | "fairfax";
 export type Level = "local" | "state" | "utility" | "federal";
-export type RoadOwner = "state" | "county" | "city" | "private" | "unknown";
+/** federal and other: an owner none of our offices answers for (see Agency). */
+export type RoadOwner = "state" | "county" | "city" | "private" | "federal" | "other" | "unknown";
+/** Who a federal or other road belongs to, when the map data says. */
+export type Agency = "nps" | "pentagon" | "army" | "federal" | "airport" | "dc" | "town" | "park" | "institution" | "other";
 export type LightOwner = "dominion" | "novec" | "county" | "city" | "private" | "unknown";
 export type IssueId =
   | "pothole"
@@ -12,7 +15,8 @@ export type IssueId =
   | "trash"
   | "abandoned-car"
   | "federal";
-export type FallbackId = "census" | "road" | "streetlight";
+/** no-road: the lookup worked but found no street near the pin. */
+export type FallbackId = "census" | "road" | "no-road" | "streetlight";
 
 export type Locality = { id: LocalityId; name: string };
 
@@ -22,7 +26,7 @@ export type Checks = {
   district: { id: string; inCoverage: boolean } | null;
   /** null outside our four VA-08 localities */
   locality: Locality | null;
-  road: { name: string; owner: RoadOwner; distanceM: number } | null;
+  road: { name: string; owner: RoadOwner; agency?: Agency; distanceM: number } | null;
   streetlight: { owner: LightOwner; poleId?: string; formUrl?: string; distanceM: number } | null;
   /** checks that fell back to bundled data or a default; shown to the resident */
   fallbacks: FallbackId[];
@@ -42,4 +46,6 @@ export type Route =
     }
   | { kind: "out-of-coverage"; districtId: string | null }
   /** streetlight owner unknown: ask the resident to read the pole tag */
-  | { kind: "ask-pole-tag" };
+  | { kind: "ask-pole-tag" }
+  /** the road belongs to someone none of our offices answers for: say who, never guess */
+  | { kind: "not-ours"; owner: "federal" | "private" | "other"; agency?: Agency; road: string };

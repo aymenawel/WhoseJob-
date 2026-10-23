@@ -7,6 +7,9 @@ import clarendon from "../../fixtures/vdot/clarendon.json";
 import domPoleCounty from "../../fixtures/lights/arl-dom-pole.arl-county.json";
 import domPoleDominion from "../../fixtures/lights/arl-dom-pole.arl-dominion.json";
 import rateLimited from "../../fixtures/arcgis/rate-limited.json";
+import arlGwParkway from "../../fixtures/arl-streets/gw-parkway.json";
+import arlNoStreet from "../../fixtures/arl-streets/airport-no-street.json";
+import vdotEmpty from "../../fixtures/vdot/empty.json";
 
 // Pin on Dominion's pole on Clarendon Blvd.
 const LAT = 38.891447;
@@ -14,13 +17,15 @@ const LON = -77.085525;
 
 type Reply = unknown | Error | "hang";
 
-function fakeFetch(replies: { census: Reply; vdot?: Reply; county?: Reply; dominion?: Reply }) {
+function fakeFetch(replies: { census: Reply; vdot?: Reply; county?: Reply; dominion?: Reply; streets?: Reply }) {
   const calls: string[] = [];
   const fn = (async (input: RequestInfo | URL) => {
     const url = String(input);
     calls.push(url);
     const reply = url.includes("geocoding.geo.census.gov")
       ? replies.census
+      : url.includes("CRMS311_Streets")
+        ? (replies.streets ?? new Error("streets not stubbed"))
       : url.includes("VDOT_Route")
         ? replies.vdot
         : url.includes("Arlington_Owned")
@@ -111,6 +116,26 @@ describe("resolveChecks", () => {
     });
     expect(checks.road).toBeNull();
     expect(checks.fallbacks).toContain("road");
+  });
+
+  test("in Arlington, the county's own street-owner map decides first: the GW Parkway is federal", async () => {
+    const { fn, calls } = fakeFetch({ ...arlingtonReplies, streets: arlGwParkway });
+    const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
+    expect(checks.road).toMatchObject({ owner: "federal", agency: "nps" });
+    expect(calls.some((u) => u.includes("VDOT_Route"))).toBe(false);
+  });
+
+  test("Arlington's street map down: VDOT answers instead", async () => {
+    const { fn } = fakeFetch({ ...arlingtonReplies, streets: rateLimited });
+    const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
+    expect(checks.road).toMatchObject({ owner: "county" });
+  });
+
+  test("no street near the pin is said out loud, not silently defaulted", async () => {
+    const { fn } = fakeFetch({ ...arlingtonReplies, streets: arlNoStreet, vdot: vdotEmpty });
+    const checks = await resolveChecks(LAT, LON, { fetchFn: fn });
+    expect(checks.road).toBeNull();
+    expect(checks.fallbacks).toContain("no-road");
   });
 
   test("streetlight layers down: streetlight is null and the fallback is recorded", async () => {
