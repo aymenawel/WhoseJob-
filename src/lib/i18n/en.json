@@ -180,5 +180,7 @@
   "map.countMineOne": "Your report",
   "map.countMine": "{n} of your reports",
   "map.countSampleOne": "1 sample report",
-  "map.countSample": "{n} sample reports"
+  "map.countSample": "{n} sample reports",
+  "where.suggestions": "Address suggestions",
+  "where.suggestionCount": "{n} addresses found. Use the arrow keys to choose one."
 }

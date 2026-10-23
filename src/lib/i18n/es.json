@@ -181,5 +181,7 @@
   "map.countMineOne": "Su reporte",
   "map.countMine": "{n} de sus reportes",
   "map.countSampleOne": "1 reporte de ejemplo",
-  "map.countSample": "{n} reportes de ejemplo"
+  "map.countSample": "{n} reportes de ejemplo",
+  "where.suggestions": "Sugerencias de direcciones",
+  "where.suggestionCount": "Se encontraron {n} direcciones. Use las flechas para elegir una."
 }

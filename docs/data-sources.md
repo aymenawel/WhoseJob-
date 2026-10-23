@@ -36,6 +36,16 @@ The district is all of **Arlington County**, the **City of Alexandria**, the **C
   - The bundled VA-08 boundary (source 2) still answers "in district or not" by point-in-polygon.
   - County or city comes from the bundled locality boundaries.
 
+### 1a. Address suggestions as you type (added Oct 22)
+
+**VGIN Composite Locator (Virginia Geographic Information Network, Virginia Dept. of Emergency Management)**
+
+- **Provides:** `suggest` (type-ahead) and `findAddressCandidates` over Virginia's official address points, road centerlines and landmarks. Free, no key, CORS allowed, so the browser calls it directly (~0.1 s).
+- **URL:** `https://vginmaps.vdem.virginia.gov/arcgis/rest/services/Geocoding/VGIN_Composite_Locator/GeocodeServer`
+- **Tested Oct 22:** finds addresses the Census Geocoder returned 404 for (2400 Langston Blvd, 3001 Richmond Hwy) and landmarks (Reagan National Airport). Results are limited to a box around VA-08.
+- **Care:** for a typed search without picking a suggestion, the locator returns its nearest guess (the whole street, or "St" for a typed "Dr"), so the app only accepts a near-exact match (score 97+) that keeps the typed house number. Otherwise it asks the Census.
+- **Fallback:** the Census Geocoder (source 1); if both fail, the resident drops the pin.
+
 ## 2. District boundary (for the map and offline checks)
 
 **Census TIGERweb, Legislative MapServer, layer 8 ("119th Congressional Districts", ACS 2025)**

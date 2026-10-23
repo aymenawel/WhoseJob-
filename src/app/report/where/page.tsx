@@ -9,6 +9,8 @@ import { PinMap, type PinMapHandle } from "@/components/PinMap";
 import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import { findAddress as geocode } from "@/lib/api/findAddress";
+import { AddressSearch } from "@/components/AddressSearch";
+import { locateSuggestion, locateText, type AddressSuggestion } from "@/lib/geo/vgin";
 import type { Checks } from "@/lib/types";
 import s from "./where.module.css";
 
@@ -26,19 +28,39 @@ function WhereScreen() {
   const [message, setMessage] = useState<string | null>(null);
   const [checking, setChecking] = useState(false);
 
+  function goTo(hit: { lat: number; lon: number; matchedAddress: string }) {
+    flow.set({ address: hit.matchedAddress });
+    setQ(hit.matchedAddress);
+    addressAt.current = { lat: hit.lat, lon: hit.lon };
+    map.current?.flyTo(addressAt.current);
+  }
+
+  async function pickSuggestion(sug: AddressSuggestion) {
+    setMessage(null);
+    setQ(sug.label);
+    try {
+      const hit = await locateSuggestion(sug);
+      if (hit) goTo(hit);
+      else setMessage(t("where.notFound"));
+    } catch {
+      setMessage(t("where.unavailable"));
+    }
+  }
+
   async function findAddress(e: React.FormEvent) {
     e.preventDefault();
     if (!q.trim()) return;
     setMessage(null);
+    // Virginia's own locator knows more local addresses (renamed streets
+    // included); the Census Geocoder is the backup.
+    const local = await locateText(q).catch(() => null);
+    if (local) return goTo(local);
     const found = await geocode(q);
     if ("error" in found) {
       setMessage(t(found.error === "not-found" ? "where.notFound" : "where.unavailable"));
       return;
     }
-    const { hit } = found;
-    flow.set({ address: hit.matchedAddress });
-    addressAt.current = { lat: hit.lat, lon: hit.lon };
-    map.current?.flyTo(addressAt.current);
+    goTo(found.hit);
   }
 
   function useMyLocation() {
@@ -80,18 +102,7 @@ function WhereScreen() {
         <h1 className={s.title}>{t("where.title")}</h1>
         <p className={s.lede}>{t("where.lede")}</p>
         <form className={s.search} onSubmit={findAddress}>
-          <label htmlFor="addr" className="sr-only">
-            {t("where.addressLabel")}
-          </label>
-          <input
-            id="addr"
-            className={s.input}
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder={t("where.addressLabel")}
-            autoComplete="street-address"
-            enterKeyHint="search"
-          />
+          <AddressSearch id="addr" label={t("where.addressLabel")} value={q} onChange={setQ} onPick={pickSuggestion} />
           <button type="submit" className={s.find}>
             <Icon name="search" />
             <span>{t("where.find")}</span>

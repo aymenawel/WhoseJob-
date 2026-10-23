@@ -4,6 +4,8 @@ Decisions and real technical problems, newest first. This answers the submission
 
 ## Oct 22, 2026
 
+**Feature: address suggestions as you type.** The Census Geocoder can't suggest, and it misses real addresses (it still doesn't know Langston Blvd, renamed in 2021). Virginia's statewide locator can do both, for free. The address box is now an accessible combobox: suggestions appear after 3 letters, arrow keys and taps pick one, and a screen reader hears how many were found. The tricky part was a plain Enter: the locator always returns its nearest guess, so "901 N Fairfax Dr" (not a real address) came back as the whole of Fairfax Dr. A typed search now only counts if it keeps the house number and nearly matches exactly; otherwise the app says it found nothing.
+
 **Problem: federal land got a confident wrong answer.** A review (by another AI, then checked by hand against the live site) found that a pothole pin on the GW Parkway, at the Pentagon or at Arlington National Cemetery was sent to Arlington County with a sure-sounding reason. VDOT's road map has almost nothing there, and the app read "no road found" as "the county's". Arlington's own 311 street layer turned out to record every street's owner, the Park Service and the Pentagon included, so the app now asks it first. Roads owned by someone none of our offices answers for get an honest answer that names the owner, and federal ones point to your Member of Congress's office. When no street is near the pin, the answer says it is the usual one, not a checked one. The same review led to these fixes:
 - A failing address service no longer tells residents to check their spelling.
 - The federal flow now names any Member of Congress, not only Virginia's.
