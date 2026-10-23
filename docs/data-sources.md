@@ -146,7 +146,7 @@ Our team writes and verifies these by hand from official pages only (county, cit
 | Need | Choice | Notes |
 | --- | --- | --- |
 | Base map | OpenStreetMap tiles via Leaflet | Free with attribution. OSM's tile policy discourages heavy use; fine for a demo. |
-| Satellite | Virginia Base Mapping Program imagery from VGIN (`VBMP_Imagery/MostRecentImagery_WGS`, tiled, zoom 0–23) | Free, no key, public; credited "Imagery © VGIN, Commonwealth of Virginia". Checked Oct 22: tiles near Clarendon load in under 0.1 s. Virginia only. |
+| Satellite | Virginia Base Mapping Program imagery from VGIN (`VBMP_Imagery/MostRecentImagery_WGS`, tiled; lists zoom 0–23 but has photos only through 19, so the map enlarges level 19 past that) | Free, no key, public; credited "Imagery © VGIN, Commonwealth of Virginia". Checked Oct 22: tiles near Clarendon load in under 0.1 s. Virginia only. |
 | Street View | A link in Google Maps' documented URL format (`map_action=pano&viewpoint=lat,lon`) | Nothing embedded, no key, no billing. Google only learns the pin's location when the resident taps it. |
 | Photo GPS | exifr (MIT) | Many phones strip GPS on upload, so manual pin is always offered. |
 | Geometry | Turf.js (MIT) | Nearest segment, point-in-polygon. |

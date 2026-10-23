@@ -20,6 +20,13 @@ describe("map style", () => {
     expect(readBasemap()).toBe("map");
   });
 
+  test("zooming past the last level of real photos enlarges them instead of showing blank tiles", () => {
+    // VGIN's service lists levels to 23 but only has photos through 19 (checked Oct 22: z20 is a 404).
+    expect(BASEMAPS.satellite.maxNativeZoom).toBe(19);
+    expect(BASEMAPS.satellite.maxZoom).toBeGreaterThan(BASEMAPS.satellite.maxNativeZoom);
+    expect(BASEMAPS.map.maxNativeZoom).toBeLessThanOrEqual(19);
+  });
+
   test("satellite comes from Virginia's own aerial photos, credited", () => {
     expect(BASEMAPS.satellite.url).toMatch(/^https:\/\/vginmaps\.vdem\.virginia\.gov\/.+\/tile\/\{z\}\/\{y\}\/\{x\}$/);
     expect(BASEMAPS.satellite.attribution).toMatch(/VGIN/);

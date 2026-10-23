@@ -17,10 +17,12 @@ export const BASEMAPS: Record<Basemap, { url: string; maxZoom: number; maxNative
   },
   // Virginia's own aerial photos (VBMP), refreshed yearly, sharp enough to see
   // a single light pole. Covers Virginia only, which is all VA-08 needs.
+  // The service lists levels up to 23 but only has photos through 19 (20 is a
+  // 404, which shows as white), so closer zooms enlarge the level-19 photos.
   satellite: {
     url: "https://vginmaps.vdem.virginia.gov/arcgis/rest/services/VBMP_Imagery/MostRecentImagery_WGS/MapServer/tile/{z}/{y}/{x}",
     maxZoom: 20,
-    maxNativeZoom: 20,
+    maxNativeZoom: 19,
     attribution: 'Imagery &copy; <a href="https://vgin.vdem.virginia.gov/">VGIN</a>, Commonwealth of Virginia',
   },
 };
