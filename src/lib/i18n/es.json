@@ -33,6 +33,8 @@
   "app.name": "WhoseJob?",
   "app.tagline": "Encuentre la oficina que lo arregla",
   "lang.label": "Idioma",
+  "theme.toLight": "Cambiar a modo claro",
+  "theme.toDark": "Cambiar a modo oscuro",
   "progress.label": "Paso {n} de 5",
   "action.back": "Atrás",
   "action.call": "Llamar",

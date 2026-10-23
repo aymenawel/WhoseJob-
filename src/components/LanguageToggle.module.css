@@ -27,3 +27,11 @@
   outline: 3px solid var(--focus);
   outline-offset: -6px;
 }
+
+.toggle.option {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 3px solid var(--fg);
+  border-radius: 8px;
+}

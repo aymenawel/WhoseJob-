@@ -47,3 +47,8 @@
 .segments .on {
   background: var(--fg);
 }
+
+.controls {
+  display: flex;
+  gap: 8px;
+}

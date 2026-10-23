@@ -2,7 +2,7 @@ import type { IssueId } from "@/lib/types";
 
 export type IconName =
   | IssueId
-  | "call" | "copy" | "map" | "camera" | "arrow" | "locate" | "back" | "mail" | "form" | "check" | "search";
+  | "call" | "copy" | "map" | "camera" | "arrow" | "locate" | "back" | "mail" | "form" | "check" | "search" | "sun" | "moon";
 
 // One stroke family (24px grid, 2.2 stroke, round joins) for every icon in the app.
 const PATHS: Record<IconName, React.ReactNode> = {
@@ -47,6 +47,13 @@ const PATHS: Record<IconName, React.ReactNode> = {
     </>
   ),
   check: <path d="m5 12 5 5 9-10" />,
+  sun: (
+    <>
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+    </>
+  ),
+  moon: <path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" />,
   search: (
     <>
       <circle cx="11" cy="11" r="6" />

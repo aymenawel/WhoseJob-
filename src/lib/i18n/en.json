@@ -32,6 +32,8 @@
   "app.name": "WhoseJob?",
   "app.tagline": "Find the office that fixes it",
   "lang.label": "Language",
+  "theme.toLight": "Switch to light mode",
+  "theme.toDark": "Switch to dark mode",
   "progress.label": "Step {n} of 5",
   "action.back": "Back",
   "action.call": "Call",

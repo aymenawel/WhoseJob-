@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Overpass } from "next/font/google";
+import Script from "next/script";
 import { LocaleProvider } from "@/lib/i18n/locale";
+import { themeScript } from "@/lib/theme";
 import "./globals.css";
 
 // Overpass is an open-source face based on U.S. highway-sign lettering.
@@ -14,16 +16,16 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ecece6" },
-    { media: "(prefers-color-scheme: dark)", color: "#0c0f14" },
-  ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={overpass.variable}>
+    // The theme script sets data-theme before React loads, so the server's HTML differs on purpose.
+    <html lang="en" className={overpass.variable} suppressHydrationWarning>
       <body>
+        <Script id="theme" strategy="beforeInteractive">
+          {themeScript}
+        </Script>
         <LocaleProvider>{children}</LocaleProvider>
       </body>
     </html>

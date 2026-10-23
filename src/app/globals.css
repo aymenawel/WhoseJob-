@@ -39,26 +39,26 @@
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Light mode follows the phone's setting: a paper ground, black type and lines, and the
-   green sign doing the talking. The main action turns green so it reads as the next step. */
-@media (prefers-color-scheme: light) {
-  :root {
-    --ground: #ecece6;
-    --surface: #ffffff;
-    --surface-2: #dfe0d9;
-    --muted: #49515b;
-    --focus: #1b4f9c;
+/* Light mode: a paper ground, black type and lines, and the green sign doing the talking.
+   The main action turns green so it reads as the next step. data-theme is set before the
+   first paint from the resident's saved choice or the phone's setting (src/lib/theme.ts). */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --ground: #ecece6;
+  --surface: #ffffff;
+  --surface-2: #dfe0d9;
+  --muted: #49515b;
+  --focus: #1b4f9c;
 
-    --fg: #101314;
-    --on-fg: #ffffff;
-    --line: rgb(16 19 20 / 0.45);
-    --line-faint: rgb(16 19 20 / 0.2);
-    --edge: rgb(16 19 20 / 0.16);
-    --placeholder: #5f6772;
-    --cta: var(--guide);
-    --cta-ink: #ffffff;
-    --cta-hover: var(--guide-press);
-  }
+  --fg: #101314;
+  --on-fg: #ffffff;
+  --line: rgb(16 19 20 / 0.45);
+  --line-faint: rgb(16 19 20 / 0.2);
+  --edge: rgb(16 19 20 / 0.16);
+  --placeholder: #5f6772;
+  --cta: var(--guide);
+  --cta-ink: #ffffff;
+  --cta-hover: var(--guide-press);
 }
 
 /* Parts that always sit on a photo or map scrim keep dark-mode colors. */
@@ -82,7 +82,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
-  color-scheme: dark light;
+  color-scheme: dark;
 }
 
 body {

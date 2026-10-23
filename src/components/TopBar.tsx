@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { LanguageToggle } from "@/components/LanguageToggle";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { useLocale } from "@/lib/i18n/locale";
 import styles from "./TopBar.module.css";
 
@@ -14,7 +15,10 @@ export function TopBar({ step, overlay = false }: { step?: 1 | 2 | 3 | 4 | 5; ov
         <Link href="/" className={styles.mark}>
           {t("app.name")}
         </Link>
-        <LanguageToggle />
+        <div className={styles.controls}>
+          <ThemeToggle />
+          <LanguageToggle />
+        </div>
       </div>
       {step && (
         <div className={styles.progress}>
