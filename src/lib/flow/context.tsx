@@ -49,7 +49,16 @@ export function FlowProvider({ children }: { children: ReactNode }) {
   }, [flow, hydrated]);
 
   const set = useCallback((patch: Partial<FlowState>) => dispatch({ type: "patch", patch }), []);
-  const reset = useCallback(() => dispatch({ type: "reset" }), []);
+  const reset = useCallback(() => {
+    // Cleared here, not by the save effect above: after "Report another problem"
+    // the report screens are hidden, and hidden screens' effects don't run.
+    try {
+      sessionStorage.removeItem(KEY);
+    } catch {
+      // Ignore: persistence is a convenience.
+    }
+    dispatch({ type: "reset" });
+  }, []);
 
   return <FlowContext.Provider value={{ ...flow, hydrated, set, reset }}>{children}</FlowContext.Provider>;
 }

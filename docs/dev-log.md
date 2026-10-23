@@ -4,6 +4,11 @@ Decisions and real technical problems, newest first. This answers the submission
 
 ## Oct 22, 2026
 
+**Problem: screens remembered the last report.** After "Move the pin", the map button was stuck on "Checking who owns this spot…". A second report still showed the first one's note, and "Add to the community map" stayed greyed out. Our version of Next.js doesn't throw a screen away when you leave it; it hides it and shows it again, exactly as it was, when you come back. Fixes:
+1. The map button turns itself back on after every check.
+2. Each report now gets an ID, and every report screen starts fresh when the ID changes.
+3. "Report another problem" also landed on the wrong step. Clearing the report made the send screen think it had been opened by mistake, and its redirect beat the trip home. The clear and the trip home now happen as one update.
+
 **Problem: "Copy report & open the form" sometimes opened nothing.** A tester picked an Alexandria street and tapped the button, but no site opened, even though the Dominion and Alex311 pages load fine by themselves. The button copied the report first and then opened the site with a script (`window.open`). Browsers, and the browsers built into apps like Instagram or Gmail, can quietly block a window opened by a script as a pop-up. Fix: the button is now a real link that opens in a new tab and copies the report on the same tap. Browsers always follow a link the person tapped.
 
 **Problem: "Open the official form" dropped people on an index page.** Residents still had to find their problem again on the office's site. We opened each office's reporting site in a browser and watched what it loaded. Arlington's 311 portal fetches its list of problem types from its own API, so each type has a number (pothole 395, streetlight 499…), and its form also reads a `location` from the link. Now the app opens Arlington's exact form with the address already filled in. Falls Church has one form per problem (`fid=75` for potholes…), and Fairfax and Dominion have dedicated forms. Alexandria's Alex311 opens requests in a pop-up with no link of its own, and VDOT's form sits behind a notice only the resident can accept, so for those the app says exactly what to tap. The main button copies the report and opens the form in one tap. A weekly GitHub check opens all 42 links so a site redesign can't silently break them.

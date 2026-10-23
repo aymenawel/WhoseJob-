@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { afterEach, expect, test } from "vitest";
 import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import { FlowProvider, useFlow } from "@/lib/flow/context";
@@ -24,6 +25,27 @@ test("screens never see hydrated=true before the saved pin is restored", async (
   );
   await waitFor(() => expect(screen.getByText("ready 38.891447")).toBeTruthy());
   expect(seen).not.toContain("true:none");
+});
+
+test("starting over also forgets the saved report, so a reload can't bring it back", async () => {
+  sessionStorage.setItem("whosejob.flow", JSON.stringify({ point: { lat: 38.891447, lon: -77.085525 }, issue: "streetlight" }));
+  let reset = () => {};
+  function Reset() {
+    const flow = useFlow();
+    useEffect(() => {
+      reset = flow.reset;
+    });
+    return null;
+  }
+  render(
+    <FlowProvider>
+      <Reset />
+      <Probe />
+    </FlowProvider>,
+  );
+  await waitFor(() => expect(screen.getByText("ready 38.891447")).toBeTruthy());
+  reset();
+  expect(sessionStorage.getItem("whosejob.flow")).toBeNull();
 });
 
 test("with nothing saved, the flow still becomes ready", async () => {

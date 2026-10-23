@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { startTransition, useEffect, useState } from "react";
 import { TopBar } from "@/components/TopBar";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon } from "@/components/Icon";
@@ -152,8 +152,12 @@ function SendScreen() {
           <PrimaryButton
             variant="secondary"
             onClick={() => {
-              flow.reset();
-              router.push("/");
+              // One transition: the reset lands only once this screen is hidden, so
+              // its "no report here, go back" redirect can't beat the trip home.
+              startTransition(() => {
+                flow.reset();
+                router.push("/");
+              });
             }}
           >
             {t("send.done")}
