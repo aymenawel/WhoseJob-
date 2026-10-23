@@ -6,7 +6,7 @@ import { Sign } from "@/components/Sign";
 import { IssueTile } from "@/components/IssueTile";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon, type IconName } from "@/components/Icon";
-import { useFlow } from "@/lib/flow/context";
+import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import { memberForDistrict } from "@/lib/members";
 import { composeCasework, type CaseworkTopic } from "@/lib/report/compose";
@@ -24,7 +24,7 @@ const TOPICS: { id: CaseworkTopic; icon: IconName }[] = [
 
 const MAX_DESCRIPTION = 500;
 
-export default function FederalStep() {
+function FederalScreen() {
   const { t, locale } = useLocale();
   const flow = useFlow();
   const [topic, setTopic] = useState<CaseworkTopic | null>(null);
@@ -148,5 +148,13 @@ export default function FederalStep() {
         )}
       </main>
     </div>
+  );
+}
+
+export default function FederalStep() {
+  return (
+    <PerReport>
+      <FederalScreen />
+    </PerReport>
   );
 }

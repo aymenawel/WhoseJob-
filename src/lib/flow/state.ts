@@ -4,6 +4,8 @@ import type { Checks, IssueId } from "@/lib/types";
 export type Point = { lat: number; lon: number };
 
 export type FlowState = {
+  /** Changes whenever a new report starts; screens use it to drop what was typed for the last one. */
+  reportId: string;
   /** Object URL of the resident's photo; it never leaves the device. */
   photoUrl: string | null;
   point: Point | null;
@@ -12,7 +14,12 @@ export type FlowState = {
   checks: Checks | null;
 };
 
-export const initialFlow: FlowState = { photoUrl: null, point: null, address: null, issue: null, checks: null };
+export const initialFlow: FlowState = { reportId: "", photoUrl: null, point: null, address: null, issue: null, checks: null };
+
+let reports = 0;
+export function newReportId(): string {
+  return `${Date.now().toString(36)}-${++reports}`;
+}
 
 /** Merges a patch; checks belong to one exact spot, so moving the pin drops them. */
 export function flowReducer(state: FlowState, patch: Partial<FlowState>): FlowState {
@@ -38,5 +45,5 @@ export async function readPhotoGps(file: File): Promise<Point | null> {
  * spot, checks or issue) may carry over into this one.
  */
 export function startReport(photoUrl: string | null, point: Point | null): Partial<FlowState> {
-  return { photoUrl, point, address: null, issue: null, checks: null };
+  return { reportId: newReportId(), photoUrl, point, address: null, issue: null, checks: null };
 }

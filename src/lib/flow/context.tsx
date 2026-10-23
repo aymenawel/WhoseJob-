@@ -1,7 +1,7 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useReducer, type ReactNode } from "react";
-import { flowReducer, initialFlow, type FlowState } from "@/lib/flow/state";
+import { createContext, Fragment, useCallback, useContext, useEffect, useReducer, type ReactNode } from "react";
+import { flowReducer, initialFlow, newReportId, type FlowState } from "@/lib/flow/state";
 
 const KEY = "whosejob.flow";
 
@@ -15,7 +15,7 @@ type Action = { type: "patch"; patch: Partial<FlowState> } | { type: "reset" } |
 function reducer(store: Store, action: Action): Store {
   switch (action.type) {
     case "reset":
-      return { ...store, flow: initialFlow };
+      return { ...store, flow: { ...initialFlow, reportId: newReportId() } };
     // Restore and mark ready in one step, so no screen ever sees "ready" with the old empty state.
     case "hydrate":
       return { flow: flowReducer(store.flow, action.saved), hydrated: true };
@@ -58,4 +58,14 @@ export function useFlow(): Ctx {
   const ctx = useContext(FlowContext);
   if (!ctx) throw new Error("useFlow must be used inside <FlowProvider>");
   return ctx;
+}
+
+/**
+ * Next.js keeps a screen's state when the resident leaves and comes back, so a
+ * screen wrapped in this starts fresh for each new report instead of showing
+ * what was typed or tapped for the last one.
+ */
+export function PerReport({ children }: { children: ReactNode }) {
+  const { reportId } = useFlow();
+  return <Fragment key={reportId}>{children}</Fragment>;
 }

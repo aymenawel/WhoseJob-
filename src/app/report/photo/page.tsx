@@ -24,7 +24,7 @@ export default function PhotoStep() {
     flow.set(startReport(photoUrl, null));
     setStatus("reading");
     const point = await readPhotoGps(file);
-    flow.set(startReport(photoUrl, point));
+    flow.set({ point });
     setStatus(point ? "found" : "none");
   }
 
@@ -51,7 +51,7 @@ export default function PhotoStep() {
           </label>
         )}
 
-        <p className={s.status} role="status" aria-live="polite" hidden={status === "idle"}>
+        <p className={s.status} role="status" aria-live="polite" hidden={status === "idle" || !flow.photoUrl}>
           {status === "reading" && t("photo.reading")}
           {status === "found" && t("photo.found")}
           {status === "none" && t("photo.noGps")}

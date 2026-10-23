@@ -9,7 +9,7 @@ import { RouteMarker } from "@/components/RouteMarker";
 import { ActionRail, type RailAction } from "@/components/ActionRail";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { PinMap } from "@/components/PinMap";
-import { useFlow } from "@/lib/flow/context";
+import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
@@ -24,7 +24,7 @@ const LIGHT_LEVEL: Record<LightOwner, Level | "unknown"> = {
 // "No, it doesn't say Dominion" means the locality's own light.
 const OWN_LIGHT: Record<LocalityId, LightOwner> = { arlington: "county", fairfax: "county", alexandria: "city", "falls-church": "city" };
 
-export default function AnswerStep() {
+function AnswerScreen() {
   const { t, locale } = useLocale();
   const flow = useFlow();
   const router = useRouter();
@@ -150,3 +150,11 @@ export default function AnswerStep() {
   );
 }
 
+
+export default function AnswerStep() {
+  return (
+    <PerReport>
+      <AnswerScreen />
+    </PerReport>
+  );
+}

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { TopBar } from "@/components/TopBar";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon } from "@/components/Icon";
-import { useFlow } from "@/lib/flow/context";
+import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import { route } from "@/lib/routing/engine";
 import { offices, rules } from "@/lib/routing/data";
@@ -18,7 +18,7 @@ import x from "./send.module.css";
 
 const MAX_DESCRIPTION = 500;
 
-export default function SendStep() {
+function SendScreen() {
   const { t, locale } = useLocale();
   const flow = useFlow();
   const router = useRouter();
@@ -161,5 +161,13 @@ export default function SendStep() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function SendStep() {
+  return (
+    <PerReport>
+      <SendScreen />
+    </PerReport>
   );
 }

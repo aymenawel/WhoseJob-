@@ -6,7 +6,7 @@ import { TopBar } from "@/components/TopBar";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { Icon } from "@/components/Icon";
 import { PinMap, type PinMapHandle } from "@/components/PinMap";
-import { useFlow } from "@/lib/flow/context";
+import { PerReport, useFlow } from "@/lib/flow/context";
 import { useLocale } from "@/lib/i18n/locale";
 import type { Checks } from "@/lib/types";
 import s from "./where.module.css";
@@ -14,7 +14,7 @@ import s from "./where.module.css";
 // Roughly the middle of VA-08, zoomed out enough to show the district.
 const DISTRICT_CENTER = { lat: 38.84, lon: -77.1 };
 
-export default function WhereStep() {
+function WhereScreen() {
   const { t } = useLocale();
   const flow = useFlow();
   const router = useRouter();
@@ -120,5 +120,13 @@ export default function WhereStep() {
         </PrimaryButton>
       </div>
     </div>
+  );
+}
+
+export default function WhereStep() {
+  return (
+    <PerReport>
+      <WhereScreen />
+    </PerReport>
   );
 }

@@ -25,6 +25,10 @@ describe("readPhotoGps", () => {
   });
 });
 
+test("each new report gets its own id, so screens can start fresh", () => {
+  expect(startReport(null, null).reportId).not.toBe(startReport(null, null).reportId);
+});
+
 describe("flowReducer", () => {
   const checks = { point: { lat: 1, lon: 2 } } as Checks;
 
